@@ -29,6 +29,26 @@
     - Monastery
     - Castle (Dracula's)
 
+
+===============
+ Setting Notes
+===============
+
+- Ecclessia has:
+    - Channel/Reef
+    - Prison
+    - Lighthouse
+    - Mountains
+    - Forests
+    - Swamps
+    - Training Hall
+    - Hermitage
+    - Cavern
+    - Manor
+    - Road
+    - Monastery
+    - Castle (Dracula's)
+
 - Simon's Quest has:
     - Villages
     - Forests
