@@ -10,25 +10,43 @@
 - Mechanics and setting will be inspired by Castlevania 2: Simon's Quest and Castlevania: Order of Ecclasia.
     - But with much less technical platforming and probably no combat.
 
-===============
- Setting Notes
-===============
+========================
+ Building Choice Matrix
+========================
 
-- Ecclessia has:
-    - Channel/Reef
-    - Prison
-    - Lighthouse
-    - Mountains
-    - Forests
-    - Swamps
-    - Training Hall
-    - Hermitage
-    - Cavern
-    - Manor
-    - Road
-    - Monastery
-    - Castle (Dracula's)
+| Left Area | Center Area | Right Area |
+| --- | --- | --- |
+| Unbuilt  | Unbuilt  | Unbuilt  |
+| Unbuilt  | Unbuilt  | Option 1 |
+| Unbuilt  | Unbuilt  | Option 2 |
+| Unbuilt  | Option 1 | Unbuilt  |
+| Unbuilt  | Option 1 | Option 1 |
+| Unbuilt  | Option 1 | Option 2 |
+| Unbuilt  | Option 2 | Unbuilt  |
+| Unbuilt  | Option 2 | Option 1 |
+| Unbuilt  | Option 2 | Option 2 |
+| Option 1 | Unbuilt  | Unbuilt  |
+| Option 1 | Unbuilt  | Option 1 |
+| Option 1 | Unbuilt  | Option 2 |
+| Option 1 | Option 1 | Unbuilt  |
+| Option 1 | Option 1 | Option 1 |
+| Option 1 | Option 1 | Option 2 |
+| Option 1 | Option 2 | Unbuilt  |
+| Option 1 | Option 2 | Option 1 |
+| Option 1 | Option 2 | Option 2 |
+| Option 2 | Unbuilt  | Unbuilt  |
+| Option 2 | Unbuilt  | Option 1 |
+| Option 2 | Unbuilt  | Option 2 |
+| Option 2 | Option 1 | Unbuilt  |
+| Option 2 | Option 1 | Option 1 |
+| Option 2 | Option 1 | Option 2 |
+| Option 2 | Option 2 | Unbuilt  |
+| Option 2 | Option 2 | Option 1 |
+| Option 2 | Option 2 | Option 2 |
 
+- This would mean~
+    - Drawing 9 sub-areas
+    - Wiring up 27 combinations
 
 ===============
  Setting Notes
