@@ -3,21 +3,40 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "working-map.tmx",
+    "activeFile": "backgrounds/scene-new_wing-before.tmx",
     "expandedProjectPaths": [
         ".",
-        "backgrounds",
-        "tiles"
+        "tiles",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/tiles/yurivania-2.tsx": {
+            "scaleInDock": 1
+        },
         "backgrounds/one-room-measurement.tmx": {
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 88,
                 "y": 67.5
+            }
+        },
+        "backgrounds/scene-new_wing-before.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 241.75,
+                "y": 87.25
+            }
+        },
+        "one-room-measurement.tmx": {
+            "scale": 3.556845238095238,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 92.21655091624132,
+                "y": 98.68295540122166
             }
         },
         "starry-night.tmx": {
@@ -45,8 +64,8 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 225.75,
-                "y": 60.75
+                "x": 160,
+                "y": 72
             }
         }
     },
@@ -54,14 +73,16 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 60,
     "openFiles": [
-        "working-map.tmx"
+        "working-map.tmx",
+        "backgrounds/scene-new_wing-before.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
         "working-map.tmx",
-        "backgrounds/one-room-measurement.tmx",
+        "backgrounds/scene-new_wing-before.tmx",
+        "one-room-measurement.tmx",
         "starry-night.tmx",
         "tiles/yurivania-2.tsx",
         "tiles/yurivania.tsx",
