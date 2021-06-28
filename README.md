@@ -4,9 +4,9 @@
 
 # Yurivania 2: Josette's Quest 🧛‍♀️🛠️
 
-Monstergirls manor maintenence.
-
-<!-- TODO: Is this an entry to a jam? -->
+ Monstergirl manor maintenance.
+ 
+<!-- TODO: Add game jam info here. -->
 
 # Status ⚠️
 
@@ -17,7 +17,7 @@ When this is done it will be available on Itch.
 
 <!-- TODO:  You can play it now for free in your browser on [Itch](https://mxashlynn.itch.io/yurivania2)! -->
 
-## Keyboard Controls
+## Game Controls
 
 - Keyboard Controls
   - WASD Keys = Run, Climb, and Drop from certain platforms.
