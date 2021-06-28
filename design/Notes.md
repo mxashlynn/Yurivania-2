@@ -10,6 +10,18 @@
 - Mechanics and setting will be inspired by Castlevania 2: Simon's Quest and Castlevania: Order of Ecclasia.
     - But with much less technical platforming and probably no combat.
 
+=========================
+ Building Material Notes
+=========================
+
+    - Marble
+        - Serpentine (Green)
+        - ??? (Pink, Purple)
+    - Limestone
+        -
+    - https://sebringdesignbuild.com/types-of-marble/
+    - https://www.lostkingdom.net/medieval-architecture-building-materials/
+
 ========================
  Building Choice Matrix
 ========================

@@ -5,9 +5,9 @@
     },
     "activeFile": "backgrounds/scene-new_wing-before.tmx",
     "expandedProjectPaths": [
-        ".",
+        "backgrounds",
         "tiles",
-        "backgrounds"
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -27,8 +27,8 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 241.75,
-                "y": 87.25
+                "x": 241.5,
+                "y": 87
             }
         },
         "one-room-measurement.tmx": {
