@@ -15,27 +15,11 @@
             "scaleInDock": 1
         },
         "backgrounds/area-skyclad_tower-statue_hall.tmx": {
-            "scale": 3,
+            "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 74.5,
-                "y": 75.66666666666667
-            }
-        },
-        "backgrounds/area-stheno_and_alraunes_room.tmx": {
-            "scale": 5.9196875,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 79.9873304122895,
-                "y": 71.96325819563954
-            }
-        },
-        "backgrounds/area-stheno_and_alraunes_roomr.tmx": {
-            "scale": 5.9196875,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 80.15625824842948,
-                "y": 72.13218603177954
+                "x": 79,
+                "y": 71.09090909090908
             }
         },
         "backgrounds/one-room-measurement.tmx": {
@@ -75,14 +59,6 @@
             "scaleInDock": 3,
             "scaleInEditor": 11
         },
-        "tiles/yurivania.tsx": {
-            "dynamicWrapping": true,
-            "scaleInDock": 1
-        },
-        "tiles/yurivania_alternate.tsx": {
-            "dynamicWrapping": true,
-            "scaleInDock": 1
-        },
         "working-map.tmx": {
             "scale": 4,
             "selectedLayer": 0,
@@ -100,16 +76,14 @@
     "openFiles": [
         "working-map.tmx",
         "backgrounds/scene-new_wing-before.tmx",
-        "backgrounds/area-stheno_and_alraunes_room.tmx",
         "backgrounds/area-skyclad_tower-statue_hall.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
         "working-map.tmx",
         "backgrounds/scene-new_wing-before.tmx",
-        "backgrounds/area-stheno_and_alraunes_room.tmx",
         "backgrounds/area-skyclad_tower-statue_hall.tmx",
-        "backgrounds/area-stheno_and_alraunes_roomr.tmx",
+        "backgrounds/area-stheno_and_alraunes_room.tmx",
         "one-room-measurement.tmx",
         "starry-night.tmx",
         "tiles/yurivania-2.tsx",
