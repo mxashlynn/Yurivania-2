@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-skyclad_tower-balcony.tmx",
+    "activeFile": "backgrounds/area-skyclad_tower-main.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
-        "."
+        ".",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -18,8 +18,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79,
-                "y": 71.09090909090908
+                "x": 78.90909090909092,
+                "y": 70.90909090909092
             }
         },
         "backgrounds/area-skyclad_tower-banner_hall.tmx": {
@@ -35,7 +35,15 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 76.00485667528903,
-                "y": 72.01393654648157
+                "y": 72.19131077442856
+            }
+        },
+        "backgrounds/area-skyclad_tower-main.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 47.33333333333333,
+                "y": 687.3333333333333
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
@@ -66,7 +74,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 239.75,
+                "x": 240,
                 "y": 72
             }
         },
@@ -75,7 +83,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 92.21655091624132,
-                "y": 98.68295540122166
+                "y": 98.40180738013555
             }
         },
         "starry-night.tmx": {
@@ -95,34 +103,36 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 159.875,
-                "y": 72
+                "x": 159.75,
+                "y": 71.75
             }
         }
     },
-    "map.height": 18,
+    "map.height": 126,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
         "working-map.tmx",
+        "one-room-measurement.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-skyclad_tower-balcony.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
         "working-map.tmx",
+        "one-room-measurement.tmx",
         "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/untitled.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/scene-new_wing-before.tmx",
+        "backgrounds/area-skyclad_tower-banner_hall.tmx",
         "backgrounds/area-skyclad_tower-lunarium.tmx",
         "backgrounds/area-skyclad_tower-s+a's_room.tmx",
         "backgrounds/area-skyclad_tower-statue_hall.tmx",
+        "backgrounds/untitled.tmx",
         "backgrounds/area-stheno_and_alraunes_room.tmx",
-        "one-room-measurement.tmx",
-        "starry-night.tmx",
-        "tiles/yurivania-2.tsx",
-        "tiles/yurivania.tsx"
+        "starry-night.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
