@@ -1,6 +1,6 @@
-=======================
- YURIVANIA II Concept:
-=======================
+# YURIVANIA II
+
+## Concept
 
 - Josette the vampire facilitator is expanding the vampire quarter of the Midnight Palace.
 - To do this, she has to oversee the construction of a new wing.
@@ -10,9 +10,7 @@
 - Mechanics and setting will be inspired by Castlevania 2: Simon's Quest and Castlevania: Order of Ecclasia.
     - But with much less technical platforming and probably no combat.
 
-=========================
- Building Material Notes
-=========================
+## Building Materials
 
     - Marble
         - Serpentine (Green)
@@ -22,9 +20,7 @@
     - https://sebringdesignbuild.com/types-of-marble/
     - https://www.lostkingdom.net/medieval-architecture-building-materials/
 
-========================
- Building Choice Matrix
-========================
+## Building Choice Matrix
 
 | Left Area | Center Area | Right Area |
 | --- | --- | --- |
@@ -60,9 +56,7 @@
     - Drawing 9 sub-areas
     - Wiring up 27 combinations
 
-===============
- Setting Notes
-===============
+## Setting
 
 - Ecclessia has:
     - Channel/Reef
