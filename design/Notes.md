@@ -19,7 +19,33 @@
 - Shell & Porcelain
     - Uncovered by the skeletongirls
 - Clay
-    - ENcountered by the plantgirls
+    - Encountered by the plantgirls
+
+## Building Possibilities
+
+- Material Choice Matrix
+| Frame & Foundation | Wall & Beam | Fittings |
+| --- | --- | --- |
+| Marble | Bamboo  | Shell  |
+| Marble | Bamboo  | Porcelain  |
+| Marble | Oak  | Shell  |
+| Marble | Oak  | Porcelain  |
+| Granite | Bamboo  | Shell  |
+| Granite | Bamboo  | Porcelain  |
+| Granite | Oak  | Shell  |
+| Granite | Oak  | Porcelain  |
+
+- Building States
+    - 0: Unstarted - Thorny Field
+    - 1: Cleared - Pile of Clay
+    - 2: Under Construction - Frame & Foundation
+    - 3: Under Construction - Walls & Beams
+    - 4: Finished
+        - 8 Varieties
+
+- This would mean~
+    - Drawing/Coloring 12 versions of the Hall
+    - Wiring up 12 combinations
 
 ## Platrforming Regions
 
@@ -35,31 +61,7 @@
         - Central Hub
     - Mechanics
         - Basic Platrforming
-- **1: Inner Circle**
-    - Species
-        - **Demongirls**
-    - NPCs
-        - Rin~Rin
-        - *NEW: Musclegirl Miner*
-    - Material
-        - Marble
-    - Theme
-        - Easy, Playground
-    - Mechanics
-        - Multiple Routes Through
-- **2: Skyclad Tower**
-    - Species
-        - **Harpies**
-    - NPCs
-        - *Hummbird Harpy*
-        - Aello
-    - Material
-        - Bamboo
-    - Theme
-        - Rooftops
-    - Mechanics
-        - Run & Jump
-- **3: Palace Garden**
+- **1: Palace Garden**
     - Species
         - **Plantgirls**
     - NPCs
@@ -71,6 +73,30 @@
         - Changing Langscape
     - Mechanics
         - Interaction
+- **2: Inner Circle**
+    - Species
+        - **Demongirls**
+    - NPCs
+        - Rin~Rin
+        - *NEW: Musclegirl Miner*
+    - Material
+        - Marble
+    - Theme
+        - Easy, Playground
+    - Mechanics
+        - Multiple Routes Through
+- **3: Skyclad Tower**
+    - Species
+        - **Harpies**
+    - NPCs
+        - *Hummbird Harpy*
+        - Aello
+    - Material
+        - Bamboo
+    - Theme
+        - Rooftops
+    - Mechanics
+        - Run & Jump
 - **4: Great Library**
     - Species
         - **Skeletongirls**
@@ -95,42 +121,6 @@
     - Mechanics
         - All Prior in Combination
 
-
-## Building Choice Matrix
-
-| Left Area | Center Area | Right Area |
-| --- | --- | --- |
-| Unbuilt  | Unbuilt  | Unbuilt  |
-| Unbuilt  | Unbuilt  | Option 1 |
-| Unbuilt  | Unbuilt  | Option 2 |
-| Unbuilt  | Option 1 | Unbuilt  |
-| Unbuilt  | Option 1 | Option 1 |
-| Unbuilt  | Option 1 | Option 2 |
-| Unbuilt  | Option 2 | Unbuilt  |
-| Unbuilt  | Option 2 | Option 1 |
-| Unbuilt  | Option 2 | Option 2 |
-| Option 1 | Unbuilt  | Unbuilt  |
-| Option 1 | Unbuilt  | Option 1 |
-| Option 1 | Unbuilt  | Option 2 |
-| Option 1 | Option 1 | Unbuilt  |
-| Option 1 | Option 1 | Option 1 |
-| Option 1 | Option 1 | Option 2 |
-| Option 1 | Option 2 | Unbuilt  |
-| Option 1 | Option 2 | Option 1 |
-| Option 1 | Option 2 | Option 2 |
-| Option 2 | Unbuilt  | Unbuilt  |
-| Option 2 | Unbuilt  | Option 1 |
-| Option 2 | Unbuilt  | Option 2 |
-| Option 2 | Option 1 | Unbuilt  |
-| Option 2 | Option 1 | Option 1 |
-| Option 2 | Option 1 | Option 2 |
-| Option 2 | Option 2 | Unbuilt  |
-| Option 2 | Option 2 | Option 1 |
-| Option 2 | Option 2 | Option 2 |
-
-- This would mean~
-    - Drawing 9 sub-areas
-    - Wiring up 27 combinations
 
 ## Setting
 
