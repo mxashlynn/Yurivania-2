@@ -20,6 +20,81 @@
     - https://sebringdesignbuild.com/types-of-marble/
     - https://www.lostkingdom.net/medieval-architecture-building-materials/
 
+## Platrforming Regions
+
+- **0: New Wing Construction Site**
+    - Species
+        - *all*
+    - NPC
+        - Lucy
+        - Stheno
+    - Material
+        - Metal Fittings
+    - Theme
+        - Central Hub
+    - Mechanics
+        - Basic Platrforming
+- **1: Inner Circle**
+    - Species
+        - **Demongirls**
+    - NPCs
+        - Rin~Rin
+        - *NEW: Musclegirl Miner*
+    - Material
+        - Marble
+    - Theme
+        - Easy, Playground
+    - Mechanics
+        - Multiple Routes Through
+- **2: Skyclad Tower**
+    - Species
+        - **Harpies**
+    - NPCs
+        - *Hummbird Harpy*
+        - Aello
+    - Material
+        - Bamboo
+    - Theme
+        - Rooftops
+    - Mechanics
+        - Run & Jump
+- **3: Palace Garden**
+    - Species
+        - **Plantgirls**
+    - NPCs
+        - *new*
+        - Alraune
+    - Material
+        - Clay
+    - Theme
+        - Changing Langscape
+    - Mechanics
+        - Interaction
+- **4: Great Library**
+    - Species
+        - **Skeletongirls**
+    - NPCs
+        - *new*
+        - Tibby
+    - Material
+        - Shell
+    - Theme
+        - Puzzles
+    - Mechanics
+        - Pick Up & Carry
+- **5: Echoing Vaults**
+    - Species
+        - **Merfolk**
+    - NPCs
+        - Kililtu
+    - Material
+        - *none*
+    - Theme
+        - Stretch Goal: Bonus Stage
+    - Mechanics
+        - All Prior in Combination
+
+
 ## Building Choice Matrix
 
 | Left Area | Center Area | Right Area |
