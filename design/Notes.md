@@ -12,13 +12,14 @@
 
 ## Building Materials
 
-- Marble
-    - Serpentine (Green)
-    - ??? (Pink, Purple)
-- Limestone
-    -
-- https://sebringdesignbuild.com/types-of-marble/
-- https://www.lostkingdom.net/medieval-architecture-building-materials/
+- Marble & Granite
+    - Quarried by the demongirls
+- Bamboo & Oak
+    - Gathered by the harpies
+- Shell & Porcelain
+    - Uncovered by the skeletongirls
+- Clay
+    - ENcountered by the plantgirls
 
 ## Platrforming Regions
 
