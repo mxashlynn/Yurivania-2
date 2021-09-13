@@ -12,13 +12,13 @@
 
 ## Building Materials
 
-    - Marble
-        - Serpentine (Green)
-        - ??? (Pink, Purple)
-    - Limestone
-        -
-    - https://sebringdesignbuild.com/types-of-marble/
-    - https://www.lostkingdom.net/medieval-architecture-building-materials/
+- Marble
+    - Serpentine (Green)
+    - ??? (Pink, Purple)
+- Limestone
+    -
+- https://sebringdesignbuild.com/types-of-marble/
+- https://www.lostkingdom.net/medieval-architecture-building-materials/
 
 ## Platrforming Regions
 
