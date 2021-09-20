@@ -37,7 +37,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 ## Building Possibilities
 
 - Material Choice Matrix
-| Frame & Foundation | Wall & Beam | Fittings |
+| Wall | Beam | Fittings |
 | --- | --- | --- |
 | Marble | Bamboo  | Shell  |
 | Marble | Bamboo  | Porcelain  |
