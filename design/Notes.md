@@ -12,6 +12,9 @@
 
 ## Building Materials
 
+Building materials can either be gathered when navigating platforming challenges,
+or they can be gotten as rewards for solving problems for the Palace's residents.
+
 - Marble & Granite
     - Quarried by the demongirls
 - Bamboo & Oak
@@ -20,6 +23,16 @@
     - Uncovered by the skeletongirls
 - Clay
     - Encountered by the plantgirls
+
+## Collection Possibilities
+
+- Material Collection Matrix
+| Tribe | Found While Platrforming | Reward for Solving Problems |
+| --- | --- | --- |
+| Demongirls | Marble | Granite |
+| Harpies | Oak | Bamboo |
+| Skeletongirls | Shell | Porcelain |
+| Plantgirls | Clay | Clay |
 
 ## Building Possibilities
 
