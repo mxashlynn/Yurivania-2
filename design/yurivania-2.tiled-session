@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-skyclad_tower-statue_hall.tmx",
+    "activeFile": "backgrounds/area-skyclad_tower-balcony.tmx",
     "expandedProjectPaths": [
+        "backgrounds",
         "tiles",
-        ".",
-        "backgrounds"
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -115,8 +115,8 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 204.5,
-                "y": 71.5
+                "x": 160,
+                "y": 72
             }
         }
     },
@@ -130,11 +130,7 @@
         "working-map.tmx",
         "one-room-measurement.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/area-skyclad_tower-banner_hall.tmx",
-        "backgrounds/area-skyclad_tower-lunarium.tmx",
-        "backgrounds/area-skyclad_tower-s+a's_room.tmx",
-        "backgrounds/area-skyclad_tower-statue_hall.tmx"
+        "backgrounds/area-skyclad_tower-balcony.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
@@ -144,8 +140,8 @@
         "backgrounds/area-skyclad_tower-balcony.tmx",
         "backgrounds/area-skyclad_tower-banner_hall.tmx",
         "backgrounds/area-skyclad_tower-lunarium.tmx",
-        "backgrounds/area-skyclad_tower-s+a's_room.tmx",
         "backgrounds/area-skyclad_tower-statue_hall.tmx",
+        "backgrounds/area-skyclad_tower-s+a's_room.tmx",
         "backgrounds/scene-new_wing-before.tmx",
         "backgrounds/starry-night.tmx",
         "backgrounds/untitled.tmx",
