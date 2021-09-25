@@ -116,7 +116,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Rin~Rin
         - *NEW: Musclegirl Miner*
     - Material
-        - Marble
+        - Marble / Granite
     - Theme
         - Easy, Playground
     - Mechanics
@@ -128,7 +128,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - *Hummbird Harpy*
         - Aello
     - Material
-        - Bamboo
+        - Bamboo / Oak
     - Theme
         - Rooftops
     - Mechanics
@@ -140,7 +140,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - *new*
         - Tibby
     - Material
-        - Shell
+        - Shell / Porcelain
     - Theme
         - Puzzles
     - Mechanics
