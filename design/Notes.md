@@ -21,7 +21,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Gathered by the harpies
 - Shell & Porcelain
     - Uncovered by the skeletongirls
-- Clay
+- Clay[REPLACE WITH SOMETHING ELSE]
     - Encountered by the plantgirls
 
 ## Collection Possibilities
@@ -32,7 +32,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 | Demongirls | Marble | Granite |
 | Harpies | Oak | Bamboo |
 | Skeletongirls | Shell | Porcelain |
-| Plantgirls | Clay | Clay |
+| Plantgirls | Clay[REPLACE WITH SOMETHING ELSE] | Clay[REPLACE WITH SOMETHING ELSE] |
 
 ## Building Possibilities
 
@@ -50,7 +50,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 
 - Building States
     - 0: Unstarted - Thorny Field
-    - 1: Cleared - Pile of Clay
+    - 1: Cleared - Pile of Clay[REPLACE WITH SOMETHING ELSE]
     - 2: Under Construction - Frame & Foundation
     - 3: Under Construction - Walls & Beams
     - 4: Finished
@@ -104,7 +104,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - *new*
         - Alraune
     - Material
-        - Clay
+        - Clay[REPLACE WITH SOMETHING ELSE]
     - Theme
         - Changing Langscape
     - Mechanics
