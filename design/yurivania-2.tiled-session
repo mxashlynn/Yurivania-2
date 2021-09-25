@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "one-room-measurement.tmx",
+    "activeFile": "backgrounds/scene-map.tmx",
     "expandedProjectPaths": [
         ".",
         "backgrounds",
@@ -83,11 +83,11 @@
             }
         },
         "backgrounds/area-skyclad_tower-main.tmx": {
-            "scale": 2,
+            "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 39,
-                "y": 908
+                "x": -208,
+                "y": 309.33333333333337
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
@@ -178,11 +178,15 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
+        "one-room-measurement.tmx",
         "working-map.tmx",
-        "one-room-measurement.tmx"
+        "backgrounds/scene-map.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "one-room-measurement.tmx",
+        "working-map.tmx",
+        "backgrounds/scene-map.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-skyclad_tower-s+a's_room.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_4-summit.tmx",
@@ -190,11 +194,8 @@
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_1-foothill_path.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/working-map.tmx",
-        "working-map.tmx",
-        "one-room-measurement.tmx",
         "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/scene-new_wing-before.tmx",
-        "backgrounds/area-skyclad_tower-statue_hall.tmx"
+        "backgrounds/scene-new_wing-before.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
