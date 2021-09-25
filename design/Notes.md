@@ -62,19 +62,41 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 
 ## Platrforming Regions
 
-- **0: New Wing Construction Site**
+- **0: Old Vampire Quarter**
     - Species
-        - *all*
+        - Vampiregirls
     - NPC
-        - Lucy
+        - *new*
+        - *new*
+    - Material
+        - *none*
+    - Theme
+        - Home Base
+    - Mechanics
+        - Conversation
+- **1: Skyclad Tower**
+    - Species
+        - Gorgons
+    - NPC
         - Stheno
     - Material
-        - Metal Fittings
+        - *none*
     - Theme
         - Central Hub
     - Mechanics
         - Basic Platrforming
-- **1: Palace Garden**
+- **2: New Wing Construction Site**
+    - Species
+        - ???
+    - NPC
+        - Lucy
+    - Material
+        - *none*
+    - Theme
+        - Building
+    - Mechanics
+        - Decision-Making
+- **3: Palace Garden**
     - Species
         - **Plantgirls**
     - NPCs
@@ -86,7 +108,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Changing Langscape
     - Mechanics
         - Interaction
-- **2: Inner Circle**
+- **4: Inner Circle**
     - Species
         - **Demongirls**
     - NPCs
@@ -98,7 +120,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Easy, Playground
     - Mechanics
         - Multiple Routes Through
-- **3: Skyclad Tower**
+- **5: Windswept Rooftops**
     - Species
         - **Harpies**
     - NPCs
@@ -110,7 +132,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Rooftops
     - Mechanics
         - Run & Jump
-- **4: Great Library**
+- **6: Great Library**
     - Species
         - **Skeletongirls**
     - NPCs
@@ -122,7 +144,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Puzzles
     - Mechanics
         - Pick Up & Carry
-- **5: Echoing Vaults**
+- **7: Echoing Vaults & Glassy Tarn**
     - Species
         - **Merfolk**
     - NPCs
