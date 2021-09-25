@@ -79,6 +79,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Gorgons
     - NPC
         - Stheno
+        - Lucy
     - Material
         - *none*
     - Theme
@@ -87,9 +88,9 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Basic Platrforming
 - **2: New Wing Construction Site**
     - Species
-        - ???
+        - Spidergirls
     - NPC
-        - Lucy
+        - Festoon
     - Material
         - *none*
     - Theme
