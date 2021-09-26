@@ -3,164 +3,86 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/scene-map.tmx",
+    "activeFile": "working-map.tmx",
     "expandedProjectPaths": [
-        ".",
+        "tiles",
         "backgrounds",
-        "tiles"
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_1-foothill_path.tmx": {
-            "scale": 1.9712500000000002,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 240.45656309448316,
-                "y": 144.07102092580848
-            }
-        },
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx": {
-            "scale": 0.9856250000000001,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 479.8985415345593,
-                "y": 618.8966391883322
-            }
-        },
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_3-cliff_face.tmx": {
-            "scale": 1.4784374999999998,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 320.6087507926443,
-                "y": 144.07102092580854
-            }
-        },
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_4-summit.tmx": {
-            "scale": 1.9712500000000002,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 240.45656309448316,
-                "y": 144.07102092580848
-            }
-        },
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/tiles/yurivania-0.tsx": {
-            "scaleInDock": 1
-        },
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/working-map.tmx": {
-            "scale": 5.913749999999999,
+            "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.15218769816107,
-                "y": 72.03551046290427
+                "x": 80,
+                "y": 72
             }
-        },
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/tiles/yurivania-2.tsx": {
-            "scaleInDock": 1
         },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
-            "scale": 5.5,
+            "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.0909090909091,
-                "y": 71.09090909090908
+                "x": 80,
+                "y": 72
             }
         },
         "backgrounds/area-skyclad_tower-banner_hall.tmx": {
-            "scale": 5.5,
+            "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.0909090909091,
-                "y": 71.09090909090908
+                "x": 80,
+                "y": 72
             }
         },
         "backgrounds/area-skyclad_tower-lunarium.tmx": {
-            "scale": 5.6377976190476184,
+            "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.09354378926253,
-                "y": 72.19131077442856
+                "x": 80,
+                "y": 72
             }
         },
         "backgrounds/area-skyclad_tower-main.tmx": {
-            "scale": 0.75,
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
                 "x": -208,
-                "y": 309.33333333333337
+                "y": 310
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
-            "scale": 5.9196875,
+            "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.24072216649948,
-                "y": 72.13218603177954
+                "x": 80,
+                "y": 72
             }
         },
         "backgrounds/area-skyclad_tower-statue_hall.tmx": {
-            "scale": 5.5,
+            "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.0909090909091,
-                "y": 71.09090909090908
+                "x": 80,
+                "y": 72
             }
         },
         "backgrounds/one-room-measurement.tmx": {
-            "scale": 4,
+            "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 88,
-                "y": 67.5
+                "x": 80,
+                "y": 72
             }
         },
-        "backgrounds/scene-map.tmx": {
-            "scale": 4,
+        "backgrounds/screen-map.tmx": {
+            "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 78.25,
-                "y": 78
+                "x": 80,
+                "y": 72
             }
-        },
-        "backgrounds/scene-new_wing-before.tmx": {
-            "scale": 4,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 186.25,
-                "y": 71
-            }
-        },
-        "backgrounds/starry-night.tmx": {
-            "scale": 3.556845238095238,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 92.21655091624132,
-                "y": 73.94192954564471
-            }
-        },
-        "backgrounds/tiles/yurivania-2.tsx": {
-            "scaleInDock": 1
-        },
-        "one-room-measurement.tmx": {
-            "scale": 3.556845238095238,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 92.21655091624132,
-                "y": 98.40180738013555
-            }
-        },
-        "starry-night.tmx": {
-            "scale": 5.5,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 74.18181818181819,
-                "y": 71.09090909090908
-            }
-        },
-        "tiles/yurivania-2.tsx": {
-            "dynamicWrapping": false,
-            "scaleInDock": 3,
-            "scaleInEditor": 11
         },
         "working-map.tmx": {
             "scale": 4,
@@ -169,6 +91,11 @@
                 "x": 108.25,
                 "y": 67.25
             }
+        },
+        "tiles/yurivania-2.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 3,
+            "scaleInEditor": 11
         }
     },
     "last.externalTilesetPath": "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/tiles",
@@ -179,21 +106,15 @@
     "map.width": 20,
     "openFiles": [
         "one-room-measurement.tmx",
-        "working-map.tmx",
-        "backgrounds/scene-map.tmx"
+        "working-map.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
         "one-room-measurement.tmx",
         "working-map.tmx",
-        "backgrounds/scene-map.tmx",
+        "backgrounds/screen-map.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-skyclad_tower-s+a's_room.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_4-summit.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_3-cliff_face.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_1-foothill_path.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/working-map.tmx",
         "backgrounds/area-skyclad_tower-balcony.tmx",
         "backgrounds/scene-new_wing-before.tmx"
     ],
