@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "working-map.tmx",
+    "activeFile": "backgrounds/screen-map.tmx",
     "expandedProjectPaths": [
         "tiles",
         "backgrounds",
@@ -80,9 +80,22 @@
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
+                "x": 79.99999999999999,
+                "y": 72
+            }
+        },
+        "one-room-measurement.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
                 "x": 80,
                 "y": 72
             }
+        },
+        "tiles/yurivania-2.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 3,
+            "scaleInEditor": 11
         },
         "working-map.tmx": {
             "scale": 4,
@@ -91,11 +104,6 @@
                 "x": 108.25,
                 "y": 67.25
             }
-        },
-        "tiles/yurivania-2.tsx": {
-            "dynamicWrapping": false,
-            "scaleInDock": 3,
-            "scaleInEditor": 11
         }
     },
     "last.externalTilesetPath": "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/tiles",
@@ -106,7 +114,8 @@
     "map.width": 20,
     "openFiles": [
         "one-room-measurement.tmx",
-        "working-map.tmx"
+        "working-map.tmx",
+        "backgrounds/screen-map.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
