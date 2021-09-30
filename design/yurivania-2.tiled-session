@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-old_vampire_quarter.tmx",
+    "activeFile": "backgrounds/screen-map.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
         ".",
+        "backgrounds",
         "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
@@ -21,11 +21,11 @@
             }
         },
         "backgrounds/area-old_vampire_quarter.tmx": {
-            "scale": 1.5,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 319,
-                "y": 182
+                "x": 152,
+                "y": 39.66666666666667
             }
         },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
@@ -64,8 +64,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 70.99999999999999,
-                "y": 923.6666666666665
+                "x": 71.33333333333333,
+                "y": 109
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
@@ -84,6 +84,22 @@
                 "y": 72
             }
         },
+        "backgrounds/area-windswept_rooftop-belltower.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 53,
+                "y": 500.5
+            }
+        },
+        "backgrounds/area-windswept_rooftop-clocktower.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 92.99999999999997,
+                "y": 149.66666666666663
+            }
+        },
         "backgrounds/one-room-measurement.tmx": {
             "scale": 6,
             "selectedLayer": 0,
@@ -96,16 +112,16 @@
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.99999999999999,
-                "y": 72
+                "x": 78.83333333333333,
+                "y": 71.66666666666667
             }
         },
         "one-room-measurement.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
-                "y": 71.81818181818183
+                "x": 73.0909090909091,
+                "y": 73.63636363636364
             }
         },
         "tiles/yurivania-2.tsx": {
@@ -131,16 +147,17 @@
     "openFiles": [
         "one-room-measurement.tmx",
         "working-map.tmx",
-        "backgrounds/screen-map.tmx",
-        "backgrounds/area-old_vampire_quarter.tmx"
+        "backgrounds/screen-map.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "backgrounds/area-old_vampire_quarter.tmx",
         "one-room-measurement.tmx",
         "working-map.tmx",
         "backgrounds/screen-map.tmx",
+        "backgrounds/area-windswept_rooftop-belltower.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
+        "backgrounds/area-old_vampire_quarter.tmx",
+        "backgrounds/area-windswept_rooftop-clocktower.tmx",
         "backgrounds/area-skyclad_tower-s+a's_room.tmx",
         "backgrounds/area-skyclad_tower-lunarium.tmx",
         "backgrounds/area-skyclad_tower-courtyard.tmx",
