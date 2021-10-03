@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-windswept_rooftop-belltower.tmx",
+    "activeFile": "one-room-measurement.tmx",
     "expandedProjectPaths": [
+        ".",
         "tiles",
-        "backgrounds",
-        "."
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -20,12 +20,34 @@
                 "y": 72
             }
         },
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-echoing_vaults-locked.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 686,
+                "y": -1
+            }
+        },
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/tiles/yurivania.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/tiles/yurivania_alternate.tsx": {
+            "scaleInDock": 1
+        },
+        "backgrounds/area-echoing_vaults.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 384,
+                "y": 49
+            }
+        },
         "backgrounds/area-old_vampire_quarter.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 213,
-                "y": 147
+                "x": 479.3333333333333,
+                "y": 145.66666666666663
             }
         },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
@@ -64,8 +86,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 71.33333333333333,
-                "y": 109
+                "x": 71,
+                "y": 1046.3333333333333
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
@@ -121,7 +143,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 80,
-                "y": 71.81818181818183
+                "y": 72
             }
         },
         "tiles/yurivania-2.tsx": {
@@ -139,31 +161,31 @@
         }
     },
     "last.externalTilesetPath": "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/tiles",
-    "map.height": 36,
+    "map.height": 54,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 60,
+    "map.width": 80,
     "openFiles": [
         "one-room-measurement.tmx",
         "working-map.tmx",
         "backgrounds/screen-map.tmx",
-        "backgrounds/area-windswept_rooftop-belltower.tmx"
+        "backgrounds/area-echoing_vaults.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "backgrounds/area-windswept_rooftop-belltower.tmx",
-        "one-room-measurement.tmx",
-        "working-map.tmx",
+        "backgrounds/area-echoing_vaults.tmx",
         "backgrounds/screen-map.tmx",
+        "working-map.tmx",
+        "one-room-measurement.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-echoing_vaults-locked.tmx",
+        "backgrounds/area-skyclad_tower-courtyard.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-old_vampire_quarter.tmx",
+        "backgrounds/area-windswept_rooftop-belltower.tmx",
         "backgrounds/area-windswept_rooftop-clocktower.tmx",
         "backgrounds/area-skyclad_tower-s+a's_room.tmx",
-        "backgrounds/area-skyclad_tower-lunarium.tmx",
-        "backgrounds/area-skyclad_tower-courtyard.tmx",
-        "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/scene-new_wing-before.tmx"
+        "backgrounds/area-skyclad_tower-lunarium.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
