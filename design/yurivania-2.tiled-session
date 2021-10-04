@@ -20,6 +20,14 @@
                 "y": 72
             }
         },
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-alraunes_corner-after.tmx": {
+            "scale": 5.925624999999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.16032064128258,
+                "y": 72.05990929226876
+            }
+        },
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-echoing_vaults-locked.tmx": {
             "scale": 1,
             "selectedLayer": 0,
@@ -33,6 +41,14 @@
         },
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/tiles/yurivania_alternate.tsx": {
             "scaleInDock": 1
+        },
+        "backgrounds/area-echoing_vaults-mae's_room.tmx": {
+            "scale": 5.643452380952381,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.01729775340154,
+                "y": 72.11897479168866
+            }
         },
         "backgrounds/area-echoing_vaults.tmx": {
             "scale": 1,
@@ -161,11 +177,11 @@
         }
     },
     "last.externalTilesetPath": "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/tiles",
-    "map.height": 54,
+    "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 80,
+    "map.width": 20,
     "openFiles": [
         "one-room-measurement.tmx",
         "working-map.tmx",
@@ -174,6 +190,10 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-old_vampire_quarter.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-alraunes_corner-after.tmx",
+        "backgrounds/area-echoing_vaults-mae's_room.tmx",
+        "backgrounds/area-windswept_rooftop-belltower.tmx",
         "backgrounds/area-echoing_vaults.tmx",
         "backgrounds/screen-map.tmx",
         "working-map.tmx",
@@ -181,11 +201,7 @@
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-echoing_vaults-locked.tmx",
         "backgrounds/area-skyclad_tower-courtyard.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/area-old_vampire_quarter.tmx",
-        "backgrounds/area-windswept_rooftop-belltower.tmx",
-        "backgrounds/area-windswept_rooftop-clocktower.tmx",
-        "backgrounds/area-skyclad_tower-s+a's_room.tmx",
-        "backgrounds/area-skyclad_tower-lunarium.tmx"
+        "backgrounds/area-windswept_rooftop-clocktower.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
