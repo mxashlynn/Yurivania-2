@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "one-room-measurement.tmx",
+    "activeFile": "backgrounds/area-echoing_vaults.tmx",
     "expandedProjectPaths": [
         ".",
-        "tiles",
-        "backgrounds"
+        "backgrounds",
+        "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -51,11 +51,11 @@
             }
         },
         "backgrounds/area-echoing_vaults.tmx": {
-            "scale": 1,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 384,
-                "y": 49
+                "x": 206,
+                "y": 336
             }
         },
         "backgrounds/area-old_vampire_quarter.tmx": {
@@ -190,14 +190,14 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "one-room-measurement.tmx",
+        "working-map.tmx",
+        "backgrounds/screen-map.tmx",
+        "backgrounds/area-echoing_vaults.tmx",
         "backgrounds/area-old_vampire_quarter.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-alraunes_corner-after.tmx",
         "backgrounds/area-echoing_vaults-mae's_room.tmx",
         "backgrounds/area-windswept_rooftop-belltower.tmx",
-        "backgrounds/area-echoing_vaults.tmx",
-        "backgrounds/screen-map.tmx",
-        "working-map.tmx",
-        "one-room-measurement.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-echoing_vaults-locked.tmx",
         "backgrounds/area-skyclad_tower-courtyard.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
