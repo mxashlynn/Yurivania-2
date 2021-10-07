@@ -66,8 +66,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - Vampiregirls
     - NPC
-        - *new*
-        - *new*
+        - *misc vampires*
     - Material
         - *none*
     - Theme
