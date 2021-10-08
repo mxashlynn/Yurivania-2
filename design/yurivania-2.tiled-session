@@ -50,6 +50,14 @@
                 "y": 72.11897479168866
             }
         },
+        "backgrounds/area-echoing_vaults-main.tmx": {
+            "scale": 1.185125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 400.80160320641284,
+                "y": 216.01096930703517
+            }
+        },
         "backgrounds/area-echoing_vaults.tmx": {
             "scale": 1.5,
             "selectedLayer": 0,
@@ -58,20 +66,28 @@
                 "y": 197.33333333333334
             }
         },
+        "backgrounds/area-inner_circle-main.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 189.5,
+                "y": 239
+            }
+        },
         "backgrounds/area-inner_circle-sacred_hall.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 123.33333333333333,
-                "y": 155.33333333333334
+                "x": 233,
+                "y": 154.66666666666663
             }
         },
         "backgrounds/area-old_vampire_quarter.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 479.3333333333333,
-                "y": 145.66666666666663
+                "x": 69.66666666666666,
+                "y": 145.33333333333334
             }
         },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
@@ -130,12 +146,20 @@
                 "y": 72
             }
         },
+        "backgrounds/area-starlit_garden-postern.tmx": {
+            "scale": 5.643452380952381,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.01729775340154,
+                "y": 72.11897479168866
+            }
+        },
         "backgrounds/area-windswept_rooftop-belltower.tmx": {
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 65.75,
-                "y": 116.75
+                "x": 65.25,
+                "y": 646
             }
         },
         "backgrounds/area-windswept_rooftop-clocktower.tmx": {
@@ -185,11 +209,11 @@
         }
     },
     "last.externalTilesetPath": "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/tiles",
-    "map.height": 36,
+    "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 60,
+    "map.width": 20,
     "openFiles": [
         "one-room-measurement.tmx",
         "working-map.tmx",
@@ -198,18 +222,18 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-starlit_garden-postern.tmx",
+        "backgrounds/area-windswept_rooftop-belltower.tmx",
+        "backgrounds/area-old_vampire_quarter.tmx",
+        "backgrounds/area-echoing_vaults.tmx",
         "one-room-measurement.tmx",
         "working-map.tmx",
         "backgrounds/screen-map.tmx",
-        "backgrounds/area-echoing_vaults.tmx",
-        "backgrounds/area-old_vampire_quarter.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-alraunes_corner-after.tmx",
         "backgrounds/area-echoing_vaults-mae's_room.tmx",
-        "backgrounds/area-windswept_rooftop-belltower.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-echoing_vaults-locked.tmx",
         "backgrounds/area-skyclad_tower-courtyard.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/area-windswept_rooftop-clocktower.tmx"
+        "backgrounds/area-skyclad_tower-main.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
