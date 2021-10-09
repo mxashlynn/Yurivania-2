@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-echoing_vaults.tmx",
+    "activeFile": "backgrounds/area-inner_circle-main.tmx",
     "expandedProjectPaths": [
         ".",
         "backgrounds",
@@ -54,7 +54,7 @@
             "scale": 1.185125,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 400.80160320641284,
+                "x": 403.7548781774075,
                 "y": 216.01096930703517
             }
         },
@@ -67,19 +67,19 @@
             }
         },
         "backgrounds/area-inner_circle-main.tmx": {
-            "scale": 2,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 189.5,
-                "y": 239
+                "x": 143.5,
+                "y": 270.3333333333333
             }
         },
         "backgrounds/area-inner_circle-sacred_hall.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 233,
-                "y": 154.66666666666663
+                "x": 111.16666666666664,
+                "y": 153
             }
         },
         "backgrounds/area-old_vampire_quarter.tmx": {
@@ -182,8 +182,8 @@
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 78.83333333333333,
-                "y": 71.66666666666667
+                "x": 78.75,
+                "y": 71.5
             }
         },
         "one-room-measurement.tmx": {
@@ -203,8 +203,8 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 112,
-                "y": 72
+                "x": 111.875,
+                "y": 71.75
             }
         }
     },
@@ -218,22 +218,23 @@
         "one-room-measurement.tmx",
         "working-map.tmx",
         "backgrounds/screen-map.tmx",
-        "backgrounds/area-echoing_vaults.tmx"
+        "backgrounds/area-inner_circle-main.tmx",
+        "backgrounds/area-echoing_vaults-main.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "one-room-measurement.tmx",
+        "working-map.tmx",
+        "backgrounds/screen-map.tmx",
+        "backgrounds/area-echoing_vaults-main.tmx",
+        "backgrounds/area-inner_circle-main.tmx",
+        "backgrounds/area-inner_circle-sacred_hall.tmx",
         "backgrounds/area-starlit_garden-postern.tmx",
         "backgrounds/area-windswept_rooftop-belltower.tmx",
         "backgrounds/area-old_vampire_quarter.tmx",
         "backgrounds/area-echoing_vaults.tmx",
-        "one-room-measurement.tmx",
-        "working-map.tmx",
-        "backgrounds/screen-map.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-alraunes_corner-after.tmx",
-        "backgrounds/area-echoing_vaults-mae's_room.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-echoing_vaults-locked.tmx",
-        "backgrounds/area-skyclad_tower-courtyard.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx"
+        "backgrounds/area-echoing_vaults-mae's_room.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
