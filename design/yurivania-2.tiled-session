@@ -54,8 +54,8 @@
             "scale": 1.185125,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 403.7548781774075,
-                "y": 216.01096930703517
+                "x": 400.3797067819851,
+                "y": 215.16717645817954
             }
         },
         "backgrounds/area-echoing_vaults.tmx": {
@@ -70,8 +70,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 143.5,
-                "y": 270.3333333333333
+                "x": 101.16666666666664,
+                "y": 93
             }
         },
         "backgrounds/area-inner_circle-sacred_hall.tmx": {
@@ -182,15 +182,15 @@
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 78.75,
-                "y": 71.5
+                "x": 80.08333333333333,
+                "y": 72
             }
         },
         "one-room-measurement.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
+                "x": 80.0909090909091,
                 "y": 72
             }
         },
@@ -203,8 +203,8 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 111.875,
-                "y": 71.75
+                "x": 112.125,
+                "y": 72
             }
         }
     },
