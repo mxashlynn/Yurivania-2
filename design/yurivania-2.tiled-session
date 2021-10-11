@@ -3,21 +3,21 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-inner_circle-main.tmx",
+    "activeFile": "backgrounds/screen-map.tmx",
     "expandedProjectPaths": [
+        "tiles",
         ".",
-        "backgrounds",
-        "tiles"
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx": {
-            "scale": 1,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 336.5,
-                "y": 432
+                "x": 375.75,
+                "y": 866.5
             }
         },
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/tiles/yurivania-0.tsx": {
@@ -70,11 +70,11 @@
             }
         },
         "backgrounds/area-echoing_vaults-main.tmx": {
-            "scale": 1.185125,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 404.59867102626305,
-                "y": 216.85476215589077
+                "x": 177.83333333333334,
+                "y": 82.66666666666667
             }
         },
         "backgrounds/area-echoing_vaults.tmx": {
@@ -86,11 +86,11 @@
             }
         },
         "backgrounds/area-inner_circle-main.tmx": {
-            "scale": 3,
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 229.5,
-                "y": 276.3333333333333
+                "x": 74.5,
+                "y": 315
             }
         },
         "backgrounds/area-inner_circle-quarry.tmx": {
@@ -150,11 +150,11 @@
             }
         },
         "backgrounds/area-skyclad_tower-main.tmx": {
-            "scale": 3,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 71,
-                "y": 1046.3333333333333
+                "x": -3,
+                "y": 858
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
@@ -230,8 +230,8 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 112.125,
-                "y": 72
+                "x": 111.875,
+                "y": 71.75
             }
         }
     },
@@ -244,24 +244,22 @@
     "openFiles": [
         "one-room-measurement.tmx",
         "working-map.tmx",
-        "backgrounds/screen-map.tmx",
-        "backgrounds/area-inner_circle-main.tmx",
-        "backgrounds/area-echoing_vaults-main.tmx"
+        "backgrounds/screen-map.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "backgrounds/area-echoing_vaults-main.tmx",
-        "backgrounds/area-starlit_garden-postern.tmx",
-        "backgrounds/area-windswept_rooftop-belltower.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx",
-        "backgrounds/area-skyclad_tower-balcony.tmx",
         "one-room-measurement.tmx",
         "working-map.tmx",
         "backgrounds/screen-map.tmx",
+        "backgrounds/area-echoing_vaults-main.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
+        "backgrounds/area-inner_circle-quarry.tmx",
         "backgrounds/area-inner_circle-main.tmx",
-        "backgrounds/area-inner_circle-sacred_hall.tmx",
-        "backgrounds/area-old_vampire_quarter.tmx"
+        "backgrounds/area-starlit_garden-postern.tmx",
+        "backgrounds/area-windswept_rooftop-belltower.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx",
+        "backgrounds/area-skyclad_tower-balcony.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
