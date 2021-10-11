@@ -12,6 +12,17 @@
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 336.5,
+                "y": 432
+            }
+        },
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/tiles/yurivania-0.tsx": {
+            "scaleInDock": 3
+        },
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/working-map.tmx": {
             "scale": 6,
             "selectedLayer": 0,
@@ -36,6 +47,14 @@
                 "y": -1
             }
         },
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 257.5,
+                "y": 106.66666666666667
+            }
+        },
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/tiles/yurivania.tsx": {
             "scaleInDock": 1
         },
@@ -54,8 +73,8 @@
             "scale": 1.185125,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 400.3797067819851,
-                "y": 215.16717645817954
+                "x": 404.59867102626305,
+                "y": 216.85476215589077
             }
         },
         "backgrounds/area-echoing_vaults.tmx": {
@@ -70,8 +89,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 101.16666666666664,
-                "y": 93
+                "x": 126.83333333333334,
+                "y": 73.66666666666667
             }
         },
         "backgrounds/area-inner_circle-sacred_hall.tmx": {
@@ -94,7 +113,7 @@
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
+                "x": 80.08333333333331,
                 "y": 72
             }
         },
@@ -150,16 +169,16 @@
             "scale": 5.643452380952381,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.01729775340154,
-                "y": 72.11897479168866
+                "x": 76.10589600253138,
+                "y": 77.78926273599832
             }
         },
         "backgrounds/area-windswept_rooftop-belltower.tmx": {
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 65.25,
-                "y": 646
+                "x": 65.375,
+                "y": 611
             }
         },
         "backgrounds/area-windswept_rooftop-clocktower.tmx": {
@@ -182,8 +201,8 @@
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.08333333333333,
-                "y": 72
+                "x": 78.75,
+                "y": 71.5
             }
         },
         "one-room-measurement.tmx": {
@@ -223,6 +242,9 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx",
+        "backgrounds/area-skyclad_tower-balcony.tmx",
         "one-room-measurement.tmx",
         "working-map.tmx",
         "backgrounds/screen-map.tmx",
@@ -231,10 +253,7 @@
         "backgrounds/area-inner_circle-sacred_hall.tmx",
         "backgrounds/area-starlit_garden-postern.tmx",
         "backgrounds/area-windswept_rooftop-belltower.tmx",
-        "backgrounds/area-old_vampire_quarter.tmx",
-        "backgrounds/area-echoing_vaults.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-alraunes_corner-after.tmx",
-        "backgrounds/area-echoing_vaults-mae's_room.tmx"
+        "backgrounds/area-old_vampire_quarter.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
