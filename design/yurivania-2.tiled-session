@@ -98,7 +98,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 76.00485667528903,
-                "y": 72.01393654648157
+                "y": 72.19131077442856
             }
         },
         "backgrounds/area-inner_circle-sacred_hall.tmx": {
@@ -129,7 +129,7 @@
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
+                "x": 80.08333333333331,
                 "y": 72
             }
         },
@@ -137,7 +137,7 @@
             "scale": 2.8847560975609756,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 155.99239061509192,
+                "x": 156.16571549355314,
                 "y": 142.81969985203975
             }
         },
@@ -197,6 +197,14 @@
                 "y": 149.66666666666663
             }
         },
+        "backgrounds/area-windswept_rooftop-spider_nest.tmx": {
+            "scale": 5.6377976190476184,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 79.72971546217602,
+                "y": 84.25275827482449
+            }
+        },
         "backgrounds/one-room-measurement.tmx": {
             "scale": 6,
             "selectedLayer": 0,
@@ -217,8 +225,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.0909090909091,
-                "y": 72
+                "x": 80.09090909090911,
+                "y": 71.81818181818183
             }
         },
         "tiles/yurivania-2.tsx": {
@@ -230,8 +238,8 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 111.875,
-                "y": 71.75
+                "x": 112.125,
+                "y": 72
             }
         }
     },
@@ -248,18 +256,18 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-inner_circle-quarry.tmx",
+        "backgrounds/area-skyclad_tower-courtyard.tmx",
+        "backgrounds/area-skyclad_tower-balcony.tmx",
+        "backgrounds/area-skyclad_tower-banner_hall.tmx",
         "one-room-measurement.tmx",
         "working-map.tmx",
         "backgrounds/screen-map.tmx",
         "backgrounds/area-echoing_vaults-main.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/area-inner_circle-quarry.tmx",
         "backgrounds/area-inner_circle-main.tmx",
-        "backgrounds/area-starlit_garden-postern.tmx",
-        "backgrounds/area-windswept_rooftop-belltower.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx",
-        "backgrounds/area-skyclad_tower-balcony.tmx"
+        "backgrounds/area-starlit_garden-postern.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
