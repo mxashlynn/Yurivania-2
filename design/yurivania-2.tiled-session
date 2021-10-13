@@ -256,18 +256,18 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-echoing_vaults-main.tmx",
+        "backgrounds/area-echoing_vaults-mae's_corner.tmx",
+        "backgrounds/area-echoing_vaults.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
+        "backgrounds/area-skyclad_tower-courtyard.tmx",
         "one-room-measurement.tmx",
         "working-map.tmx",
         "backgrounds/screen-map.tmx",
-        "backgrounds/area-skyclad_tower-courtyard.tmx",
         "backgrounds/area-old_vampire_quarter.tmx",
         "backgrounds/area-windswept_rooftop-spider_nest.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-inner_circle-quarry.tmx",
-        "backgrounds/area-skyclad_tower-banner_hall.tmx",
-        "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/area-echoing_vaults-main.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx"
+        "backgrounds/area-skyclad_tower-banner_hall.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
