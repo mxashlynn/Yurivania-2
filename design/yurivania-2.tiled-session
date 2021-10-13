@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "working-map.tmx",
+    "activeFile": "backgrounds/screen-map.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
         ".",
+        "backgrounds",
         "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
@@ -252,19 +252,18 @@
     "openFiles": [
         "one-room-measurement.tmx",
         "working-map.tmx",
-        "backgrounds/screen-map.tmx",
-        "backgrounds/area-windswept_rooftop-spider_nest.tmx"
+        "backgrounds/screen-map.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "one-room-measurement.tmx",
+        "working-map.tmx",
+        "backgrounds/screen-map.tmx",
         "backgrounds/area-skyclad_tower-courtyard.tmx",
         "backgrounds/area-old_vampire_quarter.tmx",
         "backgrounds/area-windswept_rooftop-spider_nest.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-inner_circle-quarry.tmx",
-        "one-room-measurement.tmx",
-        "backgrounds/screen-map.tmx",
-        "working-map.tmx",
         "backgrounds/area-skyclad_tower-banner_hall.tmx",
         "backgrounds/area-skyclad_tower-balcony.tmx",
         "backgrounds/area-echoing_vaults-main.tmx",

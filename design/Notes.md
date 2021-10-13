@@ -20,9 +20,9 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 - Bamboo & Oak
     - Gathered by the harpies
 - Shell & Porcelain
-    - Uncovered by the skeletongirls
-- Clay[REPLACE WITH SOMETHING ELSE]
-    - Encountered by the plantgirls
+    - Uncovered by the plantgirls
+- Glass
+    - Blown by the skeletongirls
 
 ## Collection Possibilities
 
@@ -31,8 +31,8 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 | --- | --- | --- |
 | Demongirls | Marble | Granite |
 | Harpies | Oak | Bamboo |
-| Skeletongirls | Shell | Porcelain |
-| Plantgirls | Clay[REPLACE WITH SOMETHING ELSE] | Clay[REPLACE WITH SOMETHING ELSE] |
+| Skeletongirls | Glass | Glass |
+| Plantgirls | Shell | Porcelain |
 
 ## Building Possibilities
 
@@ -49,16 +49,15 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 | Granite | Oak  | Porcelain  |
 
 - Building States
-    - 0: Unstarted - Thorny Field
-    - 1: Cleared - Pile of Clay[REPLACE WITH SOMETHING ELSE]
-    - 2: Under Construction - Frame & Foundation
-    - 3: Under Construction - Walls & Beams
-    - 4: Finished
+    - 0: Unstarted - Stary Sky
+    - 1: Under Construction - Frame & Foundation
+    - 2: Under Construction - Walls & Beams
+    - 3: Finished
         - 8 Varieties
 
 - This would mean~
-    - Drawing/Coloring 12 versions of the Hall
-    - Wiring up 12 combinations
+    - Drawing/Coloring 11 versions of the Hall
+    - Wiring up 11 combinations
 
 ## Platrforming Regions
 
@@ -103,7 +102,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - *new*
         - Alraune
     - Material
-        - Clay[REPLACE WITH SOMETHING ELSE]
+        - Shell / Porcelain
     - Theme
         - Changing Langscape
     - Mechanics
@@ -139,7 +138,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - *new*
         - Tibby
     - Material
-        - Shell / Porcelain
+        - Glass
     - Theme
         - Puzzles
     - Mechanics
