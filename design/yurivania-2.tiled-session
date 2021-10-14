@@ -110,11 +110,11 @@
             }
         },
         "backgrounds/area-great_library-open.tmx": {
-            "scale": 3,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 522.8333333333333,
-                "y": 141
+                "x": 260.25,
+                "y": 155.5
             }
         },
         "backgrounds/area-inner_circle-main.tmx": {
@@ -182,11 +182,11 @@
             }
         },
         "backgrounds/area-skyclad_tower-main.tmx": {
-            "scale": 1,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 69.5,
-                "y": 415
+                "x": 40.5,
+                "y": 539
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
@@ -214,11 +214,11 @@
             }
         },
         "backgrounds/area-windswept_rooftop-belltower.tmx": {
-            "scale": 4,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 65.375,
-                "y": 474.25
+                "x": -8.25,
+                "y": 202
             }
         },
         "backgrounds/area-windswept_rooftop-clocktower.tmx": {
@@ -229,12 +229,20 @@
                 "y": 149.66666666666663
             }
         },
+        "backgrounds/area-windswept_rooftop-main.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 145.25,
+                "y": 231.5
+            }
+        },
         "backgrounds/area-windswept_rooftop-spider_nest.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 68.16666666666667,
-                "y": 140.66666666666663
+                "y": 122.66666666666664
             }
         },
         "backgrounds/one-room-measurement.tmx": {
@@ -257,8 +265,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.09090909090911,
-                "y": 71.81818181818183
+                "x": 80.45454545454547,
+                "y": 72
             }
         },
         "tiles/yurivania-2.tsx": {
@@ -270,13 +278,13 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 112.125,
-                "y": 72
+                "x": 111.875,
+                "y": 71.75
             }
         }
     },
     "last.externalTilesetPath": "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/tiles",
-    "map.height": 36,
+    "map.height": 54,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
@@ -288,18 +296,18 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-windswept_rooftop-spider_nest.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
+        "backgrounds/area-windswept_rooftop-belltower.tmx",
         "one-room-measurement.tmx",
         "working-map.tmx",
         "backgrounds/screen-map.tmx",
         "backgrounds/area-skyclad_tower-balcony.tmx",
         "backgrounds/area-great_library-open.tmx",
         "backgrounds/area-great_library-closed.tmx",
-        "backgrounds/area-windswept_rooftop-spider_nest.tmx",
         "backgrounds/area-skyclad_tower-banner_hall.tmx",
         "backgrounds/area-skyclad_tower-courtyard.tmx",
-        "backgrounds/area-skyclad_tower-lunarium.tmx",
-        "backgrounds/area-skyclad_tower-s+a's_room.tmx",
-        "backgrounds/area-skyclad_tower-statue_hall.tmx"
+        "backgrounds/area-skyclad_tower-lunarium.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
