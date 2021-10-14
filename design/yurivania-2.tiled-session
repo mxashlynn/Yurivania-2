@@ -97,7 +97,7 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 515.8333333333333,
+                "x": 201.5,
                 "y": 142.66666666666663
             }
         },
@@ -113,8 +113,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 260.25,
-                "y": 155.5
+                "x": 210.75,
+                "y": 154.5
             }
         },
         "backgrounds/area-inner_circle-main.tmx": {
@@ -185,8 +185,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 40.5,
-                "y": 539
+                "x": 58.83333333333334,
+                "y": 129
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
@@ -233,8 +233,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 145.25,
-                "y": 231.5
+                "x": 237.75,
+                "y": 229.5
             }
         },
         "backgrounds/area-windswept_rooftop-spider_nest.tmx": {
@@ -296,15 +296,15 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "backgrounds/area-windswept_rooftop-spider_nest.tmx",
+        "backgrounds/area-great_library-open.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
+        "backgrounds/area-windswept_rooftop-spider_nest.tmx",
         "backgrounds/area-windswept_rooftop-belltower.tmx",
+        "backgrounds/area-great_library-closed.tmx",
         "one-room-measurement.tmx",
         "working-map.tmx",
         "backgrounds/screen-map.tmx",
         "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/area-great_library-open.tmx",
-        "backgrounds/area-great_library-closed.tmx",
         "backgrounds/area-skyclad_tower-banner_hall.tmx",
         "backgrounds/area-skyclad_tower-courtyard.tmx",
         "backgrounds/area-skyclad_tower-lunarium.tmx"
