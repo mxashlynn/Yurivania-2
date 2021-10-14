@@ -257,8 +257,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.27272727272728,
-                "y": 72
+                "x": 80.09090909090911,
+                "y": 71.81818181818183
             }
         },
         "tiles/yurivania-2.tsx": {
@@ -270,8 +270,8 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 111.875,
-                "y": 71.75
+                "x": 112.125,
+                "y": 72
             }
         }
     },
