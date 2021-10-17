@@ -154,7 +154,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 77.54545454545453,
-                "y": 74.90909090909092
+                "y": 75.09090909090908
             }
         },
         "backgrounds/area-skyclad_tower-banner_hall.tmx": {
@@ -205,12 +205,20 @@
                 "y": 72
             }
         },
+        "backgrounds/area-starlit_garden-postern-open.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.81818181818183,
+                "y": 73.81818181818183
+            }
+        },
         "backgrounds/area-starlit_garden-postern.tmx": {
             "scale": 5.643452380952381,
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 76.10589600253138,
-                "y": 77.78926273599832
+                "y": 73.53654677776606
             }
         },
         "backgrounds/area-windswept_rooftop-belltower.tmx": {
@@ -317,18 +325,18 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-windswept_rooftop-spider_nest.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
-        "backgrounds/area-windswept_rooftop-main_.tmx",
-        "backgrounds/area-skyclad_tower-s+a's_room.tmx",
-        "backgrounds/area-echoing_vaults-main.tmx",
+        "backgrounds/area-windswept_rooftop-belltower.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/area-great_library-open.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx",
-        "one-room-measurement.tmx",
-        "working-map.tmx",
-        "backgrounds/screen-map.tmx",
-        "backgrounds/temp.tmx",
-        "backgrounds/area-windswept_rooftop-spider_nest.tmx"
+        "backgrounds/area-skyclad_tower-lunarium.tmx",
+        "backgrounds/area-skyclad_tower-courtyard.tmx",
+        "backgrounds/area-skyclad_tower-banner_hall.tmx",
+        "backgrounds/area-skyclad_tower-balcony.tmx",
+        "backgrounds/area-old_vampire_quarter.tmx",
+        "backgrounds/area-inner_circle-sacred_hall.tmx",
+        "backgrounds/area-inner_circle-quarry.tmx",
+        "backgrounds/area-inner_circle-main.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
