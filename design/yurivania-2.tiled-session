@@ -3,15 +3,23 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-windswept_rooftop-main.tmx",
+    "activeFile": "backgrounds/area-starlit_garden-main.tmx",
     "expandedProjectPaths": [
         "tiles",
-        ".",
-        "backgrounds"
+        "backgrounds",
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_1-foothill_path.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 242.25,
+                "y": 66
+            }
+        },
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx": {
             "scale": 2,
             "selectedLayer": 0,
@@ -51,8 +59,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 257.5,
-                "y": 106.66666666666667
+                "x": 337.16666666666663,
+                "y": 305
             }
         },
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/tiles/yurivania.tsx": {
@@ -205,6 +213,22 @@
                 "y": 72
             }
         },
+        "backgrounds/area-starlit_garden-main.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 237.75,
+                "y": 92.5
+            }
+        },
+        "backgrounds/area-starlit_garden-postern-closed.tmx": {
+            "scale": 5.9196875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.15625824842948,
+                "y": 72.13218603177954
+            }
+        },
         "backgrounds/area-starlit_garden-postern-open.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
@@ -261,7 +285,7 @@
                 "y": 122.66666666666664
             }
         },
-        "backgrounds/one-room-measurement.tmx": {
+        "backgrounds/one_room_measurement.tmx": {
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
@@ -285,12 +309,12 @@
                 "y": 216.19384469197064
             }
         },
-        "one-room-measurement.tmx": {
+        "one_room_measurement.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.09090909090911,
-                "y": 71.81818181818183
+                "x": 80.63636363636363,
+                "y": 72
             }
         },
         "tiles/yurivania-2.tsx": {
@@ -308,35 +332,34 @@
         }
     },
     "last.externalTilesetPath": "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/tiles",
-    "map.height": 54,
+    "map.height": 36,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 80,
+    "map.width": 60,
     "openFiles": [
-        "one-room-measurement.tmx",
+        "one_room_measurement.tmx",
         "working-map.tmx",
         "backgrounds/screen-map.tmx",
-        "backgrounds/area-windswept_rooftop-main.tmx",
-        "backgrounds/area-great_library-open.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/area-echoing_vaults-main.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx"
+        "backgrounds/area-starlit_garden-main.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_1-foothill_path.tmx",
+        "backgrounds/area-starlit_garden-postern-closed.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "one_room_measurement.tmx",
+        "working-map.tmx",
+        "backgrounds/screen-map.tmx",
+        "backgrounds/area-starlit_garden-postern-closed.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_1-foothill_path.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx",
+        "backgrounds/area-starlit_garden-main.tmx",
+        "backgrounds/area-starlit_garden-postern-open.tmx",
+        "backgrounds/area-old_vampire_quarter.tmx",
         "backgrounds/area-windswept_rooftop-spider_nest.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
-        "backgrounds/area-windswept_rooftop-belltower.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/area-skyclad_tower-lunarium.tmx",
-        "backgrounds/area-skyclad_tower-courtyard.tmx",
-        "backgrounds/area-skyclad_tower-banner_hall.tmx",
-        "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/area-old_vampire_quarter.tmx",
-        "backgrounds/area-inner_circle-sacred_hall.tmx",
-        "backgrounds/area-inner_circle-quarry.tmx",
-        "backgrounds/area-inner_circle-main.tmx"
+        "backgrounds/area-windswept_rooftop-belltower.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
