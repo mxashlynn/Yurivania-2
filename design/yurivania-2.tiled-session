@@ -5,9 +5,9 @@
     },
     "activeFile": "backgrounds/area-starlit_garden-postern-closed.tmx",
     "expandedProjectPaths": [
+        ".",
         "backgrounds",
-        "tiles",
-        "."
+        "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -16,8 +16,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 242.25,
-                "y": 66
+                "x": 240.25,
+                "y": 144
             }
         },
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx": {
@@ -59,8 +59,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 336.8333333333333,
-                "y": 305
+                "x": 239.83333333333334,
+                "y": 288
             }
         },
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/tiles/yurivania.tsx": {
@@ -121,7 +121,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 613.75,
+                "x": 242.75,
                 "y": 154
             }
         },
@@ -217,8 +217,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 237.75,
-                "y": 92.5
+                "x": 240.25,
+                "y": 144
             }
         },
         "backgrounds/area-starlit_garden-postern-closed.tmx": {
@@ -297,8 +297,8 @@
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 78.75,
-                "y": 71.5
+                "x": 80.08333333333333,
+                "y": 72
             }
         },
         "backgrounds/temp.tmx": {
@@ -313,8 +313,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.63636363636363,
-                "y": 72
+                "x": 80.09090909090911,
+                "y": 71.81818181818183
             }
         },
         "tiles/yurivania-2.tsx": {
@@ -335,7 +335,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 112.21876154780131,
-                "y": 72.13218603177955
+                "y": 71.89568706118355
             }
         }
     },
@@ -363,11 +363,11 @@
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_1-foothill_path.tmx",
         "backgrounds/area-starlit_garden-postern-closed.tmx",
+        "backgrounds/area-great_library-open.tmx",
+        "backgrounds/area-great_library-closed.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
         "backgrounds/area-windswept_rooftop-spider_nest.tmx",
-        "backgrounds/area-old_vampire_quarter.tmx",
-        "working-map.tmx",
-        "backgrounds/area-starlit_garden-postern-open.tmx"
+        "backgrounds/area-old_vampire_quarter.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
