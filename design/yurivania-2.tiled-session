@@ -6,8 +6,8 @@
     "activeFile": "backgrounds/area-windswept_rooftop-main.tmx",
     "expandedProjectPaths": [
         "tiles",
-        "backgrounds",
-        "."
+        ".",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -230,11 +230,19 @@
             }
         },
         "backgrounds/area-windswept_rooftop-main.tmx": {
-            "scale": 1,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 439.5,
-                "y": 146
+                "x": 220.25,
+                "y": 216.5
+            }
+        },
+        "backgrounds/area-windswept_rooftop-main_.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 228.75,
+                "y": 217
             }
         },
         "backgrounds/area-windswept_rooftop-spider_nest.tmx": {
@@ -273,8 +281,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.63636363636363,
-                "y": 72
+                "x": 80.09090909090911,
+                "y": 71.81818181818183
             }
         },
         "tiles/yurivania-2.tsx": {
@@ -301,22 +309,26 @@
         "one-room-measurement.tmx",
         "working-map.tmx",
         "backgrounds/screen-map.tmx",
-        "backgrounds/area-windswept_rooftop-main.tmx"
+        "backgrounds/area-windswept_rooftop-main.tmx",
+        "backgrounds/area-great_library-open.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
+        "backgrounds/area-echoing_vaults-main.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "backgrounds/temp.tmx",
+        "backgrounds/area-windswept_rooftop-main_.tmx",
+        "backgrounds/area-skyclad_tower-s+a's_room.tmx",
+        "backgrounds/area-echoing_vaults-main.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
+        "backgrounds/area-great_library-open.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_2-mountain_stair.tmx",
         "one-room-measurement.tmx",
         "working-map.tmx",
         "backgrounds/screen-map.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
-        "backgrounds/area-great_library-open.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/area-windswept_rooftop-spider_nest.tmx",
-        "backgrounds/area-windswept_rooftop-belltower.tmx",
-        "backgrounds/area-great_library-closed.tmx",
-        "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/area-skyclad_tower-banner_hall.tmx"
+        "backgrounds/temp.tmx",
+        "backgrounds/area-windswept_rooftop-spider_nest.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
