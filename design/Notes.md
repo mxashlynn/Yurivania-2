@@ -143,7 +143,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Puzzles
     - Mechanics
         - Pick Up & Carry
-- **7: Echoing Vaults & Glassy Tarn**
+- **7: Echoing Vaults**
     - Species
         - **Merfolk**
     - NPCs
@@ -153,7 +153,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Theme
         - Stretch Goal: Bonus Stage
     - Mechanics
-        - All Prior in Combination
+        - Swimming -- you need to turn into a [wolffish](https://oceana.org/marine-life/ocean-fishes/atlantic-wolffish)
 
 
 ## Setting
