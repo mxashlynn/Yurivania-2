@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/screen-map.tmx",
+    "activeFile": "backgrounds/area-starlit_garden-main.tmx",
     "expandedProjectPaths": [
-        "tiles",
         ".",
-        "backgrounds"
+        "backgrounds",
+        "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -233,8 +233,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.25,
-                "y": 144
+                "x": 235.25,
+                "y": 132.5
             }
         },
         "backgrounds/area-starlit_garden-postern-closed.tmx": {
@@ -366,20 +366,19 @@
         "working_map.tmx",
         "backgrounds/screen-map.tmx",
         "backgrounds/area-starlit_garden-main.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_1-foothill_path.tmx",
-        "backgrounds/area-starlit_garden-postern-closed.tmx"
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "backgrounds/area-echoing_vaults-waterway.tmx",
         "one_room_measurement.tmx",
         "working_map.tmx",
-        "backgrounds/area-starlit_garden-postern-closed.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_1-foothill_path.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx",
-        "backgrounds/area-starlit_garden-main.tmx",
         "backgrounds/screen-map.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx",
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_1-foothill_path.tmx",
+        "backgrounds/area-starlit_garden-main.tmx",
+        "backgrounds/area-starlit_garden-postern-closed.tmx",
+        "backgrounds/area-echoing_vaults-waterway.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-echoing_vaults-pool.tmx",
         "backgrounds/area-echoing_vaults-main.tmx",
         "backgrounds/area-inner_circle-main.tmx",
