@@ -2,9 +2,9 @@
 
 ![very gay](https://img.shields.io/badge/very-gay-ac276c?style=plastic)
 
-# Yurivania 2: Josette's Quest 🧛‍♀️🛠️
+# Yurivania 2: Josette's Quest 🧛‍♀️🏘️
 
- Monstergirl manor maintenance.
+Vampire Girlfriend Houses Her Community.
  
 <!-- TODO: Add game jam info here. -->
 
@@ -44,24 +44,25 @@ When this is done it will be available on Itch.
 # Features 🎭🗺️
 
 1. 2D side-scrolling exploration.
-2. Inventory-based puzzle solving.
-3. Environmental hazards to avoid.
+2. Simple puzzle solving.
+3. Resource gathering.
 4. Characters to interact with.
 5. A map system.
 6. A building system.
 
 # Requirements 🛡️🦴
 
-This game was built with RichardULZ's fixes to [GB Studio 2.0-beta 5](https://github.com/RichardULZ/gb-studio/tree/fix/beta5),
+This game was built with [GB Studio 2.0-beta 5](https://),
 using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/), and [OpenMPT](https://openmpt.org/).
 
 # Contributors ⚗️🍧
 
 - Design, code, scenario, dialogue writing, and graphics by [Paige Ashlynn](https://github.com/mxashlynn/).
+- Music by [Caidence Stone](http://)
 - [GB Studio](https://gbstudio.dev/) is created by [Chris Maltby](https://github.com/chrismaltby/) and others.
 
 # Rights 🏳️‍🌈🏳️‍⚧️
 
 If you'd like to look at these game files to learn how GB Studio works, or if you want to include parts of them in your own game, you may do so.
-However, you may not sell the game by itself in either compiled or source form.
+However, you may not sell the game in either compiled or source form.
 See the LICENSE file for details.
