@@ -165,6 +165,22 @@
                 "y": 105.5
             }
         },
+        "backgrounds/area-inverted_worksite-0_unstarted.tmx": {
+            "scale": 1.708020833333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.3366469476124,
+                "y": 144.02634628285665
+            }
+        },
+        "backgrounds/area-inverted_worksite-1_under_construction_frame.tmx": {
+            "scale": 1.708020833333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.3366469476124,
+                "y": 144.02634628285665
+            }
+        },
         "backgrounds/area-inverted_worksite.tmx": {
             "scale": 1.6741803278688525,
             "selectedLayer": 0,

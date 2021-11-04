@@ -51,8 +51,11 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 - Building States
     - 0: Unstarted - Stary Sky
     - 1: Under Construction - Frame & Foundation
-    - 2: Under Construction - Walls & Beams
-    - 3: Finished
+    - 2: Under Construction - Walls
+		- Marble
+		- Granite
+    - 3: Under Construction - Beams
+    - 4: Finished
         - 8 Varieties
 
 - This would mean~
