@@ -55,8 +55,19 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 		- Marble
 		- Granite
     - 3: Under Construction - Beams
+		- Marble & Oak
+		- Marble & Bamboo
+		- Granite & Oak
+		- Granite & Bamboo
     - 4: Finished
-        - 8 Varieties
+		- Marble & Bamboo & Shell
+		- Marble & Bamboo & Porcelain
+		- Marble & Oak & Shell
+		- Marble & Oak & Porcelain
+		- Granite & Bamboo & Shell
+		- Granite & Bamboo & Porcelain
+		- Granite & Oak & Shell
+		- Granite & Oak & Porcelain
 
 - This would mean~
     - Drawing/Coloring 11 versions of the Hall

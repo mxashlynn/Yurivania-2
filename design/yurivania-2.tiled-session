@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-starlit_garden-main.tmx",
+    "activeFile": "backgrounds/area-inverted_worksite-2_under_construction_walls-marble_oak.tmx",
     "expandedProjectPaths": [
         ".",
         "tiles",
@@ -186,10 +186,26 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 240.3366469476124,
-                "y": 144.02634628285665
+                "y": 144.61181923522597
             }
         },
         "backgrounds/area-inverted_worksite-1_under_construction_walls-marble.tmx": {
+            "scale": 1.708020833333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.3366469476124,
+                "y": 144.02634628285665
+            }
+        },
+        "backgrounds/area-inverted_worksite-2_under_construction_walls-marble_bamboo.tmx": {
+            "scale": 1.708020833333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.3366469476124,
+                "y": 144.02634628285665
+            }
+        },
+        "backgrounds/area-inverted_worksite-2_under_construction_walls-marble_oak.tmx": {
             "scale": 1.708020833333333,
             "selectedLayer": 0,
             "viewCenter": {
@@ -383,7 +399,7 @@
         },
         "tiles/yurivania-2.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 3,
+            "scaleInDock": 2.0401,
             "scaleInEditor": 11
         },
         "working-map.tmx": {
@@ -412,22 +428,23 @@
     "openFiles": [
         "one_room_measurement.tmx",
         "working_map.tmx",
-        "backgrounds/area-starlit_garden-main.tmx"
+        "backgrounds/area-inverted_worksite-2_under_construction_walls-marble_oak.tmx",
+        "backgrounds/area-inverted_worksite-2_under_construction_walls-marble_bamboo.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "backgrounds/area-inverted_worksite-1_under_construction_walls-granite.tmx",
+        "one_room_measurement.tmx",
+        "working_map.tmx",
+        "backgrounds/area-inverted_worksite-2_under_construction_walls-marble_bamboo.tmx",
+        "backgrounds/area-inverted_worksite-2_under_construction_walls-marble_oak.tmx",
+        "backgrounds/area-starlit_garden-main.tmx",
         "backgrounds/area-inverted_worksite-1_under_construction_frame.tmx",
+        "backgrounds/area-inverted_worksite-1_under_construction_walls-granite.tmx",
+        "backgrounds/area-inverted_worksite-1_under_construction_walls-marble.tmx",
         "backgrounds/area-inverted_worksite-0_unstarted.tmx",
         "backgrounds/screen-titles.tmx",
         "backgrounds/area-inverted_worksite.tmx",
-        "backgrounds/area-great_library-open.tmx",
-        "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/area-windswept_rooftop-main.tmx",
-        "backgrounds/area-windswept_rooftop-spider_nest.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/area-old_vampire_quarter.tmx",
-        "one_room_measurement.tmx"
+        "backgrounds/area-great_library-open.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
