@@ -67,7 +67,7 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 239.83333333333334,
+                "x": 239.83333333333331,
                 "y": 288
             }
         },
@@ -94,19 +94,19 @@
             }
         },
         "backgrounds/area-echoing_vaults-main.tmx": {
-            "scale": 4,
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 289.375,
-                "y": 100.75
+                "x": 428.5,
+                "y": 193
             }
         },
         "backgrounds/area-echoing_vaults-waterway.tmx": {
-            "scale": 4,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 133.375,
-                "y": 173
+                "x": 122.5,
+                "y": 156.33333333333334
             }
         },
         "backgrounds/area-echoing_vaults.tmx": {
@@ -137,7 +137,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 242.75,
+                "x": 266.75,
                 "y": 154
             }
         },
@@ -145,8 +145,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 439.5,
-                "y": 530.6666666666666
+                "x": 328.5,
+                "y": 241.33333333333331
             }
         },
         "backgrounds/area-inner_circle-quarry.tmx": {
@@ -161,7 +161,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 242.25,
+                "x": 240.75,
                 "y": 105.5
             }
         },
@@ -169,7 +169,7 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 177.83333333333334,
+                "x": 138.5,
                 "y": 132
             }
         },
@@ -194,7 +194,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 156.16571549355314,
-                "y": 142.81969985203975
+                "y": 145.93954766434157
             }
         },
         "backgrounds/area-skyclad_tower-lunarium.tmx": {
@@ -210,7 +210,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 25.75,
-                "y": 214
+                "y": 928.5
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
@@ -281,7 +281,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 235.75,
+                "x": 615.25,
                 "y": 216
             }
         },
@@ -298,7 +298,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 68.16666666666667,
-                "y": 122.66666666666664
+                "y": 144
             }
         },
         "backgrounds/one_room_measurement.tmx": {
@@ -313,7 +313,7 @@
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.08333333333333,
+                "x": 80.08333333333331,
                 "y": 72
             }
         },
@@ -337,8 +337,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.09090909090911,
-                "y": 71.81818181818183
+                "x": 80.27272727272728,
+                "y": 72
             }
         },
         "tiles/yurivania-2.tsx": {
@@ -380,18 +380,18 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "one_room_measurement.tmx",
-        "working_map.tmx",
-        "backgrounds/screen-map.tmx",
-        "backgrounds/area-starlit_garden-main.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/backgrounds/area_1-foothill_path.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx",
-        "backgrounds/screen-titles.tmx",
-        "backgrounds/area-starlit_garden-postern-closed.tmx",
-        "backgrounds/area-echoing_vaults-waterway.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-echoing_vaults-pool.tmx",
+        "backgrounds/area-echoing_vaults-mae's_corner.tmx",
         "backgrounds/area-echoing_vaults-main.tmx",
-        "backgrounds/area-inner_circle-main.tmx"
+        "backgrounds/area-echoing_vaults-waterway.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
+        "backgrounds/area-great_library-closed.tmx",
+        "backgrounds/area-great_library-open.tmx",
+        "backgrounds/area-inner_circle-main.tmx",
+        "backgrounds/area-inner_circle-quarry.tmx",
+        "backgrounds/area-inner_circle-sacred_hall.tmx",
+        "backgrounds/area-old_vampire_quarter.tmx",
+        "backgrounds/area-skyclad_tower-balcony.tmx",
+        "backgrounds/area-skyclad_tower-banner_hall.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
