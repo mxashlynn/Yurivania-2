@@ -380,6 +380,7 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-skyclad_tower-s+a's_room.tmx",
         "backgrounds/area-echoing_vaults-mae's_corner.tmx",
         "backgrounds/area-echoing_vaults-main.tmx",
         "backgrounds/area-echoing_vaults-waterway.tmx",
@@ -390,8 +391,7 @@
         "backgrounds/area-inner_circle-quarry.tmx",
         "backgrounds/area-inner_circle-sacred_hall.tmx",
         "backgrounds/area-old_vampire_quarter.tmx",
-        "backgrounds/area-skyclad_tower-balcony.tmx",
-        "backgrounds/area-skyclad_tower-banner_hall.tmx"
+        "backgrounds/area-skyclad_tower-balcony.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
