@@ -65,7 +65,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - Vampiregirls
     - NPC
-        - *misc vampires*
+        - *misc vampires* ✅
     - Material
         - *none*
     - Theme
@@ -76,8 +76,8 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - Gorgons
     - NPC
-        - Stheno
-        - Lucy
+        - Stheno ✅
+        - Lucy ✅
     - Material
         - *none*
     - Theme
@@ -100,7 +100,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - **Plantgirls**
     - NPCs
         - *new*
-        - Alraune
+        - Alraune (needs work)
     - Material
         - Shell / Porcelain
     - Theme
@@ -111,7 +111,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - **Demongirls**
     - NPCs
-        - Rin~Rin
+        - Rin~Rin   ✅
         - *NEW: Musclegirl Miner*
     - Material
         - Marble / Granite
@@ -124,7 +124,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - **Harpies**
     - NPCs
         - *Hummbird Harpy*
-        - Aello
+        - Aello ✅
     - Material
         - Bamboo / Oak
     - Theme
@@ -136,7 +136,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - **Skeletongirls**
     - NPCs
         - *new*
-        - Tibby
+        - Tibby ✅
     - Material
         - Glass
     - Theme
@@ -147,7 +147,8 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - **Merfolk**
     - NPCs
-        - Kililtu
+        - Kililtu ✅
+        - Zombiegirl
     - Material
         - *none*
     - Theme
