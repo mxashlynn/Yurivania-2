@@ -102,7 +102,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - *new*
         - Alraune (needs work)
     - Material
-        - Shell / Porcelain
+        - Shell / Porcelain  ✅
     - Theme
         - Changing Langscape
     - Mechanics
@@ -114,7 +114,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Rin~Rin   ✅
         - *NEW: Musclegirl Miner*
     - Material
-        - Marble / Granite
+        - Marble / Granite  ✅
     - Theme
         - Easy, Playground
     - Mechanics
@@ -126,7 +126,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - *Hummbird Harpy*
         - Aello ✅
     - Material
-        - Bamboo / Oak
+        - Bamboo / Oak  ✅
     - Theme
         - Rooftops
     - Mechanics
@@ -138,7 +138,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - *new*
         - Tibby ✅
     - Material
-        - Glass
+        - Glass  ✅
     - Theme
         - Puzzles
     - Mechanics
