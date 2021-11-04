@@ -174,6 +174,22 @@
             }
         },
         "backgrounds/area-inverted_worksite-1_under_construction_frame.tmx": {
+            "scale": 1.6854,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 238.22238044381155,
+                "y": 143.58609232229736
+            }
+        },
+        "backgrounds/area-inverted_worksite-1_under_construction_walls-granite.tmx": {
+            "scale": 1.708020833333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.3366469476124,
+                "y": 144.02634628285665
+            }
+        },
+        "backgrounds/area-inverted_worksite-1_under_construction_walls-marble.tmx": {
             "scale": 1.708020833333333,
             "selectedLayer": 0,
             "viewCenter": {
@@ -400,6 +416,9 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-inverted_worksite-1_under_construction_walls-granite.tmx",
+        "backgrounds/area-inverted_worksite-1_under_construction_frame.tmx",
+        "backgrounds/area-inverted_worksite-0_unstarted.tmx",
         "backgrounds/screen-titles.tmx",
         "backgrounds/area-inverted_worksite.tmx",
         "backgrounds/area-great_library-open.tmx",
@@ -408,10 +427,7 @@
         "backgrounds/area-windswept_rooftop-spider_nest.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-old_vampire_quarter.tmx",
-        "one_room_measurement.tmx",
-        "working_map.tmx",
-        "backgrounds/area-starlit_garden-main.tmx",
-        "backgrounds/area-skyclad_tower-s+a's_room.tmx"
+        "one_room_measurement.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
