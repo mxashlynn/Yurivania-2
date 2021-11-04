@@ -137,8 +137,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 266.75,
-                "y": 154
+                "x": 545.25,
+                "y": 153.5
             }
         },
         "backgrounds/area-inner_circle-main.tmx": {
@@ -165,20 +165,28 @@
                 "y": 105.5
             }
         },
-        "backgrounds/area-old_vampire_quarter.tmx": {
-            "scale": 3,
+        "backgrounds/area-inverted_worksite.tmx": {
+            "scale": 1.6741803278688525,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 138.5,
-                "y": 132
+                "x": 236.83231334149323,
+                "y": 143.95104039167686
+            }
+        },
+        "backgrounds/area-old_vampire_quarter.tmx": {
+            "scale": 3.015,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 404.4776119402985,
+                "y": 84.24543946932006
             }
         },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
-            "scale": 5.5,
+            "scale": 3.1777,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 77.54545454545453,
-                "y": 75.09090909090908
+                "x": 64.66941498568147,
+                "y": 65.14145451112441
             }
         },
         "backgrounds/area-skyclad_tower-banner_hall.tmx": {
@@ -206,11 +214,11 @@
             }
         },
         "backgrounds/area-skyclad_tower-main.tmx": {
-            "scale": 2,
+            "scale": 1.3179,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 25.75,
-                "y": 928.5
+                "x": -51.21784657409518,
+                "y": 669.2465285681766
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
@@ -233,8 +241,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.25,
-                "y": 144
+                "x": 206.75,
+                "y": 143.5
             }
         },
         "backgrounds/area-starlit_garden-postern-closed.tmx": {
@@ -281,8 +289,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 615.25,
-                "y": 216
+                "x": 408.25,
+                "y": 303.5
             }
         },
         "backgrounds/area-windswept_rooftop-main_.tmx": {
@@ -297,8 +305,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 68.16666666666667,
-                "y": 144
+                "x": 68.16666666666666,
+                "y": 62.999999999999986
             }
         },
         "backgrounds/one_room_measurement.tmx": {
@@ -318,11 +326,11 @@
             }
         },
         "backgrounds/screen-titles.tmx": {
-            "scale": 5.5,
+            "scale": 3.3653,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79,
-                "y": 71.09090909090908
+                "x": 59.28149050604701,
+                "y": 70.72177814756485
             }
         },
         "backgrounds/temp.tmx": {
@@ -334,11 +342,11 @@
             }
         },
         "one_room_measurement.tmx": {
-            "scale": 5.5,
+            "scale": 3.9038,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.27272727272728,
-                "y": 72
+                "x": 79.53788616220092,
+                "y": 73.26194989497412
             }
         },
         "tiles/yurivania-2.tsx": {
@@ -364,7 +372,7 @@
         }
     },
     "last.externalTilesetPath": "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/tiles",
-    "map.height": 36,
+    "map.height": 16,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
@@ -376,18 +384,18 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-great_library-open.tmx",
+        "backgrounds/area-skyclad_tower-balcony.tmx",
+        "backgrounds/area-windswept_rooftop-main.tmx",
+        "backgrounds/area-windswept_rooftop-spider_nest.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
+        "backgrounds/area-old_vampire_quarter.tmx",
         "one_room_measurement.tmx",
         "working_map.tmx",
         "backgrounds/area-starlit_garden-main.tmx",
         "backgrounds/area-skyclad_tower-s+a's_room.tmx",
         "backgrounds/area-echoing_vaults-mae's_corner.tmx",
-        "backgrounds/area-echoing_vaults-main.tmx",
-        "backgrounds/area-echoing_vaults-waterway.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/area-great_library-closed.tmx",
-        "backgrounds/area-great_library-open.tmx",
-        "backgrounds/area-inner_circle-main.tmx",
-        "backgrounds/area-inner_circle-quarry.tmx"
+        "backgrounds/area-echoing_vaults-main.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
