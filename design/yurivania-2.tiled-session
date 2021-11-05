@@ -5,9 +5,9 @@
     },
     "activeFile": "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx",
     "expandedProjectPaths": [
+        "tiles",
         ".",
-        "backgrounds",
-        "tiles"
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -169,15 +169,15 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 239.75,
-                "y": 141.5
+                "x": 240.25,
+                "y": 144
             }
         },
         "backgrounds/area-inverted_worksite-1_partial_frame.tmx": {
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 239.75,
+                "x": 240.25,
                 "y": 144
             }
         },
@@ -321,8 +321,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 236.75,
-                "y": 99
+                "x": 237.25,
+                "y": 149.5
             }
         },
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_shell.tmx": {
@@ -534,7 +534,7 @@
             "scale": 4.228348214285714,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 112.21876154780131,
+                "x": 112.2187615478013,
                 "y": 71.89568706118355
             }
         }
