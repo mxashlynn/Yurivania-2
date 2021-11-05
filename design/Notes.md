@@ -70,8 +70,8 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 		- Granite & Oak & Porcelain
 
 - This would mean~
-    - Drawing/Coloring 11 versions of the Hall
-    - Wiring up 11 combinations
+    - Drawing, Coloring, and Wiring Up 16 versions of the New Wing.
+
 
 ## Platrforming Regions
 

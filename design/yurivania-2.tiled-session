@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx",
+    "activeFile": "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
     "expandedProjectPaths": [
+        "backgrounds",
         "tiles",
-        ".",
-        "backgrounds"
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -548,12 +548,13 @@
     "openFiles": [
         "one_room_measurement.tmx",
         "working_map.tmx",
-        "backgrounds/area-inverted_worksite-0_unstarted.tmx",
-        "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx"
+        "backgrounds/area-inverted_worksite-1_partial_frame.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "one_room_measurement.tmx",
+        "working_map.tmx",
+        "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx",
         "backgrounds/area-inverted_worksite-3_partial_beams-marble_oak.tmx",
         "backgrounds/area-inverted_worksite-3_partial_beams-marble_bamboo.tmx",
@@ -562,10 +563,7 @@
         "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_porcelain.tmx",
         "backgrounds/area-inverted_worksite-2_partial_walls-marble.tmx",
         "backgrounds/area-inverted_worksite-2_partial_walls-granite.tmx",
-        "backgrounds/area-inverted_worksite-0_unstarted.tmx",
-        "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-marble_oak_shell.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_shell.tmx"
+        "backgrounds/area-inverted_worksite-0_unstarted.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
