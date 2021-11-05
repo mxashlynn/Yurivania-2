@@ -206,19 +206,19 @@
             }
         },
         "backgrounds/area-inverted_worksite-2_partial_walls-granite.tmx": {
-            "scale": 1.9732291666666666,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 241.2289500079185,
-                "y": 144.4332998996991
+                "x": 240.5,
+                "y": 144
             }
         },
         "backgrounds/area-inverted_worksite-2_partial_walls-marble.tmx": {
-            "scale": 1.9732291666666666,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.7221664994985,
-                "y": 144.4332998996991
+                "x": 241,
+                "y": 144
             }
         },
         "backgrounds/area-inverted_worksite-2_under_construction_walls-marble_bamboo.tmx": {
@@ -270,11 +270,11 @@
             }
         },
         "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_porcelain.tmx": {
-            "scale": 1.9732291666666666,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.7221664994985,
-                "y": 144.4332998996991
+                "x": 240.5,
+                "y": 144
             }
         },
         "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_shell.tmx": {
@@ -326,11 +326,11 @@
             }
         },
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_shell.tmx": {
-            "scale": 1.9732291666666666,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 237.6814654489785,
-                "y": 144.4332998996991
+                "x": 237.5,
+                "y": 144.5
             }
         },
         "backgrounds/area-inverted_worksite.tmx": {
@@ -554,6 +554,9 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-inverted_worksite-0_unstarted.tmx",
+        "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-marble_oak_shell.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_shell.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_porcelain.tmx",
         "backgrounds/area-inverted_worksite-4_finished-granite_oak_shell.tmx",
@@ -561,9 +564,6 @@
         "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_shell.tmx",
         "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_porcelain.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-marble_oak_shell.tmx",
-        "backgrounds/area-inverted_worksite-0_unstarted.tmx",
-        "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
         "backgrounds/area-inverted_worksite-2_partial_walls-granite.tmx",
         "backgrounds/area-inverted_worksite-2_partial_walls-marble.tmx"
     ],
