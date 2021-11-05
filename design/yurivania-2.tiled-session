@@ -169,7 +169,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.25,
+                "x": 240.5,
                 "y": 144
             }
         },
@@ -177,7 +177,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.25,
+                "x": 240.5,
                 "y": 144
             }
         },
@@ -209,7 +209,7 @@
             "scale": 1.9732291666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.97555825370853,
+                "x": 241.2289500079185,
                 "y": 144.4332998996991
             }
         },
@@ -217,7 +217,7 @@
             "scale": 1.9732291666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.46877474528853,
+                "x": 240.7221664994985,
                 "y": 144.4332998996991
             }
         },
@@ -273,7 +273,7 @@
             "scale": 1.9732291666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.46877474528853,
+                "x": 240.7221664994985,
                 "y": 144.4332998996991
             }
         },
@@ -281,7 +281,7 @@
             "scale": 1.9732291666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.46877474528853,
+                "x": 240.7221664994985,
                 "y": 144.4332998996991
             }
         },
@@ -289,7 +289,7 @@
             "scale": 1.9732291666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.46877474528853,
+                "x": 240.7221664994985,
                 "y": 144.4332998996991
             }
         },
@@ -297,7 +297,7 @@
             "scale": 1.9732291666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.46877474528853,
+                "x": 240.7221664994985,
                 "y": 144.4332998996991
             }
         },
@@ -305,7 +305,7 @@
             "scale": 1.9732291666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.46877474528853,
+                "x": 239.7085994826585,
                 "y": 144.4332998996991
             }
         },
@@ -313,7 +313,7 @@
             "scale": 1.9732291666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.46877474528853,
+                "x": 240.7221664994985,
                 "y": 144.4332998996991
             }
         },
@@ -321,15 +321,15 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 237.25,
-                "y": 149.5
+                "x": 233.5,
+                "y": 148.5
             }
         },
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_shell.tmx": {
             "scale": 1.9732291666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.46877474528853,
+                "x": 237.6814654489785,
                 "y": 144.4332998996991
             }
         },
@@ -534,7 +534,7 @@
             "scale": 4.228348214285714,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 112.2187615478013,
+                "x": 112.3370110330993,
                 "y": 71.89568706118355
             }
         }
@@ -554,18 +554,18 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "one_room_measurement.tmx",
-        "working_map.tmx",
-        "backgrounds/area-inverted_worksite-0_unstarted.tmx",
-        "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_porcelain.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_shell.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-granite_oak_porcelain.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-granite_oak_shell.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx",
-        "backgrounds/area-inner_circle-main.tmx",
-        "backgrounds/area-skyclad_tower-banner_hall.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_shell.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_shell.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_porcelain.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-granite_oak_shell.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-granite_oak_porcelain.tmx"
+        "backgrounds/area-inverted_worksite-0_unstarted.tmx",
+        "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
+        "backgrounds/area-inverted_worksite-2_partial_walls-granite.tmx",
+        "backgrounds/area-inverted_worksite-2_partial_walls-marble.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
