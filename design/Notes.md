@@ -102,7 +102,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - Spidergirls
     - NPC
-        - Festoon
+        - Festoon                     <<<<<<<<<<<<<
     - Material
         - *none*
     - Theme
@@ -114,7 +114,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - **Plantgirls**
     - NPCs
         - *new*
-        - Alraune (needs work)
+        - Alraune (needs work)        <<<<<<<<<<<<<
     - Material
         - Shell / Porcelain  ✅
     - Theme
@@ -126,7 +126,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - **Demongirls**
     - NPCs
         - Rin~Rin   ✅
-        - *NEW: Musclegirl Miner*
+        - *NEW: Musclegirl Miner*      <<<<<<<<<<<<<
     - Material
         - Marble / Granite  ✅
     - Theme
@@ -137,7 +137,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - **Harpies**
     - NPCs
-        - *Hummbird Harpy*
+        - Sungem ✅
         - Aello ✅
     - Material
         - Bamboo / Oak  ✅
@@ -149,7 +149,8 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - **Skeletongirls**
     - NPCs
-        - *new*
+        - *librarian skeleton*          <<<<<<<<<<<<<
+        - *glassworker skeleton*        <<<<<<<<<<<<<
         - Tibby ✅
     - Material
         - Glass  ✅
@@ -160,9 +161,11 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 - **7: Echoing Vaults**
     - Species
         - **Merfolk**
+        - **Zombies**
     - NPCs
         - Kililtu ✅
-        - Zombiegirl
+        - Madge ✅
+        - Irena ✅
     - Material
         - *none*
     - Theme
