@@ -126,6 +126,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - **Demongirls**
     - NPCs
         - Rin~Rin   ✅
+        - Baphy     ✅
         - *NEW: Musclegirl Miner*      <<<<<<<<<<<<<
     - Material
         - Marble / Granite  ✅
