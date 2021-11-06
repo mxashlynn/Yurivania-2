@@ -113,7 +113,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - **Plantgirls**
     - NPCs
-        - *new*
+        - *new*                       <<<<<<<<<<<<<
         - Alraune (needs work)        <<<<<<<<<<<<<
     - Material
         - Shell / Porcelain  ✅
@@ -149,8 +149,8 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - **Skeletongirls**
     - NPCs
-        - *librarian skeleton*          <<<<<<<<<<<<<
-        - *glassworker skeleton*        <<<<<<<<<<<<<
+        - *misc skeletons* ✅
+        - Glassworker ✅
         - Tibby ✅
     - Material
         - Glass  ✅
