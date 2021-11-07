@@ -485,6 +485,14 @@
                 "y": 72
             }
         },
+        "backgrounds/screen-controls.tmx": {
+            "scale": 5.541666666666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.15037593984964,
+                "y": 72.00000000000001
+            }
+        },
         "backgrounds/screen-logo.tmx": {
             "scale": 5.541666666666666,
             "selectedLayer": 0,
@@ -560,6 +568,8 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/screen-controls.tmx",
+        "backgrounds/screen-logo.tmx",
         "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
         "one_room_measurement.tmx",
         "working_map.tmx",
@@ -569,9 +579,7 @@
         "backgrounds/area-inverted_worksite-3_partial_beams-granite_oak.tmx",
         "backgrounds/area-inverted_worksite-3_partial_beams-granite_bamboo.tmx",
         "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_porcelain.tmx",
-        "backgrounds/area-inverted_worksite-2_partial_walls-marble.tmx",
-        "backgrounds/area-inverted_worksite-2_partial_walls-granite.tmx",
-        "backgrounds/area-inverted_worksite-0_unstarted.tmx"
+        "backgrounds/area-inverted_worksite-2_partial_walls-marble.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
