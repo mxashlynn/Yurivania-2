@@ -513,7 +513,7 @@
             "scale": 3.9038,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.05020749013781,
+                "x": 80.17828782212203,
                 "y": 71.72498591116347
             }
         },
@@ -540,11 +540,11 @@
         }
     },
     "last.externalTilesetPath": "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/tiles",
-    "map.height": 16,
+    "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 60,
+    "map.width": 20,
     "openFiles": [
         "one_room_measurement.tmx",
         "working_map.tmx",
@@ -552,9 +552,9 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
         "one_room_measurement.tmx",
         "working_map.tmx",
-        "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx",
         "backgrounds/area-inverted_worksite-3_partial_beams-marble_oak.tmx",
         "backgrounds/area-inverted_worksite-3_partial_beams-marble_bamboo.tmx",
