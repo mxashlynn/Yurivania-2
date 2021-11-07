@@ -5300,26 +5300,6 @@
             ]
         },
         {
-            "id": "82ff6241-0766-4c63-ab16-6a6221f98f33",
-            "name": "S: Map",
-            "colors": [
-                "F0F0F0",
-                "D880D8",
-                "182098",
-                "201038"
-            ]
-        },
-        {
-            "id": "675cf548-a210-410c-b004-6415411c7b1e",
-            "name": "S: Highlight",
-            "colors": [
-                "F0F0F0",
-                "D880D8",
-                "A82820",
-                "8000A0"
-            ]
-        },
-        {
             "id": "a6f87ac7-6f1c-4a59-9ed4-b6f3a4667466",
             "name": "S: Title",
             "colors": [
@@ -5371,7 +5351,7 @@
         },
         {
             "id": "d901282e-01e1-4764-afa1-e79136da996f",
-            "name": "A: Castle",
+            "name": "A: Grey Granite",
             "colors": [
                 "E0E0E0",
                 "A0A0A0",
@@ -5450,26 +5430,6 @@
             ]
         },
         {
-            "id": "58ceaead-b8f8-4424-a1c0-6ca17e7a85a6",
-            "name": "A: Weeds",
-            "colors": [
-                "E0E0E0",
-                "38C838",
-                "584808",
-                "281800"
-            ]
-        },
-        {
-            "id": "ecf3854a-ed8c-46b3-ae26-7da86c9ced14",
-            "name": "A: Grass",
-            "colors": [
-                "F8F8D8",
-                "38C838",
-                "584808",
-                "281800"
-            ]
-        },
-        {
             "id": "59523423-ac42-4e9b-8f71-3825aef3115f",
             "name": "A: Curtains",
             "colors": [
@@ -5477,26 +5437,6 @@
                 "B058A0",
                 "482878",
                 "000050"
-            ]
-        },
-        {
-            "id": "386caf0e-d21c-49c1-9ba2-db393a47c4de",
-            "name": "A: Abyssal Curtains",
-            "colors": [
-                "E0E0E0",
-                "B058A0",
-                "282878",
-                "000028"
-            ]
-        },
-        {
-            "id": "1a61c41e-05d6-4285-a784-489b08e1aa1f",
-            "name": "A: Abyssal Forest",
-            "colors": [
-                "A0F0A0",
-                "B058A0",
-                "38C838",
-                "083828"
             ]
         },
         {
@@ -5637,36 +5577,6 @@
                 "A0B0F8",
                 "8080F0",
                 "0830F8"
-            ]
-        },
-        {
-            "id": "ef666a27-6720-4055-a9aa-1c340a0491b3",
-            "name": "T: Human",
-            "colors": [
-                "E0D8F8",
-                "A04050",
-                "A04050",
-                "480000"
-            ]
-        },
-        {
-            "id": "84da9f7e-b462-43b3-92e5-c47e0c2db113",
-            "name": "S: Shutter-Highlight",
-            "colors": [
-                "F8E8C8",
-                "D0B070",
-                "A08850",
-                "905800"
-            ]
-        },
-        {
-            "id": "1b00ad0c-3d0d-40ed-961d-072d58b6cd9c",
-            "name": "S: Shutter-Alternate",
-            "colors": [
-                "F0F0F0",
-                "D0B070",
-                "A08850",
-                "281800"
             ]
         },
         {
@@ -6084,7 +5994,7 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 1324,
+        "worldScrollX": 1268,
         "worldScrollY": 69,
         "zoom": 325,
         "customColorsEnabled": true,
