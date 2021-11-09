@@ -73,7 +73,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Drawing, Coloring, and Wiring Up 16 versions of the New Wing.
 
 
-## Platrforming Regions
+## Neighborhoods
 
 - **0: Old Vampire Quarter**
     - Species
@@ -173,34 +173,3 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Stretch Goal: Bonus Stage
     - Mechanics
         - Swimming -- you need to turn into a [wolffish](https://oceana.org/marine-life/ocean-fishes/atlantic-wolffish)
-
-
-## Setting
-
-- Ecclessia has:
-    - Channel/Reef
-    - Prison
-    - Lighthouse
-    - Mountains
-    - Forests
-    - Swamps
-    - Training Hall
-    - Hermitage
-    - Cavern
-    - Manor
-    - Road
-    - Monastery
-    - Castle (Dracula's)
-
-- Simon's Quest has:
-    - Villages
-    - Forests
-    - Rivers with Boats
-    - Rivers with Broken Bridges 
-    - Rivers with Fixed Bridges
-    - Manors
-    - Caves
-    - Swamps
-    - Cemetaries
-    - Ruins (Dracula's)
-    - Abandoned Waterworks
