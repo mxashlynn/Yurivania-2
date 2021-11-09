@@ -27,6 +27,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 ## Collection Possibilities
 
 - Material Collection Matrix
+
 | Tribe | Found While Platrforming | Reward for Solving Problems |
 | --- | --- | --- |
 | Demongirls | Marble | Granite |
@@ -37,6 +38,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 ## Building Possibilities
 
 - Material Choice Matrix
+
 | Wall | Beam | Fittings |
 | --- | --- | --- |
 | Marble | Bamboo  | Shell  |
