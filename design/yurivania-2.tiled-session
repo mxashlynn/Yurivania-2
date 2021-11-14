@@ -342,11 +342,11 @@
             }
         },
         "backgrounds/area-old_vampire_quarter.tmx": {
-            "scale": 3.015,
+            "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 404.4776119402985,
-                "y": 84.24543946932006
+                "x": 117.25,
+                "y": 215
             }
         },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
@@ -438,11 +438,11 @@
             }
         },
         "backgrounds/area-windswept_rooftop-belltower.tmx": {
-            "scale": 2,
+            "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -8.25,
-                "y": 202
+                "x": 83.75,
+                "y": 113
             }
         },
         "backgrounds/area-windswept_rooftop-clocktower.tmx": {
@@ -457,8 +457,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 408.25,
-                "y": 303.5
+                "x": 189.5,
+                "y": 303
             }
         },
         "backgrounds/area-windswept_rooftop-main_.tmx": {
@@ -498,7 +498,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 76.33082706766918,
-                "y": 72.18045112781957
+                "y": 72.3609022556391
             }
         },
         "backgrounds/screen-logo.tmx": {
@@ -576,18 +576,18 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-windswept_rooftop-main.tmx",
+        "backgrounds/area-windswept_rooftop-belltower.tmx",
+        "backgrounds/area-old_vampire_quarter.tmx",
+        "backgrounds/screen-end.tmx",
         "one_room_measurement.tmx",
         "working_map.tmx",
-        "backgrounds/screen-end.tmx",
         "backgrounds/screen-controls.tmx",
         "backgrounds/screen-logo.tmx",
         "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx",
         "backgrounds/area-inverted_worksite-3_partial_beams-marble_oak.tmx",
-        "backgrounds/area-inverted_worksite-3_partial_beams-marble_bamboo.tmx",
-        "backgrounds/area-inverted_worksite-3_partial_beams-granite_oak.tmx",
-        "backgrounds/area-inverted_worksite-3_partial_beams-granite_bamboo.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_porcelain.tmx"
+        "backgrounds/area-inverted_worksite-3_partial_beams-marble_bamboo.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
