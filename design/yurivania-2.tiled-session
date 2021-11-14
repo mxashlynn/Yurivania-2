@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/screen-end.tmx",
+    "activeFile": "working_map.tmx",
     "expandedProjectPaths": [
-        "tiles",
         ".",
+        "tiles",
         "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
@@ -457,7 +457,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 189.5,
+                "x": 503.75,
                 "y": 303
             }
         },
@@ -497,7 +497,7 @@
             "scale": 5.541666666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.33082706766918,
+                "x": 76.42105263157896,
                 "y": 72.3609022556391
             }
         },
@@ -537,13 +537,13 @@
             "scale": 3.9038,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.17828782212203,
-                "y": 71.72498591116347
+                "x": 79.79404682616936,
+                "y": 71.72498591116349
             }
         },
         "tiles/yurivania-2.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 3,
+            "scaleInDock": 3.0319,
             "scaleInEditor": 11
         },
         "working-map.tmx": {
@@ -558,7 +558,7 @@
             "scale": 4.228348214285714,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 112.3370110330993,
+                "x": 112.21876154780131,
                 "y": 71.89568706118355
             }
         }
@@ -571,17 +571,16 @@
     "map.width": 20,
     "openFiles": [
         "one_room_measurement.tmx",
-        "working_map.tmx",
-        "backgrounds/screen-end.tmx"
+        "working_map.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "backgrounds/area-windswept_rooftop-main.tmx",
-        "backgrounds/area-windswept_rooftop-belltower.tmx",
-        "backgrounds/area-old_vampire_quarter.tmx",
-        "backgrounds/screen-end.tmx",
         "one_room_measurement.tmx",
         "working_map.tmx",
+        "backgrounds/area-windswept_rooftop-main.tmx",
+        "backgrounds/screen-end.tmx",
+        "backgrounds/area-windswept_rooftop-belltower.tmx",
+        "backgrounds/area-old_vampire_quarter.tmx",
         "backgrounds/screen-controls.tmx",
         "backgrounds/screen-logo.tmx",
         "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
