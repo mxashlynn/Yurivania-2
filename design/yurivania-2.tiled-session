@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/screen-end.tmx",
+    "activeFile": "working_map.tmx",
     "expandedProjectPaths": [
         "tiles",
         ".",
@@ -81,7 +81,7 @@
             "scale": 5.9196875,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.15625824842948,
+                "x": 80.2407221664995,
                 "y": 72.13218603177954
             }
         },
@@ -571,23 +571,22 @@
     "map.width": 20,
     "openFiles": [
         "one_room_measurement.tmx",
-        "working_map.tmx",
-        "backgrounds/screen-end.tmx"
+        "working_map.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "one_room_measurement.tmx",
+        "working_map.tmx",
+        "backgrounds/area-echoing_vaults-mae's_corner.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
         "backgrounds/area-windswept_rooftop-belltower.tmx",
         "backgrounds/area-old_vampire_quarter.tmx",
         "backgrounds/screen-end.tmx",
-        "one_room_measurement.tmx",
-        "working_map.tmx",
         "backgrounds/screen-controls.tmx",
         "backgrounds/screen-logo.tmx",
         "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx",
-        "backgrounds/area-inverted_worksite-3_partial_beams-marble_oak.tmx",
-        "backgrounds/area-inverted_worksite-3_partial_beams-marble_bamboo.tmx"
+        "backgrounds/area-inverted_worksite-3_partial_beams-marble_oak.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
