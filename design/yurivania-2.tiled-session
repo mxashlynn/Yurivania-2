@@ -5,9 +5,9 @@
     },
     "activeFile": "working_map.tmx",
     "expandedProjectPaths": [
-        ".",
+        "backgrounds",
         "tiles",
-        "backgrounds"
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -537,8 +537,8 @@
             "scale": 3.9038,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.79404682616936,
-                "y": 71.72498591116349
+                "x": 80.17828782212203,
+                "y": 71.72498591116347
             }
         },
         "tiles/yurivania-2.tsx": {
@@ -558,7 +558,7 @@
             "scale": 4.228348214285714,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 112.21876154780131,
+                "x": 112.3370110330993,
                 "y": 71.89568706118355
             }
         }
@@ -577,15 +577,16 @@
     "recentFiles": [
         "one_room_measurement.tmx",
         "working_map.tmx",
-        "backgrounds/area-windswept_rooftop-main.tmx",
-        "backgrounds/screen-end.tmx",
-        "backgrounds/area-windswept_rooftop-belltower.tmx",
-        "backgrounds/area-old_vampire_quarter.tmx",
-        "backgrounds/screen-controls.tmx",
-        "backgrounds/screen-logo.tmx",
-        "backgrounds/area-inverted_worksite-1_partial_frame.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_porcelain.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_shell.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-granite_oak_porcelain.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx",
-        "backgrounds/area-inverted_worksite-3_partial_beams-marble_oak.tmx"
+        "backgrounds/area-inverted_worksite-4_finished-marble_oak_shell.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_shell.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_porcelain.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-granite_oak_shell.tmx",
+        "backgrounds/area-windswept_rooftop-main.tmx",
+        "backgrounds/screen-end.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
