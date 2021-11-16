@@ -501,6 +501,14 @@
                 "y": 72.18045112781957
             }
         },
+        "backgrounds/screen-debug.tmx": {
+            "scale": 4.116666666666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 79.19028340080972,
+                "y": 72.14574898785426
+            }
+        },
         "backgrounds/screen-end.tmx": {
             "scale": 5.541666666666666,
             "selectedLayer": 0,
@@ -545,7 +553,7 @@
             "scale": 3.9038,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.17828782212203,
+                "x": 80.30636815410625,
                 "y": 71.72498591116347
             }
         },
@@ -582,6 +590,7 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/screen-debug.tmx",
         "one_room_measurement.tmx",
         "working_map.tmx",
         "backgrounds/area-inner_circle-quarry.tmx",
@@ -592,8 +601,7 @@
         "backgrounds/screen-end.tmx",
         "backgrounds/screen-controls.tmx",
         "backgrounds/area-windswept_rooftop-spider_nest.tmx",
-        "backgrounds/area-windswept_rooftop-main.tmx",
-        "backgrounds/area-windswept_rooftop-dead_end.tmx"
+        "backgrounds/area-windswept_rooftop-main.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
