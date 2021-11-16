@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "working_map.tmx",
+    "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
         "tiles",
+        "backgrounds",
         "."
     ],
     "exportAsImage.useCurrentScale": false,
@@ -578,11 +578,14 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
-        "one_room_measurement.tmx",
-        "working_map.tmx"
+        "one_room_measurement.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "one_room_measurement.tmx",
+        "working_map.tmx",
+        "backgrounds/area-inner_circle-quarry.tmx",
+        "backgrounds/area-inner_circle-sacred_hall.tmx",
         "backgrounds/screen-titles.tmx",
         "backgrounds/screen-map.tmx",
         "backgrounds/screen-logo.tmx",
@@ -590,11 +593,7 @@
         "backgrounds/screen-controls.tmx",
         "backgrounds/area-windswept_rooftop-spider_nest.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
-        "backgrounds/area-windswept_rooftop-dead_end.tmx",
-        "backgrounds/area-windswept_rooftop-belltower.tmx",
-        "backgrounds/area-starlit_garden-postern-open.tmx",
-        "backgrounds/area-starlit_garden-postern-closed.tmx",
-        "backgrounds/area-skyclad_tower-statue_hall.tmx"
+        "backgrounds/area-windswept_rooftop-dead_end.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
