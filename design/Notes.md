@@ -181,33 +181,33 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 
 ## Progression
 
-1. Start in Old Vampire Quarter.
+0. Start in Old Vampire Quarter.
     - Conversation with Tibby, who's just gotten off work.
-2. Skyclad Tower
+1. Skyclad Tower
     - Talk to Festoon on Balcony.  Get material-gathering quest.
     - Talk to Stheno in her room.  Learn Alraune is in the garden and Mae has an item which may be helpful.
-3. (OPTIONAL) Echoing Vaults
+2. (OPTIONAL) Echoing Vaults
     - Get Lunar Charm from Mae.
     - Learn that Kuliltu can trade for a nice present for Tibby.    <<<<<<<<< Q. What is the present??
-4. Inner Cirlce
+3. Inner Cirlce
     - Get Granite or Marble from musclegirl demon
     - Get Soul of Bat from Reaper
-5. Open World Exploration
+4. Open World Exploration
     - Either find the exit to the Postern at which point you acquire the Postern Key and have access to the Windswept Rooftops, the Starlit Garden, and the Great Library,
     - *or*, backtrack to the Skyclad Tower and from there find the other entrance to the Postern. 
-6. Windswept Rooftops
+5. Windswept Rooftops
     - Get Bamboo or Oak
     - (OPTIONAL) Read Festoon's Note
-7. Starlit Garden
+6. Starlit Garden
     - Get Porcelain or Shell
-8. Great Library
+7. Great Library
     - Get Glass
-9. (OPTIONAL) Old Vampire Quarter
+8. (OPTIONAL) Old Vampire Quarter
     - Get Soul of Fish
-10. (OPTIONAL) Echoing Vaults
+9. (OPTIONAL) Echoing Vaults
     - Get Tibby's Present
-11. Worksite
+10. Worksite
     - Deliver the goods to Festoon and build the New Wing
-12. End at the New Wing
+11. End at the New Wing
     - Talk to the relocated vampires
     - Talk to Tibby

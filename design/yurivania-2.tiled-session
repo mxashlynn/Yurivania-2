@@ -105,7 +105,7 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 122.5,
+                "x": 147.33333333333331,
                 "y": 156.33333333333334
             }
         },
@@ -145,8 +145,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 371,
-                "y": 130.33333333333334
+                "x": 148.66666666666666,
+                "y": 583.6666666666666
             }
         },
         "backgrounds/area-inner_circle-quarry.tmx": {
@@ -586,6 +586,7 @@
         "one_room_measurement.tmx",
         "working_map.tmx",
         "backgrounds/area-inner_circle-main.tmx",
+        "backgrounds/area-echoing_vaults-waterway.tmx",
         "backgrounds/area-windswept_rooftop-dead_end.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_porcelain.tmx",
@@ -593,8 +594,7 @@
         "backgrounds/area-inverted_worksite-4_finished-granite_oak_porcelain.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_shell.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_shell.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_porcelain.tmx"
+        "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_shell.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
