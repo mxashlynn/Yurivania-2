@@ -64,7 +64,7 @@ void Update_Platform() {
   UBYTE hit_actor = 0;
   UBYTE hit_trigger = 0;
 
-  // Update scene pos from player pos (incase was moved by a script)
+  // Update scene position from player position (in case was moved by a script).
   pl_pos_x = ((player.pos.x + 4u) << 4) + (pl_pos_x & 0xF);
   pl_pos_y = ((player.pos.y) << 4) + (pl_pos_y & 0xF);
 
@@ -107,10 +107,12 @@ void Update_Platform() {
  
     if (INPUT_LEFT) {
       player.dir.x = -1;
-      if (INPUT_A) {
+      if (INPUT_B) {
+        // Run
         pl_vel_x -= plat_run_acc;
         pl_vel_x = CLAMP(pl_vel_x, -plat_run_vel, -plat_min_vel);
       } else {
+        // Walk
         pl_vel_x -= plat_walk_acc;
         pl_vel_x = CLAMP(pl_vel_x, -plat_walk_vel, -plat_min_vel);
       } 
@@ -119,10 +121,12 @@ void Update_Platform() {
       }
     } else if (INPUT_RIGHT) {
       player.dir.x = 1;
-      if (INPUT_A) {
+      if (INPUT_B) {
+        // Run
         pl_vel_x += plat_run_acc;
         pl_vel_x = CLAMP(pl_vel_x, plat_min_vel, plat_run_vel);
       } else {
+        // Walk
         pl_vel_x += plat_walk_acc;
         pl_vel_x = CLAMP(pl_vel_x, plat_min_vel, plat_walk_vel);
       }
@@ -148,6 +152,7 @@ void Update_Platform() {
   tile_x = pl_pos_x >> 7;
   tile_y = pl_pos_y >> 7;
 
+  // Interact
   if (grounded && INPUT_A_PRESSED) {
     if (player.dir.x == 1) {
       hit_actor = ActorAtTile(tile_x + 2, tile_y, TRUE);
@@ -160,7 +165,7 @@ void Update_Platform() {
   }
 
   // Jump
-  if (INPUT_B_PRESSED && grounded) {
+  if (INPUT_A_PRESSED && grounded) {
     if (!( (((pl_pos_x >> 4) & 0x7) != 7 &&
           TileAt(tile_x, tile_y - 1) & COLLISION_BOTTOM) ||  // Left Edge
           (((pl_pos_x >> 4) & 0x7) != 0 &&
@@ -172,7 +177,7 @@ void Update_Platform() {
 
   if (!on_ladder) {
     // Gravity
-    if (INPUT_B && pl_vel_y < 0) {
+    if (INPUT_A && pl_vel_y < 0) {
       pl_vel_y += plat_hold_grav;
     } else {
       pl_vel_y += plat_grav;
@@ -184,20 +189,30 @@ void Update_Platform() {
   tile_y = pl_pos_y >> 7;
   tile_y_ceil = (pl_pos_y - 7u) >> 7;
 
-  // Left Collision
   if (pl_vel_x < 0) {
-    if (TileAt(tile_x, tile_y) & COLLISION_RIGHT || 
-        TileAt(tile_x, tile_y_ceil) & COLLISION_RIGHT) {
+    if (TileAt(tile_x, tile_y) == (COLLISION_RIGHT | TILE_PROP_LADDER)) {
+      // Left Stairs
+      pl_vel_y = -plat_walk_vel;
+      pl_vel_x += plat_walk_acc;
+      pl_vel_x = MAX(pl_vel_x, -DIV_2(plat_walk_vel));
+    } else if (TileAt(tile_x, tile_y) & COLLISION_RIGHT ||
+               TileAt(tile_x, tile_y_ceil) & COLLISION_RIGHT) {
+      // Left Collision
       pl_vel_x = 0;
       pl_pos_x = ((tile_x + 1) * 8) << 4;
       tile_x = pl_pos_x >> 7;
     }
   }
 
-  // Right Collision
   if (pl_vel_x > 0) {
-    if (TileAt(tile_x + 1, tile_y) & COLLISION_LEFT ||
-        TileAt(tile_x + 1, tile_y_ceil) & COLLISION_LEFT) {
+    if (TileAt(tile_x + 1, tile_y) == (COLLISION_LEFT | TILE_PROP_LADDER)) {
+      // Right Stairs
+      pl_vel_y = -plat_walk_vel;
+      pl_vel_x -= plat_walk_acc;
+      pl_vel_x = MIN(pl_vel_x, DIV_2(plat_walk_vel));
+    } else if (TileAt(tile_x + 1, tile_y) & COLLISION_LEFT ||
+               TileAt(tile_x + 1, tile_y_ceil) & COLLISION_LEFT) {
+      // Right Collision
       pl_vel_x = 0;
       pl_pos_x = (tile_x * 8) << 4;
       tile_x = pl_pos_x >> 7;
