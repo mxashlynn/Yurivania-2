@@ -5,9 +5,9 @@
     },
     "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
+        ".",
         "tiles",
-        "backgrounds",
-        "."
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -382,11 +382,11 @@
             }
         },
         "backgrounds/area-skyclad_tower-main.tmx": {
-            "scale": 1.5,
+            "scale": 4.1891,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -8.666666666666686,
-                "y": 855.3333333333333
+                "x": 117.20894702919483,
+                "y": 910.4580936239288
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
@@ -553,13 +553,13 @@
             "scale": 3.9038,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.30636815410625,
-                "y": 71.72498591116347
+                "x": 83.25221578974333,
+                "y": 71.46882524719504
             }
         },
         "tiles/yurivania-2.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 3.0319,
+            "scaleInDock": 1.915,
             "scaleInEditor": 11
         },
         "working-map.tmx": {
@@ -590,8 +590,9 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "backgrounds/screen-debug.tmx",
         "one_room_measurement.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
+        "backgrounds/screen-debug.tmx",
         "working_map.tmx",
         "backgrounds/area-inner_circle-quarry.tmx",
         "backgrounds/area-inner_circle-sacred_hall.tmx",
@@ -600,8 +601,7 @@
         "backgrounds/screen-logo.tmx",
         "backgrounds/screen-end.tmx",
         "backgrounds/screen-controls.tmx",
-        "backgrounds/area-windswept_rooftop-spider_nest.tmx",
-        "backgrounds/area-windswept_rooftop-main.tmx"
+        "backgrounds/area-windswept_rooftop-spider_nest.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
