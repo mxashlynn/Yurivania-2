@@ -149929,7 +149929,7 @@
             "backgroundId": "b0f184ed-4662-4fc9-b0ce-1b1a59bd2090",
             "width": 20,
             "height": 18,
-            "type": "0",
+            "type": "1",
             "paletteIds": [
                 "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
                 "d901282e-01e1-4764-afa1-e79136da996f"
@@ -150998,7 +150998,7 @@
             "imageHeight": 1152,
             "filename": "area-skyclad_tower-main.png",
             "inode": "10414574138317741",
-            "_v": 1637103083011
+            "_v": 1637104693059
         },
         {
             "id": "17c0a5b7-302a-4b69-88cc-cb4a7882d3e9",
@@ -152597,8 +152597,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 5226.5,
-        "worldScrollY": 5767,
+        "worldScrollX": 0,
+        "worldScrollY": 1428,
         "zoom": 251,
         "customColorsEnabled": true,
         "customHead": "",
