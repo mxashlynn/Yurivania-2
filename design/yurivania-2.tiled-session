@@ -78,11 +78,11 @@
             "scaleInDock": 1
         },
         "backgrounds/area-echoing_vaults-mae's_corner.tmx": {
-            "scale": 5.9196875,
+            "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.2407221664995,
-                "y": 72.13218603177954
+                "x": 81.27272727272728,
+                "y": 73.45454545454547
             }
         },
         "backgrounds/area-echoing_vaults-mae's_room.tmx": {
@@ -97,16 +97,16 @@
             "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 428.5,
+                "x": 429,
                 "y": 193
             }
         },
         "backgrounds/area-echoing_vaults-waterway.tmx": {
-            "scale": 3,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 147.33333333333331,
-                "y": 156.33333333333334
+                "x": 187.33333333333331,
+                "y": 185.33333333333334
             }
         },
         "backgrounds/area-echoing_vaults.tmx": {
@@ -118,11 +118,11 @@
             }
         },
         "backgrounds/area-great_library-closed.tmx": {
-            "scale": 3,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 201.5,
-                "y": 142.66666666666663
+                "x": 308.66666666666663,
+                "y": 174
             }
         },
         "backgrounds/area-great_library-main.tmx": {
@@ -137,23 +137,23 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 545.25,
+                "x": 227.5,
                 "y": 153.5
             }
         },
         "backgrounds/area-inner_circle-main.tmx": {
-            "scale": 3,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 148.66666666666666,
-                "y": 583.6666666666666
+                "x": 210.66666666666666,
+                "y": 318
             }
         },
         "backgrounds/area-inner_circle-quarry.tmx": {
             "scale": 5.6377976190476184,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.00485667528903,
+                "x": 76.09354378926253,
                 "y": 72.19131077442856
             }
         },
@@ -161,7 +161,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.75,
+                "x": 241,
                 "y": 105.5
             }
         },
@@ -345,15 +345,15 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 117.25,
-                "y": 215
+                "x": 527.75,
+                "y": 109.25
             }
         },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
             "scale": 3.1777,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 64.66941498568146,
+                "x": 64.82676149416244,
                 "y": 65.45614752808635
             }
         },
@@ -361,7 +361,7 @@
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.08333333333334,
+                "x": 80.16666666666666,
                 "y": 72
             }
         },
@@ -369,7 +369,7 @@
             "scale": 2.8847560975609756,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 156.16571549355314,
+                "x": 156.33904037201438,
                 "y": 145.93954766434157
             }
         },
@@ -377,7 +377,7 @@
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.08333333333331,
+                "x": 80.16666666666666,
                 "y": 72
             }
         },
@@ -386,14 +386,14 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": -8.666666666666686,
-                "y": 662
+                "y": 855.3333333333333
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.08333333333331,
+                "x": 80.16666666666666,
                 "y": 72
             }
         },
@@ -401,7 +401,7 @@
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.08333333333331,
+                "x": 80.16666666666666,
                 "y": 72
             }
         },
@@ -417,7 +417,7 @@
             "scale": 5.9196875,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.15625824842948,
+                "x": 80.2407221664995,
                 "y": 72.13218603177954
             }
         },
@@ -425,8 +425,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.81818181818183,
-                "y": 73.81818181818183
+                "x": 76.9090909090909,
+                "y": 73.99999999999999
             }
         },
         "backgrounds/area-starlit_garden-postern.tmx": {
@@ -442,7 +442,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 83.75,
-                "y": 113
+                "y": 628
             }
         },
         "backgrounds/area-windswept_rooftop-clocktower.tmx": {
@@ -465,7 +465,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 503.75,
+                "x": 220,
                 "y": 303
             }
         },
@@ -481,8 +481,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 68.16666666666666,
-                "y": 62.999999999999986
+                "x": 68.33333333333333,
+                "y": 63
             }
         },
         "backgrounds/one_room_measurement.tmx": {
@@ -497,15 +497,15 @@
             "scale": 5.541666666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.15037593984964,
-                "y": 72.00000000000001
+                "x": 76.33082706766918,
+                "y": 72.18045112781957
             }
         },
         "backgrounds/screen-end.tmx": {
             "scale": 5.541666666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.42105263157896,
+                "x": 76.51127819548874,
                 "y": 72.3609022556391
             }
         },
@@ -513,15 +513,15 @@
             "scale": 5.541666666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.15037593984964,
-                "y": 72.00000000000001
+                "x": 76.33082706766918,
+                "y": 72.18045112781957
             }
         },
         "backgrounds/screen-map.tmx": {
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.08333333333331,
+                "x": 80.16666666666666,
                 "y": 72
             }
         },
@@ -529,8 +529,8 @@
             "scale": 4.0401,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 59.77574812504642,
-                "y": 72.27543872676421
+                "x": 59.8995074379347,
+                "y": 72.52295735254077
             }
         },
         "backgrounds/temp.tmx": {
@@ -583,18 +583,18 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "one_room_measurement.tmx",
-        "working_map.tmx",
-        "backgrounds/area-inner_circle-main.tmx",
-        "backgrounds/area-echoing_vaults-waterway.tmx",
+        "backgrounds/screen-titles.tmx",
+        "backgrounds/screen-map.tmx",
+        "backgrounds/screen-logo.tmx",
+        "backgrounds/screen-end.tmx",
+        "backgrounds/screen-controls.tmx",
+        "backgrounds/area-windswept_rooftop-spider_nest.tmx",
+        "backgrounds/area-windswept_rooftop-main.tmx",
         "backgrounds/area-windswept_rooftop-dead_end.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_porcelain.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_shell.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-granite_oak_porcelain.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-marble_oak_shell.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_shell.tmx"
+        "backgrounds/area-windswept_rooftop-belltower.tmx",
+        "backgrounds/area-starlit_garden-postern-open.tmx",
+        "backgrounds/area-starlit_garden-postern-closed.tmx",
+        "backgrounds/area-skyclad_tower-statue_hall.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
