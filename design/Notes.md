@@ -82,8 +82,8 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Vampiregirls
     - NPC
         - *misc vampires* ✅
-    - Material
-        - *none*
+    - Item
+        - Soul of Wolffish (must have Soul of Bat)
     - Theme
         - Home Base
     - Mechanics
@@ -94,8 +94,8 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - NPC
         - Stheno ✅
         - Lucy ✅
-    - Material
-        - *none*
+    - Item
+        - Lunar Charm
     - Theme
         - Central Hub
     - Mechanics
@@ -104,39 +104,28 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - Spidergirls
     - NPC
-        - Festoon                     <<<<<<<<<<<<<
-    - Material
-        - *none*
+        - Festoon                      <<<<<<<<<<<<<
     - Theme
         - Building
     - Mechanics
         - Decision-Making
-- **3: Palace Garden**
-    - Species
-        - **Plantgirls**
-    - NPCs
-        - *new*                       <<<<<<<<<<<<<
-        - Alraune (needs work)        <<<<<<<<<<<<<
-    - Material
-        - Shell / Porcelain  ✅
-    - Theme
-        - Changing Langscape
-    - Mechanics
-        - Interaction
-- **4: Inner Circle**
+- **3: Inner Circle**
     - Species
         - **Demongirls**
     - NPCs
-        - Rin~Rin   ✅
-        - Baphy     ✅
+        - Rin~Rin      ✅
+		- Lin          ✅
+        - Baphy        ✅
+		- Reaper       ✅
+        - Flying Snake ✅
         - *NEW: Musclegirl Miner*      <<<<<<<<<<<<<
     - Material
         - Marble / Granite  ✅
     - Theme
-        - Easy, Playground
-    - Mechanics
         - Multiple Routes Through
-- **5: Windswept Rooftops**
+    - Mechanics
+        - Dodge Critters
+- **4: Windswept Rooftops**
     - Species
         - **Harpies**
     - NPCs
@@ -148,6 +137,18 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Rooftops
     - Mechanics
         - Run & Jump
+- **5: Palace Garden**
+    - Species
+        - **Plantgirls**
+    - NPCs
+        - *new*                       <<<<<<<<<<<<<
+        - Alraune (needs work)        <<<<<<<<<<<<<
+    - Material
+        - Shell / Porcelain  ✅
+    - Theme
+        - Overgrowth
+    - Mechanics
+        - Climbing
 - **6: Great Library**
     - Species
         - **Skeletongirls**
@@ -158,9 +159,9 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Material
         - Glass  ✅
     - Theme
-        - Puzzles
+        - Puzzle
     - Mechanics
-        - Pick Up & Carry
+        - Puzzle
 - **7: Echoing Vaults**
     - Species
         - **Merfolk**
@@ -169,9 +170,10 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Kililtu ✅
         - Madge ✅
         - Irena ✅
+        - Mae ✅
     - Material
-        - *none*
+        - *Tibby Gift*
     - Theme
-        - Stretch Goal: Bonus Stage
+        - Aquatic Maze
     - Mechanics
         - Swimming -- you need to turn into a [wolffish](https://oceana.org/marine-life/ocean-fishes/atlantic-wolffish)
