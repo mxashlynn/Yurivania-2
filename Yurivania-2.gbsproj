@@ -151276,6 +151276,15 @@
             "_v": 1637103083012
         },
         {
+            "id": "c23fbdc6-a1bd-4629-95b6-ba7f8e2e130a",
+            "name": "inv-bat_soul",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "inv-bat_soul.png",
+            "inode": "1125899907765562",
+            "_v": 1637107021923
+        },
+        {
             "id": "5d36b1bd-34d1-450d-bb87-16380a160c8e",
             "name": "inv-key",
             "numFrames": 1,
@@ -152559,6 +152568,86 @@
         {
             "id": "7",
             "name": "Game Finished"
+        },
+        {
+            "id": "8",
+            "name": "Acquired Soul of Bat"
+        },
+        {
+            "id": "9",
+            "name": "Acquired Soul of Fish"
+        },
+        {
+            "id": "11",
+            "name": "Acquired Postern Key"
+        },
+        {
+            "id": "10",
+            "name": "Acquired Lunar Charm"
+        },
+        {
+            "id": "12",
+            "name": "How Many Marble"
+        },
+        {
+            "id": "13",
+            "name": "How Many Granite"
+        },
+        {
+            "id": "14",
+            "name": "How Many Oak"
+        },
+        {
+            "id": "15",
+            "name": "How Many Bamboo"
+        },
+        {
+            "id": "16",
+            "name": "How Many Porcelain"
+        },
+        {
+            "id": "17",
+            "name": "How Many Shell"
+        },
+        {
+            "id": "18",
+            "name": "How Many Glass"
+        },
+        {
+            "id": "19",
+            "name": "Chose Marble?"
+        },
+        {
+            "id": "20",
+            "name": "Chose Bamboo?"
+        },
+        {
+            "id": "21",
+            "name": "Chose Porcelain?"
+        },
+        {
+            "id": "22",
+            "name": "Solved Library Puzzle?"
+        },
+        {
+            "id": "23",
+            "name": "Had Opening Convo?"
+        },
+        {
+            "id": "24",
+            "name": "Had Stheno Convo?"
+        },
+        {
+            "id": "25",
+            "name": "Had Baphy Convo?"
+        },
+        {
+            "id": "26",
+            "name": "Had Reaper Convo?"
+        },
+        {
+            "id": "27",
+            "name": "Has Festoon Convo?"
         }
     ],
     "engineFieldValues": [
