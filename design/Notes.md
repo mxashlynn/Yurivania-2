@@ -94,8 +94,6 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - NPC
         - Stheno ✅
         - Lucy ✅
-    - Item
-        - Lunar Charm
     - Theme
         - Central Hub
     - Mechanics
@@ -116,6 +114,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Rin~Rin      ✅
 		- Lin          ✅
         - Baphy        ✅
+		- Abraxas                      <<<<<<<<<<<<<
 		- Reaper       ✅
         - Flying Snake ✅
         - *NEW: Musclegirl Miner*      <<<<<<<<<<<<<
@@ -171,7 +170,8 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Madge ✅
         - Irena ✅
         - Mae ✅
-    - Material
+    - Item
+        - Lunar Charm
         - *Tibby Gift*
     - Theme
         - Aquatic Maze
