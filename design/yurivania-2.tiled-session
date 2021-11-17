@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "one_room_measurement.tmx",
+    "activeFile": "backgrounds/screen-swatches.tmx",
     "expandedProjectPaths": [
+        "backgrounds",
         ".",
-        "tiles",
-        "backgrounds"
+        "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -526,11 +526,19 @@
             }
         },
         "backgrounds/screen-map.tmx": {
-            "scale": 6,
+            "scale": 4.2516,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.16666666666666,
-                "y": 72
+                "x": 71.0320820397027,
+                "y": 71.73769874870636
+            }
+        },
+        "backgrounds/screen-swatches.tmx": {
+            "scale": 4.116666666666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 75.54655870445345,
+                "y": 71.90283400809717
             }
         },
         "backgrounds/screen-titles.tmx": {
@@ -586,22 +594,23 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
-        "one_room_measurement.tmx"
+        "one_room_measurement.tmx",
+        "backgrounds/screen-swatches.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
         "one_room_measurement.tmx",
+        "backgrounds/screen-swatches.tmx",
+        "backgrounds/screen-map.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/screen-debug.tmx",
         "working_map.tmx",
         "backgrounds/area-inner_circle-quarry.tmx",
         "backgrounds/area-inner_circle-sacred_hall.tmx",
         "backgrounds/screen-titles.tmx",
-        "backgrounds/screen-map.tmx",
         "backgrounds/screen-logo.tmx",
         "backgrounds/screen-end.tmx",
-        "backgrounds/screen-controls.tmx",
-        "backgrounds/area-windswept_rooftop-spider_nest.tmx"
+        "backgrounds/screen-controls.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
