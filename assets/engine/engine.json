@@ -124,6 +124,50 @@
       ],
       "cType": "UBYTE",
       "defaultValue": 0
+    },
+    {
+      "key": "pl_vel_x",
+      "label": "Velocity X",
+      "group": "GAMETYPE_PLATFORMER",
+      "type": "slider",
+      "cType": "WORD",
+      "defaultValue": 0,
+      "min": -32768,
+      "max": 32768
+    },
+    {
+      "key": "pl_vel_y",
+      "label": "Velocity Y",
+      "group": "GAMETYPE_PLATFORMER",
+      "type": "slider",
+      "cType": "WORD",
+      "defaultValue": 0,
+      "min": -32768,
+      "max": 32768
+    },
+    {
+      "key": "grounded",
+      "label": "Grounded",
+      "group": "GAMETYPE_PLATFORMER",
+      "type": "select",
+      "options": [
+        [0, "False"],
+        [1, "True"]
+      ],
+      "cType": "UBYTE",
+      "defaultValue": 0
+    },
+    {
+      "key": "on_ladder",
+      "label": "On Ladder",
+      "group": "GAMETYPE_PLATFORMER",
+      "type": "select",
+      "options": [
+        [0, "False"],
+        [1, "True"]
+      ],
+      "cType": "UBYTE",
+      "defaultValue": 0
     }
   ]
 }

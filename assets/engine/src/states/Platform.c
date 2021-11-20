@@ -19,10 +19,6 @@
 #define PLATFORM_CAMERA_DEADZONE_X 4
 #define PLATFORM_CAMERA_DEADZONE_Y 16
 
-UBYTE grounded = FALSE;
-UBYTE on_ladder = FALSE;
-WORD pl_vel_x = 0;
-WORD pl_vel_y = 0;
 WORD pl_pos_x = 16512;
 WORD pl_pos_y = 1024;
 
