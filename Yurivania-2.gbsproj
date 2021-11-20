@@ -150153,8 +150153,8 @@
                 0,
                 0,
                 0,
-                0,
-                0,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -150173,8 +150173,8 @@
                 0,
                 0,
                 0,
-                0,
-                0,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -150186,15 +150186,15 @@
                 0,
                 15,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -150206,15 +150206,15 @@
                 0,
                 15,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -150226,15 +150226,15 @@
                 0,
                 15,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                15,
+                15,
                 0,
                 0,
                 20,
@@ -150246,15 +150246,13 @@
                 0,
                 15,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
                 15,
                 15,
                 15,
@@ -150266,15 +150264,15 @@
                 15,
                 15,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
                 15,
                 15,
                 15,
@@ -150286,15 +150284,17 @@
                 15,
                 15,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15
             ],
             "tileColors": [
                 0,
@@ -150664,7 +150664,7 @@
             "playerHit3Script": [],
             "id": "5d3486f1-fa2c-4d2b-a485-93245a9a5733",
             "x": 335.6166666666666,
-            "y": 888.8833333333334,
+            "y": 888.5477628635348,
             "actors": [
                 {
                     "name": "Splash",
@@ -150699,12 +150699,113 @@
                     "hit3Script": [],
                     "id": "047d8a62-b4c7-4f7b-b8a3-9afe264bc7fd",
                     "x": 18,
-                    "y": 3
+                    "y": 9
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "c8e960df-c19e-4dab-a7fe-91a13309803e",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "default-ui",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "4343a3bf-db39-4912-bc6f-6585c4fd0017",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "85f398d0-32ef-49db-bc6a-2fac3d66d9d0",
+                                "__name": "Play Item Collect Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "ced4e0ec-48ab-41a1-9758-181f5c8618d1",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "8b05cfbf-0876-4c2d-a74f-0cc663b88830",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "b04cafbe-873a-4657-93c5-6115712eacaf",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "832d93e6-33f4-4d1d-98c7-9fbe1557be30",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "701c5c22-c1b6-4263-8390-2d42829b152c",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "d02dbc2e-e4be-4966-b355-d8e17abae6d7",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "9"
+                            }
+                        },
+                        {
+                            "id": "0cf3d243-f6d3-477a-86e3-eb20466d01b5",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "dc4b8613-9e36-4809-bb6c-41835e453fd7",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "8a391a61-dbc1-4481-9589-adb0d576a886",
+                    "x": 1,
+                    "y": 8
                 }
             ],
             "triggers": [
                 {
-                    "name": "",
+                    "name": "Fall In Water",
                     "trigger": "walk",
                     "script": [
                         {
@@ -150712,7 +150813,8 @@
                             "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
                                 "customEventId": "13a90e52-ede8-4825-805a-5df9623c9673",
-                                "__name": "Play Splash Sound"
+                                "__name": "Play Splash Sound",
+                                "__collapse": true
                             },
                             "children": {
                                 "script": [
@@ -150750,7 +150852,7 @@
                             "command": "EVENT_GROUP",
                             "args": {
                                 "__label": "Show Splash",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -150802,11 +150904,19 @@
                                         "args": {
                                             "duration": 0.6,
                                             "__scriptTabs": "end",
-                                            "__label": "Hide Splash",
+                                            "__label": "Hide Splash and Allow New Splash",
                                             "__collapse": false
                                         },
                                         "children": {
                                             "script": [
+                                                {
+                                                    "id": "9da93b4b-7770-4528-8aa3-4dfd9393010a",
+                                                    "command": "EVENT_SET_FALSE",
+                                                    "args": {
+                                                        "variable": "6",
+                                                        "__label": "Allow New Splash"
+                                                    }
+                                                },
                                                 {
                                                     "id": "e4117fdd-d9a8-45c7-bd2d-2fe3f796828e",
                                                     "command": "EVENT_ACTOR_HIDE",
@@ -150839,9 +150949,9 @@
                             "args": {
                                 "variable": "9",
                                 "__collapseElse": false,
-                                "__disableElse": true,
-                                "__collapse": true,
-                                "__label": "Respawn If Can't Swim"
+                                "__disableElse": false,
+                                "__collapse": false,
+                                "__label": "Transform or Respawn"
                             },
                             "children": {
                                 "true": [
@@ -150851,7 +150961,7 @@
                                         "args": {
                                             "__label": "Respawn Player from Splash",
                                             "__comment": false,
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -150923,6 +151033,46 @@
                                 ],
                                 "false": [
                                     {
+                                        "id": "c573501f-d50d-4790-8ef7-8c2203f752d5",
+                                        "command": "EVENT_GROUP",
+                                        "args": {
+                                            "__label": "Become Fish"
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "c2f82017-1878-4261-ab80-552915f7c907",
+                                                    "command": "EVENT_SET_TRUE",
+                                                    "args": {
+                                                        "variable": "28"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "88c2a686-b38d-4fa9-9b24-378deadc16f4",
+                                                    "command": "EVENT_ENGINE_FIELD_SET",
+                                                    "args": {
+                                                        "engineFieldKey": "plat_grav",
+                                                        "value": {
+                                                            "value": 0
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "022a55db-aa09-4336-a726-80848b78314a",
+                                                    "command": "EVENT_SET_TRUE",
+                                                    "args": {
+                                                        "variable": "6",
+                                                        "__label": "Briefly Prevent New Splash (and thus Climbing Out)"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "fcf05b4b-70b9-417d-bbe9-55b04e055511",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
                                         "id": "66c6a277-762c-448d-9c94-099d79e8096a",
                                         "command": "EVENT_END"
                                     }
@@ -150938,6 +151088,311 @@
                     "x": 11,
                     "y": 10,
                     "width": 7,
+                    "height": 1
+                },
+                {
+                    "name": "Climb Out Water",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "671e3b5f-4930-49db-8aac-703c505817bf",
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "6",
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "9f56844d-667b-4e9c-89e7-575354a3fb79",
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "28",
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__label": "If Is Fish"
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "a167cd66-c71f-4d69-be02-a9e604fa7d9f",
+                                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                    "args": {
+                                                        "customEventId": "13a90e52-ede8-4825-805a-5df9623c9673",
+                                                        "__name": "Play Splash Sound",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "script": [
+                                                            {
+                                                                "id": "ff93f318-ed38-4d9e-91b0-4cd81b03a2f4",
+                                                                "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                "args": {
+                                                                    "type": "tone",
+                                                                    "pitch": 8,
+                                                                    "frequency": 600,
+                                                                    "duration": 0.05,
+                                                                    "wait": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "4093d7a4-a4ba-4141-94b0-222d57c12dcd",
+                                                                "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                "args": {
+                                                                    "type": "crash",
+                                                                    "pitch": 4,
+                                                                    "frequency": 200,
+                                                                    "duration": 0.2,
+                                                                    "wait": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "a3e99ac4-63e5-4eec-a591-65f59764d387",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "a03a1c5d-a986-4b84-b1c0-fbc568f2bfae",
+                                                    "command": "EVENT_GROUP",
+                                                    "args": {
+                                                        "__label": "Show Splash",
+                                                        "__collapse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "dbec1f49-8314-4331-96de-fd6371c75370",
+                                                                "command": "EVENT_ACTOR_GET_POSITION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "vectorX": "L0",
+                                                                    "vectorY": "L1"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "32b8ecc1-a3c3-4518-8871-d0cffccfb771",
+                                                                "command": "EVENT_VARIABLE_MATH",
+                                                                "args": {
+                                                                    "vectorX": "L1",
+                                                                    "operation": "sub",
+                                                                    "other": "val",
+                                                                    "vectorY": "L0",
+                                                                    "value": 2,
+                                                                    "minValue": "0",
+                                                                    "maxValue": "255",
+                                                                    "clamp": false,
+                                                                    "__label": "Move Splash Up One Tile"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "43512801-8fa9-4a25-9663-64b79c810462",
+                                                                "command": "EVENT_ACTOR_SET_POSITION",
+                                                                "args": {
+                                                                    "actorId": "047d8a62-b4c7-4f7b-b8a3-9afe264bc7fd",
+                                                                    "x": {
+                                                                        "type": "variable",
+                                                                        "value": "L0"
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "variable",
+                                                                        "value": "L1"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "1f611c9c-6631-43f5-8077-e134f0e6b2ff",
+                                                                "command": "EVENT_ACTOR_SET_FRAME",
+                                                                "args": {
+                                                                    "actorId": "047d8a62-b4c7-4f7b-b8a3-9afe264bc7fd",
+                                                                    "frame": {
+                                                                        "type": "number",
+                                                                        "value": 0
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "a0f2653b-21d8-4831-b0ba-875e7e2dc980",
+                                                                "command": "EVENT_ACTOR_SHOW",
+                                                                "args": {
+                                                                    "actorId": "047d8a62-b4c7-4f7b-b8a3-9afe264bc7fd"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "6e0801a1-56d9-462f-a274-d34590969c9a",
+                                                                "command": "EVENT_SET_TIMER_SCRIPT",
+                                                                "args": {
+                                                                    "duration": 0.6,
+                                                                    "__scriptTabs": "end",
+                                                                    "__label": "Hide Splash",
+                                                                    "__collapse": false
+                                                                },
+                                                                "children": {
+                                                                    "script": [
+                                                                        {
+                                                                            "id": "d48bef01-acbe-43c6-89f5-cef48c1072e6",
+                                                                            "command": "EVENT_ACTOR_HIDE",
+                                                                            "args": {
+                                                                                "actorId": "047d8a62-b4c7-4f7b-b8a3-9afe264bc7fd"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "1b2a6826-998a-4b39-9692-e74035b65b0b",
+                                                                            "command": "EVENT_TIMER_DISABLE",
+                                                                            "args": {}
+                                                                        },
+                                                                        {
+                                                                            "id": "3d2e2f9a-1486-4a1f-ac4a-693bb5184f89",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "27e71a0e-3b80-4f54-8585-84fc07d57ed6",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "cc22211e-a090-4c73-af14-9fb0cd319ddc",
+                                                    "command": "EVENT_GROUP",
+                                                    "args": {
+                                                        "__label": "Become Human",
+                                                        "__collapse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "682f6e7a-88cf-4cff-a81c-32ffa8559512",
+                                                                "command": "EVENT_SET_FALSE",
+                                                                "args": {
+                                                                    "variable": "28"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "9f833c0d-481a-4b2f-a61f-22ab79cd6f44",
+                                                                "command": "EVENT_ENGINE_FIELD_SET",
+                                                                "args": {
+                                                                    "engineFieldKey": "plat_grav"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "6ad0135b-e032-4039-a8e2-0356e455221d",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "56ef0ec1-330a-49b6-bf93-4e16873983f3",
+                                                    "command": "EVENT_GROUP",
+                                                    "args": {
+                                                        "__label": "Respawn Player from Splash",
+                                                        "__comment": false,
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "127ce355-8dab-4140-b205-53e7d74cf323",
+                                                                "command": "EVENT_ACTOR_HIDE",
+                                                                "args": {
+                                                                    "actorId": "$self$"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "7103f4d9-6150-4e2c-b9de-fb9c34d1f62e",
+                                                                "command": "EVENT_ENGINE_FIELD_SET",
+                                                                "args": {
+                                                                    "engineFieldKey": "pl_vel_x"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "18c77576-5940-4666-aee8-803af09f1167",
+                                                                "command": "EVENT_WAIT",
+                                                                "args": {
+                                                                    "time": 0.6
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "10d247e0-f4a3-4709-8c73-e2746d5a044f",
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "left"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "c495e6ea-da17-459e-9681-c81c4293ced2",
+                                                                "command": "EVENT_ACTOR_SET_POSITION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "x": {
+                                                                        "type": "number",
+                                                                        "value": 9
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 9
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "1e961bd3-5cdb-4423-b948-94978dff2d2c",
+                                                                "command": "EVENT_ACTOR_SHOW",
+                                                                "args": {
+                                                                    "actorId": "$self$"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "11dbe9ba-a4f3-4a78-a3d5-dedbf2acaa4e",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "57bf32fe-1f22-4757-97c2-fb6e70ac055d",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "c78458bb-a22f-49b9-93c0-b2b348a522cf",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "dec0daaf-152f-417f-abf2-86c59c640e12",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "4f6489eb-0cd6-4ef5-b2c2-60d99f4b660d",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "eadec8f3-10cf-446e-9f11-ebc09d782932",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "147d192f-0278-4c9d-a786-de8f6e61ae34",
+                    "x": 11,
+                    "y": 11,
+                    "width": 1,
                     "height": 1
                 }
             ]
@@ -153211,11 +153666,11 @@
     "variables": [
         {
             "id": "0",
-            "name": "Initialized"
+            "name": "Initialized?"
         },
         {
             "id": "1",
-            "name": "Menu Open"
+            "name": "Menu Open?"
         },
         {
             "id": "2",
@@ -153235,11 +153690,11 @@
         },
         {
             "id": "6",
-            "name": "Current Item"
+            "name": "Processing"
         },
         {
             "id": "7",
-            "name": "Game Finished"
+            "name": "Game Finished?"
         },
         {
             "id": "8",
@@ -153328,6 +153783,22 @@
         {
             "id": "5b257fcc-5ab2-48bf-af44-510aa219e5b5__L1",
             "name": "Player Y"
+        },
+        {
+            "id": "28",
+            "name": "Is Fish?"
+        },
+        {
+            "id": "29",
+            "name": "Is Bat?"
+        },
+        {
+            "id": "147d192f-0278-4c9d-a786-de8f6e61ae34__L0",
+            "name": "Player X"
+        },
+        {
+            "id": "147d192f-0278-4c9d-a786-de8f6e61ae34__L1",
+            "name": "Player Y"
         }
     ],
     "engineFieldValues": [
@@ -153359,7 +153830,7 @@
     "settings": {
         "startSceneId": "5d3486f1-fa2c-4d2b-a485-93245a9a5733",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 0,
+        "startX": 1,
         "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
@@ -153367,7 +153838,7 @@
         "showCollisions": true,
         "showConnections": "selected",
         "worldScrollX": 786,
-        "worldScrollY": 2399,
+        "worldScrollY": 2424,
         "zoom": 298,
         "customColorsEnabled": true,
         "customHead": "",
