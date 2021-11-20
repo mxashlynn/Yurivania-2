@@ -149932,7 +149932,7 @@
             "type": "1",
             "paletteIds": [
                 "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
-                "d901282e-01e1-4764-afa1-e79136da996f"
+                "5a69d27a-83c6-415c-83dd-4eee50820a7b"
             ],
             "collisions": [
                 0,
@@ -150497,22 +150497,124 @@
                 0,
                 0,
                 0,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 1,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 1,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 1,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 1,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
                 1,
@@ -150526,6 +150628,13 @@
                 1,
                 1,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
                 1,
@@ -150539,122 +150648,13 @@
                 1,
                 1,
                 1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 1,
                 1
             ],
@@ -150665,8 +150665,282 @@
             "id": "5d3486f1-fa2c-4d2b-a485-93245a9a5733",
             "x": 335.6166666666666,
             "y": 888.8833333333334,
-            "actors": [],
-            "triggers": []
+            "actors": [
+                {
+                    "name": "Splash",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "420f024e-2db9-474e-a2fe-93912504efa1",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 4,
+                    "paletteId": "70cdcaac-2c87-439b-9a03-1e6f58183028",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "id": "4a23d7e7-de94-48ec-a416-45e4f022e9cc",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__comment": false
+                            }
+                        },
+                        {
+                            "id": "1b36a7aa-170a-45d9-a4c3-5f9d0d68b07c",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "047d8a62-b4c7-4f7b-b8a3-9afe264bc7fd",
+                    "x": 18,
+                    "y": 3
+                }
+            ],
+            "triggers": [
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "3d6f03ec-7354-49f6-aa56-27ab2244a06d",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "13a90e52-ede8-4825-805a-5df9623c9673",
+                                "__name": "Play Splash Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "ba10a6ef-a22d-4afd-8e56-0953ec459ba8",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 8,
+                                            "frequency": 600,
+                                            "duration": 0.05,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
+                                        "id": "b88da642-e3f0-4970-8105-ee8dc991cfd1",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "crash",
+                                            "pitch": 4,
+                                            "frequency": 200,
+                                            "duration": 0.2,
+                                            "wait": false
+                                        }
+                                    },
+                                    {
+                                        "id": "5c5983aa-4544-4b5b-ac06-8f41bcc1e044",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "b6d2c517-e3d7-475b-bc27-6f535067122e",
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Show Splash",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "16c9a60d-e620-45bd-b52c-f2e0a148763e",
+                                        "command": "EVENT_ACTOR_GET_POSITION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "vectorX": "L0",
+                                            "vectorY": "L1"
+                                        }
+                                    },
+                                    {
+                                        "id": "ea96d026-8a0a-4cac-be64-88cf016b51f0",
+                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                        "args": {
+                                            "actorId": "047d8a62-b4c7-4f7b-b8a3-9afe264bc7fd",
+                                            "x": {
+                                                "type": "variable",
+                                                "value": "L0"
+                                            },
+                                            "y": {
+                                                "type": "variable",
+                                                "value": "L1"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "261598ef-fd27-4e46-b0f9-fe8240d66224",
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "047d8a62-b4c7-4f7b-b8a3-9afe264bc7fd",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "a02336e2-94d5-4251-86da-3b0b68786869",
+                                        "command": "EVENT_ACTOR_SHOW",
+                                        "args": {
+                                            "actorId": "047d8a62-b4c7-4f7b-b8a3-9afe264bc7fd"
+                                        }
+                                    },
+                                    {
+                                        "id": "d6efe274-6b3c-4acc-9d89-20a8f47434c5",
+                                        "command": "EVENT_SET_TIMER_SCRIPT",
+                                        "args": {
+                                            "duration": 0.6,
+                                            "__scriptTabs": "end",
+                                            "__label": "Hide Splash",
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "script": [
+                                                {
+                                                    "id": "e4117fdd-d9a8-45c7-bd2d-2fe3f796828e",
+                                                    "command": "EVENT_ACTOR_HIDE",
+                                                    "args": {
+                                                        "actorId": "047d8a62-b4c7-4f7b-b8a3-9afe264bc7fd"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "1d36f1ea-4a7c-4234-b6b7-8502174a12b1",
+                                                    "command": "EVENT_TIMER_DISABLE",
+                                                    "args": {}
+                                                },
+                                                {
+                                                    "id": "b2b44482-bc15-4131-9997-c17c82c216bf",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "a94e0792-c42d-43c3-b1f5-3f1acc2da245",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "6af358a3-bbc2-413c-8706-1d2ec6ed3787",
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "9",
+                                "__collapseElse": false,
+                                "__disableElse": true,
+                                "__collapse": true,
+                                "__label": "Respawn If Can't Swim"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "47593556-12a1-434c-8bdb-d40a19391804",
+                                        "command": "EVENT_GROUP",
+                                        "args": {
+                                            "__label": "Respawn Player from Splash",
+                                            "__comment": false,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "b6d980af-5e66-4d66-8ef2-21c12cbb39fb",
+                                                    "command": "EVENT_ACTOR_HIDE",
+                                                    "args": {
+                                                        "actorId": "$self$"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "ab08f4c9-5532-4670-bbf0-c48d0648f842",
+                                                    "command": "EVENT_ENGINE_FIELD_SET",
+                                                    "args": {
+                                                        "engineFieldKey": "pl_vel_x"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "f40a51e3-c018-43f1-9cc8-809e514e2bbb",
+                                                    "command": "EVENT_WAIT",
+                                                    "args": {
+                                                        "time": 0.6
+                                                    }
+                                                },
+                                                {
+                                                    "id": "44c35f1f-edc4-4153-8e65-e76e1f264f7a",
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "left"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "76011420-ab1f-4caa-8d2a-8f390aa148bc",
+                                                    "command": "EVENT_ACTOR_SET_POSITION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 9
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 9
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "5ff17095-9da1-4d74-881e-307e89774c3c",
+                                                    "command": "EVENT_ACTOR_SHOW",
+                                                    "args": {
+                                                        "actorId": "$self$"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "3356f65c-fd3a-4177-a078-187f30502616",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "0312c836-265e-42a6-a903-b6c1f011e71d",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "66c6a277-762c-448d-9c94-099d79e8096a",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "84dfcd91-0f1e-437e-afd3-294a10df7d3c",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "5b257fcc-5ab2-48bf-af44-510aa219e5b5",
+                    "x": 11,
+                    "y": 10,
+                    "width": 7,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Screen: Swatches",
@@ -151065,8 +151339,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "area-echoing_vaults-mae's_corner.png",
-            "inode": "4222124650756373",
-            "_v": 1637103083010
+            "inode": "70368744177752618",
+            "_v": 1637448573498
         },
         {
             "id": "a4222b42-23d4-447b-929f-3e0d3e6a826b",
@@ -151076,8 +151350,8 @@
             "imageWidth": 800,
             "imageHeight": 576,
             "filename": "area-echoing_vaults-main.png",
-            "inode": "5066549580982986",
-            "_v": 1637103083011
+            "inode": "77687093572177701",
+            "_v": 1637448573498
         },
         {
             "id": "adfe41ee-5c31-4904-a5ff-274ab41ea67a",
@@ -151087,8 +151361,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-echoing_vaults-waterway.png",
-            "inode": "6192449487735209",
-            "_v": 1637103083011
+            "inode": "25614222880844986",
+            "_v": 1637448573498
         },
         {
             "id": "6b170083-9f4f-44c2-9f8a-2cb779a8f390",
@@ -151098,8 +151372,8 @@
             "imageWidth": 640,
             "imageHeight": 288,
             "filename": "area-great_library-closed.png",
-            "inode": "15481123719279062",
-            "_v": 1637103083011
+            "inode": "35747322042617711",
+            "_v": 1637448573498
         },
         {
             "id": "19b24368-6bef-46af-8932-8a8920aaa9a6",
@@ -151109,8 +151383,8 @@
             "imageWidth": 640,
             "imageHeight": 288,
             "filename": "area-great_library-open.png",
-            "inode": "3096224744010208",
-            "_v": 1637103083011
+            "inode": "24488322974189880",
+            "_v": 1637448573498
         },
         {
             "id": "4c585756-c4e5-4d0b-8200-39cfd9b8bdfd",
@@ -151120,8 +151394,8 @@
             "imageWidth": 480,
             "imageHeight": 720,
             "filename": "area-inner_circle-main.png",
-            "inode": "4503599627561754",
-            "_v": 1637103083011
+            "inode": "9851624185158059",
+            "_v": 1637448573498
         },
         {
             "id": "c457fb8b-5a06-49c5-a733-b0515815a8ae",
@@ -151131,8 +151405,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "area-inner_circle-quarry.png",
-            "inode": "1970324837167586",
-            "_v": 1637103083011
+            "inode": "23362423067027686",
+            "_v": 1637448573498
         },
         {
             "id": "0419f072-20d2-4a90-9740-9ab60ddd0767",
@@ -151142,8 +151416,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inner_circle-sacred_hall.png",
-            "inode": "43628621390174971",
-            "_v": 1637103083011
+            "inode": "41939771530180980",
+            "_v": 1637448573498
         },
         {
             "id": "32beb6d0-d92e-4f00-973c-d9eb0eca1548",
@@ -151153,8 +151427,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-0_unstarted.png",
-            "inode": "6192449487673077",
-            "_v": 1637103083011
+            "inode": "3377699721908807",
+            "_v": 1637448573498
         },
         {
             "id": "4ac13670-48a9-4dbf-8ed1-f3e776350ed5",
@@ -151164,8 +151438,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-1_partial_frame.png",
-            "inode": "6755399441157371",
-            "_v": 1637103083011
+            "inode": "2533274791777220",
+            "_v": 1637448573498
         },
         {
             "id": "0029e211-12d2-4ba3-ae18-0abc0d9d7899",
@@ -151175,8 +151449,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-2_partial_walls-granite.png",
-            "inode": "7036874417869281",
-            "_v": 1637103083011
+            "inode": "1970324838355550",
+            "_v": 1637448573498
         },
         {
             "id": "f2625350-b250-4f5e-a486-7a9b1d2eacf7",
@@ -151186,8 +151460,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-2_partial_walls-marble.png",
-            "inode": "5348024557608837",
-            "_v": 1637103083011
+            "inode": "67272519433944729",
+            "_v": 1637448573498
         },
         {
             "id": "ef7cd907-52f1-4648-92cb-55ba7f8eebd7",
@@ -151197,8 +151471,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-granite_bamboo.png",
-            "inode": "6473924464451685",
-            "_v": 1637103083011
+            "inode": "9570149209543105",
+            "_v": 1637448573498
         },
         {
             "id": "60222c67-c017-4bfe-9b0e-e74fe974cb23",
@@ -151208,8 +151482,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-granite_oak.png",
-            "inode": "3096224743932504",
-            "_v": 1637103083011
+            "inode": "18858823440994530",
+            "_v": 1637448573498
         },
         {
             "id": "80debc37-2aa6-42ee-8548-bf09df7c0553",
@@ -151219,8 +151493,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-marble_bamboo.png",
-            "inode": "5629499534346223",
-            "_v": 1637103083011
+            "inode": "49821070878074372",
+            "_v": 1637448573498
         },
         {
             "id": "c405811e-936a-4406-868e-18314cf54d41",
@@ -151230,8 +151504,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-marble_oak.png",
-            "inode": "3940649674089336",
-            "_v": 1637103083011
+            "inode": "30962247438330627",
+            "_v": 1637448573498
         },
         {
             "id": "d827f881-87df-4e77-9f02-cd17b923b517",
@@ -151241,8 +151515,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_bamboo_porcelain.png",
-            "inode": "9007199254882041",
-            "_v": 1637103083011
+            "inode": "30399297486131251",
+            "_v": 1637448573498
         },
         {
             "id": "1f8689ae-0cde-4ada-a3ef-93e1b1e955fa",
@@ -151252,8 +151526,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_bamboo_shell.png",
-            "inode": "10133099161727919",
-            "_v": 1637103083011
+            "inode": "8725724279410750",
+            "_v": 1637448573498
         },
         {
             "id": "cc85cdfe-f5a5-4792-bce6-d4df5c2fbbb8",
@@ -151263,8 +151537,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_oak_porcelain.png",
-            "inode": "9007199254885367",
-            "_v": 1637103083011
+            "inode": "41939771531268145",
+            "_v": 1637448573498
         },
         {
             "id": "168bd1c7-c420-4424-9e9a-27a3004c66a3",
@@ -151274,8 +151548,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_oak_shell.png",
-            "inode": "4503599627515455",
-            "_v": 1637103083011
+            "inode": "67553994410849734",
+            "_v": 1637448573498
         },
         {
             "id": "988cdcb3-2042-4ae1-a9f1-c942c762d7ae",
@@ -151285,8 +151559,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_bamboo_porcelain.png",
-            "inode": "4222124650806771",
-            "_v": 1637103083011
+            "inode": "37999121857318351",
+            "_v": 1637448573498
         },
         {
             "id": "12bc2306-a5c9-49b9-9c9b-47636f0c4419",
@@ -151296,8 +151570,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_bamboo_shell.png",
-            "inode": "1688849860414601",
-            "_v": 1637103083011
+            "inode": "14073748836913211",
+            "_v": 1637448573498
         },
         {
             "id": "ad1bdd72-b813-4b96-b7e3-c84a329d8777",
@@ -151307,8 +151581,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_oak_porcelain.png",
-            "inode": "11258999068539955",
-            "_v": 1637103083011
+            "inode": "12103423998959237",
+            "_v": 1637448573498
         },
         {
             "id": "8f00efc2-fb4d-466f-9f12-4d5ca99c7f77",
@@ -151318,8 +151592,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_oak_shell.png",
-            "inode": "3940649674100727",
-            "_v": 1637103083011
+            "inode": "52917295622983741",
+            "_v": 1637448573498
         },
         {
             "id": "a6824090-cf23-46ff-998a-4454de326bca",
@@ -151329,8 +151603,8 @@
             "imageWidth": 640,
             "imageHeight": 288,
             "filename": "area-old_vampire_quarter.png",
-            "inode": "5910974511056020",
-            "_v": 1637103083011
+            "inode": "21955048183620253",
+            "_v": 1637448573498
         },
         {
             "id": "443db5fc-92a0-429b-8947-db87080b26d7",
@@ -151340,8 +151614,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "area-skyclad_tower-balcony.png",
-            "inode": "6755399441216853",
-            "_v": 1637103083011
+            "inode": "7881299348260426",
+            "_v": 1637448573498
         },
         {
             "id": "5f385232-735c-44c0-bb63-46211a8daec6",
@@ -151351,8 +151625,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "area-skyclad_tower-banner_hall.png",
-            "inode": "5910974511084969",
-            "_v": 1637103083011
+            "inode": "58828270132535264",
+            "_v": 1637448573498
         },
         {
             "id": "0e12f2e3-a87d-4ae3-9cef-79e9377c08ce",
@@ -151362,8 +151636,8 @@
             "imageWidth": 320,
             "imageHeight": 288,
             "filename": "area-skyclad_tower-courtyard.png",
-            "inode": "2251799813878245",
-            "_v": 1637103083011
+            "inode": "10977524093042015",
+            "_v": 1637448573498
         },
         {
             "id": "c7a68803-bedf-43c7-a70c-d40a083cdc6c",
@@ -151373,8 +151647,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "area-skyclad_tower-lunarium.png",
-            "inode": "16325548649379124",
-            "_v": 1637103083011
+            "inode": "23080948090635694",
+            "_v": 1637448573498
         },
         {
             "id": "f31e9a1d-af5c-4cfd-8ee5-5ee2fd22cdc9",
@@ -151384,8 +151658,8 @@
             "imageWidth": 160,
             "imageHeight": 1152,
             "filename": "area-skyclad_tower-main.png",
-            "inode": "10414574138317741",
-            "_v": 1637104693059
+            "inode": "35747322042410535",
+            "_v": 1637448573498
         },
         {
             "id": "17c0a5b7-302a-4b69-88cc-cb4a7882d3e9",
@@ -151395,8 +151669,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "area-skyclad_tower-s+a's_room.png",
-            "inode": "10133099161744722",
-            "_v": 1637103083011
+            "inode": "50946970784636514",
+            "_v": 1637448573498
         },
         {
             "id": "0069f303-5f1f-4c12-a122-bb2ebe9c3668",
@@ -151406,8 +151680,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "area-skyclad_tower-statue_hall.png",
-            "inode": "9007199254902073",
-            "_v": 1637103083011
+            "inode": "8444249301436268",
+            "_v": 1637448573498
         },
         {
             "id": "e553535d-9344-4fd1-a104-ff9173f94e33",
@@ -151417,8 +151691,8 @@
             "imageWidth": 480,
             "imageHeight": 288,
             "filename": "area-starlit_garden-main.png",
-            "inode": "5066549580984804",
-            "_v": 1637103083011
+            "inode": "18577348464282929",
+            "_v": 1637448573498
         },
         {
             "id": "8931f52f-f1be-4100-a501-058543a540e8",
@@ -151428,8 +151702,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "area-starlit_garden-postern-closed.png",
-            "inode": "1970324837167591",
-            "_v": 1637103083011
+            "inode": "54887620458866275",
+            "_v": 1637448573498
         },
         {
             "id": "4d7a2365-d213-4ffc-b5cb-a14bbf9e1434",
@@ -151439,8 +151713,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "area-starlit_garden-postern-open.png",
-            "inode": "1970324837167592",
-            "_v": 1637103083011
+            "inode": "14636698790333586",
+            "_v": 1637448573499
         },
         {
             "id": "d54c70d5-890f-481c-9f4f-f8fda81e21ff",
@@ -151450,8 +151724,8 @@
             "imageWidth": 160,
             "imageHeight": 720,
             "filename": "area-windswept_rooftop-belltower.png",
-            "inode": "5066549580924083",
-            "_v": 1637103083011
+            "inode": "69805794224256385",
+            "_v": 1637448573499
         },
         {
             "id": "966ca6be-add4-47fe-adf1-9a8107a780d0",
@@ -151461,8 +151735,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "area-windswept_rooftop-dead_end.png",
-            "inode": "6473924464474066",
-            "_v": 1637103083011
+            "inode": "113434415614510448",
+            "_v": 1637448573499
         },
         {
             "id": "7ac719f9-2eb3-4ead-8599-3fc377b72b7e",
@@ -151472,8 +151746,8 @@
             "imageWidth": 800,
             "imageHeight": 432,
             "filename": "area-windswept_rooftop-main.png",
-            "inode": "1688849860456938",
-            "_v": 1637103083011
+            "inode": "94012642221446237",
+            "_v": 1637448573499
         },
         {
             "id": "3010c726-7b40-4fb3-9562-402a83027e47",
@@ -151483,8 +151757,8 @@
             "imageWidth": 160,
             "imageHeight": 288,
             "filename": "area-windswept_rooftop-spider_nest.png",
-            "inode": "4503599627561701",
-            "_v": 1637103083011
+            "inode": "15199648742667608",
+            "_v": 1637448573499
         },
         {
             "id": "810940f3-7fcb-4dfa-a392-c8297cc3b285",
@@ -151494,8 +151768,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "screen-controls.png",
-            "inode": "5066549580924091",
-            "_v": 1637103083011
+            "inode": "16888498602688620",
+            "_v": 1637448573499
         },
         {
             "id": "b0f184ed-4662-4fc9-b0ce-1b1a59bd2090",
@@ -151505,8 +151779,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "screen-debug.png",
-            "inode": "10133099161715829",
-            "_v": 1637103083011
+            "inode": "20266198323270433",
+            "_v": 1637448573499
         },
         {
             "id": "6ada8328-0b3d-476c-9926-52178b8b0bca",
@@ -151516,8 +151790,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "screen-end.png",
-            "inode": "4785074604213502",
-            "_v": 1637103083011
+            "inode": "36591746972499532",
+            "_v": 1637448573499
         },
         {
             "id": "ea7a7282-496c-4211-ba52-427b3596333a",
@@ -151527,8 +151801,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "screen-logo.png",
-            "inode": "5066549580924279",
-            "_v": 1637103083011
+            "inode": "9007199254790522",
+            "_v": 1637448573499
         },
         {
             "id": "2d9c771d-9027-44ed-aecf-0c70a7831268",
@@ -151538,8 +151812,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "screen-map.png",
-            "inode": "6473924464506268",
-            "_v": 1637103083011
+            "inode": "8444249302642410",
+            "_v": 1637448573539
         },
         {
             "id": "cceb218f-f08c-496d-ad0e-a5bb9389f668",
@@ -151549,8 +151823,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "screen-swatches.png",
-            "inode": "1125899907766911",
-            "_v": 1637109656849
+            "inode": "16325548649593986",
+            "_v": 1637448573541
         },
         {
             "id": "bb6f1bd9-df6a-472a-9c35-33cac9be44e4",
@@ -151560,8 +151834,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "screen-titles.png",
-            "inode": "5910974511056321",
-            "_v": 1637103083011
+            "inode": "14918173765714544",
+            "_v": 1637448573541
         }
     ],
     "spriteSheets": [
@@ -151571,8 +151845,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "fx-block.png",
-            "inode": "7318349394638713",
-            "_v": 1637103083011
+            "inode": "49539595901127078",
+            "_v": 1637448573541
         },
         {
             "id": "2965f7b5-6502-426b-b047-8afa7e75d6bd",
@@ -151580,8 +151854,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "fx-checkmark.png",
-            "inode": "3377699720720880",
-            "_v": 1637103083011
+            "inode": "20829148276777942",
+            "_v": 1637448573541
         },
         {
             "id": "be2939e3-3b95-44ee-b32b-b582122f2c5d",
@@ -151589,8 +151863,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "fx-coffin.png",
-            "inode": "3940649674142427",
-            "_v": 1637103083011
+            "inode": "22799473113692635",
+            "_v": 1637448573541
         },
         {
             "id": "3a742280-d5aa-4a59-b646-84fc583d45f9",
@@ -151598,8 +151872,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "fx-coffin_crowded.png",
-            "inode": "3659174697431775",
-            "_v": 1637103083011
+            "inode": "74872343805116218",
+            "_v": 1637448573541
         },
         {
             "id": "2840b42b-95fb-47e2-93db-b754c68f32f1",
@@ -151607,8 +151881,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "fx-coffin_open.png",
-            "inode": "3377699720722303",
-            "_v": 1637103083011
+            "inode": "23362423067271200",
+            "_v": 1637448573541
         },
         {
             "id": "634c44b8-e2ef-4bf3-801f-c846dec82630",
@@ -151616,8 +151890,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "fx-empty.png",
-            "inode": "4222124650821534",
-            "_v": 1637103083011
+            "inode": "72902018968111603",
+            "_v": 1637448573541
         },
         {
             "id": "5a20dd62-520d-4d87-9450-450cc5531818",
@@ -151625,8 +151899,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "fx-map_marker.png",
-            "inode": "18858823439775650",
-            "_v": 1637103083011
+            "inode": "16325548649270294",
+            "_v": 1637448573541
         },
         {
             "id": "490468db-09ba-43c6-8716-0af8c5f40cc8",
@@ -151634,8 +151908,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "fx-press_start.png",
-            "inode": "3377699720722310",
-            "_v": 1637103083011
+            "inode": "31243722415072217",
+            "_v": 1637448573541
         },
         {
             "id": "39b7c3ae-f1c7-4d44-90ca-8f4d9867e5d7",
@@ -151643,8 +151917,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "fx-sparkle.png",
-            "inode": "4785074604163257",
-            "_v": 1637103083011
+            "inode": "17169973579539339",
+            "_v": 1637448573541
         },
         {
             "id": "420f024e-2db9-474e-a2fe-93912504efa1",
@@ -151652,8 +151926,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "fx-splash.png",
-            "inode": "2533274790551651",
-            "_v": 1637103083012
+            "inode": "20266198323356621",
+            "_v": 1637448573541
         },
         {
             "id": "5808e1bc-d48d-426e-8ad6-1572359f1772",
@@ -151661,8 +151935,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "fx-statues.png",
-            "inode": "5348024557700606",
-            "_v": 1637103083012
+            "inode": "6473924464534483",
+            "_v": 1637448573541
         },
         {
             "id": "a04be08a-c5c8-486f-b012-c627160ff4a1",
@@ -151670,8 +151944,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "inv-amulet.png",
-            "inode": "8444249301481349",
-            "_v": 1637103083012
+            "inode": "51228445761394289",
+            "_v": 1637448573541
         },
         {
             "id": "c23fbdc6-a1bd-4629-95b6-ba7f8e2e130a",
@@ -151679,8 +151953,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "inv-bat_soul.png",
-            "inode": "1125899907765562",
-            "_v": 1637107021923
+            "inode": "1125899907241124",
+            "_v": 1637448573541
         },
         {
             "id": "5d36b1bd-34d1-450d-bb87-16380a160c8e",
@@ -151688,8 +151962,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "inv-key.png",
-            "inode": "3940649674147328",
-            "_v": 1637103083012
+            "inode": "63050394783274017",
+            "_v": 1637448573541
         },
         {
             "id": "c8e960df-c19e-4dab-a7fe-91a13309803e",
@@ -151697,8 +151971,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "inv-wolffish_soul.png",
-            "inode": "3377699720726046",
-            "_v": 1637103083012
+            "inode": "23925373020476467",
+            "_v": 1637448573541
         },
         {
             "id": "abc7cdde-9ec1-45db-b22b-43d8c5a77722",
@@ -151706,8 +151980,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "mat-glass.png",
-            "inode": "4503599627568680",
-            "_v": 1637103083012
+            "inode": "34902897112247150",
+            "_v": 1637448573541
         },
         {
             "id": "ceb0ff8c-ed02-4671-81d0-6a237aaea32c",
@@ -151715,8 +151989,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "mat-marble_granite.png",
-            "inode": "5066549580990024",
-            "_v": 1637103083012
+            "inode": "25895697857596729",
+            "_v": 1637448573541
         },
         {
             "id": "7d6bdb0b-eb14-4017-8a12-cabeb5fc24bb",
@@ -151724,8 +151998,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "mat-oak_bamboo.png",
-            "inode": "3659174697436745",
-            "_v": 1637103083012
+            "inode": "27021597764370202",
+            "_v": 1637448573541
         },
         {
             "id": "9275c9a2-247f-401b-be99-5a33e162e8ce",
@@ -151733,8 +152007,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "mat-shell_porcelain.png",
-            "inode": "2814749767304785",
-            "_v": 1637103083012
+            "inode": "58546795156064845",
+            "_v": 1637448573541
         },
         {
             "id": "6eadd192-7bb2-44a9-ad09-82d1b5e2cccf",
@@ -151742,8 +152016,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc-aello.png",
-            "inode": "5066549580990034",
-            "_v": 1637103083012
+            "inode": "17451448556182543",
+            "_v": 1637448573541
         },
         {
             "id": "e3793725-f814-49cc-9da0-8148df9454f0",
@@ -151751,8 +152025,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc-baphy.png",
-            "inode": "7881299348049946",
-            "_v": 1637103083012
+            "inode": "14355223812433529",
+            "_v": 1637448573541
         },
         {
             "id": "ca6a5a00-f8a9-4417-95b4-6f91120f3f6c",
@@ -151760,8 +152034,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc-harpy.png",
-            "inode": "5066549580945079",
-            "_v": 1637103083012
+            "inode": "15481123719154406",
+            "_v": 1637448573541
         },
         {
             "id": "6878f574-693a-45ec-b10a-e98ac8460a55",
@@ -151769,8 +152043,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc-irena.png",
-            "inode": "3096224743970920",
-            "_v": 1637103083012
+            "inode": "28428972647830476",
+            "_v": 1637448573541
         },
         {
             "id": "90290bc0-dc76-4e83-b506-632efa294542",
@@ -151778,8 +152052,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc-kuliltu.png",
-            "inode": "2814749767304793",
-            "_v": 1637103083012
+            "inode": "17169973579540106",
+            "_v": 1637448573541
         },
         {
             "id": "3ad26911-eb11-47d2-861b-3ca481a27190",
@@ -151787,8 +152061,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "npc-kuliltus_tail.png",
-            "inode": "5066549580990052",
-            "_v": 1637103083012
+            "inode": "40532396646524584",
+            "_v": 1637448573541
         },
         {
             "id": "87bb74a1-074a-4e50-a4c7-c7f7e37ffdcd",
@@ -151796,8 +152070,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "npc-ladybug.png",
-            "inode": "3096224744015462",
-            "_v": 1637103083012
+            "inode": "24488322974016970",
+            "_v": 1637448573541
         },
         {
             "id": "51f15ae5-2330-47d0-9235-e0cea78e73b2",
@@ -151805,8 +152079,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "npc-lin.png",
-            "inode": "4785074604279407",
-            "_v": 1637103083012
+            "inode": "26458647810994378",
+            "_v": 1637448573541
         },
         {
             "id": "0d2ca5c9-8ad5-46b9-bde7-777bb7f8ec4d",
@@ -151814,8 +152088,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "npc-lucy_lay.png",
-            "inode": "5629499534374775",
-            "_v": 1637103083012
+            "inode": "7881299347965156",
+            "_v": 1637448573541
         },
         {
             "id": "416af782-2eef-4303-a90e-ca8014e171d3",
@@ -151823,8 +152097,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "npc-lucy_sit.png",
-            "inode": "3659174697400178",
-            "_v": 1637103083012
+            "inode": "27584547717711188",
+            "_v": 1637448573541
         },
         {
             "id": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
@@ -151832,8 +152106,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc-lucy_walk.png",
-            "inode": "3940649674110802",
-            "_v": 1637103083012
+            "inode": "41658296553245379",
+            "_v": 1637448573541
         },
         {
             "id": "598eda51-4cc0-4b1a-acd5-5836c44398ed",
@@ -151841,8 +152115,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc-madge.png",
-            "inode": "6192449487788471",
-            "_v": 1637103083012
+            "inode": "204069358115228588",
+            "_v": 1637448573541
         },
         {
             "id": "284edf9d-b658-469d-ae76-ad1c85b26d8e",
@@ -151850,8 +152124,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "npc-mae.png",
-            "inode": "4785074604279408",
-            "_v": 1637103083012
+            "inode": "44473046320478677",
+            "_v": 1637448573541
         },
         {
             "id": "c461f155-34b9-4b3e-84a8-2db42d57abbe",
@@ -151859,8 +152133,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc-mermaid.png",
-            "inode": "3377699720682490",
-            "_v": 1637103083012
+            "inode": "62487444829854165",
+            "_v": 1637448573541
         },
         {
             "id": "bd023ab1-227a-4000-b1ce-79e2ef4a56b9",
@@ -151868,8 +152142,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "npc-reaper.png",
-            "inode": "4785074604279420",
-            "_v": 1637103083012
+            "inode": "19421773393225326",
+            "_v": 1637448573541
         },
         {
             "id": "b071192a-cba1-406f-8456-11b82a3d9cdf",
@@ -151877,8 +152151,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc-rin_rin.png",
-            "inode": "3659174697436797",
-            "_v": 1637103083012
+            "inode": "91479367431153268",
+            "_v": 1637448573541
         },
         {
             "id": "b0840233-c04e-4f21-99a1-5bf3f1d1c984",
@@ -151886,8 +152160,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc-skeleton-book.png",
-            "inode": "3940649674105177",
-            "_v": 1637103083012
+            "inode": "87538717757090825",
+            "_v": 1637448573541
         },
         {
             "id": "53cd97c7-d428-4fc6-9e6d-cc06ac93958b",
@@ -151895,8 +152169,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc-skeleton-emptyhanded.png",
-            "inode": "3377699720683902",
-            "_v": 1637103083012
+            "inode": "45035996273786626",
+            "_v": 1637448573541
         },
         {
             "id": "c3de744a-6362-4e31-a69d-db8372437620",
@@ -151904,8 +152178,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc-skeleton-glass.png",
-            "inode": "3940649674106638",
-            "_v": 1637103083012
+            "inode": "77405618595514748",
+            "_v": 1637448573541
         },
         {
             "id": "f486d66d-c606-422e-9a32-0a23fc4a75f5",
@@ -151913,8 +152187,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "npc-snakebat.png",
-            "inode": "3940649674147463",
-            "_v": 1637103083012
+            "inode": "16325548649408118",
+            "_v": 1637448573541
         },
         {
             "id": "0c6994c4-f6ab-42aa-a4a6-4cf1c669583e",
@@ -151922,8 +152196,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc-stheno.png",
-            "inode": "5348024557700744",
-            "_v": 1637103083012
+            "inode": "14355223812535820",
+            "_v": 1637448573541
         },
         {
             "id": "7c12d009-4163-48cb-9d68-fbabbd496760",
@@ -151931,8 +152205,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc-sungem_.png",
-            "inode": "4222124650817336",
-            "_v": 1637103083012
+            "inode": "79094468455736186",
+            "_v": 1637448573541
         },
         {
             "id": "056fa21c-0048-4580-9566-bc3db5ad8a74",
@@ -151940,8 +152214,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc-tibby.png",
-            "inode": "3377699720726182",
-            "_v": 1637103083012
+            "inode": "16888498602829282",
+            "_v": 1637448573541
         },
         {
             "id": "ac03d67f-11af-424b-bfc3-835916aa2bff",
@@ -151949,8 +152223,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "npc-vampire_bat_flap.png",
-            "inode": "2814749767304900",
-            "_v": 1637103083012
+            "inode": "29836347531622226",
+            "_v": 1637448573541
         },
         {
             "id": "9933758f-0efe-401d-a55b-a264d573d80e",
@@ -151958,8 +152232,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "npc-vampire_bat_roosting.png",
-            "inode": "5348024557700836",
-            "_v": 1637103083012
+            "inode": "34902897112431050",
+            "_v": 1637448573541
         },
         {
             "id": "15d77f50-f6e3-4364-8b0c-8e6a73973d74",
@@ -151967,8 +152241,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc-vampire_chatty.png",
-            "inode": "4503599627568876",
-            "_v": 1637103083012
+            "inode": "31525197391890988",
+            "_v": 1637448573541
         },
         {
             "id": "6968b866-60ab-492d-ae93-a8901075b9cc",
@@ -151976,8 +152250,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "npc-vampire_coffin.png",
-            "inode": "2533274790594659",
-            "_v": 1637103083012
+            "inode": "52072870691506351",
+            "_v": 1637448573541
         },
         {
             "id": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
@@ -151985,8 +152259,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "npc-vampire_misc.png",
-            "inode": "3377699720727511",
-            "_v": 1637103083012
+            "inode": "27584547717953961",
+            "_v": 1637448573541
         },
         {
             "id": "45b49479-4945-4bbb-876f-4930ff5c2d8e",
@@ -151994,8 +152268,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "npc-vampire_romantic.png",
-            "inode": "3377699720727533",
-            "_v": 1637103083012
+            "inode": "14918173765974515",
+            "_v": 1637448573541
         },
         {
             "id": "0234037c-544b-4838-9dee-75b115bd1d60",
@@ -152003,8 +152277,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "npc-vampire_sitting.png",
-            "inode": "2533274790595607",
-            "_v": 1637103083012
+            "inode": "21392098230319543",
+            "_v": 1637448573541
         },
         {
             "id": "132be5ee-3aad-4ab0-b18d-163306b914bd",
@@ -152012,8 +152286,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "player-cursor.png",
-            "inode": "10133099161745291",
-            "_v": 1637103083012
+            "inode": "64176294690101977",
+            "_v": 1637448573541
         },
         {
             "id": "c3bc79c7-3703-4a67-86b2-301f587745b4",
@@ -152021,8 +152295,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player-josette.png",
-            "inode": "3940649674149199",
-            "_v": 1637103083012
+            "inode": "23362423067057198",
+            "_v": 1637448573541
         }
     ],
     "palettes": [
@@ -152914,24 +153188,24 @@
             "name": "Rooftop - Mountains",
             "filename": "Rooftop - Mountains.mod",
             "settings": {},
-            "inode": "1970324837167596",
-            "_v": 1637103082988
+            "inode": "31525197391840033",
+            "_v": 1637448573453
         },
         {
             "id": "92a35368-618b-4b80-a82c-7ea4b517cd0c",
             "name": "Tower - Uptempo",
             "filename": "Tower - Uptempo.mod",
             "settings": {},
-            "inode": "3659174697431533",
-            "_v": 1637103082988
+            "inode": "21110623253550042",
+            "_v": 1637448573453
         },
         {
             "id": "1dab0fe9-6964-4697-9404-dfd8459a967b",
             "name": "Vaults - Downtempo",
             "filename": "Vaults - Downtempo.mod",
             "settings": {},
-            "inode": "2251799813878255",
-            "_v": 1637103082988
+            "inode": "54887620458754787",
+            "_v": 1637448573454
         }
     ],
     "variables": [
@@ -153046,6 +153320,14 @@
         {
             "id": "27",
             "name": "Has Festoon Convo?"
+        },
+        {
+            "id": "5b257fcc-5ab2-48bf-af44-510aa219e5b5__L0",
+            "name": "Player X"
+        },
+        {
+            "id": "5b257fcc-5ab2-48bf-af44-510aa219e5b5__L1",
+            "name": "Player Y"
         }
     ],
     "engineFieldValues": [
@@ -153084,9 +153366,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 51.5,
-        "worldScrollY": 208,
-        "zoom": 48,
+        "worldScrollX": 786,
+        "worldScrollY": 2399,
+        "zoom": 298,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
@@ -153101,9 +153383,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
         "navigatorSplitSizes": [
-            275,
-            156,
-            246
+            388,
+            220,
+            347
         ],
         "showNavigator": true,
         "defaultFadeStyle": "black"
