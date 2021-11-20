@@ -2,4 +2,4 @@
 
 The following plug-ins have been used:
  
-1. Rename Emotes.  / Nala Fala
+1. Rename Emotes / Nala Fala
