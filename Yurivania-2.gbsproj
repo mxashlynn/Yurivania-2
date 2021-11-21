@@ -150833,7 +150833,7 @@
                     "spriteSheetId": "c8e960df-c19e-4dab-a7fe-91a13309803e",
                     "spriteType": "static",
                     "direction": "down",
-                    "moveSpeed": 1,
+                    "moveSpeed": 0,
                     "animSpeed": 3,
                     "paletteId": "default-ui",
                     "isPinned": false,
@@ -150914,12 +150914,133 @@
                             }
                         },
                         {
+                            "id": "a76d0ec2-d47d-41ee-870e-5b139805ef64",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "1ac9f0e2-2c02-4bec-b5a3-7598afe0e455"
+                            }
+                        },
+                        {
                             "id": "dc4b8613-9e36-4809-bb6c-41835e453fd7",
                             "command": "EVENT_END"
                         }
                     ],
                     "startScript": [],
-                    "updateScript": [],
+                    "updateScript": [
+                        {
+                            "id": "af168b15-a1bb-4cc2-a9fc-1d2f07e31f21",
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Float"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "8e90515c-064d-41a8-87f3-a347e0f89880",
+                                        "command": "EVENT_ACTOR_GET_POSITION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "vectorX": "T0",
+                                            "vectorY": "L0",
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "id": "7b26de90-6e2c-4131-b4c0-9705696ce6d6",
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "operator": "==",
+                                            "comparator": 7,
+                                            "__collapseElse": false,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "80fdaff2-b48c-4a77-a84b-2fcf4f3e032d",
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": {
+                                                            "type": "property",
+                                                            "value": "$self$:xpos"
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 9
+                                                        },
+                                                        "moveType": "vertical",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "d36d67f6-4868-4538-b163-5aa0a4435292",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "2063011b-1d0a-48a9-b231-9409123f390b",
+                                                    "command": "EVENT_IF_VALUE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "operator": "==",
+                                                        "comparator": 9,
+                                                        "__collapseElse": false,
+                                                        "__disableElse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "fa1715b3-0595-433b-8713-d25ba28ae33e",
+                                                                "command": "EVENT_ACTOR_MOVE_TO",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "x": {
+                                                                        "type": "property",
+                                                                        "value": "$self$:xpos"
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 7
+                                                                    },
+                                                                    "moveType": "vertical",
+                                                                    "useCollisions": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "5368cb5d-ce7e-41b8-be3b-64b649afd55b",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "id": "92a141ba-9a1d-474a-9cde-5ddf53d86e09",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "d2b709a5-2806-4340-bccf-7704315abdfb",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "d769fa09-f338-42fc-8a11-d69dffe264da",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "ba9522f0-9028-4ea9-9fa7-d6b1c7a25386",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
@@ -150934,7 +151055,7 @@
                     "spriteSheetId": "c23fbdc6-a1bd-4629-95b6-ba7f8e2e130a",
                     "spriteType": "static",
                     "direction": "down",
-                    "moveSpeed": 1,
+                    "moveSpeed": 0,
                     "animSpeed": 3,
                     "paletteId": "default-ui",
                     "isPinned": false,
@@ -151015,18 +151136,139 @@
                             }
                         },
                         {
+                            "id": "5d52bfd4-bac4-4258-9cfe-3f80cb6c0789",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "f240ee43-0a24-4598-b710-bd3bed6a0ae7"
+                            }
+                        },
+                        {
                             "id": "41a31aa5-1f37-4260-a944-ee2718e6ebff",
                             "command": "EVENT_END"
                         }
                     ],
                     "startScript": [],
-                    "updateScript": [],
+                    "updateScript": [
+                        {
+                            "id": "7af9cb6d-de51-4c08-aea8-19565884d192",
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Float"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "a155e0c3-e87a-4585-b89d-99b8179f21cb",
+                                        "command": "EVENT_ACTOR_GET_POSITION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "vectorX": "T0",
+                                            "vectorY": "L0",
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "id": "e5a4af72-e127-4b10-bd06-47e726093c14",
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "operator": "==",
+                                            "comparator": 7,
+                                            "__collapseElse": false,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "8fe8e780-1dd7-4062-9e65-82697e3ac831",
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": {
+                                                            "type": "property",
+                                                            "value": "$self$:xpos"
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 9
+                                                        },
+                                                        "moveType": "vertical",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "ac2e10c7-79f0-471a-8bc2-def69877023d",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "528ce1ba-129f-477d-baa9-a5738d4d1175",
+                                                    "command": "EVENT_IF_VALUE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "operator": "==",
+                                                        "comparator": 9,
+                                                        "__collapseElse": false,
+                                                        "__disableElse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "7dd6f73f-cb0e-4f8a-b2ae-bb9ad35edcd6",
+                                                                "command": "EVENT_ACTOR_MOVE_TO",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "x": {
+                                                                        "type": "property",
+                                                                        "value": "$self$:xpos"
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 7
+                                                                    },
+                                                                    "moveType": "vertical",
+                                                                    "useCollisions": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "775661db-48a4-4578-9944-857a78369a2c",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "id": "bd9ead99-8b5a-4e3e-bbd1-30e7a5b1c92a",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "1a0393ee-ab6e-49a4-ba46-96fb447ebeed",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "b8d2cdf1-111e-4cea-b80a-5023f9aea276",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "18bc35c0-062f-46d7-9594-5d3654f2ff47",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "6bde9ec6-7cb4-40ed-ade2-a19e662b9322",
                     "x": 3,
-                    "y": 7
+                    "y": 9
                 },
                 {
                     "name": "Fish Soul Sparkle",
@@ -151131,7 +151373,7 @@
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
-                                                                        "value": 8
+                                                                        "value": 9
                                                                     }
                                                                 }
                                                             },
@@ -151152,7 +151394,7 @@
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
-                                                                        "value": 8
+                                                                        "value": 9
                                                                     }
                                                                 }
                                                             },
@@ -151173,7 +151415,7 @@
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
-                                                                        "value": 7
+                                                                        "value": 8
                                                                     }
                                                                 }
                                                             },
@@ -151194,7 +151436,7 @@
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
-                                                                        "value": 7
+                                                                        "value": 8
                                                                     }
                                                                 }
                                                             },
@@ -151215,7 +151457,7 @@
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
-                                                                        "value": 6
+                                                                        "value": 7
                                                                     }
                                                                 }
                                                             },
@@ -151260,7 +151502,7 @@
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
-                                                                        "value": 6
+                                                                        "value": 7
                                                                     }
                                                                 }
                                                             },
@@ -151314,7 +151556,7 @@
                     "hit3Script": [],
                     "id": "1ac9f0e2-2c02-4bec-b5a3-7598afe0e455",
                     "x": 0,
-                    "y": 8
+                    "y": 9
                 },
                 {
                     "name": "Bat Soul Sparkle",
@@ -151419,7 +151661,7 @@
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
-                                                                        "value": 8
+                                                                        "value": 9
                                                                     }
                                                                 }
                                                             },
@@ -151440,7 +151682,7 @@
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
-                                                                        "value": 8
+                                                                        "value": 9
                                                                     }
                                                                 }
                                                             },
@@ -151461,7 +151703,7 @@
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
-                                                                        "value": 7
+                                                                        "value": 8
                                                                     }
                                                                 }
                                                             },
@@ -151482,7 +151724,7 @@
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
-                                                                        "value": 7
+                                                                        "value": 8
                                                                     }
                                                                 }
                                                             },
@@ -151503,7 +151745,7 @@
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
-                                                                        "value": 6
+                                                                        "value": 7
                                                                     }
                                                                 }
                                                             },
@@ -151548,7 +151790,7 @@
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
-                                                                        "value": 6
+                                                                        "value": 7
                                                                     }
                                                                 }
                                                             },
@@ -151602,7 +151844,7 @@
                     "hit3Script": [],
                     "id": "f240ee43-0a24-4598-b710-bd3bed6a0ae7",
                     "x": 3,
-                    "y": 8
+                    "y": 9
                 }
             ],
             "triggers": [
@@ -154653,6 +154895,14 @@
         {
             "id": "f240ee43-0a24-4598-b710-bd3bed6a0ae7__L1",
             "name": "Random Location"
+        },
+        {
+            "id": "6bde9ec6-7cb4-40ed-ade2-a19e662b9322__L0",
+            "name": "Actor Y"
+        },
+        {
+            "id": "8a391a61-dbc1-4481-9589-adb0d576a886__L0",
+            "name": "Actor Y"
         }
     ],
     "engineFieldValues": [
