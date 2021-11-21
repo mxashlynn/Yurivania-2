@@ -150658,7 +150658,132 @@
                 1,
                 1
             ],
-            "script": [],
+            "script": [
+                {
+                    "id": "c5bc431c-08ba-4791-ab97-5d9e1d6cc66d",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "persist": false,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "2744a37b-b097-4488-925d-f34372a552c9",
+                                "command": "EVENT_IF_TRUE",
+                                "args": {
+                                    "variable": "8",
+                                    "__collapseElse": false,
+                                    "__label": "If Has Soul of Bat",
+                                    "__disableElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "e4e34586-073e-466b-8f61-648cb0b47d7e",
+                                            "command": "EVENT_IF_FALSE",
+                                            "args": {
+                                                "variable": "28",
+                                                "__collapseElse": false,
+                                                "__label": "If Not Fish",
+                                                "__disableElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "id": "581f89a1-9749-42a2-8382-53c74c526b3e",
+                                                        "command": "EVENT_IF_TRUE",
+                                                        "args": {
+                                                            "variable": "8",
+                                                            "__collapseElse": false,
+                                                            "__label": "If Is Bat"
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "f77f82b4-79ca-49f9-8bb9-7aa3c65abae0",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__label": "Become Human"
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "a781cd8a-9995-4de4-8453-6bea1d3a7482",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "03b782da-4197-45c8-a0dc-1bc6e2b9f1f7",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "id": "644ecb97-00e2-462d-afcd-2e7ecbf0702f",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__label": "Become Bat"
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "79f9e999-6288-40c4-80f8-940437ab1e23",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "a70e4025-fc53-44d0-85c4-84aef5006125",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "2d121487-57e4-449c-9b77-33a927009697",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "id": "f7a8ce8d-285a-44c6-ae77-94f0b6dea3df",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "248ce01d-0f9b-4d7b-8492-77e19c4a644a",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "id": "af113730-93b0-4beb-ac8f-5d5985516b2e",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "4e7294eb-15a9-4365-ab3a-f7c04efa9a73",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "4513cfc1-e8f9-4f9b-8a7f-2e3678970092",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -150799,7 +150924,108 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "8a391a61-dbc1-4481-9589-adb0d576a886",
-                    "x": 1,
+                    "x": 0,
+                    "y": 8
+                },
+                {
+                    "name": "Soul of Bat",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "c23fbdc6-a1bd-4629-95b6-ba7f8e2e130a",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "default-ui",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "c6c0c75f-0f17-4dd8-aa98-4bee79dbb170",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "85f398d0-32ef-49db-bc6a-2fac3d66d9d0",
+                                "__name": "Play Item Collect Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "f46a6c62-c96d-42bd-8b3c-06b84b2e4e7c",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "0be51223-825b-42b3-9ea5-056be55b2549",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "70ba016c-7e17-4b9d-b688-a3040cb5a6de",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "3cd95f1e-9bc7-4c42-9df2-3212b200a77b",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "bd53ef75-a64b-4bc8-9e53-7331fc67d326",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "a873e0a7-f953-42e5-9325-8c8afe7a0cec",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "8"
+                            }
+                        },
+                        {
+                            "id": "d2bd39c9-8666-444d-bffb-4926a01263ef",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            }
+                        },
+                        {
+                            "id": "41a31aa5-1f37-4260-a944-ee2718e6ebff",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "6bde9ec6-7cb4-40ed-ade2-a19e662b9322",
+                    "x": 3,
                     "y": 8
                 }
             ],
@@ -151167,7 +151393,7 @@
                                                     "command": "EVENT_GROUP",
                                                     "args": {
                                                         "__label": "Show Splash",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "children": {
                                                         "true": [
@@ -151270,7 +151496,7 @@
                                                     "command": "EVENT_GROUP",
                                                     "args": {
                                                         "__label": "Become Human",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "children": {
                                                         "true": [
@@ -153866,7 +154092,7 @@
     "settings": {
         "startSceneId": "5d3486f1-fa2c-4d2b-a485-93245a9a5733",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 1,
+        "startX": 7,
         "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
