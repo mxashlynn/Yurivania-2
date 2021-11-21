@@ -150702,7 +150702,7 @@
                     "y": 9
                 },
                 {
-                    "name": "",
+                    "name": "Soul of Fish",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "c8e960df-c19e-4dab-a7fe-91a13309803e",
@@ -151066,6 +151066,14 @@
                                                     }
                                                 },
                                                 {
+                                                    "id": "022ad89e-af34-4428-be44-76959b6c5b82",
+                                                    "command": "EVENT_PLAYER_SET_SPRITE",
+                                                    "args": {
+                                                        "spriteSheetId": "773e0805-bbe3-412b-826b-302d43ad6383",
+                                                        "persist": false
+                                                    }
+                                                },
+                                                {
                                                     "id": "fcf05b4b-70b9-417d-bbe9-55b04e055511",
                                                     "command": "EVENT_END"
                                                 }
@@ -151278,6 +151286,25 @@
                                                                 "command": "EVENT_ENGINE_FIELD_SET",
                                                                 "args": {
                                                                     "engineFieldKey": "plat_grav"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "ee894940-d805-4776-bc4f-8a40f44670c9",
+                                                                "command": "EVENT_PLAYER_SET_SPRITE",
+                                                                "args": {
+                                                                    "spriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
+                                                                    "persist": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "e696f9a8-b848-438a-b951-b0fcf276a40f",
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "left"
+                                                                    }
                                                                 }
                                                             },
                                                             {
@@ -152752,6 +152779,15 @@
             "filename": "player-josette.png",
             "inode": "23362423067057198",
             "_v": 1637448573541
+        },
+        {
+            "id": "773e0805-bbe3-412b-826b-302d43ad6383",
+            "name": "player-wolffish",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "player-wolffish.png",
+            "inode": "8725724278427755",
+            "_v": 1637455633255
         }
     ],
     "palettes": [
