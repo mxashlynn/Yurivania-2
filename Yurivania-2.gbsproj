@@ -151279,7 +151279,7 @@
                     "direction": "down",
                     "moveSpeed": 2,
                     "animSpeed": 3,
-                    "paletteId": "bdb56474-4d25-4c1c-98cf-fd42ff896e6c",
+                    "paletteId": "85b1ea00-3f8c-4bae-91a5-aece897ddaca",
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [],
@@ -151896,7 +151896,7 @@
                             "command": "EVENT_GROUP",
                             "args": {
                                 "__label": "Show Splash",
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -152089,6 +152089,13 @@
                                                     "command": "EVENT_SET_TRUE",
                                                     "args": {
                                                         "variable": "28"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "87062b11-e8da-49fa-8669-a8e772f4f683",
+                                                    "command": "EVENT_SET_FALSE",
+                                                    "args": {
+                                                        "variable": "29"
                                                     }
                                                 },
                                                 {
