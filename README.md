@@ -52,13 +52,13 @@ When this is done it will be available on Itch.
 
 # Requirements 🛡️🦴
 
-This game was built with [GB Studio 2.0-beta 5](https://),
+This game was built with [GB Studio 2.0-beta 5](https://github.com/chrismaltby/gb-studio/tree/v2beta#beta-builds),
 using [Tiled](http://www.mapeditor.org/), [Aseprite](https://www.aseprite.org/), and [OpenMPT](https://openmpt.org/).
 
 # Contributors ⚗️🍧
 
 - Design, code, scenario, dialogue writing, and graphics by [Paige Ashlynn](https://github.com/mxashlynn/).
-- Music by [Caidence Stone](http://)
+- Music by [Caidence Stone](https://caidence.itch.io/)
 - [GB Studio](https://gbstudio.dev/) is created by [Chris Maltby](https://github.com/chrismaltby/) and others.
 
 # Rights 🏳️‍🌈🏳️‍⚧️
