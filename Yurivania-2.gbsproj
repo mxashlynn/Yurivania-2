@@ -10790,10 +10790,37 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "49dd8ce7-f9bc-41e3-9931-e8aeadda8e3a",
-            "x": 1756,
-            "y": 2160,
+            "x": 1760.0268456375845,
+            "y": 2157.651006711409,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Old Vampire Quarter",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "90c75226-fc0b-4f8b-958e-1441d5598ade",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "5a3b56b9-75d0-49f8-acb8-48c13768d360",
+                                "x": 63,
+                                "y": 12,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "1f4427f6-3784-458b-bad2-8b572bbde538",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "b81561a7-27c7-4e00-ae36-7a0b7a7e6547",
+                    "x": 5,
+                    "y": 6,
+                    "width": 10,
+                    "height": 3
+                }
+            ]
         },
         {
             "name": "Old Vampire Quarter",
@@ -16581,7 +16608,145 @@
             "x": 1084,
             "y": 2168,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Lunarium",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "daaab565-5963-46ee-9358-aa8ba7887d3e",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "49dd8ce7-f9bc-41e3-9931-e8aeadda8e3a",
+                                "x": 9,
+                                "y": 10,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "4f04734c-d862-4cfc-a51b-42bd05caa8b5",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "7e563c35-f8d6-4424-9dbe-85f5d68670aa",
+                    "x": 66,
+                    "y": 9,
+                    "width": 6,
+                    "height": 4
+                },
+                {
+                    "name": "Exit: Postern",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "63d31592-b405-4922-b1e0-89020ee95e09",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "30",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "d7f2b093-f97c-497a-909c-77c543d5cdd6",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "6c61eec4-369a-4115-b9a8-679bd26b2a5a",
+                                            "x": 17,
+                                            "y": 13,
+                                            "direction": "left",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "16f95d68-9a35-4e07-8b99-c1b58b256e99",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "46ee4173-092f-48ff-9331-fa863dea1123",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "cb0bb480-d789-4019-a381-78d7b207921e",
+                                            "x": 17,
+                                            "y": 13,
+                                            "direction": "left",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "74de9c94-7ed9-44c1-9b39-b63bfbd4d637",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "74956bd9-678d-43af-b1dd-fc5ac165ab3d",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "720bf257-496c-48b4-a9dc-cdd19788d266",
+                    "x": 0,
+                    "y": 25,
+                    "width": 1,
+                    "height": 7
+                },
+                {
+                    "name": "Exit: Spider's Nest",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "fe20363b-0d02-48c5-a515-ea4e230bdbac",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "09842d4c-f073-4c2e-926c-79cd26211cfa",
+                                "x": 9,
+                                "y": 33,
+                                "direction": "up",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "1e957fbe-3457-434b-84e1-42839c4c9581",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "5a32dfaf-f8a6-410a-9530-22a56b2b9dd3",
+                    "x": 61,
+                    "y": 0,
+                    "width": 17,
+                    "height": 1
+                },
+                {
+                    "name": "Exit: Great Library Outside",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "a6a696b9-1ee8-494c-a119-28ecf50974ae",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "daeb62aa-4d41-47d0-8eb3-be13525327bf",
+                                "x": 64,
+                                "y": 33,
+                                "direction": "up",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "18bc92e3-b83e-4c54-9368-f4104df75a14",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "b315bc90-bd43-4e93-86bf-f37a3c2599ff",
+                    "x": 56,
+                    "y": 0,
+                    "width": 4,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Skyclad Tower: Statue Hall",
@@ -45600,7 +45765,86 @@
             "x": 1081.1428571428573,
             "y": 1836,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Old Vampire Quarter Outside",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "f6750c37-e04c-4d6c-8ec9-1785f76aeee7",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "5a3b56b9-75d0-49f8-acb8-48c13768d360",
+                                "x": 57,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "4b264bc8-a11a-46a2-bec1-e69599284cbf",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "7a2339ef-03b5-4658-b918-8e95c977bf3a",
+                    "x": 63,
+                    "y": 35,
+                    "width": 15,
+                    "height": 1
+                },
+                {
+                    "name": "Exit: Spider's Nest",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "d0b7c2ad-7fdb-4384-ad77-31ba7fbed998",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "09842d4c-f073-4c2e-926c-79cd26211cfa",
+                                "x": 2,
+                                "y": 26,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "cdf7f5b4-ede0-47a9-a765-913116ac2afe",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "b995d9e7-1929-4cc6-b705-3e457970e8c1",
+                    "x": 79,
+                    "y": 2,
+                    "width": 1,
+                    "height": 32
+                },
+                {
+                    "name": "Exit: Rooftops",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "14d35c48-62a3-4d23-a5f1-b3b8bf4879fd",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "98853e3a-d09a-4a4e-ba2e-0e1816613c24",
+                                "x": 60,
+                                "y": 51,
+                                "direction": "up",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "1f5297d8-84fe-4fcd-98b8-fce282a7cc9f",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "4d6a12aa-c56b-4cea-8e4f-a55e0419c045",
+                    "x": 64,
+                    "y": 0,
+                    "width": 14,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Rooftops: Bell Tower",
@@ -58255,7 +58499,60 @@
             "x": 1082.7692307692307,
             "y": 1360.1538461538462,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Spider's Nest",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "2c8e9e86-0940-49d9-afcf-c9bb04eec24f",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "09842d4c-f073-4c2e-926c-79cd26211cfa",
+                                "x": 5,
+                                "y": 2,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "be7510df-4119-4a07-b967-7b71419274d3",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "72fae5c9-f068-47c0-94cc-153f4365742b",
+                    "x": 77,
+                    "y": 53,
+                    "width": 6,
+                    "height": 1
+                },
+                {
+                    "name": "Exit: Great Library Outside",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "0c9ba45d-78fe-4944-b572-fc3ec696e8bf",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "daeb62aa-4d41-47d0-8eb3-be13525327bf",
+                                "x": 69,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "ed6c7c9b-2f66-4751-a1fa-4212b5bc0481",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "0712366b-8d9a-44d0-a769-d2eacb05bea3",
+                    "x": 55,
+                    "y": 53,
+                    "width": 12,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Skyclad Tower: Main",
@@ -89449,10 +89746,37 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "6c61eec4-369a-4115-b9a8-679bd26b2a5a",
-            "x": 872.3636363636364,
-            "y": 2436,
+            "x": 878.4039048200121,
+            "y": 2437.0067114093963,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Old Vampire Quarter",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "0ea5652d-6b49-412e-8d3c-44f3b1baadc2",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "5a3b56b9-75d0-49f8-acb8-48c13768d360",
+                                "x": 1,
+                                "y": 31,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "e9701378-0583-49da-b8a5-677e494d7eed",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "0f019112-f93e-402a-90e1-4b9c06fddd14",
+                    "x": 19,
+                    "y": 7,
+                    "width": 1,
+                    "height": 7
+                }
+            ]
         },
         {
             "name": "Starlit Garden: Postern (Closed)",
@@ -90200,7 +90524,34 @@
             "x": 876.8,
             "y": 2240,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Old Vampire Quarter",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "2e7509f7-6b4a-45be-ac0c-2f283facf501",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "5a3b56b9-75d0-49f8-acb8-48c13768d360",
+                                "x": 1,
+                                "y": 31,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "52b7526d-cf63-468a-bd2a-11e12164fa33",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "6576b792-355a-4cd7-b38e-4fd86c38a5b7",
+                    "x": 19,
+                    "y": 7,
+                    "width": 1,
+                    "height": 7
+                }
+            ]
         },
         {
             "name": "Rooftops: Spider's Nest",
@@ -91668,7 +92019,86 @@
             "x": 1752,
             "y": 1832,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Great Library Outside",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "a6ad5345-0485-4221-9281-fb0e16d781b4",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "daeb62aa-4d41-47d0-8eb3-be13525327bf",
+                                "x": 76,
+                                "y": 26,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "2ede4889-5bb4-451b-aa5a-a0459213f82b",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "ee2bfd54-9fd7-4697-acc4-ef52bcb64528",
+                    "x": 0,
+                    "y": 16,
+                    "width": 1,
+                    "height": 18
+                },
+                {
+                    "name": "Exit: Old Vampire Quarter",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "eb974120-9ddc-414a-8657-0c9f84ebda9e",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "5a3b56b9-75d0-49f8-acb8-48c13768d360",
+                                "x": 68,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "f5bbdb79-e1aa-40cb-946c-fcda94981c05",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "93264a0d-85ba-4b42-bb5e-d393ae9439b6",
+                    "x": 2,
+                    "y": 35,
+                    "width": 17,
+                    "height": 1
+                },
+                {
+                    "name": "Exit: Rooftops",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "053d1f65-1eb1-4c03-8d47-fbe303ac90b9",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "98853e3a-d09a-4a4e-ba2e-0e1816613c24",
+                                "x": 76,
+                                "y": 50,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "bda74447-1903-4bed-b72e-2aa8331a4d7c",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "9e078cb1-a7c8-4f2c-839d-1b2980ec93b4",
+                    "x": 4,
+                    "y": 0,
+                    "width": 12,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Skyclad Tower: Banner Hall",
@@ -152983,7 +153413,7 @@
             "imageHeight": 144,
             "filename": "area-echoing_vaults-mae's_corner.png",
             "inode": "70368744177752618",
-            "_v": 1637526778717
+            "_v": 1637608460585
         },
         {
             "id": "a4222b42-23d4-447b-929f-3e0d3e6a826b",
@@ -152994,7 +153424,7 @@
             "imageHeight": 576,
             "filename": "area-echoing_vaults-main.png",
             "inode": "77687093572177701",
-            "_v": 1637526778717
+            "_v": 1637608460585
         },
         {
             "id": "adfe41ee-5c31-4904-a5ff-274ab41ea67a",
@@ -153005,7 +153435,7 @@
             "imageHeight": 288,
             "filename": "area-echoing_vaults-waterway.png",
             "inode": "25614222880844986",
-            "_v": 1637526778717
+            "_v": 1637608460585
         },
         {
             "id": "6b170083-9f4f-44c2-9f8a-2cb779a8f390",
@@ -153016,7 +153446,7 @@
             "imageHeight": 288,
             "filename": "area-great_library-closed.png",
             "inode": "35747322042617711",
-            "_v": 1637526778717
+            "_v": 1637608460585
         },
         {
             "id": "19b24368-6bef-46af-8932-8a8920aaa9a6",
@@ -153027,7 +153457,7 @@
             "imageHeight": 288,
             "filename": "area-great_library-open.png",
             "inode": "24488322974189880",
-            "_v": 1637526778717
+            "_v": 1637608460585
         },
         {
             "id": "4c585756-c4e5-4d0b-8200-39cfd9b8bdfd",
@@ -153038,7 +153468,7 @@
             "imageHeight": 720,
             "filename": "area-inner_circle-main.png",
             "inode": "9851624185158059",
-            "_v": 1637526778717
+            "_v": 1637608460585
         },
         {
             "id": "c457fb8b-5a06-49c5-a733-b0515815a8ae",
@@ -153049,7 +153479,7 @@
             "imageHeight": 144,
             "filename": "area-inner_circle-quarry.png",
             "inode": "23362423067027686",
-            "_v": 1637526778717
+            "_v": 1637608460585
         },
         {
             "id": "0419f072-20d2-4a90-9740-9ab60ddd0767",
@@ -153060,7 +153490,7 @@
             "imageHeight": 288,
             "filename": "area-inner_circle-sacred_hall.png",
             "inode": "41939771530180980",
-            "_v": 1637526778717
+            "_v": 1637608460585
         },
         {
             "id": "32beb6d0-d92e-4f00-973c-d9eb0eca1548",
@@ -153071,7 +153501,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-0_unstarted.png",
             "inode": "3377699721908807",
-            "_v": 1637526778717
+            "_v": 1637608460585
         },
         {
             "id": "4ac13670-48a9-4dbf-8ed1-f3e776350ed5",
@@ -153082,7 +153512,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-1_partial_frame.png",
             "inode": "2533274791777220",
-            "_v": 1637526778717
+            "_v": 1637608460585
         },
         {
             "id": "0029e211-12d2-4ba3-ae18-0abc0d9d7899",
@@ -153093,7 +153523,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-2_partial_walls-granite.png",
             "inode": "1970324838355550",
-            "_v": 1637526778717
+            "_v": 1637608460585
         },
         {
             "id": "f2625350-b250-4f5e-a486-7a9b1d2eacf7",
@@ -153104,7 +153534,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-2_partial_walls-marble.png",
             "inode": "67272519433944729",
-            "_v": 1637526778717
+            "_v": 1637608460630
         },
         {
             "id": "ef7cd907-52f1-4648-92cb-55ba7f8eebd7",
@@ -153115,7 +153545,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-granite_bamboo.png",
             "inode": "9570149209543105",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "60222c67-c017-4bfe-9b0e-e74fe974cb23",
@@ -153126,7 +153556,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-granite_oak.png",
             "inode": "18858823440994530",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "80debc37-2aa6-42ee-8548-bf09df7c0553",
@@ -153137,7 +153567,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-marble_bamboo.png",
             "inode": "49821070878074372",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "c405811e-936a-4406-868e-18314cf54d41",
@@ -153148,7 +153578,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-marble_oak.png",
             "inode": "30962247438330627",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "d827f881-87df-4e77-9f02-cd17b923b517",
@@ -153159,7 +153589,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_bamboo_porcelain.png",
             "inode": "30399297486131251",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "1f8689ae-0cde-4ada-a3ef-93e1b1e955fa",
@@ -153170,7 +153600,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_bamboo_shell.png",
             "inode": "8725724279410750",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "cc85cdfe-f5a5-4792-bce6-d4df5c2fbbb8",
@@ -153181,7 +153611,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_oak_porcelain.png",
             "inode": "41939771531268145",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "168bd1c7-c420-4424-9e9a-27a3004c66a3",
@@ -153192,7 +153622,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_oak_shell.png",
             "inode": "67553994410849734",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "988cdcb3-2042-4ae1-a9f1-c942c762d7ae",
@@ -153203,7 +153633,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_bamboo_porcelain.png",
             "inode": "37999121857318351",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "12bc2306-a5c9-49b9-9c9b-47636f0c4419",
@@ -153214,7 +153644,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_bamboo_shell.png",
             "inode": "14073748836913211",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "ad1bdd72-b813-4b96-b7e3-c84a329d8777",
@@ -153225,7 +153655,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_oak_porcelain.png",
             "inode": "12103423998959237",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "8f00efc2-fb4d-466f-9f12-4d5ca99c7f77",
@@ -153236,7 +153666,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_oak_shell.png",
             "inode": "52917295622983741",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "a6824090-cf23-46ff-998a-4454de326bca",
@@ -153247,7 +153677,7 @@
             "imageHeight": 288,
             "filename": "area-old_vampire_quarter.png",
             "inode": "21955048183620253",
-            "_v": 1637526778720
+            "_v": 1637609858628
         },
         {
             "id": "443db5fc-92a0-429b-8947-db87080b26d7",
@@ -153258,7 +153688,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-balcony.png",
             "inode": "7881299348260426",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "5f385232-735c-44c0-bb63-46211a8daec6",
@@ -153269,7 +153699,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-banner_hall.png",
             "inode": "58828270132535264",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "0e12f2e3-a87d-4ae3-9cef-79e9377c08ce",
@@ -153280,7 +153710,7 @@
             "imageHeight": 288,
             "filename": "area-skyclad_tower-courtyard.png",
             "inode": "10977524093042015",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "c7a68803-bedf-43c7-a70c-d40a083cdc6c",
@@ -153291,7 +153721,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-lunarium.png",
             "inode": "23080948090635694",
-            "_v": 1637526778720
+            "_v": 1637608460630
         },
         {
             "id": "f31e9a1d-af5c-4cfd-8ee5-5ee2fd22cdc9",
@@ -153302,7 +153732,7 @@
             "imageHeight": 1152,
             "filename": "area-skyclad_tower-main.png",
             "inode": "35747322042410535",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "17c0a5b7-302a-4b69-88cc-cb4a7882d3e9",
@@ -153313,7 +153743,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-s+a's_room.png",
             "inode": "50946970784636514",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "0069f303-5f1f-4c12-a122-bb2ebe9c3668",
@@ -153324,7 +153754,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-statue_hall.png",
             "inode": "8444249301436268",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "e553535d-9344-4fd1-a104-ff9173f94e33",
@@ -153335,7 +153765,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_garden-main.png",
             "inode": "18577348464282929",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "8931f52f-f1be-4100-a501-058543a540e8",
@@ -153346,7 +153776,7 @@
             "imageHeight": 144,
             "filename": "area-starlit_garden-postern-closed.png",
             "inode": "54887620458866275",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "4d7a2365-d213-4ffc-b5cb-a14bbf9e1434",
@@ -153357,7 +153787,7 @@
             "imageHeight": 144,
             "filename": "area-starlit_garden-postern-open.png",
             "inode": "14636698790333586",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "d54c70d5-890f-481c-9f4f-f8fda81e21ff",
@@ -153368,7 +153798,7 @@
             "imageHeight": 720,
             "filename": "area-windswept_rooftop-belltower.png",
             "inode": "69805794224256385",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "966ca6be-add4-47fe-adf1-9a8107a780d0",
@@ -153379,7 +153809,7 @@
             "imageHeight": 144,
             "filename": "area-windswept_rooftop-dead_end.png",
             "inode": "113434415614510448",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "7ac719f9-2eb3-4ead-8599-3fc377b72b7e",
@@ -153390,7 +153820,7 @@
             "imageHeight": 432,
             "filename": "area-windswept_rooftop-main.png",
             "inode": "94012642221446237",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "3010c726-7b40-4fb3-9562-402a83027e47",
@@ -153401,7 +153831,7 @@
             "imageHeight": 288,
             "filename": "area-windswept_rooftop-spider_nest.png",
             "inode": "15199648742667608",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "810940f3-7fcb-4dfa-a392-c8297cc3b285",
@@ -153412,7 +153842,7 @@
             "imageHeight": 144,
             "filename": "screen-controls.png",
             "inode": "16888498602688620",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "b0f184ed-4662-4fc9-b0ce-1b1a59bd2090",
@@ -153423,7 +153853,7 @@
             "imageHeight": 144,
             "filename": "screen-debug.png",
             "inode": "20266198323270433",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "6ada8328-0b3d-476c-9926-52178b8b0bca",
@@ -153434,7 +153864,7 @@
             "imageHeight": 144,
             "filename": "screen-end.png",
             "inode": "36591746972499532",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "ea7a7282-496c-4211-ba52-427b3596333a",
@@ -153445,7 +153875,7 @@
             "imageHeight": 144,
             "filename": "screen-logo.png",
             "inode": "9007199254790522",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "2d9c771d-9027-44ed-aecf-0c70a7831268",
@@ -153456,7 +153886,7 @@
             "imageHeight": 144,
             "filename": "screen-map.png",
             "inode": "8444249302642410",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "cceb218f-f08c-496d-ad0e-a5bb9389f668",
@@ -153467,7 +153897,7 @@
             "imageHeight": 144,
             "filename": "screen-swatches.png",
             "inode": "16325548649593986",
-            "_v": 1637526778720
+            "_v": 1637608460631
         },
         {
             "id": "bb6f1bd9-df6a-472a-9c35-33cac9be44e4",
@@ -153478,7 +153908,7 @@
             "imageHeight": 144,
             "filename": "screen-titles.png",
             "inode": "14918173765714544",
-            "_v": 1637527531984
+            "_v": 1637608460631
         }
     ],
     "spriteSheets": [
@@ -153489,7 +153919,7 @@
             "type": "static",
             "filename": "fx-block.png",
             "inode": "49539595901127078",
-            "_v": 1637526778721
+            "_v": 1637608460631
         },
         {
             "id": "2965f7b5-6502-426b-b047-8afa7e75d6bd",
@@ -153498,7 +153928,7 @@
             "type": "animated",
             "filename": "fx-checkmark.png",
             "inode": "20829148276777942",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "be2939e3-3b95-44ee-b32b-b582122f2c5d",
@@ -153507,7 +153937,7 @@
             "type": "static",
             "filename": "fx-coffin.png",
             "inode": "22799473113692635",
-            "_v": 1637526778721
+            "_v": 1637608460631
         },
         {
             "id": "3a742280-d5aa-4a59-b646-84fc583d45f9",
@@ -153516,7 +153946,7 @@
             "type": "animated",
             "filename": "fx-coffin_crowded.png",
             "inode": "74872343805116218",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "2840b42b-95fb-47e2-93db-b754c68f32f1",
@@ -153525,7 +153955,7 @@
             "type": "static",
             "filename": "fx-coffin_open.png",
             "inode": "23362423067271200",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "634c44b8-e2ef-4bf3-801f-c846dec82630",
@@ -153534,7 +153964,7 @@
             "type": "static",
             "filename": "fx-empty.png",
             "inode": "72902018968111603",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "5a20dd62-520d-4d87-9450-450cc5531818",
@@ -153543,7 +153973,7 @@
             "type": "animated",
             "filename": "fx-map_marker.png",
             "inode": "16325548649270294",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "490468db-09ba-43c6-8716-0af8c5f40cc8",
@@ -153552,7 +153982,7 @@
             "type": "actor_animated",
             "filename": "fx-press_start.png",
             "inode": "31243722415072217",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "39b7c3ae-f1c7-4d44-90ca-8f4d9867e5d7",
@@ -153561,7 +153991,7 @@
             "type": "animated",
             "filename": "fx-sparkle.png",
             "inode": "17169973579539339",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "420f024e-2db9-474e-a2fe-93912504efa1",
@@ -153570,7 +154000,7 @@
             "type": "actor",
             "filename": "fx-splash.png",
             "inode": "20266198323356621",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "5808e1bc-d48d-426e-8ad6-1572359f1772",
@@ -153579,7 +154009,7 @@
             "type": "actor",
             "filename": "fx-statues.png",
             "inode": "6473924464534483",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "3663a77e-4707-49c0-8e87-d687f2c3186a",
@@ -153588,7 +154018,7 @@
             "type": "actor",
             "filename": "fx-titles.png",
             "inode": "53480245575310727",
-            "_v": 1637527512380
+            "_v": 1637608460631
         },
         {
             "id": "a04be08a-c5c8-486f-b012-c627160ff4a1",
@@ -153597,7 +154027,7 @@
             "type": "static",
             "filename": "inv-amulet.png",
             "inode": "51228445761394289",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "c23fbdc6-a1bd-4629-95b6-ba7f8e2e130a",
@@ -153606,7 +154036,7 @@
             "type": "static",
             "filename": "inv-bat_soul.png",
             "inode": "1125899907241124",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "5d36b1bd-34d1-450d-bb87-16380a160c8e",
@@ -153615,7 +154045,7 @@
             "type": "static",
             "filename": "inv-key.png",
             "inode": "63050394783274017",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "c8e960df-c19e-4dab-a7fe-91a13309803e",
@@ -153624,7 +154054,7 @@
             "type": "static",
             "filename": "inv-wolffish_soul.png",
             "inode": "23925373020476467",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "abc7cdde-9ec1-45db-b22b-43d8c5a77722",
@@ -153633,7 +154063,7 @@
             "type": "static",
             "filename": "mat-glass.png",
             "inode": "34902897112247150",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "ceb0ff8c-ed02-4671-81d0-6a237aaea32c",
@@ -153642,7 +154072,7 @@
             "type": "animated",
             "filename": "mat-marble_granite.png",
             "inode": "25895697857596729",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "7d6bdb0b-eb14-4017-8a12-cabeb5fc24bb",
@@ -153651,7 +154081,7 @@
             "type": "actor",
             "filename": "mat-oak_bamboo.png",
             "inode": "27021597764370202",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "9275c9a2-247f-401b-be99-5a33e162e8ce",
@@ -153660,7 +154090,7 @@
             "type": "animated",
             "filename": "mat-shell_porcelain.png",
             "inode": "58546795156064845",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "6eadd192-7bb2-44a9-ad09-82d1b5e2cccf",
@@ -153669,7 +154099,7 @@
             "type": "actor",
             "filename": "npc-aello.png",
             "inode": "17451448556182543",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "e3793725-f814-49cc-9da0-8148df9454f0",
@@ -153678,7 +154108,7 @@
             "type": "actor",
             "filename": "npc-baphy.png",
             "inode": "14355223812433529",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "ca6a5a00-f8a9-4417-95b4-6f91120f3f6c",
@@ -153687,7 +154117,7 @@
             "type": "actor",
             "filename": "npc-harpy.png",
             "inode": "15481123719154406",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "6878f574-693a-45ec-b10a-e98ac8460a55",
@@ -153696,7 +154126,7 @@
             "type": "actor_animated",
             "filename": "npc-irena.png",
             "inode": "28428972647830476",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "90290bc0-dc76-4e83-b506-632efa294542",
@@ -153705,7 +154135,7 @@
             "type": "actor",
             "filename": "npc-kuliltu.png",
             "inode": "17169973579540106",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "3ad26911-eb11-47d2-861b-3ca481a27190",
@@ -153714,7 +154144,7 @@
             "type": "animated",
             "filename": "npc-kuliltus_tail.png",
             "inode": "40532396646524584",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "87bb74a1-074a-4e50-a4c7-c7f7e37ffdcd",
@@ -153723,7 +154153,7 @@
             "type": "static",
             "filename": "npc-ladybug.png",
             "inode": "24488322974016970",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "51f15ae5-2330-47d0-9235-e0cea78e73b2",
@@ -153732,7 +154162,7 @@
             "type": "static",
             "filename": "npc-lin.png",
             "inode": "26458647810994378",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "0d2ca5c9-8ad5-46b9-bde7-777bb7f8ec4d",
@@ -153741,7 +154171,7 @@
             "type": "animated",
             "filename": "npc-lucy_lay.png",
             "inode": "7881299347965156",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "416af782-2eef-4303-a90e-ca8014e171d3",
@@ -153750,7 +154180,7 @@
             "type": "animated",
             "filename": "npc-lucy_sit.png",
             "inode": "27584547717711188",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
@@ -153759,7 +154189,7 @@
             "type": "actor_animated",
             "filename": "npc-lucy_walk.png",
             "inode": "41658296553245379",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "598eda51-4cc0-4b1a-acd5-5836c44398ed",
@@ -153768,7 +154198,7 @@
             "type": "actor_animated",
             "filename": "npc-madge.png",
             "inode": "204069358115228588",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "284edf9d-b658-469d-ae76-ad1c85b26d8e",
@@ -153777,7 +154207,7 @@
             "type": "static",
             "filename": "npc-mae.png",
             "inode": "44473046320478677",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "c461f155-34b9-4b3e-84a8-2db42d57abbe",
@@ -153786,7 +154216,7 @@
             "type": "actor",
             "filename": "npc-mermaid.png",
             "inode": "62487444829854165",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "bd023ab1-227a-4000-b1ce-79e2ef4a56b9",
@@ -153795,7 +154225,7 @@
             "type": "static",
             "filename": "npc-reaper.png",
             "inode": "19421773393225326",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "b071192a-cba1-406f-8456-11b82a3d9cdf",
@@ -153804,7 +154234,7 @@
             "type": "actor",
             "filename": "npc-rin_rin.png",
             "inode": "91479367431153268",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "b0840233-c04e-4f21-99a1-5bf3f1d1c984",
@@ -153813,7 +154243,7 @@
             "type": "actor",
             "filename": "npc-skeleton-book.png",
             "inode": "87538717757090825",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "53cd97c7-d428-4fc6-9e6d-cc06ac93958b",
@@ -153822,7 +154252,7 @@
             "type": "actor",
             "filename": "npc-skeleton-emptyhanded.png",
             "inode": "45035996273786626",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "c3de744a-6362-4e31-a69d-db8372437620",
@@ -153831,7 +154261,7 @@
             "type": "actor",
             "filename": "npc-skeleton-glass.png",
             "inode": "77405618595514748",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "f486d66d-c606-422e-9a32-0a23fc4a75f5",
@@ -153840,7 +154270,7 @@
             "type": "animated",
             "filename": "npc-snakebat.png",
             "inode": "16325548649408118",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "0c6994c4-f6ab-42aa-a4a6-4cf1c669583e",
@@ -153849,7 +154279,7 @@
             "type": "actor",
             "filename": "npc-stheno.png",
             "inode": "14355223812535820",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "7c12d009-4163-48cb-9d68-fbabbd496760",
@@ -153858,7 +154288,7 @@
             "type": "actor_animated",
             "filename": "npc-sungem_.png",
             "inode": "79094468455736186",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "056fa21c-0048-4580-9566-bc3db5ad8a74",
@@ -153867,7 +154297,7 @@
             "type": "actor_animated",
             "filename": "npc-tibby.png",
             "inode": "16888498602829282",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "ac03d67f-11af-424b-bfc3-835916aa2bff",
@@ -153876,7 +154306,7 @@
             "type": "animated",
             "filename": "npc-vampire_bat_flap.png",
             "inode": "29836347531622226",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "9933758f-0efe-401d-a55b-a264d573d80e",
@@ -153885,7 +154315,7 @@
             "type": "static",
             "filename": "npc-vampire_bat_roosting.png",
             "inode": "34902897112431050",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "15d77f50-f6e3-4364-8b0c-8e6a73973d74",
@@ -153894,7 +154324,7 @@
             "type": "actor",
             "filename": "npc-vampire_chatty.png",
             "inode": "31525197391890988",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "6968b866-60ab-492d-ae93-a8901075b9cc",
@@ -153903,7 +154333,7 @@
             "type": "animated",
             "filename": "npc-vampire_coffin.png",
             "inode": "52072870691506351",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
@@ -153912,7 +154342,7 @@
             "type": "animated",
             "filename": "npc-vampire_misc.png",
             "inode": "27584547717953961",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "45b49479-4945-4bbb-876f-4930ff5c2d8e",
@@ -153921,7 +154351,7 @@
             "type": "animated",
             "filename": "npc-vampire_romantic.png",
             "inode": "14918173765974515",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "0234037c-544b-4838-9dee-75b115bd1d60",
@@ -153930,7 +154360,7 @@
             "type": "animated",
             "filename": "npc-vampire_sitting.png",
             "inode": "21392098230319543",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "132be5ee-3aad-4ab0-b18d-163306b914bd",
@@ -153939,7 +154369,7 @@
             "type": "static",
             "filename": "player-cursor.png",
             "inode": "64176294690101977",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "c3bc79c7-3703-4a67-86b2-301f587745b4",
@@ -153948,7 +154378,7 @@
             "type": "actor_animated",
             "filename": "player-josette.png",
             "inode": "23362423067057198",
-            "_v": 1637526778763
+            "_v": 1637608460631
         },
         {
             "id": "773e0805-bbe3-412b-826b-302d43ad6383",
@@ -153957,7 +154387,7 @@
             "type": "actor_animated",
             "filename": "player-wolffish.png",
             "inode": "8725724278427755",
-            "_v": 1637526778768
+            "_v": 1637608460634
         }
     ],
     "palettes": [
@@ -154850,7 +155280,7 @@
             "filename": "Rooftop - Mountains.mod",
             "settings": {},
             "inode": "31525197391840033",
-            "_v": 1637526778676
+            "_v": 1637608460540
         },
         {
             "id": "92a35368-618b-4b80-a82c-7ea4b517cd0c",
@@ -154858,7 +155288,7 @@
             "filename": "Tower - Uptempo.mod",
             "settings": {},
             "inode": "21110623253550042",
-            "_v": 1637526778676
+            "_v": 1637608460540
         },
         {
             "id": "1dab0fe9-6964-4697-9404-dfd8459a967b",
@@ -154866,7 +155296,7 @@
             "filename": "Vaults - Downtempo.mod",
             "settings": {},
             "inode": "54887620458754787",
-            "_v": 1637526778676
+            "_v": 1637608460540
         }
     ],
     "variables": [
@@ -155062,18 +155492,18 @@
         }
     ],
     "settings": {
-        "startSceneId": "693f5a7f-f046-491f-b128-3f68cadf2aae",
+        "startSceneId": "98853e3a-d09a-4a4e-ba2e-0e1816613c24",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 7,
-        "startY": 0,
+        "startX": 60,
+        "startY": 49,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
-        "startDirection": "down",
+        "startDirection": "left",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 1360,
-        "worldScrollY": 1625,
-        "zoom": 298,
+        "worldScrollX": 1866,
+        "worldScrollY": 2734,
+        "zoom": 175,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
