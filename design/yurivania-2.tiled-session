@@ -538,7 +538,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 75.54655870445345,
-                "y": 71.90283400809717
+                "y": 71.90283400809716
             }
         },
         "backgrounds/screen-titles.tmx": {
@@ -561,7 +561,7 @@
             "scale": 3.9038,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 83.25221578974333,
+                "x": 83.25221578974332,
                 "y": 71.46882524719504
             }
         },
@@ -599,8 +599,8 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "one_room_measurement.tmx",
         "backgrounds/screen-swatches.tmx",
+        "one_room_measurement.tmx",
         "backgrounds/screen-map.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/screen-debug.tmx",
