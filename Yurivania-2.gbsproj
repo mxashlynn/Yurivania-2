@@ -10052,7 +10052,34 @@
             "x": 176,
             "y": 1846.8571428571427,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Old Vampire Quarter Inside",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "dff1a3d5-a852-4152-bdaa-750817a39956",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "5a3b56b9-75d0-49f8-acb8-48c13768d360",
+                                "x": 8,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "b97584e8-b44b-4532-9969-6b25a0cf9c36",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "8385a05b-d3f0-43b8-96d0-6ccb8b5bd10c",
+                    "x": 3,
+                    "y": 35,
+                    "width": 12,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Skyclad Tower: Lunarium",
@@ -16744,6 +16771,65 @@
                     "x": 56,
                     "y": 0,
                     "width": 4,
+                    "height": 1
+                },
+                {
+                    "name": "Exit: Great Library Inside",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "deb3642b-4708-4d7c-9d0d-c166f071ba8a",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "22",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "054a3bd3-0c95-4372-af5c-9236a4e37033",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "d3205d7a-2023-4ab0-9b4a-5b501eb4f9d8",
+                                            "x": 8,
+                                            "y": 33,
+                                            "direction": "up",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "bbf2aeb7-37bd-4471-82ae-a9a0cd9cab16",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "e787d543-87c8-416e-8150-8cbad4a5f03d",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "daeb62aa-4d41-47d0-8eb3-be13525327bf",
+                                            "x": 8,
+                                            "y": 33,
+                                            "direction": "up",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "0b03f4e6-ab5c-4627-9167-85ad6ac032f1",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "c6b8a78f-467c-44da-9a4c-5b8ba72c4565",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "f7ca2dbb-a1df-4c6b-9487-2bdead161be5",
+                    "x": 3,
+                    "y": 0,
+                    "width": 12,
                     "height": 1
                 }
             ]
@@ -45842,6 +45928,32 @@
                     "x": 64,
                     "y": 0,
                     "width": 14,
+                    "height": 1
+                },
+                {
+                    "name": "Exit: Old Vampire Quarter Inside",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "27909d7c-a5f6-41b2-ac28-b0f342093972",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "5a3b56b9-75d0-49f8-acb8-48c13768d360",
+                                "x": 8,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "9d17a702-4221-4d42-a036-252bda22786f",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "84c385c3-899f-4a59-81a6-454abc15285d",
+                    "x": 3,
+                    "y": 35,
+                    "width": 12,
                     "height": 1
                 }
             ]
@@ -155390,7 +155502,7 @@
         },
         {
             "id": "22",
-            "name": "Solved Library Puzzle?"
+            "name": "Is Library Open?"
         },
         {
             "id": "23",
@@ -155501,8 +155613,8 @@
         "startDirection": "left",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 3016,
-        "worldScrollY": 4029,
+        "worldScrollX": 1989,
+        "worldScrollY": 4129,
         "zoom": 225,
         "customColorsEnabled": true,
         "customHead": "",
