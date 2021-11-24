@@ -67841,14 +67841,599 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "f488d725-aa1a-485c-be99-746be36381d3",
-                            "command": "EVENT_SWITCH_SCENE",
+                            "id": "f2436dd1-ce3f-4f8d-a5a9-30087e4f9e97",
+                            "command": "EVENT_SWITCH",
                             "args": {
-                                "sceneId": "e7d1ec78-19d9-4585-9331-13be339ee9c0",
-                                "x": 23,
-                                "y": 33,
-                                "direction": "up",
-                                "fadeSpeed": "2"
+                                "variable": "31",
+                                "choices": 5,
+                                "__collapseCase0": true,
+                                "value0": 0,
+                                "__collapseCase1": true,
+                                "value1": 1,
+                                "__collapseCase2": true,
+                                "value2": 2,
+                                "__collapseCase3": true,
+                                "value3": 3,
+                                "__collapseCase4": true,
+                                "value4": 4,
+                                "__collapseCase5": false,
+                                "value5": 6,
+                                "__collapseCase6": false,
+                                "value6": 7,
+                                "__collapseCase7": false,
+                                "value7": 8,
+                                "__collapseCase8": false,
+                                "value8": 9,
+                                "__collapseCase9": false,
+                                "value9": 10,
+                                "__collapseCase10": false,
+                                "value10": 11,
+                                "__collapseCase11": false,
+                                "value11": 12,
+                                "__collapseCase12": false,
+                                "value12": 13,
+                                "__collapseCase13": false,
+                                "value13": 14,
+                                "__collapseCase14": false,
+                                "value14": 15,
+                                "__collapseCase15": false,
+                                "value15": 16,
+                                "__collapseElse": true,
+                                "__label": "Switch on Construction Level"
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "id": "f488d725-aa1a-485c-be99-746be36381d3",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "e7d1ec78-19d9-4585-9331-13be339ee9c0",
+                                            "x": 23,
+                                            "y": 33,
+                                            "direction": "up",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "8a1ad038-a7f5-423e-ab77-42da5ff70eae",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "id": "e57c78d8-c3d3-4162-b778-90fa1441bc97",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "3899a9c1-2b10-4f74-8e65-1c190d491511",
+                                            "x": 23,
+                                            "y": 33,
+                                            "direction": "up",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "1525d9ad-342c-4b55-ab8e-08f3850203d7",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true2": [
+                                    {
+                                        "id": "0e939fb0-3d42-4089-8887-851f67e8b601",
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "19",
+                                            "__collapseElse": false,
+                                            "__label": "Load Marble/Granite",
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "c888955d-6101-4a29-8203-03b9e8a77889",
+                                                    "command": "EVENT_SWITCH_SCENE",
+                                                    "args": {
+                                                        "sceneId": "afe77192-216e-4139-8f52-fb931f983ca6",
+                                                        "x": 23,
+                                                        "y": 33,
+                                                        "direction": "up",
+                                                        "fadeSpeed": "2"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "ef0d2b1d-66fb-4b9c-8130-71e116a547f1",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "77134cef-a840-4453-9a38-2b4ec1549212",
+                                                    "command": "EVENT_SWITCH_SCENE",
+                                                    "args": {
+                                                        "sceneId": "0fe632d4-1de5-453e-9f4b-06aa694300ed",
+                                                        "x": 23,
+                                                        "y": 33,
+                                                        "direction": "up",
+                                                        "fadeSpeed": "2"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "d1cc5cb5-560b-44c2-989c-fff47761a234",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "b3f69f8d-8ada-450e-ac94-0de54fe7932f",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true3": [
+                                    {
+                                        "id": "20f95fb6-0b19-4572-9a09-7afc54c42886",
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "19",
+                                            "__collapseElse": false,
+                                            "__label": "Load Marble/Granite",
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "7933e9f7-ed61-4073-9e99-a4969fcf2f44",
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "20",
+                                                        "__collapseElse": false,
+                                                        "__label": "Load Bamboo/Oak",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "059e6c37-b455-4193-a01e-5e47a8d34079",
+                                                                "command": "EVENT_SWITCH_SCENE",
+                                                                "args": {
+                                                                    "sceneId": "824890dd-6eb0-4dc6-afff-02dde261d8c4",
+                                                                    "x": 23,
+                                                                    "y": 33,
+                                                                    "direction": "up",
+                                                                    "fadeSpeed": "2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "397854c3-bb8b-447e-aaf0-6d3fd8e87cde",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "id": "93973565-f274-4d2a-91f2-87029039d9d3",
+                                                                "command": "EVENT_SWITCH_SCENE",
+                                                                "args": {
+                                                                    "sceneId": "e086d0e5-ee38-4e4d-bf4b-c0198dddfd0f",
+                                                                    "x": 23,
+                                                                    "y": 33,
+                                                                    "direction": "up",
+                                                                    "fadeSpeed": "2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "a6105575-c49c-44da-82df-334db2a876ba",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "2dfae751-75a7-497d-9899-a07d3dbbd015",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "6be6a50c-4a5e-4bf1-ad31-f6cbab0916d4",
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "20",
+                                                        "__collapseElse": false,
+                                                        "__label": "Load Bamboo/Oak",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "c1f572b7-06b5-4f4b-ba54-e2286df4be44",
+                                                                "command": "EVENT_SWITCH_SCENE",
+                                                                "args": {
+                                                                    "sceneId": "76b2e271-a46a-4cd0-8ec3-1acca7ee9475",
+                                                                    "x": 23,
+                                                                    "y": 33,
+                                                                    "direction": "up",
+                                                                    "fadeSpeed": "2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "a422510d-7219-4a32-a640-2429339da255",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "id": "7c2d5b8c-c128-467f-9389-fb39b73b603e",
+                                                                "command": "EVENT_SWITCH_SCENE",
+                                                                "args": {
+                                                                    "sceneId": "1a3e6dcf-3c0e-4450-804a-17537de3d662",
+                                                                    "x": 23,
+                                                                    "y": 33,
+                                                                    "direction": "up",
+                                                                    "fadeSpeed": "2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "0f0f4c4a-b704-4a6b-a360-325d0c6ad7a2",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "bb3ee5fb-1390-4df7-b0c7-2f995edbc41e",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "1ffbf7d1-9512-4efd-aded-40789a3bfbf3",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true4": [
+                                    {
+                                        "id": "2494cac4-440c-4324-a898-4ebb3efbea14",
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "19",
+                                            "__collapseElse": false,
+                                            "__label": "Load Marble/Granite",
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "1a394fde-fd61-4369-b3b5-4b0f7a71a380",
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "20",
+                                                        "__collapseElse": false,
+                                                        "__label": "Load Bamboo/Oak",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "2b64861c-f849-42dd-b257-9b8faee1cdeb",
+                                                                "command": "EVENT_IF_TRUE",
+                                                                "args": {
+                                                                    "variable": "21",
+                                                                    "__collapseElse": false,
+                                                                    "__label": "Load Porcelain/Shell",
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "id": "737504df-6bf9-4369-891a-9ee9760ccf8f",
+                                                                            "command": "EVENT_SWITCH_SCENE",
+                                                                            "args": {
+                                                                                "sceneId": "447bad44-1267-4138-9724-0a1aedda751e",
+                                                                                "x": 23,
+                                                                                "y": 33,
+                                                                                "direction": "up",
+                                                                                "fadeSpeed": "2"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "eea4c05b-78d3-40ce-921e-f4ee074ce1df",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ],
+                                                                    "false": [
+                                                                        {
+                                                                            "id": "2207a34d-9c9c-4c22-af32-8359132fad8e",
+                                                                            "command": "EVENT_SWITCH_SCENE",
+                                                                            "args": {
+                                                                                "sceneId": "2ce8e4af-12e7-4a56-b18b-c46f8abf81a0",
+                                                                                "x": 23,
+                                                                                "y": 33,
+                                                                                "direction": "up",
+                                                                                "fadeSpeed": "2"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "3c251df5-6d78-4d52-97cd-f56197acf011",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "ed86e83e-ccb5-4658-801d-6b4c9b0f2c7e",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "id": "de83b81d-6508-4214-8875-f0fffcbfcad2",
+                                                                "command": "EVENT_IF_TRUE",
+                                                                "args": {
+                                                                    "variable": "21",
+                                                                    "__collapseElse": false,
+                                                                    "__label": "Load Porcelain/Shell",
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "id": "8d0bb516-7604-4b3e-b5c2-8487307e3b1c",
+                                                                            "command": "EVENT_SWITCH_SCENE",
+                                                                            "args": {
+                                                                                "sceneId": "18c12fc8-845d-431c-bb13-925b3496211b",
+                                                                                "x": 23,
+                                                                                "y": 33,
+                                                                                "direction": "up",
+                                                                                "fadeSpeed": "2"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "66f14ffa-bcfd-4b6f-b17f-4651baebcb5b",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ],
+                                                                    "false": [
+                                                                        {
+                                                                            "id": "acb46477-c7b1-4c4b-9cee-da07d67fb4b1",
+                                                                            "command": "EVENT_SWITCH_SCENE",
+                                                                            "args": {
+                                                                                "sceneId": "c171f6a9-a824-49af-9d57-a10e5d187138",
+                                                                                "x": 23,
+                                                                                "y": 33,
+                                                                                "direction": "up",
+                                                                                "fadeSpeed": "2"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "8af8e654-821b-44f9-988c-87c2143bb41d",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "4323fd1c-cec3-44af-8820-ccac05521de6",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "f23d0adc-a16b-48d3-9b3c-def830657eef",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "163bc8dc-e748-4283-93ac-192ebd88fa23",
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "20",
+                                                        "__collapseElse": false,
+                                                        "__label": "Load Bamboo/Oak",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "cf38eef7-156b-4a38-bb47-0fed5c49a4ce",
+                                                                "command": "EVENT_IF_TRUE",
+                                                                "args": {
+                                                                    "variable": "21",
+                                                                    "__collapseElse": false,
+                                                                    "__label": "Load Porcelain/Shell",
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "id": "098b7590-6c35-4a29-bfdf-90f6f611c4e1",
+                                                                            "command": "EVENT_SWITCH_SCENE",
+                                                                            "args": {
+                                                                                "sceneId": "1a5e5938-c29c-4ded-a423-1bc1d330f80a",
+                                                                                "x": 23,
+                                                                                "y": 33,
+                                                                                "direction": "up",
+                                                                                "fadeSpeed": "2"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "f12393a6-56b9-4959-8afa-f81c52d40d6c",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ],
+                                                                    "false": [
+                                                                        {
+                                                                            "id": "0721f52f-13c9-4683-8059-93089a4a0f64",
+                                                                            "command": "EVENT_SWITCH_SCENE",
+                                                                            "args": {
+                                                                                "sceneId": "d2b20d2f-b69d-423a-b35c-fdde14ea3eb4",
+                                                                                "x": 23,
+                                                                                "y": 33,
+                                                                                "direction": "up",
+                                                                                "fadeSpeed": "2"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "e7a71916-621c-4331-863b-f744966afcf4",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "5d8a7d77-fb62-4f4b-b56b-90375ca83938",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "id": "dd52231d-81e6-44af-bd9e-cec72841120b",
+                                                                "command": "EVENT_IF_TRUE",
+                                                                "args": {
+                                                                    "variable": "21",
+                                                                    "__collapseElse": false,
+                                                                    "__label": "Load Porcelain/Shell",
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "id": "56e40d70-8685-4a71-8fe9-75c987c11bd0",
+                                                                            "command": "EVENT_SWITCH_SCENE",
+                                                                            "args": {
+                                                                                "sceneId": "0409be54-5c22-4013-826e-9fd5da01ea59",
+                                                                                "x": 23,
+                                                                                "y": 33,
+                                                                                "direction": "up",
+                                                                                "fadeSpeed": "2"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "7f9fb49e-4c18-4608-9902-8d900cfb335e",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ],
+                                                                    "false": [
+                                                                        {
+                                                                            "id": "722c2b98-3c7e-4214-a6da-7431ad5b9bf7",
+                                                                            "command": "EVENT_SWITCH_SCENE",
+                                                                            "args": {
+                                                                                "sceneId": "ca41cf10-485b-4f7b-bea2-093ca5f6ac2e",
+                                                                                "x": 23,
+                                                                                "y": 33,
+                                                                                "direction": "up",
+                                                                                "fadeSpeed": "2"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "id": "4be45b3b-afef-4714-8e1f-cb2a02622981",
+                                                                            "command": "EVENT_END"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "8c681a45-b73f-4928-883a-8a532d5869be",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "a498fafd-7e9d-4e58-a2f9-22fa0d225fe8",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "cb6e53a9-bef2-4336-9f21-fccf6073920c",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true5": [
+                                    {
+                                        "id": "a22f739e-dd35-4b73-b13e-20e79048d351",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true6": [
+                                    {
+                                        "id": "47415621-6aa1-4646-a7dc-915fd2a89201",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true7": [
+                                    {
+                                        "id": "08e94e79-c74d-4858-a7b2-247c055c238d",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true8": [
+                                    {
+                                        "id": "7e3b103f-49e8-4bca-8501-0621e1be362e",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true9": [
+                                    {
+                                        "id": "56f0a0b5-1632-444d-95ab-a8948fa7325e",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true10": [
+                                    {
+                                        "id": "1d9036a0-3987-4776-891a-6178cefd06ce",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true11": [
+                                    {
+                                        "id": "a35f4bb8-3799-452e-9c43-44c999f5b189",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true12": [
+                                    {
+                                        "id": "6226bd47-5ad3-4435-8867-752a00017221",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true13": [
+                                    {
+                                        "id": "58d4fd00-19de-4147-8444-b4117ffa49ee",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true14": [
+                                    {
+                                        "id": "474b898c-4039-49d4-8d0b-d06b362b9946",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true15": [
+                                    {
+                                        "id": "83780310-8cf5-4eaa-acd0-608d941dcb4c",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "6ee9507f-c05e-4c26-80d2-650ca9a356e0",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Error.\nPlease report\nConstruction Level\n$31$."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "e3897da8-94a4-4c64-aca4-c0989eed9fea",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -158698,7 +159283,7 @@
         },
         {
             "id": "5",
-            "name": "Room Region"
+            "name": "Room Regionu"
         },
         {
             "id": "6",
@@ -158839,6 +159424,10 @@
         {
             "id": "8a391a61-dbc1-4481-9589-adb0d576a886__L0",
             "name": "Actor Y"
+        },
+        {
+            "id": "31",
+            "name": "Construction Level"
         }
     ],
     "engineFieldValues": [
