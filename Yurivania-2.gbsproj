@@ -4625,9 +4625,36 @@
             "playerHit3Script": [],
             "id": "d5bbd729-8e95-4a3c-9d5e-2fcddc21b36e",
             "x": 1759.272727272727,
-            "y": 2338,
+            "y": 2337.4285714285716,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Statue Hall",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "d7083784-b088-4fea-abd1-8d13447b403d",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "f7e75edf-6ac8-4041-b82e-4b431d02a635",
+                                "x": 1,
+                                "y": 12,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "7d396bec-58b9-4bfb-a157-17d7942b5eb9",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "5eb5cd80-cbec-403e-8064-30336243f2c3",
+                    "x": 19,
+                    "y": 7,
+                    "width": 1,
+                    "height": 6
+                }
+            ]
         },
         {
             "name": "Great Library (Open)",
@@ -11207,6 +11234,32 @@
                     "y": 6,
                     "width": 10,
                     "height": 3
+                },
+                {
+                    "name": "Exit: Skyclad Tower",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "f758b17e-9214-4790-99ec-976f35ae9195",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "65eaec0c-2e7d-4f65-b9cb-7522c47e4ce9",
+                                "x": 1,
+                                "y": 102,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "3ebea3a8-19a9-401c-8671-10e73481b5ef",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "01b455c6-336e-4118-90ad-2b35ce709270",
+                    "x": 19,
+                    "y": 7,
+                    "width": 1,
+                    "height": 6
                 }
             ]
         },
@@ -17938,7 +17991,60 @@
             "x": 1952,
             "y": 2336,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Skyclad Tower",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "681dca1b-eb64-4527-9160-06bcbba7504c",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "65eaec0c-2e7d-4f65-b9cb-7522c47e4ce9",
+                                "x": 1,
+                                "y": 120,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "69876530-7bd9-4905-a076-123fd2921690",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "763c4ae6-1b24-4325-acd3-f04dd83ea2c8",
+                    "x": 19,
+                    "y": 7,
+                    "width": 1,
+                    "height": 6
+                },
+                {
+                    "name": "Exit: Stheno & Alraune's",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "ef44ee9a-8b82-4326-a66f-0f2f97fabe2d",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "d5bbd729-8e95-4a3c-9d5e-2fcddc21b36e",
+                                "x": 17,
+                                "y": 12,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "0ad18e13-3f0f-47c2-92fe-95a0c27e3cb5",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "4c014fff-69fd-4c45-a8ea-fa5247d8ed80",
+                    "x": 0,
+                    "y": 7,
+                    "width": 1,
+                    "height": 6
+                }
+            ]
         },
         {
             "name": "Inner Circle: Quarry",
@@ -18681,10 +18787,37 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "6fb42401-546e-476a-8afe-916e094456cd",
-            "x": 876,
-            "y": 3372,
+            "x": 862.6666666666666,
+            "y": 3360,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Inner Circle",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "fcc2faa3-5d68-48f0-a692-932d787e2846",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "a2b662e1-6c9b-4737-8b87-1ba9dada10d7",
+                                "x": 26,
+                                "y": 86,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "185cc42a-776d-46ce-b12a-6539652c382d",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "39767248-9729-4852-8fe8-f3b22d504dc2",
+                    "x": 8,
+                    "y": 0,
+                    "width": 4,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Worksite (2 Walls - Granite)",
@@ -49945,7 +50078,93 @@
             "x": 876.7272727272727,
             "y": 1476,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Rooftop",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "91247d85-cf82-4583-ab3f-6741a15b8338",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "98853e3a-d09a-4a4e-ba2e-0e1816613c24",
+                                "x": 10,
+                                "y": 31,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "7b33f09e-a43b-4933-9904-1cb2c8178f3c",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "8bb906cb-3534-442f-b5e4-503888b85760",
+                    "x": 19,
+                    "y": 12,
+                    "width": 1,
+                    "height": 2
+                },
+                {
+                    "name": "Exit: Postern",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "c11919af-2669-460e-a842-1ce377afaff1",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "30",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "ec63143b-552d-48ba-bfe9-cc3b35c6f48b",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "6c61eec4-369a-4115-b9a8-679bd26b2a5a",
+                                            "x": 9,
+                                            "y": 2,
+                                            "direction": "down",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "dccb2965-00d7-41c2-8384-0d5f04ac09ca",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "78522350-84d4-467b-bee3-00de0cc27fd7",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "cb0bb480-d789-4019-a381-78d7b207921e",
+                                            "x": 9,
+                                            "y": 2,
+                                            "direction": "down",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "8a4bc49d-e8f8-4b61-9c61-7995365da5f8",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "ec514e5c-a777-4b58-b6b5-54037db44cd1",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "8a2bb98a-a94e-47ad-8db2-83d275a97ace",
+                    "x": 8,
+                    "y": 89,
+                    "width": 4,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Rooftops: Main",
@@ -60825,6 +61044,58 @@
                     "y": 53,
                     "width": 12,
                     "height": 1
+                },
+                {
+                    "name": "Exit: Skyclad Tower",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "7ee6f1ce-1906-4beb-a671-c41837fafbf9",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "65eaec0c-2e7d-4f65-b9cb-7522c47e4ce9",
+                                "x": 2,
+                                "y": 13,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "0319bf37-156e-4b8d-8fa9-d13341ebc9ca",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "fe5f113e-32af-41dd-8ba4-2cbbb906d91d",
+                    "x": 91,
+                    "y": 11,
+                    "width": 1,
+                    "height": 2
+                },
+                {
+                    "name": "Exit: Bell Tower",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "7893848f-c448-48df-a66a-e94ed3bb7ec3",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "199755c0-9918-440d-ad8a-39b651dc448e",
+                                "x": 17,
+                                "y": 13,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "1a4b38cf-9792-40bb-abfc-c6db3e64a34b",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "3d091557-38af-4f32-bade-b6697e4374df",
+                    "x": 9,
+                    "y": 30,
+                    "width": 1,
+                    "height": 2
                 }
             ]
         },
@@ -66614,7 +66885,190 @@
             "x": 2168,
             "y": 1472,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Rooftop",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "f6143b38-987a-47ec-b022-1cace5a811a6",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "98853e3a-d09a-4a4e-ba2e-0e1816613c24",
+                                "x": 89,
+                                "y": 12,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "0e211f3a-bdf7-49e8-a17a-df48e6940aa4",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "552a664c-e9cf-4223-9128-3656eb75a921",
+                    "x": 0,
+                    "y": 12,
+                    "width": 1,
+                    "height": 2
+                },
+                {
+                    "name": "Exit: Lunarium",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "e43b23a5-7513-41c4-a483-7df2f6cbfee0",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "49dd8ce7-f9bc-41e3-9931-e8aeadda8e3a",
+                                "x": 17,
+                                "y": 12,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "38e49bab-29ee-44b7-bbb2-9f955848ce2a",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "1b3c9035-fc5b-4608-85ca-d3dcd72128e2",
+                    "x": 0,
+                    "y": 97,
+                    "width": 1,
+                    "height": 6
+                },
+                {
+                    "name": "Exit: Statue Hall",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "a7b94481-2cc4-4652-83d6-3838eb0e9e7c",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "f7e75edf-6ac8-4041-b82e-4b431d02a635",
+                                "x": 17,
+                                "y": 12,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "383125aa-fd46-4b86-89fd-89919ea574f1",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "2b7e0329-6817-458b-a1f9-54af581813d3",
+                    "x": 0,
+                    "y": 115,
+                    "width": 1,
+                    "height": 6
+                },
+                {
+                    "name": "Exit: Inner Circle",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "5bc637ae-eb33-496b-a8f3-44eb4f277e65",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "1807710e-4819-42af-903d-d2293bb8a86f",
+                                "x": 57,
+                                "y": 31,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "47c58204-f147-4be8-9f70-1cf74c1fa1d7",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "5a6845da-f8e7-4e50-828a-7e31668420d0",
+                    "x": 0,
+                    "y": 133,
+                    "width": 1,
+                    "height": 7
+                },
+                {
+                    "name": "Exit: Echoing Vaults",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "d10d462f-51eb-4689-9fea-a3d61b4873f2",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "9a8b9296-e8ff-4147-b213-8a12cd5ef063",
+                                "x": 11,
+                                "y": 2,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "9284929a-8e36-4afa-89ef-3d29e1e1d216",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "0e0358ba-a77d-48bf-a317-d827fa20fc7a",
+                    "x": 6,
+                    "y": 143,
+                    "width": 10,
+                    "height": 1
+                },
+                {
+                    "name": "Exit: Courtyard",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "9b104fa7-3966-4f0e-a42b-fe28869b939d",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "3251bbc0-9a00-4d36-9233-7f6f459e3607",
+                                "x": 1,
+                                "y": 31,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "166911ba-fc60-48a9-8cc0-3b530b6d151a",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "1fd5fa1f-c876-412c-b5c7-53e60dcf0097",
+                    "x": 19,
+                    "y": 133,
+                    "width": 1,
+                    "height": 7
+                },
+                {
+                    "name": "Exit: Banner Hall",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "b83908b2-6db4-40b6-a102-8a09296d1182",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "1bb22f94-cc52-41a7-afcf-52ba2f81de25",
+                                "x": 1,
+                                "y": 12,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "ed02c205-1a33-4f06-a82b-19a3fe8e366d",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "36ddfc01-86c5-4e50-9213-716fbfaaee94",
+                    "x": 19,
+                    "y": 97,
+                    "width": 1,
+                    "height": 6
+                }
+            ]
         },
         {
             "name": "Skyclad Tower: Balcony",
@@ -67355,7 +67809,86 @@
             "x": 2524.7619047619046,
             "y": 2166.222222222222,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Banner Hall",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "b50a5cfd-bb5e-4ffb-92ec-ebfe1ec64d94",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "1bb22f94-cc52-41a7-afcf-52ba2f81de25",
+                                "x": 17,
+                                "y": 12,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "f9726b23-87b3-4aca-9f14-dec4c23c0829",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "2524fced-3b00-4241-88a0-f20f684a4625",
+                    "x": 0,
+                    "y": 7,
+                    "width": 1,
+                    "height": 6
+                },
+                {
+                    "name": "Exit: New Wing",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "f488d725-aa1a-485c-be99-746be36381d3",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "e7d1ec78-19d9-4585-9331-13be339ee9c0",
+                                "x": 23,
+                                "y": 33,
+                                "direction": "up",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "5da4aa90-f526-433a-854d-d7de01949737",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "7c0efd8a-cffb-46e4-8e89-c830114371ec",
+                    "x": 3,
+                    "y": 0,
+                    "width": 17,
+                    "height": 1
+                },
+                {
+                    "name": "Exit: Courtyard",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "039f5ad5-8205-420c-9d7c-965f5fa125da",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "3251bbc0-9a00-4d36-9233-7f6f459e3607",
+                                "x": 22,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "0df91d73-f7c2-4f19-9090-152be7495d36",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "db5b3303-d78e-41aa-a5f7-404c20e33c58",
+                    "x": 18,
+                    "y": 17,
+                    "width": 2,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Worksite (1 Frames)",
@@ -91275,7 +91808,67 @@
             "x": 324,
             "y": 2176,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Postern",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "3a37f320-c28d-4508-ba65-d07d95b3ddcc",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "30",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "bfc8d8c8-dd64-48ca-9b40-120ee78763e8",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "6c61eec4-369a-4115-b9a8-679bd26b2a5a",
+                                            "x": 1,
+                                            "y": 13,
+                                            "direction": "right",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "2db6c459-c0b9-4d16-a364-f264cfc16760",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "313d9259-a116-4f96-ad95-b5348c1d43a1",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "cb0bb480-d789-4019-a381-78d7b207921e",
+                                            "x": 1,
+                                            "y": 13,
+                                            "direction": "right",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "b361ac37-d08d-4af0-9d47-ace62a104e6d",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "b5acd466-25d3-4845-a571-3eccda1536c0",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "f0fa2aee-8cb6-42e0-9a95-6a7976fad31d",
+                    "x": 59,
+                    "y": 23,
+                    "width": 1,
+                    "height": 7
+                }
+            ]
         },
         {
             "name": "Starlit Garden: Postern (Open)",
@@ -92046,6 +92639,32 @@
                     ],
                     "id": "0f019112-f93e-402a-90e1-4b9c06fddd14",
                     "x": 19,
+                    "y": 7,
+                    "width": 1,
+                    "height": 7
+                },
+                {
+                    "name": "Exit: Starlit Garden",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "a4c01054-28e1-42d0-a340-cb85e234dea4",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "1c0633f8-8702-4786-9026-27a727fa45ff",
+                                "x": 57,
+                                "y": 29,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "ee24087d-5c5d-4db2-ba2e-7b14b1ecfe32",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "db6767ee-1c66-40d6-ba54-4ff99677f1b4",
+                    "x": 0,
                     "y": 7,
                     "width": 1,
                     "height": 7
@@ -92821,6 +93440,32 @@
                     ],
                     "id": "6576b792-355a-4cd7-b38e-4fd86c38a5b7",
                     "x": 19,
+                    "y": 7,
+                    "width": 1,
+                    "height": 7
+                },
+                {
+                    "name": "Exit: Starlit Garden",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "f59a3903-7a1c-4a89-b0e1-f74c4a902cd6",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "1c0633f8-8702-4786-9026-27a727fa45ff",
+                                "x": 57,
+                                "y": 29,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "65b5642a-679b-4183-96d8-e4e064cc91d7",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "8b2acf19-f351-41f1-b64a-4a846cafda81",
+                    "x": 0,
                     "y": 7,
                     "width": 1,
                     "height": 7
@@ -94371,6 +95016,32 @@
                     "y": 0,
                     "width": 12,
                     "height": 1
+                },
+                {
+                    "name": "Exit: Dead End",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "04328312-d0f3-4d4c-8e11-060b746dda0e",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "608fdb32-853a-4514-a8b3-01bdcea3eec8",
+                                "x": 1,
+                                "y": 8,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "5ab73bbe-6546-4b96-b98f-a073928c72ea",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "0108486d-3cc5-47b7-8e60-9c26b52efd66",
+                    "x": 19,
+                    "y": 16,
+                    "width": 1,
+                    "height": 18
                 }
             ]
         },
@@ -95118,9 +95789,62 @@
             "playerHit3Script": [],
             "id": "1bb22f94-cc52-41a7-afcf-52ba2f81de25",
             "x": 2343.1746031746025,
-            "y": 2170.6031746031745,
+            "y": 2169.4603174603176,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Skyclad Tower",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "0e43bd40-4553-4959-b0af-0a471fe7e9e7",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "65eaec0c-2e7d-4f65-b9cb-7522c47e4ce9",
+                                "x": 17,
+                                "y": 102,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "ca05cdf7-cfbc-47e7-9bd6-13298ef3f1b5",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "7a73b19b-eb2b-4e21-9a7b-9e58066593c5",
+                    "x": -1,
+                    "y": 7,
+                    "width": 2,
+                    "height": 6
+                },
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "1eb55c67-2d46-47f9-8a94-f9bbf43ad5cb",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 1,
+                                "y": 12,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "ad1146eb-4678-42ad-b601-d1ea56a272f3",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "8293be3f-1da9-4c22-867d-6646421ea877",
+                    "x": 19,
+                    "y": 7,
+                    "width": 1,
+                    "height": 6
+                }
+            ]
         },
         {
             "name": "Worksite (0 Unstarted)",
@@ -127688,7 +128412,145 @@
             "x": 712,
             "y": 2619.4285714285716,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Postern",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "94d09e83-d6af-41a9-8131-23d51399b32e",
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "30",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "07c520a0-1521-48fd-8116-905b21c978eb",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "6c61eec4-369a-4115-b9a8-679bd26b2a5a",
+                                            "x": 9,
+                                            "y": 15,
+                                            "direction": "up",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "aa3e9478-f3ef-4900-9e8c-1884c364bf5d",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "c9f3a82b-5be2-4559-86af-f6ae562a6c4d",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "cb0bb480-d789-4019-a381-78d7b207921e",
+                                            "x": 9,
+                                            "y": 15,
+                                            "direction": "up",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "1b14d489-e8a6-42bc-b923-4553cde12131",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "07ed71fb-bcfe-4692-b851-9c19dea506c5",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "10add840-445e-4831-a7e9-70e30281cc53",
+                    "x": 26,
+                    "y": 0,
+                    "width": 8,
+                    "height": 1
+                },
+                {
+                    "name": "Exit: Quarry",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "10dc6a83-d695-4f00-87ee-414be488edf8",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "6fb42401-546e-476a-8afe-916e094456cd",
+                                "x": 9,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "ddd5f499-eb91-4bf5-b1c8-b280c79fa831",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "fe2ed50b-4e8e-4be4-8e72-434d39594b54",
+                    "x": 27,
+                    "y": 89,
+                    "width": 4,
+                    "height": 1
+                },
+                {
+                    "name": "Exit: Waterway",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "f119746b-7e73-4612-95b6-04c082471085",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "731e91e4-45ed-4f04-857b-b2ee375c400d",
+                                "x": 1,
+                                "y": 30,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "62c15113-913e-4dd1-ad4a-0954748b3724",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "d3832008-9569-4c63-87bb-7155c4e07df5",
+                    "x": 59,
+                    "y": 65,
+                    "width": 1,
+                    "height": 4
+                },
+                {
+                    "name": "Exit: Inner Circle",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "881fe770-92f0-4049-a2a1-0192e7329621",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "1807710e-4819-42af-903d-d2293bb8a86f",
+                                "x": 1,
+                                "y": 31,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "763185af-7590-45d0-ad35-4936da90ba5b",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "45671327-29dc-4c84-90a2-ca2cc050a83d",
+                    "x": 59,
+                    "y": 4,
+                    "width": 1,
+                    "height": 10
+                }
+            ]
         },
         {
             "name": "Inner Circle: Sacred Hall",
@@ -132033,10 +132895,63 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "1807710e-4819-42af-903d-d2293bb8a86f",
-            "x": 1624,
-            "y": 2520,
+            "x": 1634.666666666667,
+            "y": 2518.6666666666665,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Skyclad Tower",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "a5783abd-3148-4740-ba4e-2d71b259f72e",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "65eaec0c-2e7d-4f65-b9cb-7522c47e4ce9",
+                                "x": 1,
+                                "y": 139,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "1e92fb40-0eee-4ac9-834e-ec33d9144bc0",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "79bb9cbf-dd3e-4c1a-89b9-a74eff6d71dd",
+                    "x": 59,
+                    "y": 22,
+                    "width": 1,
+                    "height": 10
+                },
+                {
+                    "name": "Exit: Inner Circle",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "391168f0-7b4e-4f20-b6bb-d65ba6c4b725",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "a2b662e1-6c9b-4737-8b87-1ba9dada10d7",
+                                "x": 57,
+                                "y": 13,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "f260d9ef-afc1-434f-a5eb-6f4dfaea249b",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "1e47b03f-6ecc-4cd3-a7e9-ffc971838999",
+                    "x": 0,
+                    "y": 22,
+                    "width": 1,
+                    "height": 10
+                }
+            ]
         },
         {
             "name": "Echoing Vaults: Waterway",
@@ -136381,10 +137296,37 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "731e91e4-45ed-4f04-857b-b2ee375c400d",
-            "x": 1240,
-            "y": 2920,
+            "x": 1210.6666666666677,
+            "y": 2921.333333333333,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Inner Circle",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "b35326a1-0197-4fb8-a3f7-f71fb8f3e8ab",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "a2b662e1-6c9b-4737-8b87-1ba9dada10d7",
+                                "x": 57,
+                                "y": 68,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "fa253eea-98af-4717-ad7f-409fbc688639",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "e0abba38-2145-45d7-a601-7259cb875a9e",
+                    "x": 0,
+                    "y": 27,
+                    "width": 1,
+                    "height": 4
+                }
+            ]
         },
         {
             "name": "Echoing Vaults: Main",
@@ -143604,7 +144546,60 @@
             "x": 2172.8888888888887,
             "y": 2652.4444444444443,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Skyclad Tower",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "8cba92d1-5aa8-49bf-b838-54917e62b5fb",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "65eaec0c-2e7d-4f65-b9cb-7522c47e4ce9",
+                                "x": 6,
+                                "y": 142,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "63129bc6-fafd-454b-a2ac-324ee2cee7bb",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "b03acd08-48c8-46f2-9f52-cbe5295fe7d2",
+                    "x": 8,
+                    "y": 0,
+                    "width": 8,
+                    "height": 1
+                },
+                {
+                    "name": "Exit: Mae's",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "d5903b26-a796-4ed2-967c-54903396cd91",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "7ac1a29d-0286-4912-8d92-0065eeb2a499",
+                                "x": 1,
+                                "y": 12,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "937b090c-4865-47e6-8db9-5ecc2ebd5916",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "6c747818-0bea-46c5-b797-7bb151fc105c",
+                    "x": 99,
+                    "y": 19,
+                    "width": 1,
+                    "height": 11
+                }
+            ]
         },
         {
             "name": "Scene: End",
@@ -144729,10 +145724,37 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "7ac1a29d-0286-4912-8d92-0065eeb2a499",
-            "x": 3008,
-            "y": 2768,
+            "x": 3000,
+            "y": 2787.42857142857,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Echoing Vaults",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "b711359c-89ac-4d08-b89e-8bfc2d911fbe",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "9a8b9296-e8ff-4147-b213-8a12cd5ef063",
+                                "x": 97,
+                                "y": 29,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "5ed0d824-7a19-49ef-a6dc-deadcc708829",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "9a5e4478-c33b-4106-8ab5-61b3ddaab1d8",
+                    "x": 0,
+                    "y": 1,
+                    "width": 1,
+                    "height": 12
+                }
+            ]
         },
         {
             "name": "Worksite (2 Walls - Marble)",
@@ -151988,7 +153010,60 @@
             "x": 2386.8571428571427,
             "y": 2339.6363636363644,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Skyclad Tower",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "9111235f-696c-47ba-a048-112a1a4a3e7d",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "65eaec0c-2e7d-4f65-b9cb-7522c47e4ce9",
+                                "x": 17,
+                                "y": 139,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "cb25a948-45b1-4381-8d01-8da7f7068412",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "fb6580cd-fc55-4b7b-9a82-643d030b7d37",
+                    "x": 0,
+                    "y": 25,
+                    "width": 1,
+                    "height": 7
+                },
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "26509896-ebbe-41ee-8efc-0b1c7e409f2f",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 18,
+                                "y": 15,
+                                "direction": "up",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "75777c34-2469-494e-a027-19b309a05623",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "3bce60c7-58c0-47e0-a3e6-48c536f69cc0",
+                    "x": 21,
+                    "y": 0,
+                    "width": 16,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Rooftops: Dead End",
@@ -152733,10 +153808,37 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "608fdb32-853a-4514-a8b3-01bdcea3eec8",
-            "x": 1957.142857142858,
-            "y": 1973.1428571428573,
+            "x": 1956.0000000000007,
+            "y": 1974.8571428571431,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Spider's Nest",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "c0a3459b-2a98-4e17-9f98-43eb84081ede",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "09842d4c-f073-4c2e-926c-79cd26211cfa",
+                                "x": 16,
+                                "y": 26,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "61db40cc-458c-401f-9c8f-ad4b08cc9c1c",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "134125aa-2cd4-411b-8cfe-97f165735b49",
+                    "x": 0,
+                    "y": 2,
+                    "width": 1,
+                    "height": 14
+                }
+            ]
         },
         {
             "name": "Screen: Debug",
@@ -155687,7 +156789,7 @@
             "imageHeight": 144,
             "filename": "area-echoing_vaults-mae's_corner.png",
             "inode": "70368744177752618",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "a4222b42-23d4-447b-929f-3e0d3e6a826b",
@@ -155698,7 +156800,7 @@
             "imageHeight": 576,
             "filename": "area-echoing_vaults-main.png",
             "inode": "77687093572177701",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "adfe41ee-5c31-4904-a5ff-274ab41ea67a",
@@ -155709,7 +156811,7 @@
             "imageHeight": 288,
             "filename": "area-echoing_vaults-waterway.png",
             "inode": "25614222880844986",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "6b170083-9f4f-44c2-9f8a-2cb779a8f390",
@@ -155720,7 +156822,7 @@
             "imageHeight": 288,
             "filename": "area-great_library-closed.png",
             "inode": "35747322042617711",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "19b24368-6bef-46af-8932-8a8920aaa9a6",
@@ -155731,7 +156833,7 @@
             "imageHeight": 288,
             "filename": "area-great_library-open.png",
             "inode": "24488322974189880",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "4c585756-c4e5-4d0b-8200-39cfd9b8bdfd",
@@ -155742,7 +156844,7 @@
             "imageHeight": 720,
             "filename": "area-inner_circle-main.png",
             "inode": "9851624185158059",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "c457fb8b-5a06-49c5-a733-b0515815a8ae",
@@ -155753,7 +156855,7 @@
             "imageHeight": 144,
             "filename": "area-inner_circle-quarry.png",
             "inode": "23362423067027686",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "0419f072-20d2-4a90-9740-9ab60ddd0767",
@@ -155764,7 +156866,7 @@
             "imageHeight": 288,
             "filename": "area-inner_circle-sacred_hall.png",
             "inode": "41939771530180980",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "32beb6d0-d92e-4f00-973c-d9eb0eca1548",
@@ -155775,7 +156877,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-0_unstarted.png",
             "inode": "3377699721908807",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "4ac13670-48a9-4dbf-8ed1-f3e776350ed5",
@@ -155786,7 +156888,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-1_partial_frame.png",
             "inode": "2533274791777220",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "0029e211-12d2-4ba3-ae18-0abc0d9d7899",
@@ -155797,7 +156899,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-2_partial_walls-granite.png",
             "inode": "1970324838355550",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "f2625350-b250-4f5e-a486-7a9b1d2eacf7",
@@ -155808,7 +156910,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-2_partial_walls-marble.png",
             "inode": "67272519433944729",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "ef7cd907-52f1-4648-92cb-55ba7f8eebd7",
@@ -155819,7 +156921,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-granite_bamboo.png",
             "inode": "9570149209543105",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "60222c67-c017-4bfe-9b0e-e74fe974cb23",
@@ -155830,7 +156932,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-granite_oak.png",
             "inode": "18858823440994530",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "80debc37-2aa6-42ee-8548-bf09df7c0553",
@@ -155841,7 +156943,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-marble_bamboo.png",
             "inode": "49821070878074372",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "c405811e-936a-4406-868e-18314cf54d41",
@@ -155852,7 +156954,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-marble_oak.png",
             "inode": "30962247438330627",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "d827f881-87df-4e77-9f02-cd17b923b517",
@@ -155863,7 +156965,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_bamboo_porcelain.png",
             "inode": "30399297486131251",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "1f8689ae-0cde-4ada-a3ef-93e1b1e955fa",
@@ -155874,7 +156976,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_bamboo_shell.png",
             "inode": "8725724279410750",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "cc85cdfe-f5a5-4792-bce6-d4df5c2fbbb8",
@@ -155885,7 +156987,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_oak_porcelain.png",
             "inode": "41939771531268145",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "168bd1c7-c420-4424-9e9a-27a3004c66a3",
@@ -155896,7 +156998,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_oak_shell.png",
             "inode": "67553994410849734",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "988cdcb3-2042-4ae1-a9f1-c942c762d7ae",
@@ -155907,7 +157009,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_bamboo_porcelain.png",
             "inode": "37999121857318351",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "12bc2306-a5c9-49b9-9c9b-47636f0c4419",
@@ -155918,7 +157020,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_bamboo_shell.png",
             "inode": "14073748836913211",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "ad1bdd72-b813-4b96-b7e3-c84a329d8777",
@@ -155929,7 +157031,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_oak_porcelain.png",
             "inode": "12103423998959237",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "8f00efc2-fb4d-466f-9f12-4d5ca99c7f77",
@@ -155940,7 +157042,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_oak_shell.png",
             "inode": "52917295622983741",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "a6824090-cf23-46ff-998a-4454de326bca",
@@ -155951,7 +157053,7 @@
             "imageHeight": 288,
             "filename": "area-old_vampire_quarter.png",
             "inode": "21955048183620253",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "443db5fc-92a0-429b-8947-db87080b26d7",
@@ -155962,7 +157064,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-balcony.png",
             "inode": "7881299348260426",
-            "_v": 1637691747741
+            "_v": 1637713612556
         },
         {
             "id": "5f385232-735c-44c0-bb63-46211a8daec6",
@@ -155973,7 +157075,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-banner_hall.png",
             "inode": "58828270132535264",
-            "_v": 1637691747741
+            "_v": 1637713612557
         },
         {
             "id": "0e12f2e3-a87d-4ae3-9cef-79e9377c08ce",
@@ -155984,7 +157086,7 @@
             "imageHeight": 288,
             "filename": "area-skyclad_tower-courtyard.png",
             "inode": "10977524093042015",
-            "_v": 1637691747741
+            "_v": 1637713612557
         },
         {
             "id": "c7a68803-bedf-43c7-a70c-d40a083cdc6c",
@@ -155995,7 +157097,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-lunarium.png",
             "inode": "23080948090635694",
-            "_v": 1637691747741
+            "_v": 1637713612557
         },
         {
             "id": "f31e9a1d-af5c-4cfd-8ee5-5ee2fd22cdc9",
@@ -156006,7 +157108,7 @@
             "imageHeight": 1152,
             "filename": "area-skyclad_tower-main.png",
             "inode": "35747322042410535",
-            "_v": 1637691747741
+            "_v": 1637713612557
         },
         {
             "id": "17c0a5b7-302a-4b69-88cc-cb4a7882d3e9",
@@ -156017,7 +157119,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-s+a's_room.png",
             "inode": "50946970784636514",
-            "_v": 1637691747741
+            "_v": 1637713612557
         },
         {
             "id": "0069f303-5f1f-4c12-a122-bb2ebe9c3668",
@@ -156028,7 +157130,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-statue_hall.png",
             "inode": "8444249301436268",
-            "_v": 1637691747741
+            "_v": 1637713612557
         },
         {
             "id": "e553535d-9344-4fd1-a104-ff9173f94e33",
@@ -156039,7 +157141,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_garden-main.png",
             "inode": "18577348464282929",
-            "_v": 1637691747741
+            "_v": 1637713612557
         },
         {
             "id": "8931f52f-f1be-4100-a501-058543a540e8",
@@ -156050,7 +157152,7 @@
             "imageHeight": 144,
             "filename": "area-starlit_garden-postern-closed.png",
             "inode": "54887620458866275",
-            "_v": 1637691747741
+            "_v": 1637713612557
         },
         {
             "id": "4d7a2365-d213-4ffc-b5cb-a14bbf9e1434",
@@ -156061,7 +157163,7 @@
             "imageHeight": 144,
             "filename": "area-starlit_garden-postern-open.png",
             "inode": "14636698790333586",
-            "_v": 1637691747741
+            "_v": 1637713612557
         },
         {
             "id": "d54c70d5-890f-481c-9f4f-f8fda81e21ff",
@@ -156072,7 +157174,7 @@
             "imageHeight": 720,
             "filename": "area-windswept_rooftop-belltower.png",
             "inode": "69805794224256385",
-            "_v": 1637691747741
+            "_v": 1637713612557
         },
         {
             "id": "966ca6be-add4-47fe-adf1-9a8107a780d0",
@@ -156083,7 +157185,7 @@
             "imageHeight": 144,
             "filename": "area-windswept_rooftop-dead_end.png",
             "inode": "113434415614510448",
-            "_v": 1637691747741
+            "_v": 1637713612557
         },
         {
             "id": "7ac719f9-2eb3-4ead-8599-3fc377b72b7e",
@@ -156094,7 +157196,7 @@
             "imageHeight": 432,
             "filename": "area-windswept_rooftop-main.png",
             "inode": "94012642221446237",
-            "_v": 1637691747741
+            "_v": 1637713612557
         },
         {
             "id": "3010c726-7b40-4fb3-9562-402a83027e47",
@@ -156105,7 +157207,7 @@
             "imageHeight": 288,
             "filename": "area-windswept_rooftop-spider_nest.png",
             "inode": "15199648742667608",
-            "_v": 1637691747741
+            "_v": 1637713612557
         },
         {
             "id": "810940f3-7fcb-4dfa-a392-c8297cc3b285",
@@ -156116,7 +157218,7 @@
             "imageHeight": 144,
             "filename": "screen-controls.png",
             "inode": "16888498602688620",
-            "_v": 1637691747742
+            "_v": 1637713612557
         },
         {
             "id": "b0f184ed-4662-4fc9-b0ce-1b1a59bd2090",
@@ -156127,7 +157229,7 @@
             "imageHeight": 144,
             "filename": "screen-debug.png",
             "inode": "20266198323270433",
-            "_v": 1637691747742
+            "_v": 1637713612596
         },
         {
             "id": "6ada8328-0b3d-476c-9926-52178b8b0bca",
@@ -156138,7 +157240,7 @@
             "imageHeight": 144,
             "filename": "screen-end.png",
             "inode": "36591746972499532",
-            "_v": 1637691747742
+            "_v": 1637713612599
         },
         {
             "id": "ea7a7282-496c-4211-ba52-427b3596333a",
@@ -156149,7 +157251,7 @@
             "imageHeight": 144,
             "filename": "screen-logo.png",
             "inode": "9007199254790522",
-            "_v": 1637691747742
+            "_v": 1637713612599
         },
         {
             "id": "2d9c771d-9027-44ed-aecf-0c70a7831268",
@@ -156160,7 +157262,7 @@
             "imageHeight": 144,
             "filename": "screen-map.png",
             "inode": "8444249302642410",
-            "_v": 1637691747742
+            "_v": 1637713612599
         },
         {
             "id": "cceb218f-f08c-496d-ad0e-a5bb9389f668",
@@ -156171,7 +157273,7 @@
             "imageHeight": 144,
             "filename": "screen-swatches.png",
             "inode": "16325548649593986",
-            "_v": 1637691747742
+            "_v": 1637713612599
         },
         {
             "id": "bb6f1bd9-df6a-472a-9c35-33cac9be44e4",
@@ -156182,7 +157284,7 @@
             "imageHeight": 144,
             "filename": "screen-titles.png",
             "inode": "14918173765714544",
-            "_v": 1637691747742
+            "_v": 1637713612599
         }
     ],
     "spriteSheets": [
@@ -156193,7 +157295,7 @@
             "type": "static",
             "filename": "fx-block.png",
             "inode": "49539595901127078",
-            "_v": 1637691747742
+            "_v": 1637713612599
         },
         {
             "id": "2965f7b5-6502-426b-b047-8afa7e75d6bd",
@@ -156202,7 +157304,7 @@
             "type": "animated",
             "filename": "fx-checkmark.png",
             "inode": "20829148276777942",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "be2939e3-3b95-44ee-b32b-b582122f2c5d",
@@ -156211,7 +157313,7 @@
             "type": "static",
             "filename": "fx-coffin.png",
             "inode": "22799473113692635",
-            "_v": 1637691747742
+            "_v": 1637713612599
         },
         {
             "id": "3a742280-d5aa-4a59-b646-84fc583d45f9",
@@ -156220,7 +157322,7 @@
             "type": "animated",
             "filename": "fx-coffin_crowded.png",
             "inode": "74872343805116218",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "2840b42b-95fb-47e2-93db-b754c68f32f1",
@@ -156229,7 +157331,7 @@
             "type": "static",
             "filename": "fx-coffin_open.png",
             "inode": "23362423067271200",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "634c44b8-e2ef-4bf3-801f-c846dec82630",
@@ -156238,7 +157340,7 @@
             "type": "static",
             "filename": "fx-empty.png",
             "inode": "72902018968111603",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "5a20dd62-520d-4d87-9450-450cc5531818",
@@ -156247,7 +157349,7 @@
             "type": "animated",
             "filename": "fx-map_marker.png",
             "inode": "16325548649270294",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "490468db-09ba-43c6-8716-0af8c5f40cc8",
@@ -156256,7 +157358,7 @@
             "type": "actor_animated",
             "filename": "fx-press_start.png",
             "inode": "31243722415072217",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "39b7c3ae-f1c7-4d44-90ca-8f4d9867e5d7",
@@ -156265,7 +157367,7 @@
             "type": "animated",
             "filename": "fx-sparkle.png",
             "inode": "17169973579539339",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "420f024e-2db9-474e-a2fe-93912504efa1",
@@ -156274,7 +157376,7 @@
             "type": "actor",
             "filename": "fx-splash.png",
             "inode": "20266198323356621",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "5808e1bc-d48d-426e-8ad6-1572359f1772",
@@ -156283,7 +157385,7 @@
             "type": "actor",
             "filename": "fx-statues.png",
             "inode": "6473924464534483",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "3663a77e-4707-49c0-8e87-d687f2c3186a",
@@ -156292,7 +157394,7 @@
             "type": "actor",
             "filename": "fx-titles.png",
             "inode": "53480245575310727",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "a04be08a-c5c8-486f-b012-c627160ff4a1",
@@ -156301,7 +157403,7 @@
             "type": "static",
             "filename": "inv-amulet.png",
             "inode": "51228445761394289",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "c23fbdc6-a1bd-4629-95b6-ba7f8e2e130a",
@@ -156310,7 +157412,7 @@
             "type": "static",
             "filename": "inv-bat_soul.png",
             "inode": "1125899907241124",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "5d36b1bd-34d1-450d-bb87-16380a160c8e",
@@ -156319,7 +157421,7 @@
             "type": "static",
             "filename": "inv-key.png",
             "inode": "63050394783274017",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "c8e960df-c19e-4dab-a7fe-91a13309803e",
@@ -156328,7 +157430,7 @@
             "type": "static",
             "filename": "inv-wolffish_soul.png",
             "inode": "23925373020476467",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "abc7cdde-9ec1-45db-b22b-43d8c5a77722",
@@ -156337,7 +157439,7 @@
             "type": "static",
             "filename": "mat-glass.png",
             "inode": "34902897112247150",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "ceb0ff8c-ed02-4671-81d0-6a237aaea32c",
@@ -156346,7 +157448,7 @@
             "type": "animated",
             "filename": "mat-marble_granite.png",
             "inode": "25895697857596729",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "7d6bdb0b-eb14-4017-8a12-cabeb5fc24bb",
@@ -156355,7 +157457,7 @@
             "type": "actor",
             "filename": "mat-oak_bamboo.png",
             "inode": "27021597764370202",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "9275c9a2-247f-401b-be99-5a33e162e8ce",
@@ -156364,7 +157466,7 @@
             "type": "animated",
             "filename": "mat-shell_porcelain.png",
             "inode": "58546795156064845",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "6eadd192-7bb2-44a9-ad09-82d1b5e2cccf",
@@ -156373,7 +157475,7 @@
             "type": "actor",
             "filename": "npc-aello.png",
             "inode": "17451448556182543",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "e3793725-f814-49cc-9da0-8148df9454f0",
@@ -156382,7 +157484,7 @@
             "type": "actor",
             "filename": "npc-baphy.png",
             "inode": "14355223812433529",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "ca6a5a00-f8a9-4417-95b4-6f91120f3f6c",
@@ -156391,7 +157493,7 @@
             "type": "actor",
             "filename": "npc-harpy.png",
             "inode": "15481123719154406",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "6878f574-693a-45ec-b10a-e98ac8460a55",
@@ -156400,7 +157502,7 @@
             "type": "actor_animated",
             "filename": "npc-irena.png",
             "inode": "28428972647830476",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "90290bc0-dc76-4e83-b506-632efa294542",
@@ -156409,7 +157511,7 @@
             "type": "actor",
             "filename": "npc-kuliltu.png",
             "inode": "17169973579540106",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "3ad26911-eb11-47d2-861b-3ca481a27190",
@@ -156418,7 +157520,7 @@
             "type": "animated",
             "filename": "npc-kuliltus_tail.png",
             "inode": "40532396646524584",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "87bb74a1-074a-4e50-a4c7-c7f7e37ffdcd",
@@ -156427,7 +157529,7 @@
             "type": "static",
             "filename": "npc-ladybug.png",
             "inode": "24488322974016970",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "51f15ae5-2330-47d0-9235-e0cea78e73b2",
@@ -156436,7 +157538,7 @@
             "type": "static",
             "filename": "npc-lin.png",
             "inode": "26458647810994378",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "0d2ca5c9-8ad5-46b9-bde7-777bb7f8ec4d",
@@ -156445,7 +157547,7 @@
             "type": "animated",
             "filename": "npc-lucy_lay.png",
             "inode": "7881299347965156",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "416af782-2eef-4303-a90e-ca8014e171d3",
@@ -156454,7 +157556,7 @@
             "type": "animated",
             "filename": "npc-lucy_sit.png",
             "inode": "27584547717711188",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
@@ -156463,7 +157565,7 @@
             "type": "actor_animated",
             "filename": "npc-lucy_walk.png",
             "inode": "41658296553245379",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "598eda51-4cc0-4b1a-acd5-5836c44398ed",
@@ -156472,7 +157574,7 @@
             "type": "actor_animated",
             "filename": "npc-madge.png",
             "inode": "204069358115228588",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "284edf9d-b658-469d-ae76-ad1c85b26d8e",
@@ -156481,7 +157583,7 @@
             "type": "static",
             "filename": "npc-mae.png",
             "inode": "44473046320478677",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "c461f155-34b9-4b3e-84a8-2db42d57abbe",
@@ -156490,7 +157592,7 @@
             "type": "actor",
             "filename": "npc-mermaid.png",
             "inode": "62487444829854165",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "bd023ab1-227a-4000-b1ce-79e2ef4a56b9",
@@ -156499,7 +157601,7 @@
             "type": "static",
             "filename": "npc-reaper.png",
             "inode": "19421773393225326",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "b071192a-cba1-406f-8456-11b82a3d9cdf",
@@ -156508,7 +157610,7 @@
             "type": "actor",
             "filename": "npc-rin_rin.png",
             "inode": "91479367431153268",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "b0840233-c04e-4f21-99a1-5bf3f1d1c984",
@@ -156517,7 +157619,7 @@
             "type": "actor",
             "filename": "npc-skeleton-book.png",
             "inode": "87538717757090825",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "53cd97c7-d428-4fc6-9e6d-cc06ac93958b",
@@ -156526,7 +157628,7 @@
             "type": "actor",
             "filename": "npc-skeleton-emptyhanded.png",
             "inode": "45035996273786626",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "c3de744a-6362-4e31-a69d-db8372437620",
@@ -156535,7 +157637,7 @@
             "type": "actor",
             "filename": "npc-skeleton-glass.png",
             "inode": "77405618595514748",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "f486d66d-c606-422e-9a32-0a23fc4a75f5",
@@ -156544,7 +157646,7 @@
             "type": "animated",
             "filename": "npc-snakebat.png",
             "inode": "16325548649408118",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "0c6994c4-f6ab-42aa-a4a6-4cf1c669583e",
@@ -156553,7 +157655,7 @@
             "type": "actor",
             "filename": "npc-stheno.png",
             "inode": "14355223812535820",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "7c12d009-4163-48cb-9d68-fbabbd496760",
@@ -156562,7 +157664,7 @@
             "type": "actor_animated",
             "filename": "npc-sungem_.png",
             "inode": "79094468455736186",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "056fa21c-0048-4580-9566-bc3db5ad8a74",
@@ -156571,7 +157673,7 @@
             "type": "actor_animated",
             "filename": "npc-tibby.png",
             "inode": "16888498602829282",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "ac03d67f-11af-424b-bfc3-835916aa2bff",
@@ -156580,7 +157682,7 @@
             "type": "animated",
             "filename": "npc-vampire_bat_flap.png",
             "inode": "29836347531622226",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "9933758f-0efe-401d-a55b-a264d573d80e",
@@ -156589,7 +157691,7 @@
             "type": "static",
             "filename": "npc-vampire_bat_roosting.png",
             "inode": "34902897112431050",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "15d77f50-f6e3-4364-8b0c-8e6a73973d74",
@@ -156598,7 +157700,7 @@
             "type": "actor",
             "filename": "npc-vampire_chatty.png",
             "inode": "31525197391890988",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "6968b866-60ab-492d-ae93-a8901075b9cc",
@@ -156607,7 +157709,7 @@
             "type": "animated",
             "filename": "npc-vampire_coffin.png",
             "inode": "52072870691506351",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
@@ -156616,7 +157718,7 @@
             "type": "animated",
             "filename": "npc-vampire_misc.png",
             "inode": "27584547717953961",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "45b49479-4945-4bbb-876f-4930ff5c2d8e",
@@ -156625,7 +157727,7 @@
             "type": "animated",
             "filename": "npc-vampire_romantic.png",
             "inode": "14918173765974515",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "0234037c-544b-4838-9dee-75b115bd1d60",
@@ -156634,7 +157736,7 @@
             "type": "animated",
             "filename": "npc-vampire_sitting.png",
             "inode": "21392098230319543",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "132be5ee-3aad-4ab0-b18d-163306b914bd",
@@ -156643,7 +157745,7 @@
             "type": "static",
             "filename": "player-cursor.png",
             "inode": "64176294690101977",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "c3bc79c7-3703-4a67-86b2-301f587745b4",
@@ -156652,7 +157754,7 @@
             "type": "actor_animated",
             "filename": "player-josette.png",
             "inode": "23362423067057198",
-            "_v": 1637691747742
+            "_v": 1637713612600
         },
         {
             "id": "773e0805-bbe3-412b-826b-302d43ad6383",
@@ -156661,7 +157763,7 @@
             "type": "actor_animated",
             "filename": "player-wolffish.png",
             "inode": "8725724278427755",
-            "_v": 1637691747742
+            "_v": 1637713612600
         }
     ],
     "palettes": [
@@ -157554,7 +158656,7 @@
             "filename": "Rooftop - Mountains.mod",
             "settings": {},
             "inode": "31525197391840033",
-            "_v": 1637691747732
+            "_v": 1637713612511
         },
         {
             "id": "92a35368-618b-4b80-a82c-7ea4b517cd0c",
@@ -157562,7 +158664,7 @@
             "filename": "Tower - Uptempo.mod",
             "settings": {},
             "inode": "21110623253550042",
-            "_v": 1637691747732
+            "_v": 1637713612511
         },
         {
             "id": "1dab0fe9-6964-4697-9404-dfd8459a967b",
@@ -157570,7 +158672,7 @@
             "filename": "Vaults - Downtempo.mod",
             "settings": {},
             "inode": "54887620458754787",
-            "_v": 1637691747732
+            "_v": 1637713612511
         }
     ],
     "variables": [
@@ -157775,9 +158877,9 @@
         "startDirection": "left",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 1888,
-        "worldScrollY": 2340,
-        "zoom": 125,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 25,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
