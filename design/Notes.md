@@ -102,7 +102,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - Spidergirls
     - NPC
-        - Festoon                      <<<<<<<<<<<<<
+        - Festoon
     - Theme
         - Building
     - Mechanics
