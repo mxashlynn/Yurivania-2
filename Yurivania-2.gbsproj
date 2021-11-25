@@ -23165,7 +23165,34 @@
             "x": 2388,
             "y": 1123.4285714285713,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "74250794-f96a-4482-9a43-0a884efc499b",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 10,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "2e11573e-9b1e-44d7-91fb-200253a85f78",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "368ccba7-3d7e-48fa-b4f1-2fef0f6fb6e6",
+                    "x": 21,
+                    "y": 35,
+                    "width": 39,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Worksite (4 Finished - Granite, Bamboo, Porcelain)",
@@ -27513,7 +27540,34 @@
             "x": 2386.6666666666665,
             "y": 421.3333333333333,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "b4b8b770-71b8-43ad-a1e7-8275de375f15",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 10,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "1b4cf2be-1cdf-47c9-8ebe-6b0a58fd23e1",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "4d3ec3b3-78a5-44a0-8260-f08bd525c457",
+                    "x": 21,
+                    "y": 35,
+                    "width": 39,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Worksite (3 Beams - Marble, Bamboo)",
@@ -31861,7 +31915,34 @@
             "x": 3436,
             "y": 744,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "ee00737e-b0ae-4289-ae4b-ee68483c922d",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 10,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "67371ea0-6bf3-4727-9808-c17d883de7a9",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "4450ac7f-7e6a-4fa9-9ae5-824daf72908d",
+                    "x": 21,
+                    "y": 35,
+                    "width": 39,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Worksite (4 Finished - Marble, Oak, Porcelain)",
@@ -36209,7 +36290,34 @@
             "x": 3982.166567460322,
             "y": 419.7416666666673,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "232231b9-cd6e-4cfc-9b83-051a6b0f14a6",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 10,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "41c17e05-8ec9-42fa-aec8-eb7718ede483",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "60c354f7-ec89-4322-a3bb-8f588dc63513",
+                    "x": 21,
+                    "y": 35,
+                    "width": 39,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Worksite (4 Finished - Marble, Bamboo, Shell)",
@@ -67808,7 +67916,162 @@
             "id": "c829ddab-d378-4508-841d-11855c6347d4",
             "x": 2524.7619047619046,
             "y": 2166.222222222222,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Festoon",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "b6db145f-68db-494e-bd02-a32e1f4412c7",
+                    "spriteType": "actor",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "0525b333-04dc-40e5-9d30-8442c82cd4be",
+                    "x": 10,
+                    "y": 12
+                },
+                {
+                    "name": "Web 1",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "3e4ae13b-bbc2-4d37-bd70-cbdf19afe0b4",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "7d629562-f0a6-4593-ab88-0eb0542ec404",
+                    "x": 11,
+                    "y": 10
+                },
+                {
+                    "name": "Web 2",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "3e4ae13b-bbc2-4d37-bd70-cbdf19afe0b4",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "19b77fe5-65d5-41c8-9581-6f63e228dca8",
+                    "x": 11,
+                    "y": 8
+                },
+                {
+                    "name": "Web 3",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "3e4ae13b-bbc2-4d37-bd70-cbdf19afe0b4",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "dbaa7396-e4e4-4ecb-b7ff-d36bcbeddf04",
+                    "x": 11,
+                    "y": 6
+                },
+                {
+                    "name": "Web 4",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "3e4ae13b-bbc2-4d37-bd70-cbdf19afe0b4",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "71dea446-24f2-4387-be14-9fa687304502",
+                    "x": 11,
+                    "y": 4
+                },
+                {
+                    "name": "Web 5",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "3e4ae13b-bbc2-4d37-bd70-cbdf19afe0b4",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "fed1a875-b9de-4261-a23e-799174074c8d",
+                    "x": 11,
+                    "y": 2
+                },
+                {
+                    "name": "Web 6",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "3e4ae13b-bbc2-4d37-bd70-cbdf19afe0b4",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "fd7870b9-7c50-4077-919e-a18835589a65",
+                    "x": 11,
+                    "y": 0
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit: Banner Hall",
@@ -72821,7 +73084,34 @@
             "x": 2376,
             "y": 1488,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "1e5fb584-8edf-4a9a-93e5-3f86a5900a63",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 10,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "2f184c75-912b-4c07-8d85-9deacba1ac28",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "c0425c2d-dd18-4f64-a181-30e72a4d8677",
+                    "x": 21,
+                    "y": 35,
+                    "width": 39,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Worksite (3 Beams - Granite, Oak)",
@@ -77169,7 +77459,34 @@
             "x": 2916,
             "y": 746.6666666666665,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "eec135cb-8ed9-4fc6-8433-7f6c6840c3c7",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 10,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "e2ff4b6b-9089-4020-b26c-9dddacc46e02",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "9e9c9002-b4bc-4cc3-bda7-8cc5b35fd90f",
+                    "x": 21,
+                    "y": 35,
+                    "width": 39,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Worksite (4 Finished - Marble, Oak, Shell)",
@@ -90213,7 +90530,34 @@
             "x": 3446.6666666666706,
             "y": 422.09523809523796,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "0da25a90-034c-4f27-9184-63c48ada33e9",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 10,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "45dcdf24-b6bb-458d-9c2e-36cf9041d676",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "e6e7a582-fd1c-4db2-a124-967ad0e3db2d",
+                    "x": 21,
+                    "y": 35,
+                    "width": 39,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Starlit Garden: Main",
@@ -100777,7 +101121,34 @@
             "x": 2375.4285714285725,
             "y": 1820.9142857142856,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "ba08cbb2-ee34-472c-ae70-600b2dd13027",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 10,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "49344edc-34c3-4bda-95ae-39fbaaf2ca43",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "d50f63d8-ef1a-4a11-abbc-a9440b785c39",
+                    "x": 21,
+                    "y": 35,
+                    "width": 39,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Worksite (3 Beams - Granite, Bamboo)",
@@ -105125,7 +105496,34 @@
             "x": 2396.571428571429,
             "y": 748.0000000000001,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "50486d0e-6dd5-4973-8b29-99c851ee2c6f",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 10,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "2cb0e494-b283-4edf-a78e-999d1d5d272a",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "9cbaca99-e099-449d-8a4d-bdc5b4c281e2",
+                    "x": 21,
+                    "y": 35,
+                    "width": 39,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Worksite (4 Finished - Granite, Bamboo, Shell)",
@@ -113821,7 +114219,34 @@
             "x": 2918.6666666666665,
             "y": 424.0000000000002,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "9301da58-a817-43c3-ae9c-634c5c7e7769",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 10,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "522c6335-e8aa-4834-b83b-62dbfe8bcdbd",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "e445a01c-4909-426e-a16c-8dd9656ac9fe",
+                    "x": 21,
+                    "y": 35,
+                    "width": 39,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Worksite (3 Beams - Marble, Oak)",
@@ -118169,7 +118594,34 @@
             "x": 3987.8125,
             "y": 745.96875,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "5218eb31-6540-4be6-bb34-a61d5ea9af54",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 10,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "986543d0-9a1b-4c7d-bbc4-84441a5e03d5",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "1347b164-8b8b-46c2-b950-a65b166b09c7",
+                    "x": 21,
+                    "y": 35,
+                    "width": 39,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Inner Circle: Main",
@@ -150687,7 +151139,34 @@
             "x": 3435.4285714285716,
             "y": 1113.714285714286,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "Exit: Balcony",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "efa7bb6f-3cbd-445c-a315-883f966f6b94",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c829ddab-d378-4508-841d-11855c6347d4",
+                                "x": 10,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "2b2417b1-8089-48a1-8b15-5054332054bd",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "9b993e3c-532b-40b7-8606-7363267de6b3",
+                    "x": 21,
+                    "y": 35,
+                    "width": 39,
+                    "height": 1
+                }
+            ]
         },
         {
             "name": "Skyclad Tower: Courtyard",
@@ -157982,6 +158461,15 @@
             "_v": 1637713612600
         },
         {
+            "id": "3e4ae13b-bbc2-4d37-bd70-cbdf19afe0b4",
+            "name": "fx-web",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "fx-web.png",
+            "inode": "14918173765801748",
+            "_v": 1637805221509
+        },
+        {
             "id": "a04be08a-c5c8-486f-b012-c627160ff4a1",
             "name": "inv-amulet",
             "numFrames": 1,
@@ -158070,6 +158558,15 @@
             "filename": "npc-baphy.png",
             "inode": "14355223812433529",
             "_v": 1637713612600
+        },
+        {
+            "id": "b6db145f-68db-494e-bd02-a32e1f4412c7",
+            "name": "npc-festoon",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "npc-festoon.png",
+            "inode": "5348024557859061",
+            "_v": 1637805338601
         },
         {
             "id": "ca6a5a00-f8a9-4417-95b4-6f91120f3f6c",
@@ -159466,9 +159963,9 @@
         "startDirection": "left",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 25,
+        "worldScrollX": 12995,
+        "worldScrollY": 11425,
+        "zoom": 525,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
