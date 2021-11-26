@@ -140,8 +140,8 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - **Plantgirls**
     - NPCs
-        - *new*                       <<<<<<<<<<<<<
-        - Alraune (needs work)        <<<<<<<<<<<<<
+        - Alraune   ✅
+        - *misc plantgirls*  ✅
     - Material
         - Shell / Porcelain  ✅
     - Theme
