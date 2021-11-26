@@ -5,9 +5,9 @@
     },
     "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
+        ".",
         "tiles",
-        "."
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -417,7 +417,7 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 158.33333333333331,
+                "x": 332.66666666666663,
                 "y": 195.33333333333331
             }
         },
