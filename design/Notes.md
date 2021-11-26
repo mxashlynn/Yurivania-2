@@ -81,7 +81,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - Vampiregirls
     - NPC
-        - *misc vampires* ✅
+        - *misc vampires*
     - Item
         - Soul of Wolffish (must have Soul of Bat)
     - Theme
@@ -92,8 +92,8 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - Gorgons
     - NPC
-        - Stheno ✅
-        - Lucy ✅
+        - Stheno
+        - Lucy
     - Theme
         - Central Hub
     - Mechanics
@@ -111,15 +111,15 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - **Demongirls**
     - NPCs
-        - Rin~Rin      ✅
-		- Lin          ✅
-        - Baphy        ✅
-		- Sophia/Abraxas ✅
-		- Reaper       ✅
-        - Flying Snake ✅
-        - Bluecap      ✅
+        - Rin~Rin
+		- Lin
+        - Baphy
+		- Sophia
+		- Reaper
+        - Flying Snake
+        - Bluecap
     - Material
-        - Marble / Granite  ✅
+        - Marble / Granite
     - Theme
         - Multiple Routes Through
     - Mechanics
@@ -128,10 +128,10 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - **Harpies**
     - NPCs
-        - Sungem ✅
-        - Aello ✅
+        - Sungem
+        - Aello
     - Material
-        - Bamboo / Oak  ✅
+        - Bamboo / Oak
     - Theme
         - Rooftops
     - Mechanics
@@ -140,10 +140,10 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - **Plantgirls**
     - NPCs
-        - Alraune   ✅
-        - *misc plantgirls*  ✅
+        - Alraune
+        - *misc plantgirls*
     - Material
-        - Shell / Porcelain  ✅
+        - Shell / Porcelain
     - Theme
         - Overgrowth
     - Mechanics
@@ -152,11 +152,11 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Species
         - **Skeletongirls**
     - NPCs
-        - *misc skeletons* ✅
-        - Glassworker ✅
-        - Tibby ✅
+        - *misc skeletons*
+        - Glassworker
+        - Tibby
     - Material
-        - Glass  ✅
+        - Glass
     - Theme
         - Puzzle
     - Mechanics
@@ -166,10 +166,10 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - **Merfolk**
         - **Zombies**
     - NPCs
-        - Kililtu ✅
-        - Madge ✅
-        - Irena ✅
-        - Mae ✅
+        - Kililtu
+        - Madge
+        - Irena
+        - Mae
     - Item
         - Lunar Charm
         - *Tibby Gift*
