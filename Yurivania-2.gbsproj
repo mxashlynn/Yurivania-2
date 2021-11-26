@@ -134006,7 +134006,74 @@
             "id": "1807710e-4819-42af-903d-d2293bb8a86f",
             "x": 1634.666666666667,
             "y": 2518.6666666666665,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Baphy S",
+                    "frame": 2,
+                    "animate": false,
+                    "spriteSheetId": "e3793725-f814-49cc-9da0-8148df9454f0",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "2bc442ca-b41a-4ced-a3e4-f0d56290ad7f",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "e9e9d0f9-fc6d-4afa-b078-9842795fa601",
+                    "x": 27,
+                    "y": 32
+                },
+                {
+                    "name": "Baphy C",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "e3793725-f814-49cc-9da0-8148df9454f0",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "2bc442ca-b41a-4ced-a3e4-f0d56290ad7f",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "8bc36fc3-e640-49b6-bc3f-3f75ec55aff2",
+                    "x": 27,
+                    "y": 30
+                },
+                {
+                    "name": "Baphy N",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "e3793725-f814-49cc-9da0-8148df9454f0",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "2bc442ca-b41a-4ced-a3e4-f0d56290ad7f",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "087608a7-3be5-40d8-8ffb-48f1f464018a",
+                    "x": 27,
+                    "y": 28
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit: Skyclad Tower",
@@ -151245,7 +151312,7 @@
             "backgroundId": "0e12f2e3-a87d-4ae3-9cef-79e9377c08ce",
             "width": 40,
             "height": 36,
-            "type": "0",
+            "type": "1",
             "paletteIds": [
                 "a6f87ac7-6f1c-4a59-9ed4-b6f3a4667466",
                 null,
@@ -158652,7 +158719,7 @@
             "type": "actor",
             "filename": "npc-baphy.png",
             "inode": "14355223812433529",
-            "_v": 1637875772493
+            "_v": 1637885234839
         },
         {
             "id": "9140cb0d-603a-4cc3-b481-40ff18f0c6c2",
@@ -158778,7 +158845,7 @@
             "type": "static",
             "filename": "npc-maria's_camera.png",
             "inode": "2251799814078149",
-            "_v": 1637875772493
+            "_v": 1637876228778
         },
         {
             "id": "bf086105-9638-4456-a78a-c3f06c38fb38",
@@ -158958,7 +159025,7 @@
             "type": "actor_animated",
             "filename": "player-josette.png",
             "inode": "23362423067057198",
-            "_v": 1637875772493
+            "_v": 1637885326757
         },
         {
             "id": "773e0805-bbe3-412b-826b-302d43ad6383",
@@ -160086,18 +160153,18 @@
         }
     ],
     "settings": {
-        "startSceneId": "3251bbc0-9a00-4d36-9233-7f6f459e3607",
+        "startSceneId": "1807710e-4819-42af-903d-d2293bb8a86f",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 19,
-        "startY": 16,
+        "startX": 33,
+        "startY": 31,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
         "startDirection": "left",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 4035,
-        "worldScrollY": 3878,
-        "zoom": 175,
+        "worldScrollX": 6195,
+        "worldScrollY": 9839,
+        "zoom": 375,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
