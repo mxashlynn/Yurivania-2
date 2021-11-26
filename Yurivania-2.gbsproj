@@ -67957,7 +67957,7 @@
                             "id": "46b7868a-6deb-40da-a6ed-e9c069998f76",
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
-                                "actorId": "$self$"
+                                "actorId": "7d629562-f0a6-4593-ab88-0eb0542ec404"
                             }
                         },
                         {
@@ -67991,7 +67991,7 @@
                             "id": "8f8b917f-6ca2-4721-88b9-a9301dd4ca1b",
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
-                                "actorId": "$self$"
+                                "actorId": "19b77fe5-65d5-41c8-9581-6f63e228dca8"
                             }
                         },
                         {
@@ -68025,7 +68025,7 @@
                             "id": "53180e82-db81-45d1-8bef-43d6479feff7",
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
-                                "actorId": "$self$"
+                                "actorId": "dbaa7396-e4e4-4ecb-b7ff-d36bcbeddf04"
                             }
                         },
                         {
@@ -68059,7 +68059,7 @@
                             "id": "1292d0e6-9af7-4dae-885f-dc59a15afaec",
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
-                                "actorId": "$self$"
+                                "actorId": "71dea446-24f2-4387-be14-9fa687304502"
                             }
                         },
                         {
@@ -68093,7 +68093,7 @@
                             "id": "5ff956ce-77b4-4ee7-a73a-475aa4940866",
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
-                                "actorId": "$self$"
+                                "actorId": "fed1a875-b9de-4261-a23e-799174074c8d"
                             }
                         },
                         {
@@ -68127,7 +68127,7 @@
                             "id": "096312db-d21d-42cd-a828-9ceeafec29d9",
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
-                                "actorId": "$self$"
+                                "actorId": "fd7870b9-7c50-4077-919e-a18835589a65"
                             }
                         },
                         {
@@ -91682,26 +91682,26 @@
                 0,
                 0,
                 0,
-                16,
-                16,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                16,
-                16,
+                18,
+                18,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                18,
+                18,
                 0,
                 0,
                 0,
@@ -95064,6 +95064,516 @@
                     "id": "80b1d70a-f5da-401e-819e-1d5bd2fcbce6",
                     "x": 12,
                     "y": 28
+                },
+                {
+                    "name": "Soul of Wolffish",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "c8e960df-c19e-4dab-a7fe-91a13309803e",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 0,
+                    "animSpeed": 3,
+                    "paletteId": "default-ui",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "id": "4acc1d35-3a93-4073-b17a-59354e166d6f",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "85f398d0-32ef-49db-bc6a-2fac3d66d9d0",
+                                "__name": "Play Item Collect Sound"
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "id": "2dace442-b3c8-40e9-8506-b11ba914425d",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "838133b9-846b-408a-a590-b93cefdbde79",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "0630c713-8d3d-4de0-9e5a-7fa762e96d06",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 600,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "b16352a9-6890-4e7e-a9f2-b3b01f5bcfee",
+                                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                                        "args": {
+                                            "type": "tone",
+                                            "pitch": 4,
+                                            "frequency": 800,
+                                            "duration": 0.1,
+                                            "wait": true
+                                        }
+                                    },
+                                    {
+                                        "id": "e6d1f8d5-108e-469f-afd7-6452ef9e904e",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "c80e7243-d140-471b-a310-4714e1e4acd3",
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "9"
+                            }
+                        },
+                        {
+                            "id": "d70feb46-3b6b-4e15-babe-93792d9d6c0d",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "ccbab6e5-2307-4862-ac23-2b5617eb6a17"
+                            }
+                        },
+                        {
+                            "id": "abe93164-c16e-43af-8660-84149006d73b",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "69845ad8-8101-4944-8c4e-88fa06e33f14"
+                            }
+                        },
+                        {
+                            "id": "eb636cb2-74fc-4ca1-9f13-14bc146c582c",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [
+                        {
+                            "id": "bb5e754a-66ae-4dd2-aa15-8c9083359fe4",
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Float"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "3a43ba6f-41bf-4310-a698-7c15655aea7e",
+                                        "command": "EVENT_ACTOR_GET_POSITION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "vectorX": "T0",
+                                            "vectorY": "L0",
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "id": "132e6d2d-4080-4633-aaa4-40b52d358c17",
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "operator": "==",
+                                            "comparator": 13,
+                                            "__collapseElse": false,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "1f695c5a-5f12-4947-9752-41054b416b29",
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": {
+                                                            "type": "property",
+                                                            "value": "$self$:xpos"
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 15
+                                                        },
+                                                        "moveType": "vertical",
+                                                        "useCollisions": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "b838220f-b4a1-4cd4-8ae1-f33a3ce15d18",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "13541e79-078f-49da-8526-8b0c79c7a053",
+                                                    "command": "EVENT_IF_VALUE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "operator": "==",
+                                                        "comparator": 15,
+                                                        "__collapseElse": false,
+                                                        "__disableElse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "id": "5fd72a69-75cb-4df5-8c84-64f7fd4da2b5",
+                                                                "command": "EVENT_ACTOR_MOVE_TO",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "x": {
+                                                                        "type": "property",
+                                                                        "value": "$self$:xpos"
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 13
+                                                                    },
+                                                                    "moveType": "vertical",
+                                                                    "useCollisions": false
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "b087d854-08fc-4086-8e93-a4a211991e3c",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "id": "a51079de-1842-4039-9f7f-15ca5628f799",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "2f7dc24c-4ae6-45e5-aef4-ef2ca6670ce5",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "f954a7fb-def4-4258-8f3c-0a0522a6845d",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "e6dc27ee-689e-4172-b488-c87f9275f6e3",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "ccbab6e5-2307-4862-ac23-2b5617eb6a17",
+                    "x": 25,
+                    "y": 13
+                },
+                {
+                    "name": "Fish Soul Sparkle",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "39b7c3ae-f1c7-4d44-90ca-8f4d9867e5d7",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 2,
+                    "animSpeed": 3,
+                    "paletteId": "db5f9449-0fc8-4148-814b-9819b6adc528",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [
+                        {
+                            "id": "fa17cb63-83c0-4749-a034-4930a86c5dd8",
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "9",
+                                "__collapseElse": false,
+                                "__disableElse": true,
+                                "__label": "Only Spark When Soul Available",
+                                "__collapse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "0633f85b-0130-4949-8fb7-59ee5d8c027d",
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "operator": "==",
+                                            "comparator": 10,
+                                            "__collapseElse": false,
+                                            "__collapse": false,
+                                            "__label": "Time the Sparkle"
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "11079bf3-a90c-4a31-a264-b6270a0b87fd",
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "value": {
+                                                            "type": "number",
+                                                            "value": 0
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "id": "1801003f-bff8-4465-a0d4-3b6c7c084fd3",
+                                                    "command": "EVENT_VARIABLE_MATH",
+                                                    "args": {
+                                                        "vectorX": "L1",
+                                                        "operation": "set",
+                                                        "other": "rnd",
+                                                        "vectorY": "L0",
+                                                        "value": "1",
+                                                        "minValue": 1,
+                                                        "maxValue": 6,
+                                                        "clamp": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "00acc72a-efb5-496d-bfb2-99de68d12174",
+                                                    "command": "EVENT_SWITCH",
+                                                    "args": {
+                                                        "variable": "L1",
+                                                        "choices": 5,
+                                                        "__collapseCase0": false,
+                                                        "value0": 1,
+                                                        "__collapseCase1": false,
+                                                        "value1": 2,
+                                                        "__collapseCase2": false,
+                                                        "value2": 3,
+                                                        "__collapseCase3": false,
+                                                        "value3": 4,
+                                                        "__collapseCase4": false,
+                                                        "value4": 5,
+                                                        "__collapseCase5": false,
+                                                        "value5": 6,
+                                                        "__collapseCase6": false,
+                                                        "value6": 7,
+                                                        "__collapseCase7": false,
+                                                        "value7": 8,
+                                                        "__collapseElse": false,
+                                                        "__label": "Pick Location"
+                                                    },
+                                                    "children": {
+                                                        "true0": [
+                                                            {
+                                                                "id": "53553f22-f6d0-423a-8e62-67d16889cbf0",
+                                                                "command": "EVENT_ACTOR_SET_POSITION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "x": {
+                                                                        "type": "number",
+                                                                        "value": 25
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 13
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "f19daadb-ef59-4abb-97bd-8fc528691dee",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "true1": [
+                                                            {
+                                                                "id": "e6d4f9fc-5e36-4d67-9e20-5365a32bbd8d",
+                                                                "command": "EVENT_ACTOR_SET_POSITION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "x": {
+                                                                        "type": "number",
+                                                                        "value": 26
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 13
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "0930d7be-5726-4e8f-b6bc-47d6ade5eed6",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "true2": [
+                                                            {
+                                                                "id": "fc9c8637-14a0-4c96-9501-45459a246185",
+                                                                "command": "EVENT_ACTOR_SET_POSITION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "x": {
+                                                                        "type": "number",
+                                                                        "value": 25
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 14
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "1c942eef-8f3a-49db-988d-334392b470ea",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "true3": [
+                                                            {
+                                                                "id": "e50aa6d7-0817-41bc-8d65-2ad6466f19d5",
+                                                                "command": "EVENT_ACTOR_SET_POSITION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "x": {
+                                                                        "type": "number",
+                                                                        "value": 26
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 14
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "964f148c-56b6-48c0-9c19-e07fe452e099",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "true4": [
+                                                            {
+                                                                "id": "b879936d-d650-4d07-a4e9-05b613ca1f87",
+                                                                "command": "EVENT_ACTOR_SET_POSITION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "x": {
+                                                                        "type": "number",
+                                                                        "value": 25
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 15
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "92c18127-785e-4092-af64-ac3b8351f233",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "true5": [
+                                                            {
+                                                                "id": "ed5331f3-9d50-4767-9527-cc89068654bb",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "true6": [
+                                                            {
+                                                                "id": "8ff83c18-ee6a-4320-b232-517753a22f3d",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "true7": [
+                                                            {
+                                                                "id": "575d4415-aa7f-4233-a564-bed067422afb",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "true8": [
+                                                            {
+                                                                "id": "164ff25e-7c8b-41f3-804c-7a5d081d1e83",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "id": "cba0f8a6-fd22-4301-a6f5-053204621fd8",
+                                                                "command": "EVENT_ACTOR_SET_POSITION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "x": {
+                                                                        "type": "number",
+                                                                        "value": 26
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 15
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "id": "9da9f4a3-2e1d-4c39-be02-cc6f1aa07ed7",
+                                                                "command": "EVENT_END"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "bc0cf2ef-c4ca-4c5a-886a-731993dda7a2",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "9731f755-5321-44e9-a168-3a0417dd5660",
+                                                    "command": "EVENT_INC_VALUE",
+                                                    "args": {
+                                                        "variable": "L0"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "295dff1c-1928-456d-9d02-53ad55db97fc",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "1263965d-8d7e-4566-aa4b-01e7b1092326",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "df1f9949-e281-4c87-a1d7-6c112a3f64c9",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "92a510ee-af57-437f-bc46-454e57026427",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "69845ad8-8101-4944-8c4e-88fa06e33f14",
+                    "x": 25,
+                    "y": 15
                 }
             ],
             "triggers": [
@@ -95125,6 +95635,121 @@
                     "y": 23,
                     "width": 1,
                     "height": 7
+                },
+                {
+                    "name": "Climb Animation",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "1e1f360e-d4ae-410e-be11-181c11ba6dad",
+                            "command": "EVENT_PLAYER_SET_SPRITE",
+                            "args": {
+                                "spriteSheetId": "38df38a4-8add-4ac2-ab9b-e469a60f7417",
+                                "persist": false
+                            }
+                        },
+                        {
+                            "id": "dcef8daa-9acd-4992-a975-78c879eb0d3c",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "9e932ea8-9f07-4d2b-9582-56ce633faa77",
+                    "x": 16,
+                    "y": 18,
+                    "width": 20,
+                    "height": 2
+                },
+                {
+                    "name": "Normal Animation",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "10f2d878-9134-4a3a-a670-ce06f9b8231a",
+                            "command": "EVENT_PLAYER_SET_SPRITE",
+                            "args": {
+                                "spriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
+                                "persist": false
+                            }
+                        },
+                        {
+                            "id": "5b60eab8-04d9-4ca7-887d-dc57689c9f20",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "721148a2-5786-4dd3-a9ce-b3b85cf33fe5",
+                    "x": 16,
+                    "y": 16,
+                    "width": 20,
+                    "height": 1
+                },
+                {
+                    "name": "Normal Animation",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "e622d70a-e21a-4fc7-929d-205abab5de17",
+                            "command": "EVENT_PLAYER_SET_SPRITE",
+                            "args": {
+                                "spriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
+                                "persist": false
+                            }
+                        },
+                        {
+                            "id": "01b51e79-9835-48b8-83f2-f33f77cb8cbb",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "21949f23-a71d-41ed-b7f0-8b0e94197553",
+                    "x": 16,
+                    "y": 21,
+                    "width": 20,
+                    "height": 1
+                },
+                {
+                    "name": "Normal Animation",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "350845e5-7b06-4c14-9ed8-289797da395a",
+                            "command": "EVENT_PLAYER_SET_SPRITE",
+                            "args": {
+                                "spriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
+                                "persist": false
+                            }
+                        },
+                        {
+                            "id": "49bb7db1-eadd-44f6-9884-54da85f2b7e2",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "30cfa1c3-f2a0-44e0-861f-5da3334005aa",
+                    "x": 14,
+                    "y": 16,
+                    "width": 1,
+                    "height": 6
+                },
+                {
+                    "name": "Normal Animation",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "01e445f7-01c2-4e05-b5b8-4257c8053615",
+                            "command": "EVENT_PLAYER_SET_SPRITE",
+                            "args": {
+                                "spriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
+                                "persist": false
+                            }
+                        },
+                        {
+                            "id": "2cc4438a-e0a0-452d-babb-a23dde0fa44a",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "7d354c95-96f7-4abd-9989-ebf62e8b399b",
+                    "x": 37,
+                    "y": 16,
+                    "width": 1,
+                    "height": 6
                 }
             ]
         },
@@ -160360,7 +160985,7 @@
             "imageHeight": 144,
             "filename": "area-echoing_vaults-mae's_corner.png",
             "inode": "70368744177752618",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "a4222b42-23d4-447b-929f-3e0d3e6a826b",
@@ -160371,7 +160996,7 @@
             "imageHeight": 576,
             "filename": "area-echoing_vaults-main.png",
             "inode": "77687093572177701",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "adfe41ee-5c31-4904-a5ff-274ab41ea67a",
@@ -160382,7 +161007,7 @@
             "imageHeight": 288,
             "filename": "area-echoing_vaults-waterway.png",
             "inode": "25614222880844986",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "6b170083-9f4f-44c2-9f8a-2cb779a8f390",
@@ -160393,7 +161018,7 @@
             "imageHeight": 288,
             "filename": "area-great_library-closed.png",
             "inode": "35747322042617711",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "19b24368-6bef-46af-8932-8a8920aaa9a6",
@@ -160404,7 +161029,7 @@
             "imageHeight": 288,
             "filename": "area-great_library-open.png",
             "inode": "24488322974189880",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "4c585756-c4e5-4d0b-8200-39cfd9b8bdfd",
@@ -160415,7 +161040,7 @@
             "imageHeight": 720,
             "filename": "area-inner_circle-main.png",
             "inode": "9851624185158059",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "c457fb8b-5a06-49c5-a733-b0515815a8ae",
@@ -160426,7 +161051,7 @@
             "imageHeight": 144,
             "filename": "area-inner_circle-quarry.png",
             "inode": "23362423067027686",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "0419f072-20d2-4a90-9740-9ab60ddd0767",
@@ -160437,7 +161062,7 @@
             "imageHeight": 288,
             "filename": "area-inner_circle-sacred_hall.png",
             "inode": "41939771530180980",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "32beb6d0-d92e-4f00-973c-d9eb0eca1548",
@@ -160448,7 +161073,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-0_unstarted.png",
             "inode": "3377699721908807",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "4ac13670-48a9-4dbf-8ed1-f3e776350ed5",
@@ -160459,7 +161084,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-1_partial_frame.png",
             "inode": "2533274791777220",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "0029e211-12d2-4ba3-ae18-0abc0d9d7899",
@@ -160470,7 +161095,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-2_partial_walls-granite.png",
             "inode": "1970324838355550",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "f2625350-b250-4f5e-a486-7a9b1d2eacf7",
@@ -160481,7 +161106,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-2_partial_walls-marble.png",
             "inode": "67272519433944729",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "ef7cd907-52f1-4648-92cb-55ba7f8eebd7",
@@ -160492,7 +161117,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-granite_bamboo.png",
             "inode": "9570149209543105",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "60222c67-c017-4bfe-9b0e-e74fe974cb23",
@@ -160503,7 +161128,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-granite_oak.png",
             "inode": "18858823440994530",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "80debc37-2aa6-42ee-8548-bf09df7c0553",
@@ -160514,7 +161139,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-marble_bamboo.png",
             "inode": "49821070878074372",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "c405811e-936a-4406-868e-18314cf54d41",
@@ -160525,7 +161150,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-marble_oak.png",
             "inode": "30962247438330627",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "d827f881-87df-4e77-9f02-cd17b923b517",
@@ -160536,7 +161161,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_bamboo_porcelain.png",
             "inode": "30399297486131251",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "1f8689ae-0cde-4ada-a3ef-93e1b1e955fa",
@@ -160547,7 +161172,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_bamboo_shell.png",
             "inode": "8725724279410750",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "cc85cdfe-f5a5-4792-bce6-d4df5c2fbbb8",
@@ -160558,7 +161183,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_oak_porcelain.png",
             "inode": "41939771531268145",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "168bd1c7-c420-4424-9e9a-27a3004c66a3",
@@ -160569,7 +161194,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_oak_shell.png",
             "inode": "67553994410849734",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "988cdcb3-2042-4ae1-a9f1-c942c762d7ae",
@@ -160580,7 +161205,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_bamboo_porcelain.png",
             "inode": "37999121857318351",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "12bc2306-a5c9-49b9-9c9b-47636f0c4419",
@@ -160591,7 +161216,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_bamboo_shell.png",
             "inode": "14073748836913211",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "ad1bdd72-b813-4b96-b7e3-c84a329d8777",
@@ -160602,7 +161227,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_oak_porcelain.png",
             "inode": "12103423998959237",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "8f00efc2-fb4d-466f-9f12-4d5ca99c7f77",
@@ -160613,7 +161238,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_oak_shell.png",
             "inode": "52917295622983741",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "a6824090-cf23-46ff-998a-4454de326bca",
@@ -160624,7 +161249,7 @@
             "imageHeight": 288,
             "filename": "area-old_vampire_quarter.png",
             "inode": "21955048183620253",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "443db5fc-92a0-429b-8947-db87080b26d7",
@@ -160635,7 +161260,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-balcony.png",
             "inode": "7881299348260426",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "5f385232-735c-44c0-bb63-46211a8daec6",
@@ -160646,7 +161271,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-banner_hall.png",
             "inode": "58828270132535264",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "0e12f2e3-a87d-4ae3-9cef-79e9377c08ce",
@@ -160657,7 +161282,7 @@
             "imageHeight": 288,
             "filename": "area-skyclad_tower-courtyard.png",
             "inode": "10977524093042015",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "c7a68803-bedf-43c7-a70c-d40a083cdc6c",
@@ -160668,7 +161293,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-lunarium.png",
             "inode": "23080948090635694",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "f31e9a1d-af5c-4cfd-8ee5-5ee2fd22cdc9",
@@ -160679,7 +161304,7 @@
             "imageHeight": 1152,
             "filename": "area-skyclad_tower-main.png",
             "inode": "35747322042410535",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "17c0a5b7-302a-4b69-88cc-cb4a7882d3e9",
@@ -160690,7 +161315,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-s+a's_room.png",
             "inode": "50946970784636514",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "0069f303-5f1f-4c12-a122-bb2ebe9c3668",
@@ -160701,7 +161326,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-statue_hall.png",
             "inode": "8444249301436268",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "e553535d-9344-4fd1-a104-ff9173f94e33",
@@ -160712,7 +161337,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_garden-main.png",
             "inode": "18577348464282929",
-            "_v": 1637908014902
+            "_v": 1637908552587
         },
         {
             "id": "8931f52f-f1be-4100-a501-058543a540e8",
@@ -160723,7 +161348,7 @@
             "imageHeight": 144,
             "filename": "area-starlit_garden-postern-closed.png",
             "inode": "54887620458866275",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "4d7a2365-d213-4ffc-b5cb-a14bbf9e1434",
@@ -160734,7 +161359,7 @@
             "imageHeight": 144,
             "filename": "area-starlit_garden-postern-open.png",
             "inode": "14636698790333586",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "d54c70d5-890f-481c-9f4f-f8fda81e21ff",
@@ -160745,7 +161370,7 @@
             "imageHeight": 720,
             "filename": "area-windswept_rooftop-belltower.png",
             "inode": "69805794224256385",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "966ca6be-add4-47fe-adf1-9a8107a780d0",
@@ -160756,7 +161381,7 @@
             "imageHeight": 144,
             "filename": "area-windswept_rooftop-dead_end.png",
             "inode": "113434415614510448",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "7ac719f9-2eb3-4ead-8599-3fc377b72b7e",
@@ -160767,7 +161392,7 @@
             "imageHeight": 432,
             "filename": "area-windswept_rooftop-main.png",
             "inode": "94012642221446237",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "3010c726-7b40-4fb3-9562-402a83027e47",
@@ -160778,7 +161403,7 @@
             "imageHeight": 288,
             "filename": "area-windswept_rooftop-spider_nest.png",
             "inode": "15199648742667608",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "810940f3-7fcb-4dfa-a392-c8297cc3b285",
@@ -160789,7 +161414,7 @@
             "imageHeight": 144,
             "filename": "screen-controls.png",
             "inode": "16888498602688620",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "b0f184ed-4662-4fc9-b0ce-1b1a59bd2090",
@@ -160800,7 +161425,7 @@
             "imageHeight": 144,
             "filename": "screen-debug.png",
             "inode": "20266198323270433",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "6ada8328-0b3d-476c-9926-52178b8b0bca",
@@ -160811,7 +161436,7 @@
             "imageHeight": 144,
             "filename": "screen-end.png",
             "inode": "36591746972499532",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "ea7a7282-496c-4211-ba52-427b3596333a",
@@ -160822,7 +161447,7 @@
             "imageHeight": 144,
             "filename": "screen-logo.png",
             "inode": "9007199254790522",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "2d9c771d-9027-44ed-aecf-0c70a7831268",
@@ -160833,7 +161458,7 @@
             "imageHeight": 144,
             "filename": "screen-map.png",
             "inode": "8444249302642410",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "cceb218f-f08c-496d-ad0e-a5bb9389f668",
@@ -160844,7 +161469,7 @@
             "imageHeight": 144,
             "filename": "screen-swatches.png",
             "inode": "16325548649593986",
-            "_v": 1637900145894
+            "_v": 1637908552587
         },
         {
             "id": "bb6f1bd9-df6a-472a-9c35-33cac9be44e4",
@@ -160855,7 +161480,7 @@
             "imageHeight": 144,
             "filename": "screen-titles.png",
             "inode": "14918173765714544",
-            "_v": 1637900145894
+            "_v": 1637908552587
         }
     ],
     "spriteSheets": [
@@ -160866,7 +161491,7 @@
             "type": "static",
             "filename": "fx-block.png",
             "inode": "49539595901127078",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "2965f7b5-6502-426b-b047-8afa7e75d6bd",
@@ -160875,7 +161500,7 @@
             "type": "animated",
             "filename": "fx-checkmark.png",
             "inode": "20829148276777942",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "be2939e3-3b95-44ee-b32b-b582122f2c5d",
@@ -160884,7 +161509,7 @@
             "type": "static",
             "filename": "fx-coffin.png",
             "inode": "22799473113692635",
-            "_v": 1637900145895
+            "_v": 1637908552587
         },
         {
             "id": "3a742280-d5aa-4a59-b646-84fc583d45f9",
@@ -160893,7 +161518,7 @@
             "type": "animated",
             "filename": "fx-coffin_crowded.png",
             "inode": "74872343805116218",
-            "_v": 1637900145894
+            "_v": 1637908552588
         },
         {
             "id": "2840b42b-95fb-47e2-93db-b754c68f32f1",
@@ -160902,7 +161527,7 @@
             "type": "static",
             "filename": "fx-coffin_open.png",
             "inode": "23362423067271200",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "634c44b8-e2ef-4bf3-801f-c846dec82630",
@@ -160911,7 +161536,7 @@
             "type": "static",
             "filename": "fx-empty.png",
             "inode": "72902018968111603",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "e3355336-9f46-43f5-b5a0-5b657173a620",
@@ -160920,7 +161545,7 @@
             "type": "animated",
             "filename": "fx-leaf.png",
             "inode": "6755399441450925",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "5a20dd62-520d-4d87-9450-450cc5531818",
@@ -160929,7 +161554,7 @@
             "type": "animated",
             "filename": "fx-map_marker.png",
             "inode": "16325548649270294",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "490468db-09ba-43c6-8716-0af8c5f40cc8",
@@ -160938,7 +161563,7 @@
             "type": "actor_animated",
             "filename": "fx-press_start.png",
             "inode": "31243722415072217",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "39b7c3ae-f1c7-4d44-90ca-8f4d9867e5d7",
@@ -160947,7 +161572,7 @@
             "type": "animated",
             "filename": "fx-sparkle.png",
             "inode": "17169973579539339",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "420f024e-2db9-474e-a2fe-93912504efa1",
@@ -160956,7 +161581,7 @@
             "type": "actor",
             "filename": "fx-splash.png",
             "inode": "20266198323356621",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "5808e1bc-d48d-426e-8ad6-1572359f1772",
@@ -160965,7 +161590,7 @@
             "type": "actor",
             "filename": "fx-statues.png",
             "inode": "6473924464534483",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "3663a77e-4707-49c0-8e87-d687f2c3186a",
@@ -160974,7 +161599,7 @@
             "type": "actor",
             "filename": "fx-titles.png",
             "inode": "53480245575310727",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "3e4ae13b-bbc2-4d37-bd70-cbdf19afe0b4",
@@ -160983,7 +161608,7 @@
             "type": "static",
             "filename": "fx-web.png",
             "inode": "14918173765801748",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "a04be08a-c5c8-486f-b012-c627160ff4a1",
@@ -160992,7 +161617,7 @@
             "type": "static",
             "filename": "inv-amulet.png",
             "inode": "51228445761394289",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "c23fbdc6-a1bd-4629-95b6-ba7f8e2e130a",
@@ -161001,7 +161626,7 @@
             "type": "static",
             "filename": "inv-bat_soul.png",
             "inode": "1125899907241124",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "5d36b1bd-34d1-450d-bb87-16380a160c8e",
@@ -161010,7 +161635,7 @@
             "type": "static",
             "filename": "inv-key.png",
             "inode": "63050394783274017",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "c8e960df-c19e-4dab-a7fe-91a13309803e",
@@ -161019,7 +161644,7 @@
             "type": "static",
             "filename": "inv-wolffish_soul.png",
             "inode": "23925373020476467",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "abc7cdde-9ec1-45db-b22b-43d8c5a77722",
@@ -161028,7 +161653,7 @@
             "type": "static",
             "filename": "mat-glass.png",
             "inode": "34902897112247150",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "ceb0ff8c-ed02-4671-81d0-6a237aaea32c",
@@ -161037,7 +161662,7 @@
             "type": "animated",
             "filename": "mat-marble_granite.png",
             "inode": "25895697857596729",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "7d6bdb0b-eb14-4017-8a12-cabeb5fc24bb",
@@ -161046,7 +161671,7 @@
             "type": "actor",
             "filename": "mat-oak_bamboo.png",
             "inode": "27021597764370202",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "9275c9a2-247f-401b-be99-5a33e162e8ce",
@@ -161055,7 +161680,7 @@
             "type": "animated",
             "filename": "mat-shell_porcelain.png",
             "inode": "58546795156064845",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "6eadd192-7bb2-44a9-ad09-82d1b5e2cccf",
@@ -161064,7 +161689,7 @@
             "type": "actor",
             "filename": "npc-aello.png",
             "inode": "17451448556182543",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "df8557d9-49ca-4627-a8c4-bd732fd2f0c4",
@@ -161073,7 +161698,7 @@
             "type": "animated",
             "filename": "npc-alraune_e.png",
             "inode": "52354345668229335",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "6f36e707-ee5f-4a8c-8928-527dc6990c71",
@@ -161082,7 +161707,7 @@
             "type": "animated",
             "filename": "npc-alraune_w.png",
             "inode": "1407374883948475",
-            "_v": 1637908140682
+            "_v": 1637908552587
         },
         {
             "id": "e3793725-f814-49cc-9da0-8148df9454f0",
@@ -161091,7 +161716,7 @@
             "type": "actor",
             "filename": "npc-baphy.png",
             "inode": "14355223812433529",
-            "_v": 1637900145940
+            "_v": 1637908552589
         },
         {
             "id": "9140cb0d-603a-4cc3-b481-40ff18f0c6c2",
@@ -161100,7 +161725,7 @@
             "type": "actor",
             "filename": "npc-bluecap.png",
             "inode": "3096224744209695",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "135ac44a-ebcc-49e3-ba78-0391f0d98a9b",
@@ -161109,7 +161734,7 @@
             "type": "animated",
             "filename": "npc-erato.png",
             "inode": "10414574138689437",
-            "_v": 1637907813806
+            "_v": 1637908552587
         },
         {
             "id": "b6db145f-68db-494e-bd02-a32e1f4412c7",
@@ -161118,7 +161743,7 @@
             "type": "actor",
             "filename": "npc-festoon.png",
             "inode": "5348024557859061",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "ca6a5a00-f8a9-4417-95b4-6f91120f3f6c",
@@ -161127,7 +161752,7 @@
             "type": "actor",
             "filename": "npc-harpy.png",
             "inode": "15481123719154406",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "6878f574-693a-45ec-b10a-e98ac8460a55",
@@ -161136,7 +161761,7 @@
             "type": "actor_animated",
             "filename": "npc-irena.png",
             "inode": "28428972647830476",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "90290bc0-dc76-4e83-b506-632efa294542",
@@ -161145,7 +161770,7 @@
             "type": "actor",
             "filename": "npc-kuliltu.png",
             "inode": "17169973579540106",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "3ad26911-eb11-47d2-861b-3ca481a27190",
@@ -161154,7 +161779,7 @@
             "type": "animated",
             "filename": "npc-kuliltus_tail.png",
             "inode": "40532396646524584",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "87bb74a1-074a-4e50-a4c7-c7f7e37ffdcd",
@@ -161163,7 +161788,7 @@
             "type": "static",
             "filename": "npc-ladybug.png",
             "inode": "24488322974016970",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "51f15ae5-2330-47d0-9235-e0cea78e73b2",
@@ -161172,7 +161797,7 @@
             "type": "static",
             "filename": "npc-lin.png",
             "inode": "26458647810994378",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "0d2ca5c9-8ad5-46b9-bde7-777bb7f8ec4d",
@@ -161181,7 +161806,7 @@
             "type": "animated",
             "filename": "npc-lucy_lay.png",
             "inode": "7881299347965156",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "416af782-2eef-4303-a90e-ca8014e171d3",
@@ -161190,7 +161815,7 @@
             "type": "animated",
             "filename": "npc-lucy_sit.png",
             "inode": "27584547717711188",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
@@ -161199,7 +161824,7 @@
             "type": "actor_animated",
             "filename": "npc-lucy_walk.png",
             "inode": "41658296553245379",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "598eda51-4cc0-4b1a-acd5-5836c44398ed",
@@ -161208,7 +161833,7 @@
             "type": "actor_animated",
             "filename": "npc-madge.png",
             "inode": "204069358115228588",
-            "_v": 1637900145940
+            "_v": 1637908552587
         },
         {
             "id": "284edf9d-b658-469d-ae76-ad1c85b26d8e",
@@ -161217,7 +161842,7 @@
             "type": "static",
             "filename": "npc-mae.png",
             "inode": "44473046320478677",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "16c5309a-41b3-4dff-be5d-ea6f0ef07d3a",
@@ -161226,7 +161851,7 @@
             "type": "static",
             "filename": "npc-maria's_camera.png",
             "inode": "2251799814078149",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "bf086105-9638-4456-a78a-c3f06c38fb38",
@@ -161235,7 +161860,7 @@
             "type": "animated",
             "filename": "npc-maria.png",
             "inode": "45035996273772310",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "c461f155-34b9-4b3e-84a8-2db42d57abbe",
@@ -161244,7 +161869,7 @@
             "type": "actor",
             "filename": "npc-mermaid.png",
             "inode": "62487444829854165",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "bd023ab1-227a-4000-b1ce-79e2ef4a56b9",
@@ -161253,7 +161878,7 @@
             "type": "static",
             "filename": "npc-reaper.png",
             "inode": "19421773393225326",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "b071192a-cba1-406f-8456-11b82a3d9cdf",
@@ -161262,7 +161887,7 @@
             "type": "actor",
             "filename": "npc-rin_rin.png",
             "inode": "91479367431153268",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "b0840233-c04e-4f21-99a1-5bf3f1d1c984",
@@ -161271,7 +161896,7 @@
             "type": "actor",
             "filename": "npc-skeleton-book.png",
             "inode": "87538717757090825",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "53cd97c7-d428-4fc6-9e6d-cc06ac93958b",
@@ -161280,7 +161905,7 @@
             "type": "actor",
             "filename": "npc-skeleton-emptyhanded.png",
             "inode": "45035996273786626",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "c3de744a-6362-4e31-a69d-db8372437620",
@@ -161289,7 +161914,7 @@
             "type": "actor",
             "filename": "npc-skeleton-glass.png",
             "inode": "77405618595514748",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "f486d66d-c606-422e-9a32-0a23fc4a75f5",
@@ -161298,7 +161923,7 @@
             "type": "animated",
             "filename": "npc-snakebat.png",
             "inode": "16325548649408118",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "f0ba75b1-c280-42c8-a0b7-48d1ffb11aa5",
@@ -161307,7 +161932,7 @@
             "type": "animated",
             "filename": "npc-sophia.png",
             "inode": "68961369294113265",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "0c6994c4-f6ab-42aa-a4a6-4cf1c669583e",
@@ -161316,7 +161941,7 @@
             "type": "actor",
             "filename": "npc-stheno.png",
             "inode": "14355223812535820",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "7c12d009-4163-48cb-9d68-fbabbd496760",
@@ -161325,7 +161950,7 @@
             "type": "actor_animated",
             "filename": "npc-sungem_.png",
             "inode": "79094468455736186",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "056fa21c-0048-4580-9566-bc3db5ad8a74",
@@ -161334,7 +161959,7 @@
             "type": "actor_animated",
             "filename": "npc-tibby.png",
             "inode": "16888498602829282",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "ac03d67f-11af-424b-bfc3-835916aa2bff",
@@ -161343,7 +161968,7 @@
             "type": "animated",
             "filename": "npc-vampire_bat_flap.png",
             "inode": "29836347531622226",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "9933758f-0efe-401d-a55b-a264d573d80e",
@@ -161352,7 +161977,7 @@
             "type": "static",
             "filename": "npc-vampire_bat_roosting.png",
             "inode": "34902897112431050",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "15d77f50-f6e3-4364-8b0c-8e6a73973d74",
@@ -161361,7 +161986,7 @@
             "type": "actor",
             "filename": "npc-vampire_chatty.png",
             "inode": "31525197391890988",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "6968b866-60ab-492d-ae93-a8901075b9cc",
@@ -161370,7 +161995,7 @@
             "type": "animated",
             "filename": "npc-vampire_coffin.png",
             "inode": "52072870691506351",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
@@ -161379,7 +162004,7 @@
             "type": "animated",
             "filename": "npc-vampire_misc.png",
             "inode": "27584547717953961",
-            "_v": 1637900145940
+            "_v": 1637908552589
         },
         {
             "id": "45b49479-4945-4bbb-876f-4930ff5c2d8e",
@@ -161388,7 +162013,7 @@
             "type": "animated",
             "filename": "npc-vampire_romantic.png",
             "inode": "14918173765974515",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "0234037c-544b-4838-9dee-75b115bd1d60",
@@ -161397,7 +162022,7 @@
             "type": "animated",
             "filename": "npc-vampire_sitting.png",
             "inode": "21392098230319543",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "f588e26d-790f-4523-a889-f3e2731575f1",
@@ -161406,7 +162031,7 @@
             "type": "animated",
             "filename": "npc-xylia.png",
             "inode": "62205969853097335",
-            "_v": 1637907532993
+            "_v": 1637908552588
         },
         {
             "id": "132be5ee-3aad-4ab0-b18d-163306b914bd",
@@ -161415,7 +162040,7 @@
             "type": "static",
             "filename": "player-cursor.png",
             "inode": "64176294690101977",
-            "_v": 1637900145940
+            "_v": 1637908552588
         },
         {
             "id": "c3bc79c7-3703-4a67-86b2-301f587745b4",
@@ -161424,7 +162049,16 @@
             "type": "actor_animated",
             "filename": "player-josette.png",
             "inode": "23362423067057198",
-            "_v": 1637900145940
+            "_v": 1637908552588
+        },
+        {
+            "id": "38df38a4-8add-4ac2-ab9b-e469a60f7417",
+            "name": "player-josette_climbing",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "player-josette_climbing.png",
+            "inode": "21392098230410129",
+            "_v": 1637909392070
         },
         {
             "id": "773e0805-bbe3-412b-826b-302d43ad6383",
@@ -161433,7 +162067,7 @@
             "type": "actor_animated",
             "filename": "player-wolffish.png",
             "inode": "8725724278427755",
-            "_v": 1637900145940
+            "_v": 1637908552588
         }
     ],
     "palettes": [
@@ -162376,7 +163010,7 @@
             "filename": "Rooftop - Mountains.mod",
             "settings": {},
             "inode": "31525197391840033",
-            "_v": 1637900145842
+            "_v": 1637908552563
         },
         {
             "id": "92a35368-618b-4b80-a82c-7ea4b517cd0c",
@@ -162384,7 +163018,7 @@
             "filename": "Tower - Uptempo.mod",
             "settings": {},
             "inode": "21110623253550042",
-            "_v": 1637900145842
+            "_v": 1637908552563
         },
         {
             "id": "1dab0fe9-6964-4697-9404-dfd8459a967b",
@@ -162392,7 +163026,7 @@
             "filename": "Vaults - Downtempo.mod",
             "settings": {},
             "inode": "54887620458754787",
-            "_v": 1637900145842
+            "_v": 1637908552563
         }
     ],
     "variables": [
@@ -162563,6 +163197,18 @@
         {
             "id": "8a391a61-dbc1-4481-9589-adb0d576a886__L0",
             "name": "Actor Y"
+        },
+        {
+            "id": "ccbab6e5-2307-4862-ac23-2b5617eb6a17__L0",
+            "name": "Actor Y"
+        },
+        {
+            "id": "69845ad8-8101-4944-8c4e-88fa06e33f14__L0",
+            "name": "Sparkle Timer"
+        },
+        {
+            "id": "69845ad8-8101-4944-8c4e-88fa06e33f14__L1",
+            "name": "Random Location"
         }
     ],
     "engineFieldValues": [
@@ -162601,8 +163247,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 1001,
-        "worldScrollY": 5862,
+        "worldScrollX": 941,
+        "worldScrollY": 5962,
         "zoom": 275,
         "customColorsEnabled": true,
         "customHead": "",
