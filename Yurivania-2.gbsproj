@@ -94976,7 +94976,96 @@
             "id": "1c0633f8-8702-4786-9026-27a727fa45ff",
             "x": 321.77777777777777,
             "y": 2179.1111111111113,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Alraune W",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "6f36e707-ee5f-4a8c-8928-527dc6990c71",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 2,
+                    "paletteId": "15ddee74-a219-4c95-93a6-dc27e2e0a344",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "ce186207-9f1b-49d5-9392-bf5b8b90d683",
+                    "x": 47,
+                    "y": 28
+                },
+                {
+                    "name": "Alraune E",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "df8557d9-49ca-4627-a8c4-bd732fd2f0c4",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 2,
+                    "paletteId": "15ddee74-a219-4c95-93a6-dc27e2e0a344",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "cc8fe137-ef27-425e-8a3b-b2309bce7145",
+                    "x": 49,
+                    "y": 28
+                },
+                {
+                    "name": "Erato",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "135ac44a-ebcc-49e3-ba78-0391f0d98a9b",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 2,
+                    "paletteId": "67b77aea-ae9f-4193-b7f6-54e914e62a1d",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "f84db91d-6d80-495f-b3fb-a0d36d6ef534",
+                    "x": 40,
+                    "y": 28
+                },
+                {
+                    "name": "Xylia",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "f588e26d-790f-4523-a889-f3e2731575f1",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 2,
+                    "paletteId": "bc28679f-f240-49ec-9dad-fd3842849583",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "80b1d70a-f5da-401e-819e-1d5bd2fcbce6",
+                    "x": 12,
+                    "y": 28
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit: Postern",
@@ -160623,7 +160712,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_garden-main.png",
             "inode": "18577348464282929",
-            "_v": 1637902728137
+            "_v": 1637907239982
         },
         {
             "id": "8931f52f-f1be-4100-a501-058543a540e8",
@@ -161014,6 +161103,15 @@
             "_v": 1637900145940
         },
         {
+            "id": "135ac44a-ebcc-49e3-ba78-0391f0d98a9b",
+            "name": "npc-erato",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-erato.png",
+            "inode": "10414574138689437",
+            "_v": 1637905920041
+        },
+        {
             "id": "b6db145f-68db-494e-bd02-a32e1f4412c7",
             "name": "npc-festoon",
             "numFrames": 3,
@@ -161146,24 +161244,6 @@
             "type": "actor",
             "filename": "npc-mermaid.png",
             "inode": "62487444829854165",
-            "_v": 1637900145940
-        },
-        {
-            "id": "f588e26d-790f-4523-a889-f3e2731575f1",
-            "name": "npc-plantgirl_1",
-            "numFrames": 2,
-            "type": "animated",
-            "filename": "npc-plantgirl_1.png",
-            "inode": "62205969853097335",
-            "_v": 1637900145940
-        },
-        {
-            "id": "135ac44a-ebcc-49e3-ba78-0391f0d98a9b",
-            "name": "npc-plantgirl_2",
-            "numFrames": 2,
-            "type": "animated",
-            "filename": "npc-plantgirl_2.png",
-            "inode": "10414574138689437",
             "_v": 1637900145940
         },
         {
@@ -161318,6 +161398,15 @@
             "filename": "npc-vampire_sitting.png",
             "inode": "21392098230319543",
             "_v": 1637900145940
+        },
+        {
+            "id": "f588e26d-790f-4523-a889-f3e2731575f1",
+            "name": "npc-xylia",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-xylia.png",
+            "inode": "62205969853097335",
+            "_v": 1637906707909
         },
         {
             "id": "132be5ee-3aad-4ab0-b18d-163306b914bd",
@@ -161960,6 +162049,26 @@
                 "482878",
                 "000050"
             ]
+        },
+        {
+            "id": "67b77aea-ae9f-4193-b7f6-54e914e62a1d",
+            "name": "C: Erato",
+            "colors": [
+                "F0A800",
+                "38C838",
+                "286828",
+                "083828"
+            ]
+        },
+        {
+            "id": "bc28679f-f240-49ec-9dad-fd3842849583",
+            "name": "C: Xylia",
+            "colors": [
+                "F8F888",
+                "A0F0A0",
+                "286828",
+                "482878"
+            ]
         }
     ],
     "customEvents": [
@@ -162483,7 +162592,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "693f5a7f-f046-491f-b128-3f68cadf2aae",
+        "startSceneId": "1c0633f8-8702-4786-9026-27a727fa45ff",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
         "startX": 1,
         "startY": 1,
@@ -162492,7 +162601,7 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 1192,
+        "worldScrollX": 920,
         "worldScrollY": 6062,
         "zoom": 275,
         "customColorsEnabled": true,
