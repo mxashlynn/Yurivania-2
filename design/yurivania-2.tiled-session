@@ -5,9 +5,9 @@
     },
     "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
+        "backgrounds",
         "tiles",
-        ".",
-        "backgrounds"
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -418,7 +418,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 158.33333333333331,
-                "y": 143
+                "y": 195.33333333333331
             }
         },
         "backgrounds/area-starlit_garden-postern-closed.tmx": {
