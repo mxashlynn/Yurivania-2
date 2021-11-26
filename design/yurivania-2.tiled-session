@@ -5,9 +5,9 @@
     },
     "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
-        ".",
         "tiles",
-        "backgrounds"
+        "backgrounds",
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -569,8 +569,8 @@
             "scale": 3.9038,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 83.25221578974332,
-                "y": 71.46882524719504
+                "x": 89.65623238895434,
+                "y": 71.21266458322661
             }
         },
         "tiles/plantgirl-tiles.tsx": {
@@ -611,9 +611,9 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "one_room_measurement.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
-        "one_room_measurement.tmx",
         "backgrounds/area-starlit_garden-main.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-human_encounter.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx",
