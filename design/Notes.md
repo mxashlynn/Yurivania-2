@@ -114,10 +114,10 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Rin~Rin      ✅
 		- Lin          ✅
         - Baphy        ✅
-		- Abraxas                      <<<<<<<<<<<<<
+		- Sophia/Abraxas               <<<<<<<<<<<<<
 		- Reaper       ✅
         - Flying Snake ✅
-        - *NEW: Musclegirl Miner*      <<<<<<<<<<<<<
+        - Bluecap ✅
     - Material
         - Marble / Granite  ✅
     - Theme
