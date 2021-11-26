@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-starlit_garden-main.tmx",
+    "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
         "tiles",
         ".",
@@ -417,8 +417,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 147,
-                "y": 143.66666666666663
+                "x": 158.33333333333331,
+                "y": 143
             }
         },
         "backgrounds/area-starlit_garden-postern-closed.tmx": {
@@ -574,7 +574,7 @@
             }
         },
         "tiles/plantgirl-tiles.tsx": {
-            "scaleInDock": 1,
+            "scaleInDock": 8,
             "scaleInEditor": 16
         },
         "tiles/yurivania-2.tsx": {
@@ -607,8 +607,7 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
-        "one_room_measurement.tmx",
-        "backgrounds/area-starlit_garden-main.tmx"
+        "one_room_measurement.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
