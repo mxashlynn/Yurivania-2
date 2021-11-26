@@ -134026,7 +134026,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "e9e9d0f9-fc6d-4afa-b078-9842795fa601",
-                    "x": 27,
+                    "x": 28,
                     "y": 32
                 },
                 {
@@ -134048,7 +134048,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "8bc36fc3-e640-49b6-bc3f-3f75ec55aff2",
-                    "x": 27,
+                    "x": 28,
                     "y": 30
                 },
                 {
@@ -134070,8 +134070,96 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "087608a7-3be5-40d8-8ffb-48f1f464018a",
-                    "x": 27,
+                    "x": 28,
                     "y": 28
+                },
+                {
+                    "name": "Sophia S",
+                    "frame": 2,
+                    "animate": false,
+                    "spriteSheetId": "f0ba75b1-c280-42c8-a0b7-48d1ffb11aa5",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "30d7bc49-12f0-442c-b578-b5ce1407cb8e",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "7c0f1660-923b-4f2d-8cc8-630ec25fa067",
+                    "x": 30,
+                    "y": 32
+                },
+                {
+                    "name": "Sophia W",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "f0ba75b1-c280-42c8-a0b7-48d1ffb11aa5",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "30d7bc49-12f0-442c-b578-b5ce1407cb8e",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "aad6cc05-12b6-4a7e-9b54-15c903d966f8",
+                    "x": 30,
+                    "y": 30
+                },
+                {
+                    "name": "Sophia N",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "f0ba75b1-c280-42c8-a0b7-48d1ffb11aa5",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "30d7bc49-12f0-442c-b578-b5ce1407cb8e",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "afd0ed15-dbe3-437c-8360-f675eb789d58",
+                    "x": 30,
+                    "y": 28
+                },
+                {
+                    "name": "Sophia E",
+                    "frame": 3,
+                    "animate": false,
+                    "spriteSheetId": "f0ba75b1-c280-42c8-a0b7-48d1ffb11aa5",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "30d7bc49-12f0-442c-b578-b5ce1407cb8e",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "79d47635-4b5c-4517-a792-cec7e6ba281a",
+                    "x": 32,
+                    "y": 30
                 }
             ],
             "triggers": [
@@ -158719,7 +158807,7 @@
             "type": "actor",
             "filename": "npc-baphy.png",
             "inode": "14355223812433529",
-            "_v": 1637885234839
+            "_v": 1637887905461
         },
         {
             "id": "9140cb0d-603a-4cc3-b481-40ff18f0c6c2",
@@ -158920,6 +159008,15 @@
             "_v": 1637875772493
         },
         {
+            "id": "f0ba75b1-c280-42c8-a0b7-48d1ffb11aa5",
+            "name": "npc-sophia",
+            "numFrames": 4,
+            "type": "animated",
+            "filename": "npc-sophia.png",
+            "inode": "68961369294113265",
+            "_v": 1637888073473
+        },
+        {
             "id": "0c6994c4-f6ab-42aa-a4a6-4cf1c669583e",
             "name": "npc-stheno",
             "numFrames": 3,
@@ -159025,7 +159122,7 @@
             "type": "actor_animated",
             "filename": "player-josette.png",
             "inode": "23362423067057198",
-            "_v": 1637885326757
+            "_v": 1637885774489
         },
         {
             "id": "773e0805-bbe3-412b-826b-302d43ad6383",
@@ -159630,6 +159727,16 @@
                 "603890",
                 "280028"
             ]
+        },
+        {
+            "id": "30d7bc49-12f0-442c-b578-b5ce1407cb8e",
+            "name": "C: Sophia",
+            "colors": [
+                "D0B070",
+                "F07800",
+                "584808",
+                "281800"
+            ]
         }
     ],
     "customEvents": [
@@ -160155,14 +160262,14 @@
     "settings": {
         "startSceneId": "1807710e-4819-42af-903d-d2293bb8a86f",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 33,
+        "startX": 34,
         "startY": 31,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
         "startDirection": "left",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 6195,
+        "worldScrollX": 6391,
         "worldScrollY": 9839,
         "zoom": 375,
         "customColorsEnabled": true,
