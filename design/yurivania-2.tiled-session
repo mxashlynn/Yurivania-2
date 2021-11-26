@@ -390,11 +390,11 @@
             }
         },
         "backgrounds/area-skyclad_tower-main.tmx": {
-            "scale": 4.1891,
+            "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 117.20894702919483,
-                "y": 910.4580936239288
+                "x": 67.75,
+                "y": 109
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
@@ -473,8 +473,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 220,
-                "y": 303
+                "x": 563,
+                "y": 170
             }
         },
         "backgrounds/area-windswept_rooftop-main_.tmx": {
@@ -611,6 +611,8 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-windswept_rooftop-main.tmx",
+        "backgrounds/area-skyclad_tower-main.tmx",
         "one_room_measurement.tmx",
         "backgrounds/area-starlit_garden-main.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-human_encounter.tmx",
@@ -620,9 +622,7 @@
         "backgrounds/area-great_library-closed.tmx",
         "backgrounds/area-old_vampire_quarter.tmx",
         "backgrounds/screen-swatches.tmx",
-        "backgrounds/screen-map.tmx",
-        "backgrounds/area-skyclad_tower-main.tmx",
-        "backgrounds/screen-debug.tmx"
+        "backgrounds/screen-map.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
