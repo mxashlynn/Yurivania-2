@@ -61915,7 +61915,228 @@
             "id": "98853e3a-d09a-4a4e-ba2e-0e1816613c24",
             "x": 1082.7692307692307,
             "y": 1360.1538461538462,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Harpy Asleep NE",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "6eadd192-7bb2-44a9-ad09-82d1b5e2cccf",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "67b77aea-ae9f-4193-b7f6-54e914e62a1d",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d1fa09fb-b118-440a-b2c9-15e7a4ae5630",
+                    "x": 82,
+                    "y": 28
+                },
+                {
+                    "name": "Harpy Awake",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ca6a5a00-f8a9-4417-95b4-6f91120f3f6c",
+                    "spriteType": "actor",
+                    "direction": "right",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "default-ui",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "fcb1562d-50ce-417a-bce3-83d6d39a1a67",
+                    "x": 43,
+                    "y": 23
+                },
+                {
+                    "name": "Harpy Asleep SW",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "6eadd192-7bb2-44a9-ad09-82d1b5e2cccf",
+                    "spriteType": "actor",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "fcb3e033-8576-4806-b43b-7fbadd371542",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "5a693a5f-85cf-4dfd-9637-4f14e3c86d14",
+                    "x": 59,
+                    "y": 44
+                },
+                {
+                    "name": "Sungem",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "7c12d009-4163-48cb-9d68-fbabbd496760",
+                    "spriteType": "actor",
+                    "direction": "right",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "bc28679f-f240-49ec-9dad-fd3842849583",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "34caf3bc-43bf-4b2b-9579-d44722e69d17",
+                    "x": 20,
+                    "y": 21
+                },
+                {
+                    "name": "Broken Bridge W",
+                    "frame": 2,
+                    "animate": false,
+                    "spriteSheetId": "7d6bdb0b-eb14-4017-8a12-cabeb5fc24bb",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "eef449b0-a5f3-418c-9140-da4e117d629f",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "e9f38b10-2f02-4918-8141-a83a6c12b37c",
+                    "x": 15,
+                    "y": 36
+                },
+                {
+                    "name": "Broken Bridge C",
+                    "frame": 2,
+                    "animate": false,
+                    "spriteSheetId": "7d6bdb0b-eb14-4017-8a12-cabeb5fc24bb",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "eef449b0-a5f3-418c-9140-da4e117d629f",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "67effa54-c4cf-4c8d-b7e1-9f36eeca6dcd",
+                    "x": 18,
+                    "y": 36
+                },
+                {
+                    "name": "Broken Bridge E",
+                    "frame": 2,
+                    "animate": false,
+                    "spriteSheetId": "7d6bdb0b-eb14-4017-8a12-cabeb5fc24bb",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "eef449b0-a5f3-418c-9140-da4e117d629f",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "7e1ab037-14cd-493d-9fef-23297888195b",
+                    "x": 23,
+                    "y": 36
+                },
+                {
+                    "name": "Bamboo N",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "7d6bdb0b-eb14-4017-8a12-cabeb5fc24bb",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "adfc9806-1a28-49da-9e38-9259cf3969b3",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "8430c957-1f44-4b26-b3ec-1af4ede50aa0",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "Bamboo C",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "7d6bdb0b-eb14-4017-8a12-cabeb5fc24bb",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "adfc9806-1a28-49da-9e38-9259cf3969b3",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "151adcbc-a274-4fd8-b1ea-9aa2d1297f2b",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "name": "Bamboo S",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "7d6bdb0b-eb14-4017-8a12-cabeb5fc24bb",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "adfc9806-1a28-49da-9e38-9259cf3969b3",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "71a549f7-4086-47a3-8efd-c40af0287bf6",
+                    "x": 4,
+                    "y": 1
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit: Spider's Nest",
@@ -165478,6 +165699,15 @@
             "_v": 1638067468275
         },
         {
+            "id": "f193ac94-8b38-4558-803b-1d723fe7b71c",
+            "name": "fx-festoon's_telescope",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "fx-festoon's_telescope.png",
+            "inode": "15481123719482469",
+            "_v": 1638068445996
+        },
+        {
             "id": "e3355336-9f46-43f5-b5a0-5b657173a620",
             "name": "fx-leaf",
             "numFrames": 2,
@@ -165494,6 +165724,15 @@
             "filename": "fx-map_marker.png",
             "inode": "16325548649270294",
             "_v": 1638067468275
+        },
+        {
+            "id": "16c5309a-41b3-4dff-be5d-ea6f0ef07d3a",
+            "name": "fx-maria's_camera",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "fx-maria's_camera.png",
+            "inode": "2251799814078149",
+            "_v": 1638068451737
         },
         {
             "id": "490468db-09ba-43c6-8716-0af8c5f40cc8",
@@ -165624,11 +165863,11 @@
         {
             "id": "7d6bdb0b-eb14-4017-8a12-cabeb5fc24bb",
             "name": "mat-oak_bamboo",
-            "numFrames": 3,
-            "type": "actor",
+            "numFrames": 4,
+            "type": "animated",
             "filename": "mat-oak_bamboo.png",
             "inode": "27021597764370202",
-            "_v": 1638067468275
+            "_v": 1638069536553
         },
         {
             "id": "9275c9a2-247f-401b-be99-5a33e162e8ce",
@@ -165640,103 +165879,157 @@
             "_v": 1638067468275
         },
         {
-            "id": "6eadd192-7bb2-44a9-ad09-82d1b5e2cccf",
-            "name": "npc-aello",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "npc-aello.png",
-            "inode": "17451448556182543",
-            "_v": 1638067468275
-        },
-        {
-            "id": "df8557d9-49ca-4627-a8c4-bd732fd2f0c4",
-            "name": "npc-alraune_e",
+            "id": "0d2ca5c9-8ad5-46b9-bde7-777bb7f8ec4d",
+            "name": "npc-cat-lucy_lay",
             "numFrames": 2,
             "type": "animated",
-            "filename": "npc-alraune_e.png",
-            "inode": "52354345668229335",
-            "_v": 1638067468275
+            "filename": "npc-cat-lucy_lay.png",
+            "inode": "7881299347965156",
+            "_v": 1638068675887
         },
         {
-            "id": "6f36e707-ee5f-4a8c-8928-527dc6990c71",
-            "name": "npc-alraune_w",
+            "id": "416af782-2eef-4303-a90e-ca8014e171d3",
+            "name": "npc-cat-lucy_sit",
             "numFrames": 2,
             "type": "animated",
-            "filename": "npc-alraune_w.png",
-            "inode": "1407374883948475",
-            "_v": 1638067468275
+            "filename": "npc-cat-lucy_sit.png",
+            "inode": "27584547717711188",
+            "_v": 1638068679068
+        },
+        {
+            "id": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
+            "name": "npc-cat-lucy_walk",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "npc-cat-lucy_walk.png",
+            "inode": "41658296553245379",
+            "_v": 1638068672501
+        },
+        {
+            "id": "e18155c4-76de-4223-bb5d-dc05808140f5",
+            "name": "npc-creature-library_patron",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-creature-library_patron.png",
+            "inode": "32369622321737396",
+            "_v": 1638068506212
         },
         {
             "id": "e3793725-f814-49cc-9da0-8148df9454f0",
-            "name": "npc-baphy",
+            "name": "npc-demon-baphy",
             "numFrames": 3,
             "type": "actor",
-            "filename": "npc-baphy.png",
+            "filename": "npc-demon-baphy.png",
             "inode": "14355223812433529",
-            "_v": 1638067468275
+            "_v": 1638068600406
         },
         {
             "id": "9140cb0d-603a-4cc3-b481-40ff18f0c6c2",
-            "name": "npc-bluecap",
+            "name": "npc-demon-bluecap",
             "numFrames": 3,
             "type": "actor",
-            "filename": "npc-bluecap.png",
+            "filename": "npc-demon-bluecap.png",
             "inode": "3096224744209695",
-            "_v": 1638067468275
+            "_v": 1638068543032
         },
         {
-            "id": "135ac44a-ebcc-49e3-ba78-0391f0d98a9b",
-            "name": "npc-erato",
-            "numFrames": 2,
-            "type": "animated",
-            "filename": "npc-erato.png",
-            "inode": "10414574138689437",
-            "_v": 1638067468275
-        },
-        {
-            "id": "f193ac94-8b38-4558-803b-1d723fe7b71c",
-            "name": "npc-festoon's_telescope",
+            "id": "51f15ae5-2330-47d0-9235-e0cea78e73b2",
+            "name": "npc-demon-lin",
             "numFrames": 1,
             "type": "static",
-            "filename": "npc-festoon's_telescope.png",
-            "inode": "15481123719482469",
-            "_v": 1638067468275
+            "filename": "npc-demon-lin.png",
+            "inode": "26458647810994378",
+            "_v": 1638068658484
         },
         {
-            "id": "b6db145f-68db-494e-bd02-a32e1f4412c7",
-            "name": "npc-festoon",
+            "id": "284edf9d-b658-469d-ae76-ad1c85b26d8e",
+            "name": "npc-demon-mae",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "npc-demon-mae.png",
+            "inode": "44473046320478677",
+            "_v": 1638068655610
+        },
+        {
+            "id": "bd023ab1-227a-4000-b1ce-79e2ef4a56b9",
+            "name": "npc-demon-reaper",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "npc-demon-reaper.png",
+            "inode": "19421773393225326",
+            "_v": 1638068652354
+        },
+        {
+            "id": "b071192a-cba1-406f-8456-11b82a3d9cdf",
+            "name": "npc-demon-rin_rin",
             "numFrames": 3,
             "type": "actor",
-            "filename": "npc-festoon.png",
-            "inode": "5348024557859061",
-            "_v": 1638067468275
+            "filename": "npc-demon-rin_rin.png",
+            "inode": "91479367431153268",
+            "_v": 1638068682160
+        },
+        {
+            "id": "f486d66d-c606-422e-9a32-0a23fc4a75f5",
+            "name": "npc-demon-snakebat",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-demon-snakebat.png",
+            "inode": "16325548649408118",
+            "_v": 1638068603406
+        },
+        {
+            "id": "f0ba75b1-c280-42c8-a0b7-48d1ffb11aa5",
+            "name": "npc-demon-sophia",
+            "numFrames": 4,
+            "type": "animated",
+            "filename": "npc-demon-sophia.png",
+            "inode": "68961369294113265",
+            "_v": 1638068538330
+        },
+        {
+            "id": "bf086105-9638-4456-a78a-c3f06c38fb38",
+            "name": "npc-ghost-maria",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-ghost-maria.png",
+            "inode": "45035996273772310",
+            "_v": 1638068547326
+        },
+        {
+            "id": "0c6994c4-f6ab-42aa-a4a6-4cf1c669583e",
+            "name": "npc-gorgon-stheno",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "npc-gorgon-stheno.png",
+            "inode": "14355223812535820",
+            "_v": 1638068633701
+        },
+        {
+            "id": "6eadd192-7bb2-44a9-ad09-82d1b5e2cccf",
+            "name": "npc-harpy-aello",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "npc-harpy-aello.png",
+            "inode": "17451448556182543",
+            "_v": 1638068686242
         },
         {
             "id": "ca6a5a00-f8a9-4417-95b4-6f91120f3f6c",
-            "name": "npc-harpy",
+            "name": "npc-harpy-awake",
             "numFrames": 3,
             "type": "actor",
-            "filename": "npc-harpy.png",
+            "filename": "npc-harpy-awake.png",
             "inode": "15481123719154406",
-            "_v": 1638067468275
+            "_v": 1638068580413
         },
         {
-            "id": "90290bc0-dc76-4e83-b506-632efa294542",
-            "name": "npc-kuliltu",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "npc-kuliltu.png",
-            "inode": "17169973579540106",
-            "_v": 1638067468275
-        },
-        {
-            "id": "3ad26911-eb11-47d2-861b-3ca481a27190",
-            "name": "npc-kuliltus_tail",
-            "numFrames": 2,
-            "type": "animated",
-            "filename": "npc-kuliltus_tail.png",
-            "inode": "40532396646524584",
-            "_v": 1638067468275
+            "id": "7c12d009-4163-48cb-9d68-fbabbd496760",
+            "name": "npc-harpy-sungem",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "npc-harpy-sungem.png",
+            "inode": "79094468455736186",
+            "_v": 1638068587154
         },
         {
             "id": "87bb74a1-074a-4e50-a4c7-c7f7e37ffdcd",
@@ -165748,103 +166041,67 @@
             "_v": 1638067468275
         },
         {
-            "id": "e18155c4-76de-4223-bb5d-dc05808140f5",
-            "name": "npc-library_patron",
+            "id": "90290bc0-dc76-4e83-b506-632efa294542",
+            "name": "npc-mermaid-kuliltu",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "npc-mermaid-kuliltu.png",
+            "inode": "17169973579540106",
+            "_v": 1638068649032
+        },
+        {
+            "id": "3ad26911-eb11-47d2-861b-3ca481a27190",
+            "name": "npc-mermaid-kuliltus_tail",
             "numFrames": 2,
             "type": "animated",
-            "filename": "npc-library_patron.png",
-            "inode": "32369622321737396",
-            "_v": 1638067468275
-        },
-        {
-            "id": "51f15ae5-2330-47d0-9235-e0cea78e73b2",
-            "name": "npc-lin",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "npc-lin.png",
-            "inode": "26458647810994378",
-            "_v": 1638067468275
-        },
-        {
-            "id": "0d2ca5c9-8ad5-46b9-bde7-777bb7f8ec4d",
-            "name": "npc-lucy_lay",
-            "numFrames": 2,
-            "type": "animated",
-            "filename": "npc-lucy_lay.png",
-            "inode": "7881299347965156",
-            "_v": 1638067468275
-        },
-        {
-            "id": "416af782-2eef-4303-a90e-ca8014e171d3",
-            "name": "npc-lucy_sit",
-            "numFrames": 2,
-            "type": "animated",
-            "filename": "npc-lucy_sit.png",
-            "inode": "27584547717711188",
-            "_v": 1638067468275
-        },
-        {
-            "id": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
-            "name": "npc-lucy_walk",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "npc-lucy_walk.png",
-            "inode": "41658296553245379",
-            "_v": 1638067468275
-        },
-        {
-            "id": "284edf9d-b658-469d-ae76-ad1c85b26d8e",
-            "name": "npc-mae",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "npc-mae.png",
-            "inode": "44473046320478677",
-            "_v": 1638067468275
-        },
-        {
-            "id": "16c5309a-41b3-4dff-be5d-ea6f0ef07d3a",
-            "name": "npc-maria's_camera",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "npc-maria's_camera.png",
-            "inode": "2251799814078149",
-            "_v": 1638067468275
-        },
-        {
-            "id": "bf086105-9638-4456-a78a-c3f06c38fb38",
-            "name": "npc-maria",
-            "numFrames": 2,
-            "type": "animated",
-            "filename": "npc-maria.png",
-            "inode": "45035996273772310",
-            "_v": 1638067468275
+            "filename": "npc-mermaid-kuliltus_tail.png",
+            "inode": "40532396646524584",
+            "_v": 1638068596431
         },
         {
             "id": "c461f155-34b9-4b3e-84a8-2db42d57abbe",
-            "name": "npc-mermaid",
+            "name": "npc-mermaid-sitting",
             "numFrames": 3,
             "type": "actor",
-            "filename": "npc-mermaid.png",
+            "filename": "npc-mermaid-sitting.png",
             "inode": "62487444829854165",
-            "_v": 1638067468275
+            "_v": 1638068557677
         },
         {
-            "id": "bd023ab1-227a-4000-b1ce-79e2ef4a56b9",
-            "name": "npc-reaper",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "npc-reaper.png",
-            "inode": "19421773393225326",
-            "_v": 1638067468275
+            "id": "df8557d9-49ca-4627-a8c4-bd732fd2f0c4",
+            "name": "npc-plantgirl-alraune_e",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-plantgirl-alraune_e.png",
+            "inode": "52354345668229335",
+            "_v": 1638068668746
         },
         {
-            "id": "b071192a-cba1-406f-8456-11b82a3d9cdf",
-            "name": "npc-rin_rin",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "npc-rin_rin.png",
-            "inode": "91479367431153268",
-            "_v": 1638067468275
+            "id": "6f36e707-ee5f-4a8c-8928-527dc6990c71",
+            "name": "npc-plantgirl-alraune_w",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-plantgirl-alraune_w.png",
+            "inode": "1407374883948475",
+            "_v": 1638068529127
+        },
+        {
+            "id": "135ac44a-ebcc-49e3-ba78-0391f0d98a9b",
+            "name": "npc-plantgirl-erato",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-plantgirl-erato.png",
+            "inode": "10414574138689437",
+            "_v": 1638068524080
+        },
+        {
+            "id": "f588e26d-790f-4523-a889-f3e2731575f1",
+            "name": "npc-plantgirl-xylia",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-plantgirl-xylia.png",
+            "inode": "62205969853097335",
+            "_v": 1638068520151
         },
         {
             "id": "b0840233-c04e-4f21-99a1-5bf3f1d1c984",
@@ -165866,156 +166123,120 @@
         },
         {
             "id": "c3de744a-6362-4e31-a69d-db8372437620",
-            "name": "npc-skeleton-glass",
+            "name": "npc-skeleton-glassworker",
             "numFrames": 3,
             "type": "actor",
-            "filename": "npc-skeleton-glass.png",
+            "filename": "npc-skeleton-glassworker.png",
             "inode": "77405618595514748",
-            "_v": 1638067468276
+            "_v": 1638068562094
         },
         {
             "id": "cf9de17a-44b7-4d0e-aba3-12e579354d26",
-            "name": "npc-skeleton_librarian",
+            "name": "npc-skeleton-librarian",
             "numFrames": 2,
             "type": "animated",
-            "filename": "npc-skeleton_librarian.png",
+            "filename": "npc-skeleton-librarian.png",
             "inode": "94012642221548285",
-            "_v": 1638067468275
-        },
-        {
-            "id": "f486d66d-c606-422e-9a32-0a23fc4a75f5",
-            "name": "npc-snakebat",
-            "numFrames": 2,
-            "type": "animated",
-            "filename": "npc-snakebat.png",
-            "inode": "16325548649408118",
-            "_v": 1638067468275
-        },
-        {
-            "id": "f0ba75b1-c280-42c8-a0b7-48d1ffb11aa5",
-            "name": "npc-sophia",
-            "numFrames": 4,
-            "type": "animated",
-            "filename": "npc-sophia.png",
-            "inode": "68961369294113265",
-            "_v": 1638067468276
-        },
-        {
-            "id": "0c6994c4-f6ab-42aa-a4a6-4cf1c669583e",
-            "name": "npc-stheno",
-            "numFrames": 3,
-            "type": "actor",
-            "filename": "npc-stheno.png",
-            "inode": "14355223812535820",
-            "_v": 1638067468276
-        },
-        {
-            "id": "7c12d009-4163-48cb-9d68-fbabbd496760",
-            "name": "npc-sungem_",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "npc-sungem_.png",
-            "inode": "79094468455736186",
-            "_v": 1638067468276
+            "_v": 1638068511771
         },
         {
             "id": "056fa21c-0048-4580-9566-bc3db5ad8a74",
-            "name": "npc-tibby",
+            "name": "npc-skeleton-tibby",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "npc-tibby.png",
+            "filename": "npc-skeleton-tibby.png",
             "inode": "16888498602829282",
-            "_v": 1638067468276
+            "_v": 1638068663630
+        },
+        {
+            "id": "b6db145f-68db-494e-bd02-a32e1f4412c7",
+            "name": "npc-spidergirl-festoon",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "npc-spidergirl-festoon.png",
+            "inode": "5348024557859061",
+            "_v": 1638068550591
         },
         {
             "id": "ac03d67f-11af-424b-bfc3-835916aa2bff",
-            "name": "npc-vampire_bat_flap",
+            "name": "npc-vampire-bat_flapping",
             "numFrames": 2,
             "type": "animated",
-            "filename": "npc-vampire_bat_flap.png",
+            "filename": "npc-vampire-bat_flapping.png",
             "inode": "29836347531622226",
-            "_v": 1638067468276
+            "_v": 1638068619403
         },
         {
             "id": "9933758f-0efe-401d-a55b-a264d573d80e",
-            "name": "npc-vampire_bat_roosting",
+            "name": "npc-vampire-bat_roosting",
             "numFrames": 1,
             "type": "static",
-            "filename": "npc-vampire_bat_roosting.png",
+            "filename": "npc-vampire-bat_roosting.png",
             "inode": "34902897112431050",
-            "_v": 1638067468276
+            "_v": 1638068616963
         },
         {
             "id": "15d77f50-f6e3-4364-8b0c-8e6a73973d74",
-            "name": "npc-vampire_chatty",
+            "name": "npc-vampire-chatty",
             "numFrames": 3,
             "type": "actor",
-            "filename": "npc-vampire_chatty.png",
+            "filename": "npc-vampire-chatty.png",
             "inode": "31525197391890988",
-            "_v": 1638067468276
+            "_v": 1638068638552
         },
         {
             "id": "6968b866-60ab-492d-ae93-a8901075b9cc",
-            "name": "npc-vampire_coffin",
+            "name": "npc-vampire-coffin",
             "numFrames": 2,
             "type": "animated",
-            "filename": "npc-vampire_coffin.png",
+            "filename": "npc-vampire-coffin.png",
             "inode": "52072870691506351",
-            "_v": 1638067468276
+            "_v": 1638068642848
         },
         {
             "id": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
-            "name": "npc-vampire_misc",
+            "name": "npc-vampire-misc",
             "numFrames": 4,
             "type": "animated",
-            "filename": "npc-vampire_misc.png",
+            "filename": "npc-vampire-misc.png",
             "inode": "27584547717953961",
-            "_v": 1638067468276
+            "_v": 1638068622982
         },
         {
             "id": "45b49479-4945-4bbb-876f-4930ff5c2d8e",
-            "name": "npc-vampire_romantic",
+            "name": "npc-vampire-romantic",
             "numFrames": 2,
             "type": "animated",
-            "filename": "npc-vampire_romantic.png",
+            "filename": "npc-vampire-romantic.png",
             "inode": "14918173765974515",
-            "_v": 1638067468276
+            "_v": 1638068626473
         },
         {
             "id": "0234037c-544b-4838-9dee-75b115bd1d60",
-            "name": "npc-vampire_sitting",
+            "name": "npc-vampire-sitting",
             "numFrames": 2,
             "type": "animated",
-            "filename": "npc-vampire_sitting.png",
+            "filename": "npc-vampire-sitting.png",
             "inode": "21392098230319543",
-            "_v": 1638067468276
-        },
-        {
-            "id": "f588e26d-790f-4523-a889-f3e2731575f1",
-            "name": "npc-xylia",
-            "numFrames": 2,
-            "type": "animated",
-            "filename": "npc-xylia.png",
-            "inode": "62205969853097335",
-            "_v": 1638067468276
+            "_v": 1638068630181
         },
         {
             "id": "6878f574-693a-45ec-b10a-e98ac8460a55",
-            "name": "npc-zombie_irena",
+            "name": "npc-zombie-irena",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "npc-zombie_irena.png",
+            "filename": "npc-zombie-irena.png",
             "inode": "28428972647830476",
-            "_v": 1638068045721
+            "_v": 1638068573396
         },
         {
             "id": "598eda51-4cc0-4b1a-acd5-5836c44398ed",
-            "name": "npc-zombie_madge",
+            "name": "npc-zombie-madge",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "npc-zombie_madge.png",
+            "filename": "npc-zombie-madge.png",
             "inode": "204069358115228588",
-            "_v": 1638068213314
+            "_v": 1638068569700
         },
         {
             "id": "5d86ba0e-c423-4249-81cc-3794288ae3f8",
@@ -167329,15 +167550,15 @@
     "settings": {
         "startSceneId": "98853e3a-d09a-4a4e-ba2e-0e1816613c24",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 86,
-        "startY": 48,
+        "startX": 13,
+        "startY": 34,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 6842,
-        "worldScrollY": 8405,
+        "worldScrollX": 840,
+        "worldScrollY": 7256,
         "zoom": 325,
         "customColorsEnabled": true,
         "customHead": "",
