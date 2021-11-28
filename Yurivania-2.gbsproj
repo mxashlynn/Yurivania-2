@@ -11623,7 +11623,246 @@
             "id": "49dd8ce7-f9bc-41e3-9931-e8aeadda8e3a",
             "x": 1761.6268456375847,
             "y": 2156.051006711409,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Lucy",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
+                    "spriteType": "actor",
+                    "direction": "right",
+                    "moveSpeed": 1,
+                    "animSpeed": 2,
+                    "paletteId": "7c404ecd-36ec-4458-bb1a-d6a52119855d",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "id": "d2ca7750-7c1e-4f08-aaf1-da0fbf8ac521",
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "1",
+                                "__collapseElse": false,
+                                "__label": "If Menu Is Closed",
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "2d1a4ecc-e872-4b3f-bf8c-de865f71b2a4",
+                                        "command": "EVENT_IF_FALSE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "__collapseElse": false,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "923c1107-de18-4dac-a131-e355b979fa84",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "LUCY: Oh, hello\nJosette. Welcome\nto the Lunarium.",
+                                                            "No matter the time\nof night or day,",
+                                                            "the moon is\nalways gleaming\nhere."
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "916fd038-160b-49ca-85b8-97eb72d8d65d",
+                                                    "command": "EVENT_SET_TRUE",
+                                                    "args": {
+                                                        "variable": "L0"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "e5e747bd-bf5b-4154-a1cc-5703af173c89",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "id": "c6ed11f3-9187-4086-8d11-c4b8b4e16023",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "LUCY: Did you\nknow a charm can\nteleports you\nhere?",
+                                                            "It's a quick way\nto return from the\nPalace's edges."
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "a65180ab-397f-40ae-a107-076d3077d9d4",
+                                                    "command": "EVENT_SET_FALSE",
+                                                    "args": {
+                                                        "variable": "L0"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "f18e52da-39aa-4304-96ca-678930b69660",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "7f8c0e01-a1cd-4dfd-8e71-1001cd25ff19",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "7067b202-a557-4cde-a271-d271319b19b5",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "349e00d3-dc95-453d-939a-ce6b0163fcc2",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [
+                        {
+                            "id": "95330ea3-7028-43ff-8167-6c9841c7b659",
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.5
+                            }
+                        },
+                        {
+                            "id": "ff16c5d2-ba1b-409b-93f4-898a6c8ec764",
+                            "command": "EVENT_VARIABLE_MATH",
+                            "args": {
+                                "vectorX": "T0",
+                                "operation": "set",
+                                "other": "rnd",
+                                "vectorY": "T0",
+                                "value": "1",
+                                "minValue": "0",
+                                "maxValue": 5
+                            }
+                        },
+                        {
+                            "id": "caa2531a-97cc-47ba-96b0-1633a7fd9c3a",
+                            "command": "EVENT_SWITCH",
+                            "args": {
+                                "variable": "T0",
+                                "choices": 2,
+                                "__collapseCase0": false,
+                                "value0": 1,
+                                "__collapseCase1": false,
+                                "value1": 2,
+                                "__collapseCase2": false,
+                                "value2": 3,
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true0": [
+                                    {
+                                        "id": "d8c19f13-e580-463e-9ef5-21e887035409",
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": 2,
+                                            "y": 0,
+                                            "useCollisions": true,
+                                            "verticalFirst": false,
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "id": "bd46574a-3b85-4c5e-90b7-d1c03eb45cc4",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true1": [
+                                    {
+                                        "id": "600617e8-da93-4d23-95fe-d73264846630",
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": -2,
+                                            "y": 0,
+                                            "useCollisions": true,
+                                            "verticalFirst": false,
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "id": "2724df0d-426b-4ab1-aa72-dd2ec674a51f",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true2": [
+                                    {
+                                        "id": "145e4226-559f-4296-a2ce-016ae192e474",
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": -2,
+                                            "y": 0,
+                                            "useCollisions": true,
+                                            "verticalFirst": false,
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "id": "0d32db66-9cfe-4302-b7dd-be1a5b470751",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "true3": [
+                                    {
+                                        "id": "681329c3-a376-433f-bec4-d8de8eb25dcf",
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": 2,
+                                            "y": 0,
+                                            "useCollisions": true,
+                                            "verticalFirst": false,
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "id": "0d8c414b-54b9-4bdb-bdf3-e56d0738ba01",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "4d147a68-d2e9-4966-994c-b391c9df9fbd",
+                                        "command": "EVENT_WAIT",
+                                        "args": {
+                                            "time": 0.25
+                                        }
+                                    },
+                                    {
+                                        "id": "1954e4b1-a227-4479-b2b7-c4ee7829ee67",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "8c29d08d-bbc2-408f-a330-d520ae5fe5aa",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "a883fc0e-80b6-4981-81ec-aeebe92829eb",
+                    "x": 6,
+                    "y": 14
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit: Old Vampire Quarter",
@@ -17464,7 +17703,360 @@
             "id": "5a3b56b9-75d0-49f8-acb8-48c13768d360",
             "x": 1084,
             "y": 2167.6923076923076,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Sleeping Vampire WC",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9933758f-0efe-401d-a55b-a264d573d80e",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "4522c0ba-b51d-460a-80ff-0f4a0fda6ef1",
+                    "x": 19,
+                    "y": 3
+                },
+                {
+                    "name": "Sleeping Vampire E",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9933758f-0efe-401d-a55b-a264d573d80e",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "df31ed45-0268-4d0b-8232-8417ff52005d",
+                    "x": 50,
+                    "y": 3
+                },
+                {
+                    "name": "Restless Vampire",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "ac03d67f-11af-424b-bfc3-835916aa2bff",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 1,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "97335104-d6dd-41d5-86de-074cdcd8a8af",
+                    "x": 32,
+                    "y": 3
+                },
+                {
+                    "name": "Sleeping Vampire EC",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9933758f-0efe-401d-a55b-a264d573d80e",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "b8a8406b-26ab-42e4-a952-9a6c93253eae",
+                    "x": 46,
+                    "y": 3
+                },
+                {
+                    "name": "Sleeping Vampire W",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9933758f-0efe-401d-a55b-a264d573d80e",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "94642bac-9560-445d-ad92-a27a1218d281",
+                    "x": 16,
+                    "y": 3
+                },
+                {
+                    "name": "Vampire Romantic",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "45b49479-4945-4bbb-876f-4930ff5c2d8e",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "8e91e676-1da4-4df8-b0f0-6e1ab55363f0",
+                    "x": 54,
+                    "y": 13
+                },
+                {
+                    "name": "Vampire Chatty W",
+                    "frame": 2,
+                    "animate": false,
+                    "spriteSheetId": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "36c0e74f-de90-4c1b-b5e9-621ca6496d63",
+                    "x": 39,
+                    "y": 15
+                },
+                {
+                    "name": "Vampire Chatty E",
+                    "frame": 3,
+                    "animate": false,
+                    "spriteSheetId": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "30d7bc49-12f0-442c-b578-b5ce1407cb8e",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "2dc8acd5-4b90-4a63-8d27-7c649d461794",
+                    "x": 43,
+                    "y": 15
+                },
+                {
+                    "name": "Vampire Chatty C",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "15d77f50-f6e3-4364-8b0c-8e6a73973d74",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 4,
+                    "paletteId": "9266acc5-9e3e-494d-9f3d-ac090da41609",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "268e9c8b-da9e-46bb-8c96-f06ff2d8a60a",
+                    "x": 41,
+                    "y": 15
+                },
+                {
+                    "name": "Coffin Awake",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "6968b866-60ab-492d-ae93-a8901075b9cc",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "2bc442ca-b41a-4ced-a3e4-f0d56290ad7f",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "964f9041-a77b-4a12-8343-0f913fc7fa67",
+                    "x": 14,
+                    "y": 23
+                },
+                {
+                    "name": "Vampire Band",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "488f3f46-26fd-4a36-ba8c-fc2e9851bdde",
+                    "x": 13,
+                    "y": 16
+                },
+                {
+                    "name": "Vampire Rose",
+                    "frame": 1,
+                    "animate": false,
+                    "spriteSheetId": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "eff6c057-cd5e-4f87-a021-ae41154c175b",
+                    "x": 5,
+                    "y": 33
+                },
+                {
+                    "name": "Vampire Art",
+                    "frame": 4,
+                    "animate": false,
+                    "spriteSheetId": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "9266acc5-9e3e-494d-9f3d-ac090da41609",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "dfcbfe89-a45a-4797-97e3-e184474e0acb",
+                    "x": 11,
+                    "y": 16
+                },
+                {
+                    "name": "Vampire Sitting",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "0234037c-544b-4838-9dee-75b115bd1d60",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "30d7bc49-12f0-442c-b578-b5ce1407cb8e",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "b49c86a6-b4f9-4d53-9d77-0fc9abf5f324",
+                    "x": 3,
+                    "y": 19
+                },
+                {
+                    "name": "Sleeping Vampire S",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9933758f-0efe-401d-a55b-a264d573d80e",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "a47d94d2-8584-425f-9d91-599f6ee68907",
+                    "x": 1,
+                    "y": 26
+                },
+                {
+                    "name": "Vampire Chilling",
+                    "frame": 5,
+                    "animate": false,
+                    "spriteSheetId": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "b5d05dbd-8c5f-4673-b555-a6bc16819f4b",
+                    "x": 76,
+                    "y": 15
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit: Lunarium",
@@ -50922,7 +51514,7 @@
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 3,
-                    "paletteId": "70cdcaac-2c87-439b-9a03-1e6f58183028",
+                    "paletteId": "2bc442ca-b41a-4ced-a3e4-f0d56290ad7f",
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [],
@@ -50944,7 +51536,7 @@
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 3,
-                    "paletteId": "70cdcaac-2c87-439b-9a03-1e6f58183028",
+                    "paletteId": "2bc442ca-b41a-4ced-a3e4-f0d56290ad7f",
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [],
@@ -91790,68 +92382,68 @@
                 15,
                 15,
                 15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                15,
+                15,
                 16,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                15,
-                15,
-                15,
-                17,
-                24,
+                16,
                 0,
                 0,
                 0,
@@ -96335,6 +96927,28 @@
                     "id": "5522c3c9-155d-4e63-a341-54ad8641bf80",
                     "x": 9,
                     "y": 14
+                },
+                {
+                    "name": "Lucy",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "416af782-2eef-4303-a90e-ca8014e171d3",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "7c404ecd-36ec-4458-bb1a-d6a52119855d",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d76da1ed-d409-49ab-85f3-f192ed6e7f5f",
+                    "x": 2,
+                    "y": 2
                 }
             ],
             "triggers": [
@@ -98510,7 +99124,52 @@
             "id": "6c61eec4-369a-4115-b9a8-679bd26b2a5a",
             "x": 878.4039048200121,
             "y": 2437.0067114093963,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Sleeping Vampire E",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9933758f-0efe-401d-a55b-a264d573d80e",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "974d2dab-fb7e-482a-a9c4-41cec59a2dec",
+                    "x": 16,
+                    "y": 3
+                },
+                {
+                    "name": "Sleeping Vampire W",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9933758f-0efe-401d-a55b-a264d573d80e",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "49347158-89b8-4113-bd57-ccd782504584",
+                    "x": 14,
+                    "y": 3
+                }
+            ],
             "triggers": [
                 {
                     "name": "Exit: Old Vampire Quarter",
@@ -99792,6 +100451,50 @@
                     "id": "699edfa2-3cdc-4299-a7ef-333ece29f6d0",
                     "x": 9,
                     "y": 9
+                },
+                {
+                    "name": "Sleeping Vampire W",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9933758f-0efe-401d-a55b-a264d573d80e",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "a707bab2-5f18-49f7-b880-80f0cc707e1d",
+                    "x": 14,
+                    "y": 3
+                },
+                {
+                    "name": "Sleeping Vampire E",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9933758f-0efe-401d-a55b-a264d573d80e",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "1b4b16c3-98e9-412c-87a9-34016ff24a45",
+                    "x": 16,
+                    "y": 3
                 }
             ],
             "triggers": [
@@ -152538,7 +153241,7 @@
                     "direction": "left",
                     "moveSpeed": 1,
                     "animSpeed": 3,
-                    "paletteId": "67cd4673-c16a-4527-ae42-1f83f346ce23",
+                    "paletteId": "66bc9954-b42e-4f78-9dca-03fb833027ca",
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [],
@@ -152550,6 +153253,28 @@
                     "id": "9bb958bd-cc34-4c16-a9c4-66b9e6a5ade2",
                     "x": 78,
                     "y": 29
+                },
+                {
+                    "name": "Betty",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "6878f574-693a-45ec-b10a-e98ac8460a55",
+                    "spriteType": "actor",
+                    "direction": "left",
+                    "moveSpeed": 1,
+                    "animSpeed": 2,
+                    "paletteId": "45d6b925-a264-494f-a9b1-188e795c6a0b",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "1a44f2da-9add-49c8-8178-f68e821bd1d4",
+                    "x": 7,
+                    "y": 13
                 }
             ],
             "triggers": [
@@ -165145,7 +165870,7 @@
             "imageHeight": 144,
             "filename": "area-echoing_vaults-mae's_corner.png",
             "inode": "70368744177752618",
-            "_v": 1638067468274
+            "_v": 1638070477859
         },
         {
             "id": "a4222b42-23d4-447b-929f-3e0d3e6a826b",
@@ -165156,7 +165881,7 @@
             "imageHeight": 576,
             "filename": "area-echoing_vaults-main.png",
             "inode": "77687093572177701",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "adfe41ee-5c31-4904-a5ff-274ab41ea67a",
@@ -165167,7 +165892,7 @@
             "imageHeight": 288,
             "filename": "area-echoing_vaults-waterway.png",
             "inode": "25614222880844986",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "6b170083-9f4f-44c2-9f8a-2cb779a8f390",
@@ -165178,7 +165903,7 @@
             "imageHeight": 288,
             "filename": "area-great_library-closed.png",
             "inode": "35747322042617711",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "19b24368-6bef-46af-8932-8a8920aaa9a6",
@@ -165189,7 +165914,7 @@
             "imageHeight": 288,
             "filename": "area-great_library-open.png",
             "inode": "24488322974189880",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "4c585756-c4e5-4d0b-8200-39cfd9b8bdfd",
@@ -165200,7 +165925,7 @@
             "imageHeight": 720,
             "filename": "area-inner_circle-main.png",
             "inode": "9851624185158059",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "c457fb8b-5a06-49c5-a733-b0515815a8ae",
@@ -165211,7 +165936,7 @@
             "imageHeight": 144,
             "filename": "area-inner_circle-quarry.png",
             "inode": "23362423067027686",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "0419f072-20d2-4a90-9740-9ab60ddd0767",
@@ -165222,7 +165947,7 @@
             "imageHeight": 288,
             "filename": "area-inner_circle-sacred_hall.png",
             "inode": "41939771530180980",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "32beb6d0-d92e-4f00-973c-d9eb0eca1548",
@@ -165233,7 +165958,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-0_unstarted.png",
             "inode": "3377699721908807",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "4ac13670-48a9-4dbf-8ed1-f3e776350ed5",
@@ -165244,7 +165969,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-1_partial_frame.png",
             "inode": "2533274791777220",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "0029e211-12d2-4ba3-ae18-0abc0d9d7899",
@@ -165255,7 +165980,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-2_partial_walls-granite.png",
             "inode": "1970324838355550",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "f2625350-b250-4f5e-a486-7a9b1d2eacf7",
@@ -165266,7 +165991,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-2_partial_walls-marble.png",
             "inode": "67272519433944729",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "ef7cd907-52f1-4648-92cb-55ba7f8eebd7",
@@ -165277,7 +166002,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-granite_bamboo.png",
             "inode": "9570149209543105",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "60222c67-c017-4bfe-9b0e-e74fe974cb23",
@@ -165288,7 +166013,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-granite_oak.png",
             "inode": "18858823440994530",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "80debc37-2aa6-42ee-8548-bf09df7c0553",
@@ -165299,7 +166024,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-marble_bamboo.png",
             "inode": "49821070878074372",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "c405811e-936a-4406-868e-18314cf54d41",
@@ -165310,7 +166035,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-3_partial_beams-marble_oak.png",
             "inode": "30962247438330627",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "d827f881-87df-4e77-9f02-cd17b923b517",
@@ -165321,7 +166046,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_bamboo_porcelain.png",
             "inode": "30399297486131251",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "1f8689ae-0cde-4ada-a3ef-93e1b1e955fa",
@@ -165332,7 +166057,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_bamboo_shell.png",
             "inode": "8725724279410750",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "cc85cdfe-f5a5-4792-bce6-d4df5c2fbbb8",
@@ -165343,7 +166068,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_oak_porcelain.png",
             "inode": "41939771531268145",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "168bd1c7-c420-4424-9e9a-27a3004c66a3",
@@ -165354,7 +166079,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-granite_oak_shell.png",
             "inode": "67553994410849734",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "988cdcb3-2042-4ae1-a9f1-c942c762d7ae",
@@ -165365,7 +166090,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_bamboo_porcelain.png",
             "inode": "37999121857318351",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "12bc2306-a5c9-49b9-9c9b-47636f0c4419",
@@ -165376,7 +166101,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_bamboo_shell.png",
             "inode": "14073748836913211",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "ad1bdd72-b813-4b96-b7e3-c84a329d8777",
@@ -165387,7 +166112,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_oak_porcelain.png",
             "inode": "12103423998959237",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "8f00efc2-fb4d-466f-9f12-4d5ca99c7f77",
@@ -165398,7 +166123,7 @@
             "imageHeight": 288,
             "filename": "area-inverted_worksite-4_finished-marble_oak_shell.png",
             "inode": "52917295622983741",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "a6824090-cf23-46ff-998a-4454de326bca",
@@ -165409,7 +166134,7 @@
             "imageHeight": 288,
             "filename": "area-old_vampire_quarter.png",
             "inode": "21955048183620253",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "443db5fc-92a0-429b-8947-db87080b26d7",
@@ -165420,7 +166145,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-balcony.png",
             "inode": "7881299348260426",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "5f385232-735c-44c0-bb63-46211a8daec6",
@@ -165431,7 +166156,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-banner_hall.png",
             "inode": "58828270132535264",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "0e12f2e3-a87d-4ae3-9cef-79e9377c08ce",
@@ -165442,7 +166167,7 @@
             "imageHeight": 288,
             "filename": "area-skyclad_tower-courtyard.png",
             "inode": "10977524093042015",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "c7a68803-bedf-43c7-a70c-d40a083cdc6c",
@@ -165453,7 +166178,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-lunarium.png",
             "inode": "23080948090635694",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "f31e9a1d-af5c-4cfd-8ee5-5ee2fd22cdc9",
@@ -165464,7 +166189,7 @@
             "imageHeight": 1152,
             "filename": "area-skyclad_tower-main.png",
             "inode": "35747322042410535",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "17c0a5b7-302a-4b69-88cc-cb4a7882d3e9",
@@ -165475,7 +166200,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-s+a's_room.png",
             "inode": "50946970784636514",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "0069f303-5f1f-4c12-a122-bb2ebe9c3668",
@@ -165486,7 +166211,7 @@
             "imageHeight": 144,
             "filename": "area-skyclad_tower-statue_hall.png",
             "inode": "8444249301436268",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "e553535d-9344-4fd1-a104-ff9173f94e33",
@@ -165497,7 +166222,7 @@
             "imageHeight": 288,
             "filename": "area-starlit_garden-main.png",
             "inode": "18577348464282929",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "8931f52f-f1be-4100-a501-058543a540e8",
@@ -165508,7 +166233,7 @@
             "imageHeight": 144,
             "filename": "area-starlit_garden-postern-closed.png",
             "inode": "54887620458866275",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "4d7a2365-d213-4ffc-b5cb-a14bbf9e1434",
@@ -165519,7 +166244,7 @@
             "imageHeight": 144,
             "filename": "area-starlit_garden-postern-open.png",
             "inode": "14636698790333586",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "d54c70d5-890f-481c-9f4f-f8fda81e21ff",
@@ -165530,7 +166255,7 @@
             "imageHeight": 720,
             "filename": "area-windswept_rooftop-belltower.png",
             "inode": "69805794224256385",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "966ca6be-add4-47fe-adf1-9a8107a780d0",
@@ -165541,7 +166266,7 @@
             "imageHeight": 144,
             "filename": "area-windswept_rooftop-dead_end.png",
             "inode": "113434415614510448",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "7ac719f9-2eb3-4ead-8599-3fc377b72b7e",
@@ -165552,7 +166277,7 @@
             "imageHeight": 432,
             "filename": "area-windswept_rooftop-main.png",
             "inode": "94012642221446237",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "3010c726-7b40-4fb3-9562-402a83027e47",
@@ -165563,7 +166288,7 @@
             "imageHeight": 288,
             "filename": "area-windswept_rooftop-spider_nest.png",
             "inode": "15199648742667608",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "810940f3-7fcb-4dfa-a392-c8297cc3b285",
@@ -165574,7 +166299,7 @@
             "imageHeight": 144,
             "filename": "screen-controls.png",
             "inode": "16888498602688620",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "b0f184ed-4662-4fc9-b0ce-1b1a59bd2090",
@@ -165585,7 +166310,7 @@
             "imageHeight": 144,
             "filename": "screen-debug.png",
             "inode": "20266198323270433",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "6ada8328-0b3d-476c-9926-52178b8b0bca",
@@ -165596,7 +166321,7 @@
             "imageHeight": 144,
             "filename": "screen-end.png",
             "inode": "36591746972499532",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "ea7a7282-496c-4211-ba52-427b3596333a",
@@ -165607,7 +166332,7 @@
             "imageHeight": 144,
             "filename": "screen-logo.png",
             "inode": "9007199254790522",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "2d9c771d-9027-44ed-aecf-0c70a7831268",
@@ -165618,7 +166343,7 @@
             "imageHeight": 144,
             "filename": "screen-map.png",
             "inode": "8444249302642410",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "cceb218f-f08c-496d-ad0e-a5bb9389f668",
@@ -165629,7 +166354,7 @@
             "imageHeight": 144,
             "filename": "screen-swatches.png",
             "inode": "16325548649593986",
-            "_v": 1638067468275
+            "_v": 1638070477859
         },
         {
             "id": "bb6f1bd9-df6a-472a-9c35-33cac9be44e4",
@@ -165640,7 +166365,7 @@
             "imageHeight": 144,
             "filename": "screen-titles.png",
             "inode": "14918173765714544",
-            "_v": 1638067468275
+            "_v": 1638070477859
         }
     ],
     "spriteSheets": [
@@ -165651,7 +166376,7 @@
             "type": "static",
             "filename": "fx-block.png",
             "inode": "49539595901127078",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "2965f7b5-6502-426b-b047-8afa7e75d6bd",
@@ -165660,7 +166385,7 @@
             "type": "animated",
             "filename": "fx-checkmark.png",
             "inode": "20829148276777942",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "be2939e3-3b95-44ee-b32b-b582122f2c5d",
@@ -165669,7 +166394,7 @@
             "type": "static",
             "filename": "fx-coffin.png",
             "inode": "22799473113692635",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "3a742280-d5aa-4a59-b646-84fc583d45f9",
@@ -165678,7 +166403,7 @@
             "type": "animated",
             "filename": "fx-coffin_crowded.png",
             "inode": "74872343805116218",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "2840b42b-95fb-47e2-93db-b754c68f32f1",
@@ -165687,7 +166412,7 @@
             "type": "static",
             "filename": "fx-coffin_open.png",
             "inode": "23362423067271200",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "634c44b8-e2ef-4bf3-801f-c846dec82630",
@@ -165696,7 +166421,7 @@
             "type": "static",
             "filename": "fx-empty.png",
             "inode": "72902018968111603",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "f193ac94-8b38-4558-803b-1d723fe7b71c",
@@ -165705,7 +166430,7 @@
             "type": "static",
             "filename": "fx-festoon's_telescope.png",
             "inode": "15481123719482469",
-            "_v": 1638068445996
+            "_v": 1638070477860
         },
         {
             "id": "e3355336-9f46-43f5-b5a0-5b657173a620",
@@ -165714,7 +166439,7 @@
             "type": "animated",
             "filename": "fx-leaf.png",
             "inode": "6755399441450925",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "5a20dd62-520d-4d87-9450-450cc5531818",
@@ -165723,7 +166448,7 @@
             "type": "animated",
             "filename": "fx-map_marker.png",
             "inode": "16325548649270294",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "16c5309a-41b3-4dff-be5d-ea6f0ef07d3a",
@@ -165732,7 +166457,7 @@
             "type": "static",
             "filename": "fx-maria's_camera.png",
             "inode": "2251799814078149",
-            "_v": 1638068451737
+            "_v": 1638070477860
         },
         {
             "id": "490468db-09ba-43c6-8716-0af8c5f40cc8",
@@ -165741,7 +166466,7 @@
             "type": "actor_animated",
             "filename": "fx-press_start.png",
             "inode": "31243722415072217",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "39b7c3ae-f1c7-4d44-90ca-8f4d9867e5d7",
@@ -165750,7 +166475,7 @@
             "type": "animated",
             "filename": "fx-sparkle.png",
             "inode": "17169973579539339",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "420f024e-2db9-474e-a2fe-93912504efa1",
@@ -165759,7 +166484,7 @@
             "type": "actor",
             "filename": "fx-splash.png",
             "inode": "20266198323356621",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "5808e1bc-d48d-426e-8ad6-1572359f1772",
@@ -165768,7 +166493,7 @@
             "type": "animated",
             "filename": "fx-statues_hall.png",
             "inode": "6473924464534483",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "3fbccf95-f529-44ae-bcd7-489e333fb516",
@@ -165777,7 +166502,7 @@
             "type": "animated",
             "filename": "fx-statues_library.png",
             "inode": "14636698789135434",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "3663a77e-4707-49c0-8e87-d687f2c3186a",
@@ -165786,7 +166511,7 @@
             "type": "actor",
             "filename": "fx-titles.png",
             "inode": "53480245575310727",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "3e4ae13b-bbc2-4d37-bd70-cbdf19afe0b4",
@@ -165795,7 +166520,7 @@
             "type": "static",
             "filename": "fx-web.png",
             "inode": "14918173765801748",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "a04be08a-c5c8-486f-b012-c627160ff4a1",
@@ -165804,7 +166529,7 @@
             "type": "static",
             "filename": "inv-amulet.png",
             "inode": "51228445761394289",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "c23fbdc6-a1bd-4629-95b6-ba7f8e2e130a",
@@ -165813,7 +166538,7 @@
             "type": "static",
             "filename": "inv-bat_soul.png",
             "inode": "1125899907241124",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "5d36b1bd-34d1-450d-bb87-16380a160c8e",
@@ -165822,7 +166547,7 @@
             "type": "static",
             "filename": "inv-key.png",
             "inode": "63050394783274017",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "073c6852-5137-4025-a29b-d47a1143263b",
@@ -165831,7 +166556,7 @@
             "type": "static",
             "filename": "inv-note.png",
             "inode": "44754521297122597",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "c8e960df-c19e-4dab-a7fe-91a13309803e",
@@ -165840,7 +166565,7 @@
             "type": "static",
             "filename": "inv-wolffish_soul.png",
             "inode": "23925373020476467",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "abc7cdde-9ec1-45db-b22b-43d8c5a77722",
@@ -165849,7 +166574,7 @@
             "type": "static",
             "filename": "mat-glass.png",
             "inode": "34902897112247150",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "ceb0ff8c-ed02-4671-81d0-6a237aaea32c",
@@ -165858,7 +166583,7 @@
             "type": "animated",
             "filename": "mat-marble_granite.png",
             "inode": "25895697857596729",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "7d6bdb0b-eb14-4017-8a12-cabeb5fc24bb",
@@ -165867,7 +166592,7 @@
             "type": "animated",
             "filename": "mat-oak_bamboo.png",
             "inode": "27021597764370202",
-            "_v": 1638069536553
+            "_v": 1638070477860
         },
         {
             "id": "9275c9a2-247f-401b-be99-5a33e162e8ce",
@@ -165876,7 +166601,7 @@
             "type": "animated",
             "filename": "mat-shell_porcelain.png",
             "inode": "58546795156064845",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "0d2ca5c9-8ad5-46b9-bde7-777bb7f8ec4d",
@@ -165885,7 +166610,7 @@
             "type": "animated",
             "filename": "npc-cat-lucy_lay.png",
             "inode": "7881299347965156",
-            "_v": 1638068675887
+            "_v": 1638070477860
         },
         {
             "id": "416af782-2eef-4303-a90e-ca8014e171d3",
@@ -165894,7 +166619,7 @@
             "type": "animated",
             "filename": "npc-cat-lucy_sit.png",
             "inode": "27584547717711188",
-            "_v": 1638068679068
+            "_v": 1638070477860
         },
         {
             "id": "ea905fa7-7d98-4beb-b3d4-4a9d959a05af",
@@ -165903,7 +166628,7 @@
             "type": "actor_animated",
             "filename": "npc-cat-lucy_walk.png",
             "inode": "41658296553245379",
-            "_v": 1638068672501
+            "_v": 1638070477860
         },
         {
             "id": "e18155c4-76de-4223-bb5d-dc05808140f5",
@@ -165912,7 +166637,7 @@
             "type": "animated",
             "filename": "npc-creature-library_patron.png",
             "inode": "32369622321737396",
-            "_v": 1638068506212
+            "_v": 1638070477860
         },
         {
             "id": "e3793725-f814-49cc-9da0-8148df9454f0",
@@ -165921,7 +166646,7 @@
             "type": "actor",
             "filename": "npc-demon-baphy.png",
             "inode": "14355223812433529",
-            "_v": 1638068600406
+            "_v": 1638070477860
         },
         {
             "id": "9140cb0d-603a-4cc3-b481-40ff18f0c6c2",
@@ -165930,7 +166655,7 @@
             "type": "actor",
             "filename": "npc-demon-bluecap.png",
             "inode": "3096224744209695",
-            "_v": 1638068543032
+            "_v": 1638070477860
         },
         {
             "id": "51f15ae5-2330-47d0-9235-e0cea78e73b2",
@@ -165939,7 +166664,7 @@
             "type": "static",
             "filename": "npc-demon-lin.png",
             "inode": "26458647810994378",
-            "_v": 1638068658484
+            "_v": 1638070477860
         },
         {
             "id": "284edf9d-b658-469d-ae76-ad1c85b26d8e",
@@ -165948,7 +166673,7 @@
             "type": "static",
             "filename": "npc-demon-mae.png",
             "inode": "44473046320478677",
-            "_v": 1638068655610
+            "_v": 1638070477860
         },
         {
             "id": "bd023ab1-227a-4000-b1ce-79e2ef4a56b9",
@@ -165957,7 +166682,7 @@
             "type": "static",
             "filename": "npc-demon-reaper.png",
             "inode": "19421773393225326",
-            "_v": 1638068652354
+            "_v": 1638070477860
         },
         {
             "id": "b071192a-cba1-406f-8456-11b82a3d9cdf",
@@ -165966,7 +166691,7 @@
             "type": "actor",
             "filename": "npc-demon-rin_rin.png",
             "inode": "91479367431153268",
-            "_v": 1638068682160
+            "_v": 1638070477860
         },
         {
             "id": "f486d66d-c606-422e-9a32-0a23fc4a75f5",
@@ -165975,7 +166700,7 @@
             "type": "animated",
             "filename": "npc-demon-snakebat.png",
             "inode": "16325548649408118",
-            "_v": 1638068603406
+            "_v": 1638070477860
         },
         {
             "id": "f0ba75b1-c280-42c8-a0b7-48d1ffb11aa5",
@@ -165984,7 +166709,7 @@
             "type": "animated",
             "filename": "npc-demon-sophia.png",
             "inode": "68961369294113265",
-            "_v": 1638068538330
+            "_v": 1638070477860
         },
         {
             "id": "bf086105-9638-4456-a78a-c3f06c38fb38",
@@ -165993,7 +166718,7 @@
             "type": "animated",
             "filename": "npc-ghost-maria.png",
             "inode": "45035996273772310",
-            "_v": 1638068547326
+            "_v": 1638070477860
         },
         {
             "id": "0c6994c4-f6ab-42aa-a4a6-4cf1c669583e",
@@ -166002,7 +166727,7 @@
             "type": "actor",
             "filename": "npc-gorgon-stheno.png",
             "inode": "14355223812535820",
-            "_v": 1638068633701
+            "_v": 1638070477860
         },
         {
             "id": "6eadd192-7bb2-44a9-ad09-82d1b5e2cccf",
@@ -166011,7 +166736,7 @@
             "type": "actor",
             "filename": "npc-harpy-aello.png",
             "inode": "17451448556182543",
-            "_v": 1638068686242
+            "_v": 1638070477860
         },
         {
             "id": "ca6a5a00-f8a9-4417-95b4-6f91120f3f6c",
@@ -166020,7 +166745,7 @@
             "type": "actor",
             "filename": "npc-harpy-awake.png",
             "inode": "15481123719154406",
-            "_v": 1638068580413
+            "_v": 1638070477860
         },
         {
             "id": "7c12d009-4163-48cb-9d68-fbabbd496760",
@@ -166029,7 +166754,7 @@
             "type": "actor_animated",
             "filename": "npc-harpy-sungem.png",
             "inode": "79094468455736186",
-            "_v": 1638068587154
+            "_v": 1638070477860
         },
         {
             "id": "87bb74a1-074a-4e50-a4c7-c7f7e37ffdcd",
@@ -166038,7 +166763,7 @@
             "type": "static",
             "filename": "npc-ladybug.png",
             "inode": "24488322974016970",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "90290bc0-dc76-4e83-b506-632efa294542",
@@ -166047,7 +166772,7 @@
             "type": "actor",
             "filename": "npc-mermaid-kuliltu.png",
             "inode": "17169973579540106",
-            "_v": 1638068649032
+            "_v": 1638070477860
         },
         {
             "id": "3ad26911-eb11-47d2-861b-3ca481a27190",
@@ -166056,7 +166781,7 @@
             "type": "animated",
             "filename": "npc-mermaid-kuliltus_tail.png",
             "inode": "40532396646524584",
-            "_v": 1638068596431
+            "_v": 1638070477860
         },
         {
             "id": "c461f155-34b9-4b3e-84a8-2db42d57abbe",
@@ -166065,7 +166790,7 @@
             "type": "actor",
             "filename": "npc-mermaid-sitting.png",
             "inode": "62487444829854165",
-            "_v": 1638068557677
+            "_v": 1638070477860
         },
         {
             "id": "df8557d9-49ca-4627-a8c4-bd732fd2f0c4",
@@ -166074,7 +166799,7 @@
             "type": "animated",
             "filename": "npc-plantgirl-alraune_e.png",
             "inode": "52354345668229335",
-            "_v": 1638068668746
+            "_v": 1638070477860
         },
         {
             "id": "6f36e707-ee5f-4a8c-8928-527dc6990c71",
@@ -166083,7 +166808,7 @@
             "type": "animated",
             "filename": "npc-plantgirl-alraune_w.png",
             "inode": "1407374883948475",
-            "_v": 1638068529127
+            "_v": 1638070477860
         },
         {
             "id": "135ac44a-ebcc-49e3-ba78-0391f0d98a9b",
@@ -166092,7 +166817,7 @@
             "type": "animated",
             "filename": "npc-plantgirl-erato.png",
             "inode": "10414574138689437",
-            "_v": 1638068524080
+            "_v": 1638070477860
         },
         {
             "id": "f588e26d-790f-4523-a889-f3e2731575f1",
@@ -166101,7 +166826,7 @@
             "type": "animated",
             "filename": "npc-plantgirl-xylia.png",
             "inode": "62205969853097335",
-            "_v": 1638068520151
+            "_v": 1638070477860
         },
         {
             "id": "b0840233-c04e-4f21-99a1-5bf3f1d1c984",
@@ -166110,7 +166835,7 @@
             "type": "actor",
             "filename": "npc-skeleton-book.png",
             "inode": "87538717757090825",
-            "_v": 1638067468275
+            "_v": 1638070477860
         },
         {
             "id": "53cd97c7-d428-4fc6-9e6d-cc06ac93958b",
@@ -166119,7 +166844,7 @@
             "type": "actor",
             "filename": "npc-skeleton-emptyhanded.png",
             "inode": "45035996273786626",
-            "_v": 1638067468276
+            "_v": 1638070477860
         },
         {
             "id": "c3de744a-6362-4e31-a69d-db8372437620",
@@ -166128,7 +166853,7 @@
             "type": "actor",
             "filename": "npc-skeleton-glassworker.png",
             "inode": "77405618595514748",
-            "_v": 1638068562094
+            "_v": 1638070477860
         },
         {
             "id": "cf9de17a-44b7-4d0e-aba3-12e579354d26",
@@ -166137,7 +166862,7 @@
             "type": "animated",
             "filename": "npc-skeleton-librarian.png",
             "inode": "94012642221548285",
-            "_v": 1638068511771
+            "_v": 1638070477860
         },
         {
             "id": "056fa21c-0048-4580-9566-bc3db5ad8a74",
@@ -166146,7 +166871,7 @@
             "type": "actor_animated",
             "filename": "npc-skeleton-tibby.png",
             "inode": "16888498602829282",
-            "_v": 1638068663630
+            "_v": 1638070477860
         },
         {
             "id": "b6db145f-68db-494e-bd02-a32e1f4412c7",
@@ -166155,7 +166880,7 @@
             "type": "actor",
             "filename": "npc-spidergirl-festoon.png",
             "inode": "5348024557859061",
-            "_v": 1638068550591
+            "_v": 1638070477860
         },
         {
             "id": "ac03d67f-11af-424b-bfc3-835916aa2bff",
@@ -166164,7 +166889,7 @@
             "type": "animated",
             "filename": "npc-vampire-bat_flapping.png",
             "inode": "29836347531622226",
-            "_v": 1638068619403
+            "_v": 1638070477860
         },
         {
             "id": "9933758f-0efe-401d-a55b-a264d573d80e",
@@ -166173,7 +166898,7 @@
             "type": "static",
             "filename": "npc-vampire-bat_roosting.png",
             "inode": "34902897112431050",
-            "_v": 1638068616963
+            "_v": 1638070477860
         },
         {
             "id": "15d77f50-f6e3-4364-8b0c-8e6a73973d74",
@@ -166182,7 +166907,7 @@
             "type": "actor",
             "filename": "npc-vampire-chatty.png",
             "inode": "31525197391890988",
-            "_v": 1638068638552
+            "_v": 1638071725814
         },
         {
             "id": "6968b866-60ab-492d-ae93-a8901075b9cc",
@@ -166191,16 +166916,16 @@
             "type": "animated",
             "filename": "npc-vampire-coffin.png",
             "inode": "52072870691506351",
-            "_v": 1638068642848
+            "_v": 1638070477860
         },
         {
             "id": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
             "name": "npc-vampire-misc",
-            "numFrames": 4,
-            "type": "animated",
+            "numFrames": 6,
+            "type": "actor_animated",
             "filename": "npc-vampire-misc.png",
             "inode": "27584547717953961",
-            "_v": 1638068622982
+            "_v": 1638073429053
         },
         {
             "id": "45b49479-4945-4bbb-876f-4930ff5c2d8e",
@@ -166209,7 +166934,7 @@
             "type": "animated",
             "filename": "npc-vampire-romantic.png",
             "inode": "14918173765974515",
-            "_v": 1638068626473
+            "_v": 1638071824832
         },
         {
             "id": "0234037c-544b-4838-9dee-75b115bd1d60",
@@ -166218,7 +166943,7 @@
             "type": "animated",
             "filename": "npc-vampire-sitting.png",
             "inode": "21392098230319543",
-            "_v": 1638068630181
+            "_v": 1638070477860
         },
         {
             "id": "6878f574-693a-45ec-b10a-e98ac8460a55",
@@ -166227,7 +166952,7 @@
             "type": "actor_animated",
             "filename": "npc-zombie-irena.png",
             "inode": "28428972647830476",
-            "_v": 1638068573396
+            "_v": 1638070477860
         },
         {
             "id": "598eda51-4cc0-4b1a-acd5-5836c44398ed",
@@ -166236,7 +166961,7 @@
             "type": "actor_animated",
             "filename": "npc-zombie-madge.png",
             "inode": "204069358115228588",
-            "_v": 1638068569700
+            "_v": 1638070477860
         },
         {
             "id": "5d86ba0e-c423-4249-81cc-3794288ae3f8",
@@ -166245,7 +166970,7 @@
             "type": "actor_animated",
             "filename": "player-bat.png",
             "inode": "53198770598431235",
-            "_v": 1638067468276
+            "_v": 1638070477860
         },
         {
             "id": "132be5ee-3aad-4ab0-b18d-163306b914bd",
@@ -166254,7 +166979,7 @@
             "type": "static",
             "filename": "player-cursor.png",
             "inode": "64176294690101977",
-            "_v": 1638067468276
+            "_v": 1638070477860
         },
         {
             "id": "c3bc79c7-3703-4a67-86b2-301f587745b4",
@@ -166263,7 +166988,7 @@
             "type": "actor_animated",
             "filename": "player-josette.png",
             "inode": "23362423067057198",
-            "_v": 1638067468277
+            "_v": 1638070477860
         },
         {
             "id": "38df38a4-8add-4ac2-ab9b-e469a60f7417",
@@ -166272,7 +166997,7 @@
             "type": "actor_animated",
             "filename": "player-josette_climbing.png",
             "inode": "21392098230410129",
-            "_v": 1638067468276
+            "_v": 1638070477860
         },
         {
             "id": "773e0805-bbe3-412b-826b-302d43ad6383",
@@ -166281,7 +167006,7 @@
             "type": "actor_animated",
             "filename": "player-wolffish.png",
             "inode": "8725724278427755",
-            "_v": 1638067468276
+            "_v": 1638070477861
         }
     ],
     "palettes": [
@@ -166699,16 +167424,6 @@
             ]
         },
         {
-            "id": "481095b4-538b-4fcd-aefb-7bde2b7354ee",
-            "name": "I: Ladybug",
-            "colors": [
-                "F0F0F0",
-                "F83810",
-                "802008",
-                "200800"
-            ]
-        },
-        {
             "id": "67aafd96-1b0e-4b9b-8282-105585a4e039",
             "name": "I: Silver & Gold",
             "colors": [
@@ -166916,6 +167631,26 @@
                 "A0F0A0",
                 "286828",
                 "482878"
+            ]
+        },
+        {
+            "id": "66bc9954-b42e-4f78-9dca-03fb833027ca",
+            "name": "C: Madge",
+            "colors": [
+                "38F038",
+                "0830F8",
+                "282878",
+                "000050"
+            ]
+        },
+        {
+            "id": "9266acc5-9e3e-494d-9f3d-ac090da41609",
+            "name": "C: Chatty",
+            "colors": [
+                "F00000",
+                "907800",
+                "980000",
+                "000010"
             ]
         }
     ],
@@ -167224,7 +167959,7 @@
             "filename": "Rooftop - Mountains.mod",
             "settings": {},
             "inode": "31525197391840033",
-            "_v": 1638067468264
+            "_v": 1638070477833
         },
         {
             "id": "92a35368-618b-4b80-a82c-7ea4b517cd0c",
@@ -167232,7 +167967,7 @@
             "filename": "Tower - Uptempo.mod",
             "settings": {},
             "inode": "21110623253550042",
-            "_v": 1638067468264
+            "_v": 1638070477834
         },
         {
             "id": "1dab0fe9-6964-4697-9404-dfd8459a967b",
@@ -167240,7 +167975,7 @@
             "filename": "Vaults - Downtempo.mod",
             "settings": {},
             "inode": "54887620458754787",
-            "_v": 1638067468266
+            "_v": 1638070477834
         }
     ],
     "variables": [
@@ -167519,6 +168254,14 @@
         {
             "id": "4e408d90-4674-45d4-b8e8-48b93e6c1124__L1",
             "name": "Random Location"
+        },
+        {
+            "id": "a883fc0e-80b6-4981-81ec-aeebe92829eb__L0",
+            "name": "Has Talked with Lucy"
+        },
+        {
+            "id": "950a26ae-ea99-4de3-9bd9-cae283e11d40__L0",
+            "name": "Has Talked with Lucy"
         }
     ],
     "engineFieldValues": [
@@ -167548,18 +168291,18 @@
         }
     ],
     "settings": {
-        "startSceneId": "98853e3a-d09a-4a4e-ba2e-0e1816613c24",
+        "startSceneId": "5a3b56b9-75d0-49f8-acb8-48c13768d360",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 13,
-        "startY": 34,
+        "startX": 73,
+        "startY": 12,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 840,
-        "worldScrollY": 7256,
-        "zoom": 325,
+        "worldScrollX": 1289,
+        "worldScrollY": 1638,
+        "zoom": 125,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
