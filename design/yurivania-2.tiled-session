@@ -5,8 +5,8 @@
     },
     "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
         ".",
+        "backgrounds",
         "tiles"
     ],
     "exportAsImage.useCurrentScale": false,
@@ -150,11 +150,11 @@
             }
         },
         "backgrounds/area-inner_circle-main.tmx": {
-            "scale": 1.5,
+            "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 210.66666666666666,
-                "y": 318
+                "x": 107.125,
+                "y": 225.25
             }
         },
         "backgrounds/area-inner_circle-quarry.tmx": {
@@ -612,6 +612,7 @@
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
         "one_room_measurement.tmx",
+        "backgrounds/area-inner_circle-main.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
         "backgrounds/area-windswept_rooftop-spider_nest.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
@@ -621,8 +622,7 @@
         "tiles/plantgirl-tiles.tsx",
         "backgrounds/area-great_library-open.tmx",
         "backgrounds/area-great_library-closed.tmx",
-        "backgrounds/area-old_vampire_quarter.tmx",
-        "backgrounds/screen-swatches.tmx"
+        "backgrounds/area-old_vampire_quarter.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
