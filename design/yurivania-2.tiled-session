@@ -5,9 +5,9 @@
     },
     "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
-        ".",
         "backgrounds",
-        "tiles"
+        "tiles",
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -105,8 +105,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 210.75,
-                "y": 336.5
+                "x": 253.25,
+                "y": 421.5
             }
         },
         "backgrounds/area-echoing_vaults-waterway.tmx": {
@@ -525,6 +525,14 @@
                 "y": 72.3609022556391
             }
         },
+        "backgrounds/screen-inventory.tmx": {
+            "scale": 5.67172619047619,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.2554441937346,
+                "y": 72.11208479823688
+            }
+        },
         "backgrounds/screen-logo.tmx": {
             "scale": 5.541666666666666,
             "selectedLayer": 0,
@@ -537,7 +545,7 @@
             "scale": 4.2516,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 71.0320820397027,
+                "x": 71.14968482453664,
                 "y": 71.73769874870636
             }
         },
@@ -569,8 +577,8 @@
             "scale": 3.9038,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 85.94190276141195,
-                "y": 71.46882524719504
+                "x": 80.05020749013781,
+                "y": 71.72498591116349
             }
         },
         "tiles/plantgirl-tiles.tsx": {
@@ -611,18 +619,18 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "one_room_measurement.tmx",
+        "backgrounds/area-echoing_vaults-main.tmx",
+        "backgrounds/screen-inventory.tmx",
+        "backgrounds/screen-map.tmx",
         "backgrounds/area-echoing_vaults-waterway.tmx",
         "backgrounds/area-starlit_garden-main.tmx",
-        "one_room_measurement.tmx",
         "backgrounds/area-inner_circle-main.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
         "backgrounds/area-windswept_rooftop-spider_nest.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-human_encounter.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx",
-        "tiles/plantgirl-tiles.tsx",
-        "backgrounds/area-great_library-open.tmx",
-        "backgrounds/area-great_library-closed.tmx"
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
