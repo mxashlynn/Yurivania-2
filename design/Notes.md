@@ -188,7 +188,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Talk to Stheno in her room.  Learn Alraune is in the garden and Mae has an item which may be helpful.
 2. (OPTIONAL) Echoing Vaults
     - Get Lunar Charm from Mae.
-    - Learn that Kuliltu can trade for a nice present for Tibby.    <<<<<<<<< Q. What is the present??
+    - Acquire a potted Eye Flower as a nice present for Tibby.
 3. Inner Cirlce
     - Get Granite or Marble from musclegirl demon
     - Get Soul of Bat from Reaper
