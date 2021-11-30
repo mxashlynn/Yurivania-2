@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "one_room_measurement.tmx",
+    "activeFile": "backgrounds/area-echoing_vaults-main.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
         "tiles",
-        "."
+        ".",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -105,8 +105,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 235.75,
-                "y": 196
+                "x": 566.25,
+                "y": 447.5
             }
         },
         "backgrounds/area-echoing_vaults-waterway.tmx": {
@@ -619,13 +619,14 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
-        "one_room_measurement.tmx"
+        "one_room_measurement.tmx",
+        "backgrounds/area-echoing_vaults-main.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
         "one_room_measurement.tmx",
-        "backgrounds/area-starlit_garden-main.tmx",
         "backgrounds/area-echoing_vaults-main.tmx",
+        "backgrounds/area-starlit_garden-main.tmx",
         "tiles/underwater-tiles.tsx",
         "backgrounds/screen-inventory.tmx",
         "backgrounds/screen-map.tmx",
