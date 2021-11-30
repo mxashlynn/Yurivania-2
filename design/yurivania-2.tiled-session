@@ -105,8 +105,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 253.25,
-                "y": 421.5
+                "x": 235.75,
+                "y": 196
             }
         },
         "backgrounds/area-echoing_vaults-waterway.tmx": {
@@ -417,8 +417,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 332.5,
-                "y": 195.33333333333331
+                "x": 198.83333333333331,
+                "y": 132.66666666666663
             }
         },
         "backgrounds/area-starlit_garden-postern-closed.tmx": {
@@ -585,6 +585,10 @@
             "scaleInDock": 8,
             "scaleInEditor": 16
         },
+        "tiles/underwater-tiles.tsx": {
+            "scaleInDock": 11,
+            "scaleInEditor": 23
+        },
         "tiles/yurivania-2.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 3,
@@ -620,17 +624,17 @@
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
         "one_room_measurement.tmx",
+        "backgrounds/area-starlit_garden-main.tmx",
         "backgrounds/area-echoing_vaults-main.tmx",
+        "tiles/underwater-tiles.tsx",
         "backgrounds/screen-inventory.tmx",
         "backgrounds/screen-map.tmx",
         "backgrounds/area-echoing_vaults-waterway.tmx",
-        "backgrounds/area-starlit_garden-main.tmx",
         "backgrounds/area-inner_circle-main.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
         "backgrounds/area-windswept_rooftop-spider_nest.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-human_encounter.tmx",
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-evergreen_gulf-main.tmx"
+        "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-human_encounter.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
