@@ -5345,7 +5345,7 @@
                 15,
                 15,
                 15,
-                16,
+                17,
                 0,
                 0,
                 15,
@@ -8997,8 +8997,8 @@
                 2,
                 2,
                 2,
-                4,
-                4,
+                2,
+                2,
                 2,
                 2,
                 2,
@@ -10882,6 +10882,146 @@
                     "y": 35,
                     "width": 12,
                     "height": 1
+                },
+                {
+                    "name": "Background Door",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "8a14ba8e-cbc0-49f8-93e4-e07705b1b415",
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "up"
+                                ],
+                                "persist": false,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "6195677a-78d6-4f70-84b6-a634e5b628cf",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "This leads to the\nskeletongirls'\nprivate quarters."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "8d68dcf0-0244-4493-9f49-d95399ad39d5",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "0279f76d-eff6-417e-864c-4a053db44318",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "eb98dab9-b309-4aea-9cf8-005f041ed476",
+                    "x": 28,
+                    "y": 14,
+                    "width": 4,
+                    "height": 2
+                },
+                {
+                    "name": "Disable Background Doorway",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "6de70ada-1ed5-4b7f-8a0f-d17ae1732520",
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "up"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "0928b198-e29c-43e4-ac16-d73f5d97805b",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "1ad7270c-2039-4477-a633-3ab99798e5d3",
+                    "x": 25,
+                    "y": 13,
+                    "width": 1,
+                    "height": 5
+                },
+                {
+                    "name": "Disable Background Doorway",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "69f58bf5-25b2-42e3-a32f-435c940b63a9",
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "up"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "7e07ddc0-3aa6-4c59-98e3-b3988bdeb762",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "e64b2f92-c86a-4e9b-bbda-f33d8bd3a8fa",
+                    "x": 27,
+                    "y": 17,
+                    "width": 6,
+                    "height": 1
+                },
+                {
+                    "name": "Disable Background Doorway",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "010d3c65-ab7a-41e2-8633-707c3068ebab",
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "up"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "8ea5b3ec-0cc8-4b07-baeb-f95e87bdc186",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "296d9bd4-2cd8-4973-b13e-668efba33885",
+                    "x": 27,
+                    "y": 12,
+                    "width": 6,
+                    "height": 1
+                },
+                {
+                    "name": "Disable Background Doorway",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "13cfb40e-a72d-40f1-a719-5bbc43fe708c",
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "up"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "9e3bdd4a-4a1b-4829-a959-a192772dedd2",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "014a632b-797b-41ab-bf5b-d33779530ec3",
+                    "x": 34,
+                    "y": 13,
+                    "width": 1,
+                    "height": 5
                 }
             ]
         },
@@ -42349,7 +42489,7 @@
                 15,
                 15,
                 15,
-                16,
+                17,
                 0,
                 0,
                 15,
@@ -46001,8 +46141,8 @@
                 2,
                 2,
                 2,
-                4,
-                4,
+                2,
+                2,
                 2,
                 2,
                 2,
@@ -47963,6 +48103,146 @@
                     "x": 3,
                     "y": 35,
                     "width": 12,
+                    "height": 1
+                },
+                {
+                    "name": "Background Door",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "c095e42b-92be-4109-a87a-3f9af1c8f59a",
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "up"
+                                ],
+                                "persist": false,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "ac99dd37-514f-47cd-b7bb-a78f26b1f6a5",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "This leads to the\nskeletongirls'\nprivate quarters."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "81099d03-2476-4b06-9ab1-f150c6aeafc4",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "712ca8f3-a7fc-4a98-821f-9b5698c84d57",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "a1cdf3ec-e7ae-4e04-bcb9-40d0b3cbf1a9",
+                    "x": 28,
+                    "y": 14,
+                    "width": 4,
+                    "height": 2
+                },
+                {
+                    "name": "Disable Background Doorway",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "f482a860-5d37-4c7b-8240-fdffe96ecd27",
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "up"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "16328171-36e7-4474-9bed-5ce3fd1fe3f1",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "75bd45f4-2523-40ea-bedd-a58c79c443ae",
+                    "x": 26,
+                    "y": 12,
+                    "width": 1,
+                    "height": 5
+                },
+                {
+                    "name": "Disable Background Doorway",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "63d7dc56-c610-48a3-aab2-a3d8ef7df6e4",
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "up"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "f87e8a13-d60c-427b-80b5-b89c5d8c60de",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "8363444a-33b5-4f19-b3bd-ccf6d0b32173",
+                    "x": 28,
+                    "y": 12,
+                    "width": 4,
+                    "height": 1
+                },
+                {
+                    "name": "Disable Background Doorway",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "a518b4ba-c220-4513-8d9f-e721b964bef7",
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "up"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "69e205dd-a852-41f5-8c59-c74736ae9b27",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "2ac11f59-0d37-403e-a547-2ec34f2384be",
+                    "x": 33,
+                    "y": 12,
+                    "width": 1,
+                    "height": 5
+                },
+                {
+                    "name": "Disable Background Doorway",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "3fe16fd6-2251-4507-ac28-53bc5984a6dd",
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "up"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "7fc9b649-adca-4fae-b5c5-0824b92e595a",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "3ee21f8d-ae7c-45f8-84d6-6e2eb8f76104",
+                    "x": 27,
+                    "y": 18,
+                    "width": 6,
                     "height": 1
                 }
             ]
@@ -175629,7 +175909,7 @@
             "imageHeight": 288,
             "filename": "area-great_library-closed.png",
             "inode": "35747322042617711",
-            "_v": 1638409273745
+            "_v": 1638412323386
         },
         {
             "id": "19b24368-6bef-46af-8932-8a8920aaa9a6",
@@ -175640,7 +175920,7 @@
             "imageHeight": 288,
             "filename": "area-great_library-open.png",
             "inode": "24488322974189880",
-            "_v": 1638409273745
+            "_v": 1638412331552
         },
         {
             "id": "4c585756-c4e5-4d0b-8200-39cfd9b8bdfd",
@@ -178097,17 +178377,17 @@
         }
     ],
     "settings": {
-        "startSceneId": "5a3b56b9-75d0-49f8-acb8-48c13768d360",
+        "startSceneId": "daeb62aa-4d41-47d0-8eb3-be13525327bf",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 56,
-        "startY": 14,
+        "startX": 48,
+        "startY": 4,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": "all",
-        "worldScrollX": 2441,
-        "worldScrollY": 4248,
+        "worldScrollX": 360,
+        "worldScrollY": 4048,
         "zoom": 225,
         "customColorsEnabled": true,
         "customHead": "",

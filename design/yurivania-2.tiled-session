@@ -3,11 +3,9 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-echoing_vaults-main.tmx",
+    "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
-        "tiles",
-        ".",
-        "backgrounds"
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -129,7 +127,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 374,
+                "x": 373.75,
                 "y": 163.5
             }
         },
@@ -145,7 +143,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 446,
+                "x": 445.75,
                 "y": 153
             }
         },
@@ -623,23 +621,22 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
-        "one_room_measurement.tmx",
-        "backgrounds/area-echoing_vaults-main.tmx"
+        "one_room_measurement.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "one_room_measurement.tmx",
+        "backgrounds/area-great_library-open.tmx",
+        "backgrounds/area-great_library-closed.tmx",
         "backgrounds/area-old_vampire_quarter.tmx",
         "tiles/coffin-tiles.tsx",
         "backgrounds/area-echoing_vaults-main.tmx",
-        "one_room_measurement.tmx",
         "backgrounds/area-starlit_garden-main.tmx",
         "tiles/underwater-tiles.tsx",
         "backgrounds/screen-inventory.tmx",
         "backgrounds/screen-map.tmx",
         "backgrounds/area-echoing_vaults-waterway.tmx",
-        "backgrounds/area-inner_circle-main.tmx",
-        "backgrounds/area-windswept_rooftop-main.tmx",
-        "backgrounds/area-windswept_rooftop-spider_nest.tmx"
+        "backgrounds/area-inner_circle-main.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
