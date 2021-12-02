@@ -163598,7 +163598,7 @@
                 },
                 {
                     "name": "Eye Flower",
-                    "frame": 0,
+                    "frame": 1,
                     "animate": false,
                     "spriteSheetId": "436673fd-614d-43b1-ab7d-2a371aacdcd0",
                     "spriteType": "static",
