@@ -503,8 +503,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.81818181818183,
-                "y": 71.45454545454547
+                "x": 76.99999999999999,
+                "y": 71.63636363636364
             }
         },
         "backgrounds/one_room_measurement.tmx": {
@@ -535,7 +535,7 @@
             "scale": 5.541666666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.51127819548874,
+                "x": 76.6015037593985,
                 "y": 72.3609022556391
             }
         },
@@ -643,6 +643,7 @@
     "recentFiles": [
         "one_room_measurement.tmx",
         "backgrounds/cut-end.tmx",
+        "backgrounds/screen-end.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
         "backgrounds/area-skyclad_tower-s+a's_room.tmx",
         "backgrounds/area-windswept_rooftop-dead_end.tmx",
@@ -651,8 +652,7 @@
         "backgrounds/area-great_library-open.tmx",
         "backgrounds/area-great_library-closed.tmx",
         "tiles/coffin-tiles.tsx",
-        "backgrounds/area-echoing_vaults-main.tmx",
-        "backgrounds/area-starlit_garden-main.tmx"
+        "backgrounds/area-echoing_vaults-main.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
