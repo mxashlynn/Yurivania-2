@@ -3,10 +3,9 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "backgrounds/area-old_vampire_quarter.tmx",
+    "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
-        ".",
-        "backgrounds"
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -352,7 +351,7 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 277.8333333333333,
+                "x": 275.8333333333333,
                 "y": 120.66666666666664
             }
         },
@@ -400,7 +399,7 @@
             "scale": 6,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.16666666666666,
+                "x": 80.25,
                 "y": 72
             }
         },
@@ -464,7 +463,7 @@
             "scale": 5.541666666666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 83.54887218045113,
+                "x": 83.81954887218045,
                 "y": 71.81954887218046
             }
         },
@@ -472,8 +471,8 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 337.75,
-                "y": 170
+                "x": 193.25,
+                "y": 220
             }
         },
         "backgrounds/area-windswept_rooftop-main_.tmx": {
@@ -496,8 +495,16 @@
             "scale": 5.67172619047619,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.07913102796874,
+                "x": 76.2554441937346,
                 "y": 72.11208479823688
+            }
+        },
+        "backgrounds/cut-end.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 76.81818181818183,
+                "y": 71.45454545454547
             }
         },
         "backgrounds/one_room_measurement.tmx": {
@@ -630,24 +637,22 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
-        "one_room_measurement.tmx",
-        "backgrounds/area-old_vampire_quarter.tmx",
-        "backgrounds/cut-begin.tmx"
+        "one_room_measurement.tmx"
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
         "one_room_measurement.tmx",
+        "backgrounds/cut-end.tmx",
+        "backgrounds/area-windswept_rooftop-main.tmx",
+        "backgrounds/area-skyclad_tower-s+a's_room.tmx",
+        "backgrounds/area-windswept_rooftop-dead_end.tmx",
         "backgrounds/cut-begin.tmx",
         "backgrounds/area-old_vampire_quarter.tmx",
         "backgrounds/area-great_library-open.tmx",
         "backgrounds/area-great_library-closed.tmx",
         "tiles/coffin-tiles.tsx",
         "backgrounds/area-echoing_vaults-main.tmx",
-        "backgrounds/area-starlit_garden-main.tmx",
-        "tiles/underwater-tiles.tsx",
-        "backgrounds/screen-inventory.tmx",
-        "backgrounds/screen-map.tmx",
-        "backgrounds/area-echoing_vaults-waterway.tmx"
+        "backgrounds/area-starlit_garden-main.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
