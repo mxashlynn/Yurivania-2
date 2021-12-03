@@ -168,6 +168,20 @@
       ],
       "cType": "UBYTE",
       "defaultValue": 0
+    },
+    {
+      "key": "camera_lock",
+      "label": "Camera Lock",
+      "group": "Camera Lock Single Axis Mod",
+      "type": "select",
+      "options": [
+        [0, "Disabled"],
+        [1, "Lock X only"],
+        [2, "Lock Y only"],
+        [3, "Lock X and Y"]
+      ],
+      "cType": "UBYTE",
+      "defaultValue": 0
     }
   ]
 }

@@ -10,6 +10,11 @@ _UpdateCamera::
 
     handle_x:
 
+    ; (Mod) Lock camera x if bit 0 of engine field is set
+        ld hl, #_camera_lock
+        bit 0, (hl)
+        jp nz, handle_y
+
     ; Load player x into de
         ld hl, #_actors
         ld e, (hl)
@@ -121,6 +126,11 @@ _UpdateCamera::
         ld (hl), d
         
     handle_y:
+
+    ; (Mod) Lock camera y if bit 1 of engine field is set
+        ld hl, #_camera_lock
+        bit 1, (hl)
+        ret nz
 
     ; Load player y into de
         ld hl, #(_actors + 2)
