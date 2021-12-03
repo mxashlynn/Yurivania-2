@@ -12100,9 +12100,9 @@
                             "id": "90c75226-fc0b-4f8b-958e-1441d5598ade",
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "5a3b56b9-75d0-49f8-acb8-48c13768d360",
-                                "x": 63,
-                                "y": 12,
+                                "sceneId": "bb9a1e43-02dd-4abc-9b88-0652e1127126",
+                                "x": 52,
+                                "y": 11,
                                 "direction": "left",
                                 "fadeSpeed": "2"
                             }
@@ -176861,32 +176861,6 @@
             ],
             "triggers": [
                 {
-                    "name": "Exit: Lunarium",
-                    "trigger": "walk",
-                    "script": [
-                        {
-                            "id": "af83773c-1748-48a0-b157-877540a452e5",
-                            "command": "EVENT_SWITCH_SCENE",
-                            "args": {
-                                "sceneId": "49dd8ce7-f9bc-41e3-9931-e8aeadda8e3a",
-                                "x": 9,
-                                "y": 10,
-                                "direction": "right",
-                                "fadeSpeed": "2"
-                            }
-                        },
-                        {
-                            "id": "383e0fb1-9cc7-4e86-8218-100b68980856",
-                            "command": "EVENT_END"
-                        }
-                    ],
-                    "id": "5891efac-93e5-4272-bd69-03d3af1ba40b",
-                    "x": 66,
-                    "y": 9,
-                    "width": 6,
-                    "height": 4
-                },
-                {
                     "name": "Exit: Spider's Nest",
                     "trigger": "walk",
                     "script": [
@@ -176963,6 +176937,32 @@
                     "y": 2,
                     "width": 1,
                     "height": 14
+                },
+                {
+                    "name": "Exit: Lunarium",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "8e58c74e-a604-42d4-ba4b-bde32edac9e1",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "49dd8ce7-f9bc-41e3-9931-e8aeadda8e3a",
+                                "x": 9,
+                                "y": 11,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "8fb6f7d2-5729-4336-80e5-d675029907e2",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "f9a89395-0ddb-415e-91dc-da966b13d7d3",
+                    "x": 49,
+                    "y": 7,
+                    "width": 8,
+                    "height": 3
                 }
             ]
         }
@@ -179600,18 +179600,18 @@
         }
     ],
     "settings": {
-        "startSceneId": "e7d1ec78-19d9-4585-9331-13be339ee9c0",
+        "startSceneId": "49dd8ce7-f9bc-41e3-9931-e8aeadda8e3a",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 10,
-        "startY": 23,
+        "startX": 13,
+        "startY": 14,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 4680,
-        "worldScrollY": 4173,
-        "zoom": 225,
+        "worldScrollX": 2090,
+        "worldScrollY": 3341,
+        "zoom": 175,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
