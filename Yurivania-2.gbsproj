@@ -47614,6 +47614,72 @@
                     "id": "bdfa00cc-1d30-4945-99a0-bfa3901bce00",
                     "x": 3,
                     "y": 51
+                },
+                {
+                    "name": "Critter C",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "56a17aaf-78fc-46b2-aee7-8d5c4b0e19b1",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "5a69d27a-83c6-415c-83dd-4eee50820a7b",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "a154a130-2390-4e67-92dc-7e4ccc0c1aa8",
+                    "x": 9,
+                    "y": 61
+                },
+                {
+                    "name": "Critter W",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "56a17aaf-78fc-46b2-aee7-8d5c4b0e19b1",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "59523423-ac42-4e9b-8f71-3825aef3115f",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "170042f0-ec05-46ba-a0e5-38b7f75d79ff",
+                    "x": 6,
+                    "y": 65
+                },
+                {
+                    "name": "Critter E",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "56a17aaf-78fc-46b2-aee7-8d5c4b0e19b1",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "default-ui",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "fb1572f2-3d86-458f-99bc-3033ebafc1ce",
+                    "x": 12,
+                    "y": 56
                 }
             ],
             "triggers": [
@@ -95266,6 +95332,58 @@
                     "y": 7,
                     "width": 1,
                     "height": 7
+                },
+                {
+                    "name": "Exit: Bell Tower",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "742db91f-22f0-4c70-a5cc-ff882dc0070d",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "199755c0-9918-440d-ad8a-39b651dc448e",
+                                "x": 9,
+                                "y": 87,
+                                "direction": "up",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "5aa5bc01-2ec6-40c9-93b5-dfdf2c59d02a",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "15ff419b-c686-4968-9c31-b460c97600fc",
+                    "x": 8,
+                    "y": 0,
+                    "width": 4,
+                    "height": 1
+                },
+                {
+                    "name": "Exit: Inner Circle",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "5a5e661e-4e41-47c4-90c1-4cf6b94a08b8",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "a2b662e1-6c9b-4737-8b87-1ba9dada10d7",
+                                "x": 29,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "1dd230d6-37e0-4b49-ad32-b16fe46f5655",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "50af4504-a4fa-412e-bb7a-dc6e79c4cefa",
+                    "x": 9,
+                    "y": 17,
+                    "width": 2,
+                    "height": 1
                 }
             ]
         },
@@ -96593,6 +96711,58 @@
                     "y": 7,
                     "width": 1,
                     "height": 7
+                },
+                {
+                    "name": "Exit: Bell Tower",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "fb562149-5c15-49d4-a150-744eb1d0b349",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "199755c0-9918-440d-ad8a-39b651dc448e",
+                                "x": 9,
+                                "y": 87,
+                                "direction": "up",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "7a171ca7-8b44-40df-85ab-7e713f7d9192",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "21f8301a-6046-4ba8-a06e-68ba10a4a773",
+                    "x": 8,
+                    "y": 0,
+                    "width": 4,
+                    "height": 1
+                },
+                {
+                    "name": "Exit: Inner Circle",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "3e5b1fe5-305c-49b6-a546-98560f2f45ad",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "a2b662e1-6c9b-4737-8b87-1ba9dada10d7",
+                                "x": 29,
+                                "y": 2,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "24e08e6b-8ea2-4c9f-9a37-fe80ceb4c32d",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "673f1681-c3f7-4b55-b1ae-23ceac693c9a",
+                    "x": 9,
+                    "y": 17,
+                    "width": 2,
+                    "height": 1
                 }
             ]
         },
@@ -132798,6 +132968,50 @@
                     "id": "307c702b-495d-4c79-9162-1041b43eb2f9",
                     "x": 51,
                     "y": 43
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "ec67ed17-edee-49e5-b513-bc6e11b696fa",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "fcb3e033-8576-4806-b43b-7fbadd371542",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "7e151458-3bbd-400a-b8ad-d7cb7a6e7b0b",
+                    "x": 28,
+                    "y": 58
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "ec67ed17-edee-49e5-b513-bc6e11b696fa",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "5a69d27a-83c6-415c-83dd-4eee50820a7b",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "a594fe13-309f-49e4-abde-a2cfbd69c396",
+                    "x": 36,
+                    "y": 63
                 }
             ],
             "triggers": [
@@ -177258,7 +177472,7 @@
             "imageHeight": 144,
             "filename": "screen-end_good.png",
             "inode": "54043195528499639",
-            "_v": 1638506558437
+            "_v": 1638510909368
         },
         {
             "id": "2937b63e-6489-4c46-8331-2ccdcda762e1",
@@ -177631,6 +177845,24 @@
             "filename": "npc-creature-library_patron.png",
             "inode": "32369622321737396",
             "_v": 1638497140831
+        },
+        {
+            "id": "ec67ed17-edee-49e5-b513-bc6e11b696fa",
+            "name": "npc-critter_mines",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-critter_mines.png",
+            "inode": "85849867896774077",
+            "_v": 1638510999576
+        },
+        {
+            "id": "56a17aaf-78fc-46b2-aee7-8d5c4b0e19b1",
+            "name": "npc-critter_tower",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "npc-critter_tower.png",
+            "inode": "7599824371512741",
+            "_v": 1638510669717
         },
         {
             "id": "e3793725-f814-49cc-9da0-8148df9454f0",
@@ -179368,18 +179600,18 @@
         }
     ],
     "settings": {
-        "startSceneId": "bb9a1e43-02dd-4abc-9b88-0652e1127126",
+        "startSceneId": "199755c0-9918-440d-ad8a-39b651dc448e",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 16,
-        "startY": 15,
+        "startX": 14,
+        "startY": 51,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 1161,
-        "worldScrollY": 2574,
-        "zoom": 125,
+        "worldScrollX": 2462,
+        "worldScrollY": 6109,
+        "zoom": 325,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
