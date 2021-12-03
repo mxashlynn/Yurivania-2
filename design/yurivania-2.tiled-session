@@ -5,7 +5,8 @@
     },
     "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
-        "."
+        ".",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -355,6 +356,22 @@
                 "y": 120.66666666666664
             }
         },
+        "backgrounds/area-old_vampire_quarter_east.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 234.75,
+                "y": 120.5
+            }
+        },
+        "backgrounds/area-old_vampire_quarter_west.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 45.75,
+                "y": 123
+            }
+        },
         "backgrounds/area-skyclad_tower-balcony.tmx": {
             "scale": 3.1777,
             "selectedLayer": 0,
@@ -642,6 +659,8 @@
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
         "one_room_measurement.tmx",
+        "backgrounds/area-old_vampire_quarter_west.tmx",
+        "backgrounds/area-old_vampire_quarter_east.tmx",
         "backgrounds/cut-end.tmx",
         "backgrounds/screen-end.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
@@ -650,9 +669,7 @@
         "backgrounds/cut-begin.tmx",
         "backgrounds/area-old_vampire_quarter.tmx",
         "backgrounds/area-great_library-open.tmx",
-        "backgrounds/area-great_library-closed.tmx",
-        "tiles/coffin-tiles.tsx",
-        "backgrounds/area-echoing_vaults-main.tmx"
+        "backgrounds/area-great_library-closed.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
