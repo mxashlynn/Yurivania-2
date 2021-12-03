@@ -64775,6 +64775,84 @@
                     "id": "7a75a552-00c2-4747-b234-3606a79802fc",
                     "x": 2,
                     "y": 68
+                },
+                {
+                    "name": "Sleepy Emoji",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "634c44b8-e2ef-4bf3-801f-c846dec82630",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "d4c23a1e-f587-4667-a276-8e543356ad0a",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [
+                        {
+                            "id": "1a3c91e4-f590-410f-a6fa-5390e9381439",
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "L1"
+                            }
+                        },
+                        {
+                            "id": "2e86dc77-19cc-4f11-9336-9d4ee4ac44f6",
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "L1",
+                                "operator": ">",
+                                "comparator": 25,
+                                "__collapseElse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "36e9a2d6-db7d-49b0-89ae-483eb94c4ae8",
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "4a36864a-ffbf-4a75-bff8-0f38bcf23e44",
+                                            "emoteId": 7
+                                        }
+                                    },
+                                    {
+                                        "id": "f8acf74f-d55a-4312-babe-8cbc4ffc4ef0",
+                                        "command": "EVENT_SET_VALUE",
+                                        "args": {
+                                            "variable": "L1",
+                                            "value": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "893644a2-1d7b-49b4-8569-722d0e6c0209",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "f101a355-e124-455d-b765-145390980dad",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "f63f3935-05c9-49aa-add9-f0dcc8a58007",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "4a36864a-ffbf-4a75-bff8-0f38bcf23e44",
+                    "x": 14,
+                    "y": 13
                 }
             ],
             "triggers": [
@@ -181473,6 +181551,10 @@
         {
             "id": "b048b833-e0b3-45fb-b861-654f0bba6baf__L1",
             "name": "Player Y"
+        },
+        {
+            "id": "4a36864a-ffbf-4a75-bff8-0f38bcf23e44__L1",
+            "name": "Sleepy Harpy"
         }
     ],
     "engineFieldValues": [
@@ -181512,7 +181594,7 @@
         "showCollisions": true,
         "showConnections": "selected",
         "worldScrollX": 3439,
-        "worldScrollY": 4902,
+        "worldScrollY": 4302,
         "zoom": 175,
         "customColorsEnabled": true,
         "customHead": "",
