@@ -13978,6 +13978,32 @@
                     "y": 0,
                     "width": 12,
                     "height": 1
+                },
+                {
+                    "name": "Exit East",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "a1c7bca5-6205-490b-bb49-288acf60b3f1",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "bb9a1e43-02dd-4abc-9b88-0652e1127126",
+                                "x": 1,
+                                "y": 15,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "e6885e55-95f5-4785-be1c-f3b6473428de",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "3bbce2ce-2d24-42d5-872f-a3d912338aba",
+                    "x": 19,
+                    "y": 2,
+                    "width": 1,
+                    "height": 14
                 }
             ]
         },
@@ -173143,8 +173169,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "5302f115-6b4c-4a23-ac09-e83f9b9005da",
-            "x": 1212.2285714285708,
-            "y": 2510.3999999999996,
+            "x": 580.2285714285711,
+            "y": 891.7333333333331,
             "actors": [],
             "triggers": []
         },
@@ -173168,7 +173194,7 @@
                 0,
                 0,
                 0,
-                0,
+                2,
                 0,
                 0,
                 0,
@@ -173527,8 +173553,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "e06f3695-11b8-4711-b554-5657d706b580",
-            "x": 1414.514285714286,
-            "y": 2507.314285714286,
+            "x": 810.514285714286,
+            "y": 883.3142857142861,
             "actors": [],
             "triggers": []
         },
@@ -176249,6 +176275,32 @@
                     "y": 0,
                     "width": 4,
                     "height": 1
+                },
+                {
+                    "name": "Exit West",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "8eb2d2ff-ad26-4bbe-8904-0573c7916bf7",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "5a3b56b9-75d0-49f8-acb8-48c13768d360",
+                                "x": 17,
+                                "y": 15,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "52cb7ac7-180c-4e6a-9d63-23feb9d8518a",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "38504c09-a3e2-4de5-b8da-e57ebb7405f5",
+                    "x": 0,
+                    "y": 2,
+                    "width": 1,
+                    "height": 14
                 }
             ]
         }
@@ -176747,7 +176799,7 @@
             "imageHeight": 144,
             "filename": "screen-end_best.png",
             "inode": "63331869759935507",
-            "_v": 1638497140830
+            "_v": 1638506547203
         },
         {
             "id": "ab986a75-793e-412c-b115-cc626a18aaee",
@@ -176758,7 +176810,7 @@
             "imageHeight": 144,
             "filename": "screen-end_good.png",
             "inode": "54043195528499639",
-            "_v": 1638497140830
+            "_v": 1638506558437
         },
         {
             "id": "2937b63e-6489-4c46-8331-2ccdcda762e1",
@@ -176897,6 +176949,15 @@
             "filename": "fx-festoon's_telescope.png",
             "inode": "15481123719482469",
             "_v": 1638497140831
+        },
+        {
+            "id": "5a38991b-3888-45a0-b694-c25d1f26ffd8",
+            "name": "fx-josette_and_tibby_kiss",
+            "numFrames": 5,
+            "type": "animated",
+            "filename": "fx-josette_and_tibby_kiss.png",
+            "inode": "50384020831261031",
+            "_v": 1638506107726
         },
         {
             "id": "e3355336-9f46-43f5-b5a0-5b657173a620",
@@ -177349,15 +177410,6 @@
             "_v": 1638497140831
         },
         {
-            "id": "79bbf79f-e157-4992-995d-c19fa06ba7fb",
-            "name": "npc-skeleton-tibby_kiss",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "npc-skeleton-tibby_kiss.png",
-            "inode": "41939771530132099",
-            "_v": 1638497140831
-        },
-        {
             "id": "b6db145f-68db-494e-bd02-a32e1f4412c7",
             "name": "npc-spidergirl-festoon",
             "numFrames": 3,
@@ -177481,15 +177533,6 @@
             "type": "actor_animated",
             "filename": "player-josette_climbing.png",
             "inode": "21392098230410129",
-            "_v": 1638497140831
-        },
-        {
-            "id": "5a38991b-3888-45a0-b694-c25d1f26ffd8",
-            "name": "player-josette_kiss",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "player-josette_kiss.png",
-            "inode": "50384020831261031",
             "_v": 1638497140831
         },
         {
@@ -178867,9 +178910,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 1906,
-        "worldScrollY": 3451,
-        "zoom": 175,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 25,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
