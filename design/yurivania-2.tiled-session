@@ -104,8 +104,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 96.81818181818183,
-                "y": 276.1818181818182
+                "x": 436.0909090909091,
+                "y": 203.8181818181818
             }
         },
         "backgrounds/area-echoing_vaults-waterway.tmx": {
@@ -658,10 +658,10 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-echoing_vaults-main.tmx",
         "one_room_measurement.tmx",
         "backgrounds/area-skyclad_tower-courtyard.tmx",
         "backgrounds/area-inner_circle-main.tmx",
-        "backgrounds/area-echoing_vaults-main.tmx",
         "backgrounds/area-old_vampire_quarter_west.tmx",
         "backgrounds/area-old_vampire_quarter_east.tmx",
         "backgrounds/cut-end.tmx",
