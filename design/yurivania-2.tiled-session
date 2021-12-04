@@ -405,11 +405,11 @@
             }
         },
         "backgrounds/area-skyclad_tower-main.tmx": {
-            "scale": 4,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 67.75,
-                "y": 109
+                "x": 68.16666666666667,
+                "y": 92.33333333333334
             }
         },
         "backgrounds/area-skyclad_tower-s+a's_room.tmx": {
@@ -658,6 +658,7 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/area-skyclad_tower-main.tmx",
         "backgrounds/area-echoing_vaults-main.tmx",
         "one_room_measurement.tmx",
         "backgrounds/area-skyclad_tower-courtyard.tmx",
@@ -668,8 +669,7 @@
         "backgrounds/screen-end.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
         "backgrounds/area-skyclad_tower-s+a's_room.tmx",
-        "backgrounds/area-windswept_rooftop-dead_end.tmx",
-        "backgrounds/cut-begin.tmx"
+        "backgrounds/area-windswept_rooftop-dead_end.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
