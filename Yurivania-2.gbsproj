@@ -13881,7 +13881,7 @@
                     "y": 3
                 },
                 {
-                    "name": "Vampire Band",
+                    "name": "Riley",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
@@ -13892,7 +13892,20 @@
                     "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "91244285-ab3b-4df1-8c3d-4ea5618b2a93",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": "RILEY: We're\nthinking of\nstarting a band.",
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "f31e3315-5fa2-442e-8cb7-b504bd455304",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -13903,7 +13916,7 @@
                     "y": 33
                 },
                 {
-                    "name": "Vampire Rose",
+                    "name": "Milica",
                     "frame": 1,
                     "animate": false,
                     "spriteSheetId": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
@@ -13914,7 +13927,22 @@
                     "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "1be372f1-6ed7-42d3-b838-47afb1ab96e4",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "MILICA: I always\nmeditate first\nthing in the\nevening~~"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "c30ac0d1-1ba0-45d2-909f-08561a31c401",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -13925,7 +13953,7 @@
                     "y": 19
                 },
                 {
-                    "name": "Vampire Art",
+                    "name": "Leilani",
                     "frame": 4,
                     "animate": false,
                     "spriteSheetId": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
@@ -13936,7 +13964,22 @@
                     "paletteId": "9266acc5-9e3e-494d-9f3d-ac090da41609",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "cc213c8b-cfd6-496d-a196-cde7eaf2f834",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "LEILANI: We're\nthinking of\nstarting an art\ncollective."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "4c11ff08-7d54-4f18-a69f-507deddf48cd",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -13947,7 +13990,7 @@
                     "y": 33
                 },
                 {
-                    "name": "Vampire Sitting",
+                    "name": "Aaliyah",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "0234037c-544b-4838-9dee-75b115bd1d60",
@@ -13958,7 +14001,55 @@
                     "paletteId": "30d7bc49-12f0-442c-b578-b5ce1407cb8e",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "b55761e4-feb0-476e-95f5-4d3b0cddab2f",
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "8",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "d9de29ac-1a47-4e4e-b266-7eb68a30df69",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "AALIYAH: I'm\nwaiting for my\nfriend."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "cca71c56-3341-4f19-a85a-766150f3da7b",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "5442bf36-8a07-4518-8914-e50c9c63b710",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "AALIYAH: I'm\nwaiting for my\nfriend.",
+                                                "They're taking\nfor-ev-er^!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "52b27cc3-f76d-4d21-9c21-8176a27ab412",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "12dc696d-d959-4366-8e52-14136847707d",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -14057,7 +14148,7 @@
                     "y": 28
                 },
                 {
-                    "name": "Coffin Awake",
+                    "name": "Nova",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "6968b866-60ab-492d-ae93-a8901075b9cc",
@@ -14068,7 +14159,19 @@
                     "paletteId": "6ddf5757-7f5e-4527-b5e4-dad24f5ada6c",
                     "isPinned": false,
                     "script": [],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "id": "249370f8-92e0-4b8e-8a29-46fd6a0dd8ed",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "6183670e-90da-4a68-a7ac-bdaaf38ef5d3"
+                            }
+                        },
+                        {
+                            "id": "2fa706f7-3c7a-4387-8003-eeeecbafb32e",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -14078,8 +14181,8 @@
                     "y": 15
                 },
                 {
-                    "name": "Vampire Peeking",
-                    "frame": 1,
+                    "name": "Nova's Coffin",
+                    "frame": 0,
                     "animate": false,
                     "spriteSheetId": "b22b3ff4-68ff-42e4-b940-a18b46c55135",
                     "spriteType": "static",
@@ -14089,7 +14192,90 @@
                     "paletteId": "0180b0a2-c0cb-42d0-a902-ac526b6f296b",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "4bc1bb84-d06f-4f82-bf5a-b73638421a45",
+                            "command": "EVENT_ACTOR_SET_FRAME",
+                            "args": {
+                                "actorId": "490ce14c-461e-4573-8ae9-74f7bddaf30d",
+                                "frame": {
+                                    "type": "number",
+                                    "value": 1
+                                }
+                            }
+                        },
+                        {
+                            "id": "4b90dade-6dce-45be-bd5b-7cf47091a46c",
+                            "command": "EVENT_ACTOR_SHOW",
+                            "args": {
+                                "actorId": "6183670e-90da-4a68-a7ac-bdaaf38ef5d3"
+                            }
+                        },
+                        {
+                            "id": "108185d2-92cc-4392-b39d-01e978922547",
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "8",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "d924b629-6ad8-45f0-850c-e71e76a1b5c8",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "NOVA: Sorry, I'm\nstill getting\nready^."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "d24db18b-a4d9-4c1d-93fd-13de55ee4ace",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "af6205e0-f5a7-4284-8312-7ce45110afed",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "NOVA: I'm almost\ndone, I swear!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "c9f90176-0895-4a36-8c94-02203c3d8c98",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "8b45bfaa-436c-4842-8a03-da7bb697087f",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "6183670e-90da-4a68-a7ac-bdaaf38ef5d3"
+                            }
+                        },
+                        {
+                            "id": "91385e7b-297d-4102-97ec-0fb586ffa283",
+                            "command": "EVENT_ACTOR_SET_FRAME",
+                            "args": {
+                                "actorId": "490ce14c-461e-4573-8ae9-74f7bddaf30d",
+                                "frame": {
+                                    "type": "number",
+                                    "value": 0
+                                }
+                            }
+                        },
+                        {
+                            "id": "301d041e-c800-4d0c-a59b-04a35475daf4",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -65079,7 +65265,7 @@
                     "y": 68
                 },
                 {
-                    "name": "Sleepy Emoji",
+                    "name": "Sleepy Emote",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "634c44b8-e2ef-4bf3-801f-c846dec82630",
@@ -161706,8 +161892,8 @@
                 4,
                 0,
                 0,
-                0,
-                0,
+                5,
+                5,
                 4,
                 4,
                 4,
@@ -161724,10 +161910,10 @@
                 4,
                 4,
                 4,
-                0,
-                0,
-                0,
-                0,
+                5,
+                5,
+                5,
+                5,
                 4,
                 4,
                 4,
@@ -161744,10 +161930,10 @@
                 4,
                 4,
                 4,
-                0,
-                0,
-                0,
-                0
+                5,
+                5,
+                5,
+                5
             ],
             "script": [],
             "playerHit1Script": [],
@@ -179359,7 +179545,12 @@
                     "collisionGroup": "",
                     "script": [],
                     "startScript": [],
-                    "updateScript": [],
+                    "updateScript": [
+                        {
+                            "id": "0ed6c1b7-4d17-42e1-b448-0c1c5174d9f3",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
@@ -179381,7 +179572,12 @@
                     "collisionGroup": "",
                     "script": [],
                     "startScript": [],
-                    "updateScript": [],
+                    "updateScript": [
+                        {
+                            "id": "b0e647a3-3d69-4c3a-80d5-13709d5038c8",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
@@ -179390,7 +179586,7 @@
                     "y": 3
                 },
                 {
-                    "name": "Restless Vampire",
+                    "name": "Marya",
                     "frame": 0,
                     "animate": true,
                     "spriteSheetId": "ac03d67f-11af-424b-bfc3-835916aa2bff",
@@ -179401,7 +179597,20 @@
                     "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "6e7b632e-7fb0-456e-a290-d197eb5b385d",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": "MARYA: Hmph, I\njust can't get\ncomfortable.",
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "cfab9de8-5bf0-41e6-94ac-28f83cb03f80",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -179425,7 +179634,12 @@
                     "collisionGroup": "",
                     "script": [],
                     "startScript": [],
-                    "updateScript": [],
+                    "updateScript": [
+                        {
+                            "id": "cd14c05f-eb97-4e09-8d96-77e91bb17f3d",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
@@ -179447,7 +179661,12 @@
                     "collisionGroup": "",
                     "script": [],
                     "startScript": [],
-                    "updateScript": [],
+                    "updateScript": [
+                        {
+                            "id": "6664e7c2-425a-4879-9faf-ec22230eddf0",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
@@ -179456,7 +179675,7 @@
                     "y": 3
                 },
                 {
-                    "name": "Vampire Romantic",
+                    "name": "Rune",
                     "frame": 0,
                     "animate": true,
                     "spriteSheetId": "45b49479-4945-4bbb-876f-4930ff5c2d8e",
@@ -179467,7 +179686,23 @@
                     "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "84c053e4-fa84-427f-997e-21dcd05989bb",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "RUNE: The evening\nbreeze is\nwonderful^",
+                                    "Tonight will be a\nmagical night~!"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "aecc3d1e-56d4-4df1-8c82-549bf409fc96",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -179478,7 +179713,7 @@
                     "y": 13
                 },
                 {
-                    "name": "Vampire Chatty W",
+                    "name": "Eun-ji",
                     "frame": 2,
                     "animate": false,
                     "spriteSheetId": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
@@ -179489,7 +179724,22 @@
                     "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "7c4fa05e-aec5-4b91-86b5-f2aa981e3b3f",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Eun-Ji is talking.\nProbably shouldn't\ninterrupt."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "373a9977-8c61-47c4-a84b-665eb3f1d568",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -179500,7 +179750,7 @@
                     "y": 15
                 },
                 {
-                    "name": "Vampire Chatty E",
+                    "name": "Yamileth",
                     "frame": 3,
                     "animate": false,
                     "spriteSheetId": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
@@ -179511,7 +179761,22 @@
                     "paletteId": "30d7bc49-12f0-442c-b578-b5ce1407cb8e",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "4be0e8cd-8575-452d-ba83-5152e3c27023",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Yamileth is\ntalking. Probably\nshouldn't\ninterrupt."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "0c13ebd3-766d-4be9-bef8-909f4b0089d6",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -179522,9 +179787,9 @@
                     "y": 15
                 },
                 {
-                    "name": "Vampire Chatty C",
+                    "name": "Nia",
                     "frame": 0,
-                    "animate": true,
+                    "animate": false,
                     "spriteSheetId": "15d77f50-f6e3-4364-8b0c-8e6a73973d74",
                     "spriteType": "static",
                     "direction": "down",
@@ -179533,7 +179798,22 @@
                     "paletteId": "9266acc5-9e3e-494d-9f3d-ac090da41609",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "da750290-92d4-44d8-abda-0ad44676388a",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Nia is talking.\nProbably shouldn't\ninterrupt."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "ab16b62a-e8ba-44da-85af-81d0c3b07a42",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -179588,7 +179868,7 @@
                     "y": 15
                 },
                 {
-                    "name": "Vampire Chilling E",
+                    "name": "Everleigh",
                     "frame": 5,
                     "animate": false,
                     "spriteSheetId": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
@@ -179599,7 +179879,23 @@
                     "paletteId": "ad40311a-cd21-4875-bc42-309ca8216dd8",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "b4b36e67-0263-4cc4-996a-efc5fd7a3202",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "EVERLEIGH: It's so\ncrowded^",
+                                    "I just needed to\nfind somewhere to\nchill."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "e8c9b68f-65ab-4a25-9108-b6c263c06971",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -179610,7 +179906,7 @@
                     "y": 14
                 },
                 {
-                    "name": "Vampire Chilling W",
+                    "name": "Helena",
                     "frame": 5,
                     "animate": false,
                     "spriteSheetId": "fbe98627-a85c-44c9-bb91-18b68c80c2ed",
@@ -179621,7 +179917,22 @@
                     "paletteId": "30d7bc49-12f0-442c-b578-b5ce1407cb8e",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "8deea6af-25ee-4f11-aea8-26245e0aa6b8",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "HELENA: I'm\nthinking of going\ninto town later\ntonight^."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "3c7187d6-223d-49b6-8f78-ea52ce5bbc62",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -182422,6 +182733,30 @@
         {
             "id": "4a36864a-ffbf-4a75-bff8-0f38bcf23e44__L1",
             "name": "Sleepy Harpy"
+        },
+        {
+            "id": "96eee374-2eb1-4a0f-8340-42d46f44d91b__L1",
+            "name": "Sleepy"
+        },
+        {
+            "id": "96eee374-2eb1-4a0f-8340-42d46f44d91b__L0",
+            "name": "Random Roll"
+        },
+        {
+            "id": "21d1a51c-c278-490c-b253-e16aedd4cccf__L1",
+            "name": "Sleepy"
+        },
+        {
+            "id": "3166e1c2-3e6c-45ed-a482-fff605484980__L1",
+            "name": "Sleepy"
+        },
+        {
+            "id": "8f73724a-8b3f-4966-bf53-27bef29bc000__L1",
+            "name": "Sleepy"
+        },
+        {
+            "id": "e256f668-71a6-4c08-b19c-fca4edeb0eae__L1",
+            "name": "Sleepy"
         }
     ],
     "engineFieldValues": [
@@ -182451,18 +182786,18 @@
         }
     ],
     "settings": {
-        "startSceneId": "7ac1a29d-0286-4912-8d92-0065eeb2a499",
+        "startSceneId": "bb9a1e43-02dd-4abc-9b88-0652e1127126",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 4,
-        "startY": 10,
+        "startX": 16,
+        "startY": 15,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 1494,
-        "worldScrollY": 2413,
-        "zoom": 125,
+        "worldScrollX": 2399,
+        "worldScrollY": 4743,
+        "zoom": 225,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
