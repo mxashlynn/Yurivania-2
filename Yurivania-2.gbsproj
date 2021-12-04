@@ -57174,7 +57174,7 @@
                 0,
                 0,
                 0,
-                1,
+                0,
                 0,
                 4,
                 4,
@@ -57274,7 +57274,7 @@
                 0,
                 0,
                 0,
-                1,
+                0,
                 0,
                 4,
                 4,
@@ -64722,7 +64722,23 @@
                     "paletteId": "2bc442ca-b41a-4ced-a3e4-f0d56290ad7f",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "675943f4-161e-45a2-8d3f-e45ee061142a",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "NOTE: Please leave\nthe window open",
+                                    "as it gets stuffy\nup here this time\nof year.\n   ~ Aello"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "d1311f5c-a0e6-4a7e-8614-68353fb78be9",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -64744,7 +64760,22 @@
                     "paletteId": "2bc442ca-b41a-4ced-a3e4-f0d56290ad7f",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "e0b19917-aa54-4fc7-b965-ad2bd97ae596",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Aello is sound\nasleep. Probably\nbest not to wake\nthem."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "920db844-0a68-4733-ad81-01b9c05dd5b5",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -98322,7 +98353,23 @@
                     "paletteId": "778e5328-9796-42bb-94b3-448cd88cf647",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "44abc750-aff5-4500-8419-6229004501f1",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "NOTE: I'm out on a\njob. If you need\nme, look above",
+                                    "the Skyclad Tower\nbalcony.\n   ~ Festoon"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "36ead768-9df8-4575-a93f-5b1bda2a0810",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -98715,7 +98762,22 @@
                     "paletteId": "3712c2ca-3be6-4503-b0e4-2a5ecaba6a9d",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "0907e7de-0685-4495-b568-cf1123a7ef31",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Festoon has their\ntelescope aimed at\nthe Glassy Tarn."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "21305a17-af05-4a18-a6fc-4c89c728631b",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -158948,7 +159010,7 @@
                     "id": "3b249c15-8b2e-48a6-a45d-0c31abd23747",
                     "x": 21,
                     "y": 35,
-                    "width": 5,
+                    "width": 4,
                     "height": 1
                 },
                 {
@@ -179235,7 +179297,7 @@
             "imageHeight": 1152,
             "filename": "area-skyclad_tower-main.png",
             "inode": "35747322042410535",
-            "_v": 1638566122816
+            "_v": 1638578090075
         },
         {
             "id": "17c0a5b7-302a-4b69-88cc-cb4a7882d3e9",
@@ -181584,18 +181646,18 @@
         }
     ],
     "settings": {
-        "startSceneId": "9a8b9296-e8ff-4147-b213-8a12cd5ef063",
+        "startSceneId": "09842d4c-f073-4c2e-926c-79cd26211cfa",
         "playerSpriteSheetId": "c3bc79c7-3703-4a67-86b2-301f587745b4",
-        "startX": 13,
-        "startY": 31,
+        "startX": 15,
+        "startY": 6,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": "selected",
-        "worldScrollX": 3439,
-        "worldScrollY": 4302,
-        "zoom": 175,
+        "worldScrollX": 7379,
+        "worldScrollY": 7040,
+        "zoom": 475,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
