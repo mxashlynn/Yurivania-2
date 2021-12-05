@@ -5,8 +5,8 @@
     },
     "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
-        "."
+        ".",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -658,8 +658,8 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "backgrounds/area-inner_circle-main.tmx",
         "one_room_measurement.tmx",
+        "backgrounds/area-inner_circle-main.tmx",
         "backgrounds/area-inner_circle-quarry.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
         "backgrounds/area-skyclad_tower-main.tmx",
