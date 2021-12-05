@@ -5,8 +5,8 @@
     },
     "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
-        ".",
-        "backgrounds"
+        "backgrounds",
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -512,8 +512,8 @@
             "scale": 5.67172619047619,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.2554441937346,
-                "y": 72.11208479823688
+                "x": 76.60807052526631,
+                "y": 73.8752164558955
             }
         },
         "backgrounds/cut-end.tmx": {
@@ -658,6 +658,7 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
+        "backgrounds/cut-begin.tmx",
         "one_room_measurement.tmx",
         "backgrounds/area-inner_circle-main.tmx",
         "backgrounds/area-inner_circle-quarry.tmx",
@@ -668,8 +669,7 @@
         "backgrounds/area-old_vampire_quarter_west.tmx",
         "backgrounds/area-old_vampire_quarter_east.tmx",
         "backgrounds/cut-end.tmx",
-        "backgrounds/screen-end.tmx",
-        "backgrounds/area-skyclad_tower-s+a's_room.tmx"
+        "backgrounds/screen-end.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
