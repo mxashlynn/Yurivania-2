@@ -14,7 +14,7 @@ export const fields = [
       [1, "Question"],
       [2, "Love"],
       [3, "Pause"],
-      [4, "Look"],
+      [4, "Laugh"],
       [5, "Sweat"],
       [6, "Music"],
       [7, "Sleep"]
