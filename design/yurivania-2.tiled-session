@@ -30,14 +30,6 @@
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/tiles/yurivania-0.tsx": {
             "scaleInDock": 3
         },
-        "C:/Users/mxash/Source/Repos/Jams/Yurivania-0/design/working-map.tmx": {
-            "scale": 6,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 80,
-                "y": 72
-            }
-        },
         "C:/Users/mxash/Source/Repos/Jams/Yurivania-1/design/backgrounds/area-alraunes_corner-after.tmx": {
             "scale": 5.925624999999999,
             "selectedLayer": 0,
@@ -628,22 +620,6 @@
             "dynamicWrapping": false,
             "scaleInDock": 3,
             "scaleInEditor": 11
-        },
-        "working-map.tmx": {
-            "scale": 4,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 111.875,
-                "y": 71.75
-            }
-        },
-        "working_map.tmx": {
-            "scale": 4.228348214285714,
-            "selectedLayer": 0,
-            "viewCenter": {
-                "x": 112.4552605183973,
-                "y": 71.89568706118355
-            }
         }
     },
     "last.externalTilesetPath": "C:/Users/mxash/Source/Repos/Jams/Yurivania-2/design/tiles",
@@ -661,7 +637,6 @@
         "one_room_measurement.tmx",
         "backgrounds/area-windswept_rooftop-main.tmx",
         "backgrounds/screen-map.tmx",
-        "working_map.tmx",
         "backgrounds/screen-swatches.tmx",
         "backgrounds/cut-end.tmx",
         "backgrounds/area-echoing_vaults-waterway.tmx",
