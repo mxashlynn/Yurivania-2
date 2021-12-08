@@ -170,6 +170,18 @@
       "defaultValue": 0
     },
     {
+      "key": "pl_always_animate",
+      "label": "Player Always Animates",
+      "group": "GAMETYPE_PLATFORMER",
+      "type": "select",
+      "options": [
+        [0, "False"],
+        [1, "True"]
+      ],
+      "cType": "UBYTE",
+      "defaultValue": 0
+    },
+    {
       "key": "camera_lock",
       "label": "Camera Lock",
       "group": "Camera Lock Single Axis Mod",

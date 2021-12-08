@@ -291,7 +291,7 @@ void Update_Platform() {
     grounded = TRUE;
   }
 
-  player.animate = (grounded && pl_vel_x != 0) || (on_ladder && pl_vel_y != 0);
+  player.animate = pl_always_animate || (grounded && pl_vel_x != 0) || (on_ladder && pl_vel_y != 0);
 
   // Check for trigger collisions
   if (ActivateTriggerAt(tile_x, tile_y, INPUT_UP_PRESSED)) {
