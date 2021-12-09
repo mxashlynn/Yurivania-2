@@ -211,3 +211,12 @@ or they can be gotten as rewards for solving problems for the Palace's residents
 11. End at the New Wing
     - Talk to the relocated vampires
     - Talk to Tibby
+
+## Menu Items
+
+1. Map          = Map
+2. Inventory    = Items
+3. Swatches     = Swatch
+4. Controls     = How To
+5. Lunar Charm  = (Moon Glyph)Charm
+6. Save         = Save
