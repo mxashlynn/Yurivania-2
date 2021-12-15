@@ -148,8 +148,9 @@ void Update_Platform() {
   tile_x = pl_pos_x >> 7;
   tile_y = pl_pos_y >> 7;
 
-  // Interact
+  // Interact or Jump
   if (grounded && INPUT_A_PRESSED) {
+    // Interact
     if (player.dir.x == 1) {
       hit_actor = ActorAtTile(tile_x + 2, tile_y, TRUE);
     } else {
@@ -157,12 +158,8 @@ void Update_Platform() {
     }
     if (hit_actor && (hit_actor != NO_ACTOR_COLLISON)) {
       ScriptStart(&actors[hit_actor].events_ptr);
-    }
-  }
-
-  // Jump
-  if (INPUT_A_PRESSED && grounded) {
-    if (!( (((pl_pos_x >> 4) & 0x7) != 7 &&
+    // Jump
+    } else if (!( (((pl_pos_x >> 4) & 0x7) != 7 &&
           TileAt(tile_x, tile_y - 1) & COLLISION_BOTTOM) ||  // Left Edge
           (((pl_pos_x >> 4) & 0x7) != 0 &&
            TileAt(tile_x + 1, tile_y - 1) & COLLISION_BOTTOM))) {  // Right edge
