@@ -5,8 +5,8 @@
     },
     "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
-        ".",
-        "backgrounds"
+        "backgrounds",
+        "."
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -659,9 +659,9 @@
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
         "one_room_measurement.tmx",
+        "backgrounds/screen-materials.tmx",
         "backgrounds/screen-warning.tmx",
         "backgrounds/area-starlit_garden-main.tmx",
-        "backgrounds/screen-materials.tmx",
         "backgrounds/screen-map.tmx",
         "backgrounds/screen-inventory.tmx",
         "backgrounds/screen-swatches.tmx",
