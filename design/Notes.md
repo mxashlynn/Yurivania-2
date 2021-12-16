@@ -148,7 +148,7 @@ or they can be gotten as rewards for solving problems for the Palace's residents
         - Overgrowth
     - Mechanics
         - Climbing
-- **6: Great Library**
+- **6: Cryptic Library**
     - Species
         - **Skeletongirls**
     - NPCs
@@ -193,14 +193,14 @@ or they can be gotten as rewards for solving problems for the Palace's residents
     - Get Granite or Marble from musclegirl demon
     - Get Soul of Bat from Reaper
 4. Open World Exploration
-    - Either find the exit to the Postern at which point you acquire the Postern Key and have access to the Windswept Rooftops, the Starlit Garden, and the Great Library,
+    - Either find the exit to the Postern at which point you acquire the Postern Key and have access to the Windswept Rooftops, the Starlit Garden, and the Cryptic Library,
     - *or*, backtrack to the Skyclad Tower and from there find the other entrance to the Postern. 
 5. Windswept Rooftops
     - Get Bamboo or Oak
     - (OPTIONAL) Read Festoon's Note
 6. Starlit Garden
     - Get Porcelain or Shell
-7. Great Library
+7. Cryptic Library
     - Get Glass
 8. (OPTIONAL) Old Vampire Quarter
     - Get Soul of Fish
