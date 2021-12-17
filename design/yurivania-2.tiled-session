@@ -5,8 +5,8 @@
     },
     "activeFile": "one_room_measurement.tmx",
     "expandedProjectPaths": [
-        "backgrounds",
-        "."
+        ".",
+        "backgrounds"
     ],
     "exportAsImage.useCurrentScale": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -272,55 +272,55 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.5,
+                "x": 240.75,
                 "y": 144
             }
         },
         "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_shell.tmx": {
-            "scale": 1.9732291666666666,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.7221664994985,
-                "y": 144.4332998996991
+                "x": 238.25,
+                "y": 143.5
             }
         },
         "backgrounds/area-inverted_worksite-4_finished-granite_oak_porcelain.tmx": {
-            "scale": 1.9732291666666666,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.7221664994985,
-                "y": 144.4332998996991
+                "x": 242.25,
+                "y": 145
             }
         },
         "backgrounds/area-inverted_worksite-4_finished-granite_oak_shell.tmx": {
-            "scale": 1.9732291666666666,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.7221664994985,
-                "y": 144.4332998996991
+                "x": 240.75,
+                "y": 144.5
             }
         },
         "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_porcelain.tmx": {
-            "scale": 1.9732291666666666,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 239.7085994826585,
-                "y": 144.4332998996991
+                "x": 239.75,
+                "y": 144
             }
         },
         "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_shell.tmx": {
-            "scale": 1.9732291666666666,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.7221664994985,
-                "y": 144.4332998996991
+                "x": 241.25,
+                "y": 144.5
             }
         },
         "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx": {
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 233.5,
+                "x": 233.75,
                 "y": 148.5
             }
         },
@@ -328,7 +328,7 @@
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 237.5,
+                "x": 237.75,
                 "y": 144.5
             }
         },
@@ -659,17 +659,17 @@
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
         "one_room_measurement.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-granite_oak_shell.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_porcelain.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_shell.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-granite_oak_porcelain.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_porcelain.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_shell.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx",
+        "backgrounds/area-inverted_worksite-4_finished-marble_oak_shell.tmx",
         "backgrounds/screen-materials.tmx",
         "backgrounds/screen-warning.tmx",
-        "backgrounds/area-starlit_garden-main.tmx",
-        "backgrounds/screen-map.tmx",
-        "backgrounds/screen-inventory.tmx",
-        "backgrounds/screen-swatches.tmx",
-        "backgrounds/area-cryptic_library-open.tmx",
-        "backgrounds/area-old_vampire_quarter_west.tmx",
-        "backgrounds/cut-end.tmx",
-        "backgrounds/area-old_vampire_quarter_east.tmx",
-        "backgrounds/area-starlit_garden-pool.tmx"
+        "backgrounds/area-starlit_garden-main.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
