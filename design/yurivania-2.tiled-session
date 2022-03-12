@@ -560,7 +560,7 @@
             "scale": 5.67172619047619,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 76.43175735950047,
+                "x": 76.60807052526633,
                 "y": 72.11208479823688
             }
         },
@@ -659,6 +659,8 @@
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
         "one_room_measurement.tmx",
+        "backgrounds/screen-inventory.tmx",
+        "backgrounds/screen-materials.tmx",
         "backgrounds/cut-end.tmx",
         "backgrounds/screen-end.tmx",
         "backgrounds/screen-map.tmx",
@@ -667,9 +669,7 @@
         "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_shell.tmx",
         "backgrounds/area-inverted_worksite-4_finished-granite_oak_porcelain.tmx",
         "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_porcelain.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_shell.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-marble_oak_porcelain.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-marble_oak_shell.tmx"
+        "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_shell.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
