@@ -121,8 +121,8 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 436.0909090909091,
-                "y": 203.8181818181818
+                "x": 716.1818181818182,
+                "y": 301.0909090909091
             }
         },
         "backgrounds/area-echoing_vaults-waterway.tmx": {
@@ -145,7 +145,7 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 415.125,
+                "x": 415,
                 "y": 89.5
             }
         },
@@ -625,7 +625,7 @@
             "scale": 3.9038,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.05020749013781,
+                "x": 80.17828782212203,
                 "y": 71.72498591116349
             }
         },
@@ -663,8 +663,9 @@
     ],
     "project": "yurivania-2.tiled-project",
     "recentFiles": [
-        "one_room_measurement.tmx",
+        "backgrounds/area-echoing_vaults-main.tmx",
         "backgrounds/area-inner_circle-main.tmx",
+        "one_room_measurement.tmx",
         "backgrounds/screen-inventory.tmx",
         "backgrounds/screen-materials.tmx",
         "backgrounds/cut-end.tmx",
@@ -673,8 +674,7 @@
         "backgrounds/area-inverted_worksite-4_finished-granite_oak_shell.tmx",
         "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_porcelain.tmx",
         "backgrounds/area-inverted_worksite-4_finished-granite_bamboo_shell.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-granite_oak_porcelain.tmx",
-        "backgrounds/area-inverted_worksite-4_finished-marble_bamboo_porcelain.tmx"
+        "backgrounds/area-inverted_worksite-4_finished-granite_oak_porcelain.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
