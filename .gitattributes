@@ -1,5 +1,6 @@
 # GitHub Language Detection
 design/* linguist-documentation
+plugins/* linguist-vendored
 *.gbsproj linguist-language=JSON
 
 # Normalize Line Endings to LineFeed
